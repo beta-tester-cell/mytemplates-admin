@@ -1,0 +1,8 @@
+[23-Apr-2021 21:40:11 Asia/Jakarta] PHP Warning:  include(header): failed to open stream: No such file or directory in /home/xtef5121/public_html/mytemplates/modal.php on line 1
+[23-Apr-2021 21:40:11 Asia/Jakarta] PHP Warning:  include(): Failed opening 'header' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/xtef5121/public_html/mytemplates/modal.php on line 1
+[23-Apr-2021 21:40:11 Asia/Jakarta] PHP Warning:  include(footer): failed to open stream: No such file or directory in /home/xtef5121/public_html/mytemplates/modal.php on line 4
+[23-Apr-2021 21:40:11 Asia/Jakarta] PHP Warning:  include(): Failed opening 'footer' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/xtef5121/public_html/mytemplates/modal.php on line 4
+[23-Apr-2021 21:40:38 Asia/Jakarta] PHP Warning:  include(header): failed to open stream: No such file or directory in /home/xtef5121/public_html/mytemplates/modal.php on line 1
+[23-Apr-2021 21:40:38 Asia/Jakarta] PHP Warning:  include(): Failed opening 'header' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/xtef5121/public_html/mytemplates/modal.php on line 1
+[23-Apr-2021 21:40:38 Asia/Jakarta] PHP Warning:  include(footer): failed to open stream: No such file or directory in /home/xtef5121/public_html/mytemplates/modal.php on line 4
+[23-Apr-2021 21:40:38 Asia/Jakarta] PHP Warning:  include(): Failed opening 'footer' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/xtef5121/public_html/mytemplates/modal.php on line 4
