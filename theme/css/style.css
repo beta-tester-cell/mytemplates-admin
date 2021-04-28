@@ -710,7 +710,7 @@ img {
 
   overflow: hidden;
 
-  transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s;
 }
 
 .submenu-menu-item .side-menu-item a::before {

@@ -170,6 +170,28 @@
                                 <span class="menu-title">Modal</span>
                             </a>
                         </li>
+                        <li class="side-menu-item">
+                            <a href="#" class="menu-collaps">
+                                <span class="menu-icon"><i class="fa fa-folder-minus"></i></span>
+                                <span class="menu-title">Menu Levelist</span>
+                            </a>
+                            <ul class="submenu-menu-item">
+                                <li class="side-menu-item">
+                                    <a href="#" class="menu-collaps">Menu Level 2</a>
+                                    <ul class="submenu-menu-item">
+                                        <li class="side-menu-item">
+                                            <a href="#">Menu Level 3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="">Menu Level 2</a>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="">Menu Level 2</a>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
             </div>
