@@ -111,8 +111,13 @@
                                     </a>
                                 </li>
                                 <li class="side-menu-item">
-                                    <a href="#">
+                                    <a href="pengelolaan-jurusan.php">
                                         <span>Pengelolaan Jurusan</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="#" class="d-flex">
+                                        <span>Konfigurasi Jurusan Cabang</span>
                                     </a>
                                 </li>
                                 <li class="side-menu-item">
@@ -173,22 +178,25 @@
                         <li class="side-menu-item">
                             <a href="#" class="menu-collaps">
                                 <span class="menu-icon"><i class="fa fa-folder-minus"></i></span>
-                                <span class="menu-title">Menu Levelist</span>
+                                <span class="menu-title">Menu levelist</span>
                             </a>
                             <ul class="submenu-menu-item">
                                 <li class="side-menu-item">
-                                    <a href="#" class="menu-collaps">Menu Level 2</a>
+                                    <a href="#" class="menu-collaps">
+                                        <span>menu level 2</span>
+                                    </a>
                                     <ul class="submenu-menu-item">
                                         <li class="side-menu-item">
-                                            <a href="#">Menu Level 3</a>
+                                            <a href="#">
+                                                <span>menu level 3</span>
+                                            </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="side-menu-item">
-                                    <a href="">Menu Level 2</a>
-                                </li>
-                                <li class="side-menu-item">
-                                    <a href="">Menu Level 2</a>
+                                    <a href="#">
+                                        <span>menu level 2</span>
+                                    </a>
                                 </li>
                             </ul>
                         </li>
