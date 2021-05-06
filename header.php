@@ -116,7 +116,7 @@
                                     </a>
                                 </li>
                                 <li class="side-menu-item">
-                                    <a href="#" class="d-flex">
+                                    <a href="konfig-jurusan.php" class="d-flex">
                                         <span>Konfigurasi Jurusan Cabang</span>
                                     </a>
                                 </li>
