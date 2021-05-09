@@ -201,6 +201,35 @@
   }
   /* css modal mobile end */
 
+  /* css page error start */
+  .padding-error {
+    padding: 1rem;
+    min-height: 100vh;
+  }
+
+  .error-title {
+    font-size: 5rem;
+    line-height: 0.75;
+    -webkit-text-stroke-width: 0.25rem;
+    -webkit-text-stroke-color: var(--primary-color);
+    color: transparent;
+  }
+
+  .display-text-info {
+    font-size: 1.45rem;
+    font-weight: 700;
+  }
+
+  .text-info-danger {
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+
+  .text-display-error {
+    font-size: 1.1rem;
+  }
+  /* css page error end */
+
   /* css footer start */
   footer {
     padding-left: 0;
@@ -407,6 +436,25 @@
     gap: 0.75rem;
   }
   /* css modal mobile end */
+
+  /* css page error start */
+  .padding-error {
+    padding: 2rem;
+    min-height: 100vh;
+  }
+  .error-title {
+    font-size: 10.7rem;
+    line-height: 0.75;
+    -webkit-text-stroke-width: 0.3rem;
+    -webkit-text-stroke-color: var(--primary-color);
+    color: transparent;
+  }
+  .display-text-info {
+    font-size: 2.35rem;
+    font-weight: 700;
+  }
+  /* css page error end */
+
   /* css footer start */
   footer {
     padding-left: 0;
@@ -433,6 +481,19 @@
 
   .detail-wrapper .grid-2 {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .padding-error {
+    padding: 3.5rem;
+    min-height: 100vh;
+  }
+
+  .error-title {
+    font-size: 12.7rem;
+    line-height: 0.75;
+    -webkit-text-stroke-width: 0.35rem;
+    -webkit-text-stroke-color: var(--primary-color);
+    color: transparent;
   }
 }
 

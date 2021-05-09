@@ -200,6 +200,12 @@
                                 </li>
                             </ul>
                         </li>
+                        <li class="side-menu-item">
+                            <a href="error-page.html">
+                                <span class="menu-icon"><i class="fa fa-file"></i></span>
+                                <span class="menu-title">Page Error</span>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
