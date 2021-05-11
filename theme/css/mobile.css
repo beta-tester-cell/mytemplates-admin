@@ -60,6 +60,8 @@
   /* css header mobile start */
   #Menumobile {
     display: block;
+    position: relative;
+    top: 15px;
   }
 
   .page-header {
@@ -208,7 +210,7 @@
   }
 
   .error-title {
-    font-size: 5rem;
+    font-size: 7rem;
     line-height: 0.75;
     -webkit-text-stroke-width: 0.25rem;
     -webkit-text-stroke-color: var(--primary-color);
@@ -229,6 +231,28 @@
     font-size: 1.1rem;
   }
   /* css page error end */
+
+  /* css login page start */
+  .login {
+    width: 300px;
+  }
+
+  .box-login i {
+    font-size: 15px;
+    padding: 12px 10px;
+  }
+
+  .box-login input,
+  .box-lock input {
+    width: 100%;
+    padding: 7px;
+    font-size: 15px;
+  }
+
+  .box-lock h6 {
+    margin: 0;
+  }
+  /* css login page end */
 
   /* css footer start */
   footer {
@@ -293,6 +317,8 @@
   /* css header mobile start */
   #Menumobile {
     display: block;
+    position: relative;
+    top: 15px;
   }
 
   .page-header {
@@ -337,6 +363,10 @@
   .btn-submit,
   .btn-cancel {
     width: 250px;
+  }
+
+  .box-lock h6 {
+    margin: 0;
   }
   /* css btn end */
 

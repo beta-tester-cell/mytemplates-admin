@@ -1686,6 +1686,18 @@ table.dataTable.no-footer {
   font-size: 1.5rem;
 }
 
+.error-btn {
+  width: auto;
+  padding: 0.75rem;
+  border-radius: 5px;
+  box-shadow: -3px 4px 5px #948e8e;
+}
+
+.error-btn:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
 /* css page error end */
 
 footer {
