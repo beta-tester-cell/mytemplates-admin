@@ -71,7 +71,7 @@
         <div class="aside aside-menu-header">
             <div class="logo">
                 <a href="#">
-                    <img src="theme/img/LOGO-PLJ-01.png" alt="">
+                    <img src="theme/img/LOGO-PLB.png" alt="">
                 </a>
 
                 <div class="logo-toggle">
