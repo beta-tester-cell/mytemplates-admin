@@ -555,11 +555,13 @@ img {
   height: 62px;
 
   border-bottom: 1px solid #d9d9d9;
+
+  gap: 1rem;
 }
 
-.logo img {
-  width: 150px;
-}
+/* .logo img {
+  width: 80%;
+} */
 
 .logo-toggle {
   outline: none;
