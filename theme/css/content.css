@@ -149,3 +149,57 @@
 .error-bg-2 {
   background-image: url(../img/bg-error-2.png);
 }
+.title-form h6 {
+  margin: 0;
+}
+.image-student {
+  width: 50px;
+  height: 50px;
+}
+
+.image-student img {
+  border-radius: 5px;
+}
+
+.name {
+  font-size: 1.15rem;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.nim {
+  font-size: 1rem;
+  color: #383838;
+}
+
+.campus p {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.years {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.angkatan {
+  font-size: 1rem;
+}
+
+.form-mr-2 {
+  margin-right: 2rem;
+}
+
+.form-img img {
+  width: 200px;
+}
+
+.doc-grid-custom {
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+.px-20 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}

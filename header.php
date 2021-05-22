@@ -121,7 +121,7 @@
                                     </a>
                                 </li>
                                 <li class="side-menu-item">
-                                    <a href="#">
+                                    <a href="pengelolaan-siswa.php">
                                         <span>Pengelolaan Siswa</span>
                                     </a>
                                 </li>
