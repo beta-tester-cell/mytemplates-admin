@@ -15,7 +15,7 @@
                     </div>
                 </div>
             </div>
-            <div class="content-tabs">
+            <div class="content-tabs px-0">
                 <!-- Nav pills -->
                 <ul class="nav nav-pills" id="tabs">
                     <li class="nav-item">
