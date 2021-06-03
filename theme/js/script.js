@@ -24,6 +24,7 @@ for (i = 0; i < coll.length; i++) {
 
 }
 
+
 if ( document.getElementById('excel')) {
 
 document.getElementById('excel').addEventListener('click',function(){
@@ -57,6 +58,28 @@ if(document.getElementById('print')){
         newWin.close();
     })
 }
+
+if(document.querySelector('input[list]')){
+    document.querySelector('input[list]').addEventListener('input', function(e) {
+        var input = e.target,
+        list = input.getAttribute('list'),
+        options = document.querySelectorAll('#' + list + ' option'),
+        hiddenInput = document.getElementById(input.getAttribute('id') + '-id'),
+        inputValue = input.value;
+    
+        hiddenInput.value = inputValue;
+    
+        for(var i = 0; i < options.length; i++) {
+            var option = options[i];
+    
+            if(option.innerText === inputValue) {
+                hiddenInput.value = option.getAttribute('data-value');
+                break;
+            }
+        }
+    });
+}
+
 
 $(document).ready(function() {    
 
@@ -129,5 +152,32 @@ $(document).ready(function(){
     $(".icon-toggle-mobile").click(function(){
         $(".wrapper").removeClass("open");
     });
+
+});
+
+
+$(document).ready(function()
+{
+
+    var updateOutput = function(e)
+    {
+        var list   = e.length ? e : $(e.target),
+            output = list.data('output');
+        if (window.JSON) {
+            output.val(window.JSON.stringify(list.nestable('serialize')));//, null, 2));
+        } else {
+            output.val('JSON browser support required for this demo.');
+        }
+    };
+
+    // activate Nestable for list 1
+    $('#nestable').nestable({
+        group: 0
+    })
+    .on('change', updateOutput);
+
+    // output initial serialised data
+    updateOutput($('#nestable').data('output', $('#nestable-output')));
+
 
 });

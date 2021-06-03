@@ -177,35 +177,36 @@
                         </div>
                         <div class="form-inputs">
                             <label>Provinsi</label>
-                            <input type="text" list="provinsi" placeholder="Select or type for Provinsi" />
-                            <datalist id="provinsi">
-                                <option value="DKI Jakarta">
-                                <option value="Jawa Barat">
-                                <option value="Jawa Tengah">
-                                <option value="DI Yogyakarta ">
-                                <option value="Jawa Timur">
+                            <input list="provinsilist" id="provinsi" placeholder="Select or Type of Province">
+                            <datalist id="provinsilist">
+                                <option data-value="1">Jakarta</option>
+                                <option data-value="2">Jawa Barat</option>
+                                <option data-value="3">Jawa Timur</option>
+                                <option data-value="4">Jawa Tengah</option>
                             </datalist>
+                            <input type="hidden" name="provinsi" id="provinsi-id">
                         </div>
                         <div class="form-inputs">
                             <label>Kabupaten</label>
-                            <input type="text" list="kabupaten" placeholder="Select or type for Kabupaten" />
-                            <datalist id="kabupaten">
-                                <option value="Bogor">
-                                <option value="Depok">
-                                <option value="Bekasi">
+                            <input list="kabupatenlist" id="kabupaten" placeholder="Select or Type of kabupaten">
+                            <datalist id="kabupatenlist">
+                                <option data-value="1">Bogor</option>
+                                <option data-value="2">Bekasi</option>
+                                <option data-value="3">Depok</option>
+                                <option data-value="4">Tanggerang</option>
                             </datalist>
+                            <input type="hidden" name="kabupaten" id="kabupaten-id">
                         </div>
                         <div class="form-inputs">
                             <label>Kecamatan</label>
-                            <input type="text" list="kecamatan" placeholder="Select or type for Kecamatan" />
-                            <datalist id="kecamatan">
-                                <option value="Batutulis">
-                                <option value="Bojongkerta">
-                                <option value="Bondongan">
-                                <option value="Cipaku">
-                                <option value="Cikaret">
-                                <option value="Empang">
+                            <input type="text" list="kecamatanlist" id="kecamatan" placeholder="Select or type for Kecamatan" />
+                            <datalist id="kecamatanlist">
+                                <option data-value="1">Batu Tulis</option>
+                                <option data-value="2">Cipaku</option>
+                                <option data-value="3">Cikaret</option>
+                                <option data-value="4">Bojong</option>
                             </datalist>
+                            <input type="hidden" name="kecamatan" id="kecamatan-id">
                         </div>
                         <div class="form-inputs">
                             <label>Kelurahan</label>

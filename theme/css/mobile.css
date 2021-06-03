@@ -580,6 +580,14 @@
   .form-img img {
     width: 150px;
   }
+
+  .dd {
+    float: left;
+    width: 48%;
+  }
+  .dd + .dd {
+    margin-left: 2%;
+  }
 }
 
 @media (min-width: 1025px) and (max-width: 1264px) {
