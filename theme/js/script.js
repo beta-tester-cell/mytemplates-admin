@@ -24,6 +24,13 @@ for (i = 0; i < coll.length; i++) {
 
 }
 
+$(".collaps-form").each(function(index){
+    $(this).on('click',function(){
+        var tog = $(this).attr('href')
+        $(tog).toggle()
+    })
+})
+
 
 if ( document.getElementById('excel')) {
 
@@ -170,10 +177,10 @@ $(document).ready(function()
         }
     };
 
+    // $('#nestable3').nestable();
+
     // activate Nestable for list 1
-    $('#nestable').nestable({
-        group: 0
-    })
+    $('#nestable').nestable()
     .on('change', updateOutput);
 
     // output initial serialised data

@@ -531,6 +531,12 @@
   /* css footer end */
 }
 
+@media (min-width: 769px) and (max-width: 950px) {
+  .flex-change {
+    flex-direction: column;
+  }
+}
+
 @media (min-width: 769px) and (max-width: 1024px) {
   .container {
     padding-left: 2rem;
@@ -583,7 +589,7 @@
 
   .dd {
     float: left;
-    width: 48%;
+    width: 100%;
   }
   .dd + .dd {
     margin-left: 2%;
