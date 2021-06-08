@@ -15,7 +15,7 @@
 .bg-login {
   margin: 0;
   padding: 0;
-  background: url("../img/bg-login.jpeg");
+  background: url("../img/WALL-LANDINGPAGE1-01.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -207,4 +207,19 @@
 .px-0 {
   padding-left: 0;
   padding-right: 0;
+}
+
+.modal-button {
+  line-height: 1.5rem;
+}
+
+.modal-fit-custom {
+  max-width: 650px;
+}
+
+.filtering-export {
+  display: flex;
+  gap: 2rem;
+  align-items: start;
+  justify-content: start;
 }

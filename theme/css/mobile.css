@@ -273,6 +273,18 @@
     justify-content: start;
   }
 
+  .form-checking {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .filtering-export {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+  }
+
   /* css footer start */
   footer {
     padding-left: 0;
@@ -521,6 +533,15 @@
 
   .view-docs {
     justify-content: start;
+  }
+
+  .form-checking {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .filtering-export {
+    margin-bottom: 8px;
+    gap: 1rem;
   }
 
   /* css footer start */

@@ -128,11 +128,35 @@
                             </ul>
                         </li>
                         <li class="side-menu-item">
+                            <a href="#" class="menu-collaps">
+                                <span class="menu-icon"><i class="fa fa-donate"></i></span>
+                                <span class="menu-title">Keuangan</span>
+                            </a>
+                            <ul class="submenu-menu-item">
+                                <li class="side-menu-item">
+                                    <a href="penguncian-mahasiswa.php">
+                                        <span>Penguncian Mahasiswa</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="penguncian-cabang.php">
+                                        <span>Penguncian Cabang</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="media-pembayaran.php">
+                                        <span>Media Pembayaran</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="side-menu-item">
                             <a href="menu.php">
                                 <span class="menu-icon"><i class="fab fa-elementor"></i></span>
                                 <span class="menu-title">Manajemen Menu</span>
                             </a>
                         </li>
+
                         <li class="side-menu-item">
                             <a href="#" class="menu-collaps">
                                 <span class="menu-icon"><i class="fa fa-wpforms"></i></span>
