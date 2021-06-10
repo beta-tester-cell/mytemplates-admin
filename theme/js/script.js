@@ -401,11 +401,11 @@ $(document).ready(function() {
     // TAGIHAN PEMBIAYAAN
     $(document).ready(function() {
         $('table.display').DataTable();
-        
+
 
         var RealisasiPembayaran = document.getElementById("getRealisasiPembayaran");
 
-        
+
         Chart.defaults.global.defaultFontFamily = "Lato";
         Chart.defaults.global.defaultFontSize = 18;
 
@@ -474,3 +474,7 @@ $(document).ready(function() {
 } );
 
 // batas
+
+$(document).ready(function() {
+    $('table.display-pa').DataTable();
+});

@@ -125,6 +125,11 @@
                                         <span>Pengelolaan Siswa</span>
                                     </a>
                                 </li>
+                                <li class="side-menu-item">
+                                    <a href="pengelolaan-pembimbingakad.php">
+                                        <span>Pengelolaan PA</span>
+                                    </a>
+                                </li>
                             </ul>
                         </li>
                         <li class="side-menu-item">
