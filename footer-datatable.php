@@ -26,7 +26,10 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
 
+<script src="theme/js/jquery.chart.js"></script>
+
 <script src="theme/js/script.js" defer></script>
+
 
 </body>
 
