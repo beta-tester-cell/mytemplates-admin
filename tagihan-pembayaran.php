@@ -45,11 +45,11 @@
 							<tr>
 								<th>No</th>
 								<th>Cabang</th>
-								<th>Outstanding</th>
-								<th>Tingkat 1</th>
-								<th>Tingkat 2</th>
-								<th>Tingkat 3</th>
-								<th>Tingkat 4</th>
+								<th class="align-right">Outstanding</th>
+								<th class="align-right">Tingkat 1</th>
+								<th class="align-right">Tingkat 2</th>
+								<th class="align-right">Tingkat 3</th>
+								<th class="align-right">Tingkat 4</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -102,11 +102,11 @@
 							<tr>
 								<th>No</th>
 								<th>Cabang</th>
-								<th>Outstanding</th>
-								<th>Tingkat 1</th>
-								<th>Tingkat 2</th>
-								<th>Tingkat 3</th>
-								<th>Tingkat 4</th>
+								<th class="align-right">Outstanding</th>
+								<th class="align-right">Tingkat 1</th>
+								<th class="align-right">Tingkat 2</th>
+								<th class="align-right">Tingkat 3</th>
+								<th class="align-right">Tingkat 4</th>
 							</tr>
 						</thead>
 						<tbody>

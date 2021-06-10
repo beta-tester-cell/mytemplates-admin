@@ -48,11 +48,11 @@
                             <tr>
                                 <th>No</th>
                                 <th>Cabang</th>
-                                <th>Pembayaran</th>
-                                <th>Tingkat 1</th>
-                                <th>Tingkat 2</th>
-                                <th>Tingkat 3</th>
-                                <th>Tingkat 4</th>
+                                <th class="align-right">Pembayaran</th>
+                                <th class="align-right">Tingkat 1</th>
+                                <th class="align-right">Tingkat 2</th>
+                                <th class="align-right">Tingkat 3</th>
+                                <th class="align-right">Tingkat 4</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -105,11 +105,11 @@
                             <tr>
                                 <th>No</th>
                                 <th>Cabang</th>
-                                <th>Realisasi</th>
-                                <th>Tingkat 1</th>
-                                <th>Tingkat 2</th>
-                                <th>Tingkat 3</th>
-                                <th>Tingkat 4</th>
+                                <th class="align-right">Realisasi</th>
+                                <th class="align-right">Tingkat 1</th>
+                                <th class="align-right">Tingkat 2</th>
+                                <th class="align-right">Tingkat 3</th>
+                                <th class="align-right">Tingkat 4</th>
                             </tr>
                         </thead>
                         <tbody>
