@@ -21,6 +21,8 @@
 
 <script src="theme/js/jquery.nestable.js"></script>
 
+<script src="theme/js/jquery.chart.js"></script>
+
 <script src="theme/js/script.js" defer></script>
 
 </body>

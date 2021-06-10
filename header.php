@@ -148,6 +148,21 @@
                                         <span>Media Pembayaran</span>
                                     </a>
                                 </li>
+                                <li class="side-menu-item">
+                                    <a href="tagihan-pembayaran.php">
+                                        <span>Tagihan Pembayaran</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="realisasi-pembayaran.php">
+                                        <span>Realisasi Pembayaran</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="tagihan-pembiayaan.php">
+                                        <span>Tagihan Pembiayaan</span>
+                                    </a>
+                                </li>
                             </ul>
                         </li>
                         <li class="side-menu-item">
