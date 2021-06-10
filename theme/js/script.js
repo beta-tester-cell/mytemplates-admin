@@ -188,3 +188,289 @@ $(document).ready(function()
 
 
 });
+
+
+
+// REALISASI PEMBAYARAN
+$(document).ready(function() {
+    $('table.display').DataTable();
+
+
+    var RealisasiPembayaran = document.getElementById("getRealisasiPembayaran");
+
+
+    Chart.defaults.global.defaultFontFamily = "Lato";
+    Chart.defaults.global.defaultFontSize = 18;
+
+    // Start Collection Data
+
+    var dataFirst = {
+        type:'line',
+        label: "Total Value (IDR)", // Penamanaan Data Tersebut
+        data: [3250, 2900, 2150, 2250, 1700, 800], // Data yang berasal dari database
+        lineTension: 0,
+        fill: false,
+        borderColor: 'blue',
+        yAxisID: 'left-axis'
+    };
+
+    var dataSecond = {
+        type:'line',
+        label: "Total Trx", // Penamanaan Data Tersebut
+        data: [2850, 2750, 2400, 2300, 1800, 900], // Data yang berasal dari database
+        lineTension: 0,
+        fill: true, 
+        borderColor: 'rgba(75, 192, 192, 1)',
+        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+        yAxisID: 'right-axis'
+    };
+
+    var MergeData = {
+        labels: ["Q1 2021", "Q2 2021", "Q3 2021", "Q4 2021", "Q5 2021", "Q6 2021"], // Label horizontal
+        datasets: [dataFirst, dataSecond]
+    };
+
+    // End Collection Data
+
+    // Start Option Line Chart
+
+    var chartOptions = {
+        legend: {
+            display: true,
+            position: 'top',
+            labels: {
+                boxWidth: 50,
+                fontColor: 'black',
+                fontSize: 12
+            }
+        },
+        title: {display: true},
+        // RESPONSIVE CHART
+        responsive: true,
+        maintainAspectRatio: false,
+        // START MULTI AXIS
+        scales: {
+            xAxes: [{
+                display: true, 
+                scaleFontSize: 12 , 
+                ticks: {
+                    fontSize: 14 // Mengubah Font X axis (Vertical)
+                }, 
+                stacked:true
+            }],
+            yAxes: [{
+               ticks: {
+                   fontSize: 14, // Mengubah Font Y axis (Vertical)
+                   fontColor : 'blue'
+               },
+               type:'linear',
+               id:'left-axis',
+               display: true,
+               position: 'left',
+               scaleLabel: {display: true, labelString: 'Value (IDR)',fontColor : 'blue' }
+           },{
+               ticks: {
+                   fontSize: 14, // Mengubah Font Y axis (Vertical)
+                   fontColor : 'rgba(75, 192, 192, 1)'
+               },
+               type:'linear',
+               id:'right-axis',
+               display: true,
+               position: 'right',
+               stacked:false,
+               scaleLabel: {display: true, labelString: 'Trx',fontColor : 'rgba(75, 192, 192, 1)' },
+               gridLines: {drawOnChartArea:false}
+           }]
+       }
+   };
+
+
+   var lineChart = new Chart(RealisasiPembayaran, {
+    type: 'bar',
+    data: MergeData,
+    options: chartOptions
+});
+});
+
+// batas
+
+
+// TAGIHAN PEMBAYARAN
+$(document).ready(function() {
+    $('table.display').DataTable();
+
+
+    var TagihanPembayaran = document.getElementById("getTagihanPembayaran");
+
+    Chart.defaults.global.defaultFontFamily = "Lato";
+    Chart.defaults.global.defaultFontSize = 18;
+
+    // Start Collection Data
+
+
+    var dataFirst = {
+        type:'line',
+        label: "Total Value (IDR)", // Penamanaan Data Tersebut
+        data: [3250, 2900, 2150, 2250, 1700, 800], // Data yang berasal dari database
+        lineTension: 0,
+        fill: false,
+        borderColor: 'blue',
+        yAxisID: 'left-axis'
+    };
+
+    var dataSecond = {
+        type:'line',
+        label: "Total Trx", // Penamanaan Data Tersebut
+        data: [2850, 2750, 2400, 2300, 1800, 900], // Data yang berasal dari database
+        lineTension: 0,
+        fill: true, 
+        borderColor: 'rgba(75, 192, 192, 1)',
+        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+        yAxisID: 'right-axis'
+    };
+
+    var MergeData = {
+        labels: ["Q1 2021", "Q2 2021", "Q3 2021", "Q4 2021", "Q5 2021", "Q6 2021"], // Label horizontal
+        datasets: [dataFirst, dataSecond]
+    };
+
+    // End Collection Data
+
+    // Start Option Line Chart
+
+    var chartOptions = {
+        legend: {
+            display: true,
+            position: 'top',
+            labels: {
+                boxWidth: 50,
+                fontColor: 'black',
+                fontSize: 12
+            }
+        },
+        title: {display: true},
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+            xAxes: [{
+                display: true, 
+                scaleFontSize: 12 , 
+                ticks: {
+                fontSize: 14 // Mengubah Font X axis (Vertical)
+            }, 
+            stacked:true
+        }],
+        yAxes: [{
+         ticks: {
+               fontSize: 14, // Mengubah Font Y axis (Vertical)
+               fontColor : 'blue'
+           },
+           type:'linear',
+           id:'left-axis',
+           display: true,
+           position: 'left',
+           scaleLabel: {display: true, labelString: 'Value (IDR)',fontColor : 'blue' }
+       },{
+         ticks: {
+               fontSize: 14, // Mengubah Font Y axis (Vertical)
+               fontColor : 'rgba(75, 192, 192, 1)'
+           },
+           type:'linear',
+           id:'right-axis',
+           display: true,
+           position: 'right',
+           stacked:false,
+           scaleLabel: {display: true, labelString: 'Trx',fontColor : 'rgba(75, 192, 192, 1)' },
+           gridLines: {drawOnChartArea:false}
+       }]
+   }
+};
+
+    // End Option Line Chart
+
+    // Action Line Chart
+    var lineChart = new Chart(TagihanPembayaran, {
+        type: 'bar',
+        data: MergeData,
+        options: chartOptions
+    });
+
+} );
+// batas
+
+    // TAGIHAN PEMBIAYAAN
+    $(document).ready(function() {
+        $('table.display').DataTable();
+        
+
+        var RealisasiPembayaran = document.getElementById("getRealisasiPembayaran");
+
+        
+        Chart.defaults.global.defaultFontFamily = "Lato";
+        Chart.defaults.global.defaultFontSize = 18;
+
+    // Start Collection Data
+
+    var dataFirst = {
+        label: "Users", // Penamanaan Data Tersebut
+        data: [53, 115, 78, 57, 47, 89,60], // Data yang berasal dari database
+        lineTension: 0,
+        fill: true,
+        borderColor: 'rgb(100, 149, 237)',
+        backgroundColor: 'rgb(100, 149, 237)'
+        // yAxisID: 'left-axis'
+    };
+
+    var dataSecond = {
+        label: "My Users", // Penamanaan Data Tersebut
+        data: [42, 104, 77, 50, 32, 98,50], // Data yang berasal dari database
+        lineTension: 0,
+        fill: true, 
+        borderColor: 'rgba(75, 192, 192, 1)',
+        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+        // yAxisID: 'right-axis'
+    };
+
+    var MergeData = {
+        labels: ["Januari 2021", "Februari 2021", "Maret 2021", "April 2021", "Mei 2021", "Juni 2021"], // Label horizontal
+        datasets: [dataFirst, dataSecond]
+    };
+
+    // End Collection Data
+
+    // Start Option Line Chart
+
+    var chartOptions = {
+        legend: {
+            display: true,
+            position: 'bottom',
+            labels: {
+                boxWidth: 50,
+                fontColor: 'black',
+                fontSize: 12
+            }
+        },
+        title: {display: true},
+        // RESPONSIVE CHART
+        responsive: true,
+        maintainAspectRatio: false,
+        // START MULTI AXIS
+        scales: {
+            xAxes: [{
+                scaleFontSize: 12 , 
+                ticks: {
+                    fontSize: 14 // Mengubah Font X axis (Vertical)
+                }, 
+            }]
+        }
+    };
+
+
+    var lineChart = new Chart(RealisasiPembayaran, {
+        type: 'bar',
+        data: MergeData,
+        options: chartOptions
+    });
+} );
+
+// batas
