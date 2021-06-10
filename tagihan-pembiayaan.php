@@ -1,16 +1,16 @@
 <?php include('header.php') ?>
 <div class="content">
     <div class="container">
-        
+
         <div class="py-1">
             <div class="card">
                 <div class="card-header d-flex flex-space-between">
                     <h6>Tagihan dan Realisasi Pembayaran Kewajiban Cabang untuk 6 Bulan Terakhir</h6>
                 </div>
-                <div class="chart-container" style="height:60vh; width:80vw">
-                  <canvas id="getRealisasiPembayaran"></canvas>
+                <div class="chart-container">
+                    <canvas id="getRealisasiPembayaran"></canvas>
                 </div>
-              
+
             </div>
         </div>
 
@@ -30,7 +30,7 @@
                 </div>
 
                 <div class="select-export" style="width: 100px; float: right; display: block;">
-                    <button class="btn btn-secondary btn-submit dropdown-button" style="width: 105px;" ><i class="fas fa-file-export"></i> Export</button>
+                    <button class="btn btn-secondary btn-submit dropdown-button" style="width: 105px;"><i class="fas fa-file-export"></i> Export</button>
                     <div class="type-export">
                         <a href="#" id="pdf"><i class="far fa-file-pdf"></i> PDF</a>
                         <a href="#" id="excel"><i class="far fa-file-excel"></i> EXCEL</a>
@@ -110,7 +110,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                           <tr>
+                            <tr>
                                 <td>1</td>
                                 <td>PLJ Kramat Raya</td>
                                 <td class="align-right">20.000.000</td>
@@ -175,5 +175,5 @@
 
     </div>
 </div>
-    
+
 <?php include('footer-datatable.php') ?>
