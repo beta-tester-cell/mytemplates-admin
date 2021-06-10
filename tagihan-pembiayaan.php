@@ -177,9 +177,3 @@
 </div>
     
 <?php include('footer-datatable.php') ?>
-
-<script type="text/javascript">
-
-   
-
-</script>
