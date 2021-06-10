@@ -158,6 +158,11 @@
                                         <span>Realisasi Pembayaran</span>
                                     </a>
                                 </li>
+                                <li class="side-menu-item">
+                                    <a href="tagihan-pembiayaan.php">
+                                        <span>Tagihan Pembiayaan</span>
+                                    </a>
+                                </li>
                             </ul>
                         </li>
                         <li class="side-menu-item">
