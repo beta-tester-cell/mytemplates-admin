@@ -113,6 +113,7 @@
 									<td>25</td>
 									<td>
 										<a href="edit-pembimbing.php" class="text-secondary"><i class="fa fa-edit"></i></a>
+										<a href="#" class="text-primary"><i class="far fa-eye"></i></a>
 										<a href="#" class="text-danger"><i class="fas fa-eraser"></i></a>
 									</td>
 								</tr>
@@ -124,6 +125,7 @@
 									<td>50</td>
 									<td>
 										<a href="edit-pembimbing.php" class="text-secondary"><i class="fa fa-edit"></i></a>
+										<a href="#" class="text-primary"><i class="far fa-eye"></i></a>
 										<a href="#" class="text-danger"><i class="fas fa-eraser"></i></a>
 									</td>
 								</tr>
@@ -135,6 +137,7 @@
 									<td>25</td>
 									<td>
 										<a href="edit-pembimbing.php" class="text-secondary"><i class="fa fa-edit"></i></a>
+										<a href="#" class="text-primary"><i class="far fa-eye"></i></a>
 										<a href="#" class="text-danger"><i class="fas fa-eraser"></i></a>
 									</td>
 								</tr>
@@ -146,6 +149,7 @@
 									<td>30</td>
 									<td>
 										<a href="edit-pembimbing.php" class="text-secondary"><i class="fa fa-edit"></i></a>
+										<a href="#" class="text-primary"><i class="far fa-eye"></i></a>
 										<a href="#" class="text-danger"><i class="fas fa-eraser"></i></a>
 									</td>
 								</tr>
