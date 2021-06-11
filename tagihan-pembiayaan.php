@@ -8,7 +8,7 @@
                     <h6>Tagihan dan Realisasi Pembayaran Kewajiban Cabang untuk 6 Bulan Terakhir</h6>
                 </div>
                 <div class="chart-container">
-                    <canvas id="getRealisasiPembayaran"></canvas>
+                    <canvas id="getTagihanPembiayaan"></canvas>
                 </div>
 
             </div>

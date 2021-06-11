@@ -401,11 +401,10 @@ $(document).ready(function() {
     // TAGIHAN PEMBIAYAAN
     $(document).ready(function() {
         $('table.display').DataTable();
-        
 
-        var RealisasiPembayaran = document.getElementById("getRealisasiPembayaran");
 
-        
+        var TagihanPembiayaan = document.getElementById("getTagihanPembiayaan");
+
         Chart.defaults.global.defaultFontFamily = "helveticaregular";
         Chart.defaults.global.defaultFontSize = 18;
 
@@ -466,11 +465,19 @@ $(document).ready(function() {
     };
 
 
-    var lineChart = new Chart(RealisasiPembayaran, {
+    var lineChart = new Chart(TagihanPembiayaan, {
         type: 'bar',
         data: MergeData,
         options: chartOptions
     });
 } );
+
+    $(document).ready(function() {
+        $('table.display-pa').DataTable();
+    } );
+
+    $(document).ready(function() {
+        $('table.display-kelas').DataTable();
+    } );
 
 // batas

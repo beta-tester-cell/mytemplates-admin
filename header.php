@@ -166,12 +166,29 @@
                             </ul>
                         </li>
                         <li class="side-menu-item">
+                            <a href="#" class="menu-collaps">
+                                    <span class="menu-icon"><i class="fa fa-university"></i></span>
+                                    <span class="menu-title">Akademik Cabang</span>
+                            </a>
+                            <ul class="submenu-menu-item">
+                                <li class="side-menu-item">
+                                    <a href="kelas-group.php">
+                                        <span>Kelas Group</span>
+                                    </a>
+                                </li>
+                                 <li class="side-menu-item">
+                                    <a href="pengelolaan-pembimbingakad.php">
+                                        <span>Pengelolaan PA</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="side-menu-item">
                             <a href="menu.php">
                                 <span class="menu-icon"><i class="fab fa-elementor"></i></span>
                                 <span class="menu-title">Manajemen Menu</span>
                             </a>
                         </li>
-
                         <li class="side-menu-item">
                             <a href="#" class="menu-collaps">
                                 <span class="menu-icon"><i class="fa fa-wpforms"></i></span>

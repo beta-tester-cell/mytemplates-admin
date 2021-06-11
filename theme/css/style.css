@@ -2148,9 +2148,12 @@ table.dataTable.no-footer {
 
 /* css nestable end */
 
+
 /* css chart start */
 .chart-container {
   height: 60vh;
+  position: relative;
+/*  width:75vw;*/
 }
 /* css chart end */
 
@@ -2163,3 +2166,8 @@ footer {
 footer p {
   margin: 0;
 }
+
+.align-left{
+  text-align: left;
+}
+
