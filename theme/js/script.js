@@ -482,7 +482,3 @@ $(document).ready(function() {
     } );
 
 // batas
-
-$(document).ready(function() {
-    $('table.display-pa').DataTable();
-});
