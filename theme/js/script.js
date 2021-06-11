@@ -199,7 +199,7 @@ $(document).ready(function() {
     var RealisasiPembayaran = document.getElementById("getRealisasiPembayaran");
 
 
-    Chart.defaults.global.defaultFontFamily = "Lato";
+    Chart.defaults.global.defaultFontFamily = "helveticaregular";
     Chart.defaults.global.defaultFontSize = 18;
 
     // Start Collection Data
@@ -210,7 +210,7 @@ $(document).ready(function() {
         data: [3250, 2900, 2150, 2250, 1700, 800], // Data yang berasal dari database
         lineTension: 0,
         fill: false,
-        borderColor: 'blue',
+        borderColor: 'rgb(30, 66, 105)',
         yAxisID: 'left-axis'
     };
 
@@ -221,7 +221,7 @@ $(document).ready(function() {
         lineTension: 0,
         fill: true, 
         borderColor: 'rgba(75, 192, 192, 1)',
-        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+        backgroundColor: 'rgba(75, 192, 192, 0.6)',
         yAxisID: 'right-axis'
     };
 
@@ -261,13 +261,13 @@ $(document).ready(function() {
             yAxes: [{
                ticks: {
                    fontSize: 14, // Mengubah Font Y axis (Vertical)
-                   fontColor : 'blue'
+                   fontColor : 'rgb(30, 66, 105)'
                },
                type:'linear',
                id:'left-axis',
                display: true,
                position: 'left',
-               scaleLabel: {display: true, labelString: 'Value (IDR)',fontColor : 'blue' }
+               scaleLabel: {display: true, labelString: 'Value (IDR)',fontColor : 'rgb(30, 66, 105)' }
            },{
                ticks: {
                    fontSize: 14, // Mengubah Font Y axis (Vertical)
@@ -302,7 +302,7 @@ $(document).ready(function() {
 
     var TagihanPembayaran = document.getElementById("getTagihanPembayaran");
 
-    Chart.defaults.global.defaultFontFamily = "Lato";
+    Chart.defaults.global.defaultFontFamily = "helveticaregular";
     Chart.defaults.global.defaultFontSize = 18;
 
     // Start Collection Data
@@ -314,7 +314,7 @@ $(document).ready(function() {
         data: [3250, 2900, 2150, 2250, 1700, 800], // Data yang berasal dari database
         lineTension: 0,
         fill: false,
-        borderColor: 'blue',
+        borderColor: 'rgb(0, 66, 105)',
         yAxisID: 'left-axis'
     };
 
@@ -363,13 +363,13 @@ $(document).ready(function() {
         yAxes: [{
          ticks: {
                fontSize: 14, // Mengubah Font Y axis (Vertical)
-               fontColor : 'blue'
+               fontColor : 'rgb(0, 66, 105)'
            },
            type:'linear',
            id:'left-axis',
            display: true,
            position: 'left',
-           scaleLabel: {display: true, labelString: 'Value (IDR)',fontColor : 'blue' }
+           scaleLabel: {display: true, labelString: 'Value (IDR)',fontColor : 'rgb(0, 66, 105)' }
        },{
          ticks: {
                fontSize: 14, // Mengubah Font Y axis (Vertical)
@@ -405,8 +405,7 @@ $(document).ready(function() {
 
         var TagihanPembiayaan = document.getElementById("getTagihanPembiayaan");
 
-
-        Chart.defaults.global.defaultFontFamily = "Lato";
+        Chart.defaults.global.defaultFontFamily = "helveticaregular";
         Chart.defaults.global.defaultFontSize = 18;
 
     // Start Collection Data
@@ -416,8 +415,8 @@ $(document).ready(function() {
         data: [53, 115, 78, 57, 47, 89,60], // Data yang berasal dari database
         lineTension: 0,
         fill: true,
-        borderColor: 'rgb(100, 149, 237)',
-        backgroundColor: 'rgb(100, 149, 237)'
+        borderColor: 'rgb(30, 66, 105)',
+        backgroundColor: 'rgb(30, 66, 105)'
         // yAxisID: 'left-axis'
     };
 
@@ -427,7 +426,7 @@ $(document).ready(function() {
         lineTension: 0,
         fill: true, 
         borderColor: 'rgba(75, 192, 192, 1)',
-        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+        backgroundColor: 'rgba(75, 192, 192, 0.6)',
         // yAxisID: 'right-axis'
     };
 
