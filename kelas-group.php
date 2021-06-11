@@ -4,7 +4,7 @@
 
     <div class="container">
 
-        <div class="form grid-2 grid-gap-1 py-1">
+        <div class="form grid-custom-card grid-gap-1 py-1">
 
 
             <div class="card">
