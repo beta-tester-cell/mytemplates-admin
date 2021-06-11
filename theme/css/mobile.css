@@ -615,6 +615,10 @@
   .dd + .dd {
     margin-left: 2%;
   }
+
+  .grid-custom-card {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (min-width: 1025px) and (max-width: 1264px) {
