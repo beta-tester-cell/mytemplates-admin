@@ -7,8 +7,8 @@
                 <div class="card-header d-flex flex-space-between">
                     <h6>Tagihan dan Realisasi Pembayaran Kewajiban Cabang untuk 6 Bulan Terakhir</h6>
                 </div>
-                <div class="chart-container" style="height:60vh; width:80vw">
-                  <canvas id="getRealisasiPembayaran"></canvas>
+                <div class="chart-container">
+                    <canvas id="getTagihanPembiayaan"></canvas>
                 </div>
               
             </div>
