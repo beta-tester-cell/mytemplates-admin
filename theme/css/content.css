@@ -257,13 +257,23 @@
   text-align: right;
 }
 
-.align-left{
+.align-left {
   text-align: left;
 }
 
-.grid-custom-card{
-  display:  grid;
-  grid-template-columns:  40% 60%;
+.grid-custom-card {
+  display: grid;
+  grid-template-columns: 40% 60%;
 }
 
+.checkmark-left-33 {
+  left: 33% !important;
+}
 
+.checkmark-left-43 {
+  left: 43% !important;
+}
+
+.checkmark-left-45 {
+  left: 45% !important;
+}

@@ -1410,7 +1410,7 @@ td {
 }
 
 th {
-  text-align: center;
+  text-align: left;
 
   padding: 8px;
 
@@ -2148,12 +2148,11 @@ table.dataTable.no-footer {
 
 /* css nestable end */
 
-
 /* css chart start */
 .chart-container {
   height: 60vh;
   position: relative;
-/*  width:75vw;*/
+  /*  width:75vw;*/
 }
 /* css chart end */
 
@@ -2166,5 +2165,3 @@ footer {
 footer p {
   margin: 0;
 }
-
-
