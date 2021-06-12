@@ -181,6 +181,11 @@
                                         <span>Pengelolaan PA</span>
                                     </a>
                                 </li>
+                                <li class="side-menu-item">
+                                    <a href="jadwal-perkuliahan-list.php">
+                                        <span>Pengelolaan Jadwal</span>
+                                    </a>
+                                </li>
                             </ul>
                         </li>
                         <li class="side-menu-item">
