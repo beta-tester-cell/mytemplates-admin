@@ -286,6 +286,14 @@
 
                     <div class="my-1">
 
+                        <label>Date & Time</label>
+
+                        <input class="width-100" type="time">
+
+                    </div>
+
+                    <div class="my-1">
+
                         <label>Password</label>
 
                         <input class="width-100" type="password" placeholder="Text Here...">
