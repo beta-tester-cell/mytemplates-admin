@@ -261,9 +261,33 @@
   text-align: left;
 }
 
+.align-center{
+  text-align: center;
+}
+
 .grid-custom-card{
   display:  grid;
   grid-template-columns:  40% 60%;
 }
 
+.grid-custom-onecard{
+  display:  grid;
+  grid-template-columns:  25% 73%;
+}
+
+.list-nilai{
+  position: relative;
+}
+
+.export-list{
+  position: absolute;
+  margin-bottom: 10px;
+  right: 0;
+  top: -35px;
+}
+
+.list-table-nilai{
+  position: relative; 
+  top: 5%;
+}
 
