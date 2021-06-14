@@ -163,6 +163,11 @@
                                         <span>Tagihan Pembiayaan</span>
                                     </a>
                                 </li>
+                                 <li class="side-menu-item">
+                                    <a href="realisasi-pembiayaan.php">
+                                        <span>Realisasi Pembiayaan</span>
+                                    </a>
+                                </li>
                             </ul>
                         </li>
                         <li class="side-menu-item">
@@ -176,9 +181,14 @@
                                         <span>Kelas Group</span>
                                     </a>
                                 </li>
-                                 <li class="side-menu-item">
+                                <li class="side-menu-item">
                                     <a href="pengelolaan-pembimbingakad.php">
                                         <span>Pengelolaan PA</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="pengelolaan-nilai.php">
+                                        <span>Nilai KHS Mahasiswa</span>
                                     </a>
                                 </li>
                             </ul>
