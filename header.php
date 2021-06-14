@@ -91,6 +91,12 @@
                                 <span class="menu-title">Dashboard</span>
                             </a>
                         </li>
+                        <li class="side-menu-item">
+                            <a href="index2.php">
+                                <span class="menu-icon"><i class="fa fa-tachometer-alt"></i></span>
+                                <span class="menu-title">Dashboard-2</span>
+                            </a>
+                        </li>
                         <li class="menu-section">
                             <h4>Menu Section Title</h4>
                         </li>
@@ -172,13 +178,36 @@
                             </a>
                             <ul class="submenu-menu-item">
                                 <li class="side-menu-item">
+                                    <a href="data-matakuliah.php">
+                                        <span>Data Matakuliah</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
                                     <a href="kelas-group.php">
                                         <span>Kelas Group</span>
                                     </a>
                                 </li>
-                                 <li class="side-menu-item">
+                                <li class="side-menu-item">
                                     <a href="pengelolaan-pembimbingakad.php">
                                         <span>Pengelolaan PA</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="side-menu-item">
+                            <a href="#" class="menu-collaps">
+                                <span class="menu-icon"><i class="fa fa-cog"></i></span>
+                                <span class="menu-title">Setting Data Master</span>
+                            </a>
+                            <ul class="submenu-menu-item">
+                                <li class="side-menu-item">
+                                    <a href="ruang-kelas.php">
+                                        <span>Ruang Kelas</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="kelola-ploating-dosen.php">
+                                        <span>Kelola Ploating Dosen</span>
                                     </a>
                                 </li>
                             </ul>
