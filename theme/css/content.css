@@ -277,3 +277,13 @@
 .checkmark-left-45 {
   left: 45% !important;
 }
+
+.total {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.export-matakuliah {
+  bottom: 0;
+  margin-bottom: 8px;
+}

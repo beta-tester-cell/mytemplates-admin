@@ -125,6 +125,11 @@
                                         <span>Pengelolaan Siswa</span>
                                     </a>
                                 </li>
+                                <li class="side-menu-item">
+                                    <a href="pengelolaan-matakuliah.php" class="d-flex">
+                                        <span>Pengelolaan Matakuliah</span>
+                                    </a>
+                                </li>
                             </ul>
                         </li>
                         <li class="side-menu-item">
@@ -167,8 +172,8 @@
                         </li>
                         <li class="side-menu-item">
                             <a href="#" class="menu-collaps">
-                                    <span class="menu-icon"><i class="fa fa-university"></i></span>
-                                    <span class="menu-title">Akademik Cabang</span>
+                                <span class="menu-icon"><i class="fa fa-university"></i></span>
+                                <span class="menu-title">Akademik Cabang</span>
                             </a>
                             <ul class="submenu-menu-item">
                                 <li class="side-menu-item">
@@ -176,7 +181,7 @@
                                         <span>Kelas Group</span>
                                     </a>
                                 </li>
-                                 <li class="side-menu-item">
+                                <li class="side-menu-item">
                                     <a href="pengelolaan-pembimbingakad.php">
                                         <span>Pengelolaan PA</span>
                                     </a>
