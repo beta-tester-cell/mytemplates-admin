@@ -72,6 +72,14 @@
 
                     <div class="form-inputs">
 
+                        <label>Time</label>
+
+                        <input type="time">
+
+                    </div>
+
+                    <div class="form-inputs">
+
                         <label>Password</label>
 
                         <input class="width-100" type="password" placeholder="Text Here...">
@@ -273,6 +281,14 @@
                         <label>Date & Time</label>
 
                         <input class="width-100" type="datetime-local">
+
+                    </div>
+
+                    <div class="my-1">
+
+                        <label>Date & Time</label>
+
+                        <input class="width-100" type="time">
 
                     </div>
 

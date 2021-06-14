@@ -48,270 +48,270 @@
                         <thead>
                             <tr>
                                 <th>Unit</th>
-                                <th>Login</th>
-                                <th>Akses Materi</th>
-                                <th>Akses Tugas</th>
-                                <th>Akses Ujian</th>
-                                <th>Akses Vicon</th>
-                                <th>All</th>
-                                <th>Action</th>
+                                <th class="text-center">Login</th>
+                                <th class="text-center">Akses Materi</th>
+                                <th class="text-center">Akses Tugas</th>
+                                <th class="text-center">Akses Ujian</th>
+                                <th class="text-center">Akses Vicon</th>
+                                <th class="text-center">All</th>
+                                <th class="text-center">Action</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td>Kramat Raya</td>
-                                <td class="text-center">
+                                <td>
                                     <label class="checkbox">
                                         <input type="checkbox" value="1">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td class="text-center">
-                                    <label class="checkbox">
-                                        <input type="checkbox" value="2">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td class="text-center">
-                                    <label class="checkbox">
-                                        <input type="checkbox" value="3">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td class="text-center">
-                                    <label class="checkbox">
-                                        <input type="checkbox" value="4">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td class="text-center">
-                                    <label class="checkbox">
-                                        <input type="checkbox" value="5">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td class="text-center">
-                                    <label class="checkbox">
-                                        <input type="checkbox" value="5">
-                                        <span class="checkmark"></span>
+                                        <span class="checkmark checkmark-left-33"></span>
                                     </label>
                                 </td>
                                 <td>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="2">
+                                        <span class="checkmark checkmark-left-43"></span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="3">
+                                        <span class="checkmark checkmark-left-45"></span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="4">
+                                        <span class="checkmark  checkmark-left-45"></span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="5">
+                                        <span class="checkmark  checkmark-left-45"></span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="5">
+                                        <span class="checkmark checkmark-left-33"></span>
+                                    </label>
+                                </td>
+                                <td class="text-center">
                                     <a href="#" class="text-secondary"><i class="fa fa-edit"></i></a>
                                     <a href="#" class="text-danger"><i class="fas fa-eraser"></i></a>
                                 </td>
                             </tr>
                             <tr>
                                 <td>Pasar Minggu</td>
-                                <td class="text-center">
+                                <td>
                                     <label class="checkbox">
                                         <input type="checkbox" value="1">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td class="text-center">
-                                    <label class="checkbox">
-                                        <input type="checkbox" value="2">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td class="text-center">
-                                    <label class="checkbox">
-                                        <input type="checkbox" value="3">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td class="text-center">
-                                    <label class="checkbox">
-                                        <input type="checkbox" value="4">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td class="text-center">
-                                    <label class="checkbox">
-                                        <input type="checkbox" value="5">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td class="text-center">
-                                    <label class="checkbox">
-                                        <input type="checkbox" value="5">
-                                        <span class="checkmark"></span>
+                                        <span class="checkmark checkmark-left-33"></span>
                                     </label>
                                 </td>
                                 <td>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="2">
+                                        <span class="checkmark checkmark-left-43"></span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="3">
+                                        <span class="checkmark checkmark-left-45"></span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="4">
+                                        <span class="checkmark  checkmark-left-45"></span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="5">
+                                        <span class="checkmark  checkmark-left-45"></span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="5">
+                                        <span class="checkmark checkmark-left-33"></span>
+                                    </label>
+                                </td>
+                                <td class="text-center">
                                     <a href="#" class="text-secondary"><i class="fa fa-edit"></i></a>
                                     <a href="#" class="text-danger"><i class="fas fa-eraser"></i></a>
                                 </td>
                             </tr>
                             <tr>
                                 <td>Bekasi</td>
-                                <td class="text-center">
+                                <td>
                                     <label class="checkbox">
                                         <input type="checkbox" value="1">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td class="text-center">
-                                    <label class="checkbox">
-                                        <input type="checkbox" value="2">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td class="text-center">
-                                    <label class="checkbox">
-                                        <input type="checkbox" value="3">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td class="text-center">
-                                    <label class="checkbox">
-                                        <input type="checkbox" value="4">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td class="text-center">
-                                    <label class="checkbox">
-                                        <input type="checkbox" value="5">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td class="text-center">
-                                    <label class="checkbox">
-                                        <input type="checkbox" value="5">
-                                        <span class="checkmark"></span>
+                                        <span class="checkmark checkmark-left-33"></span>
                                     </label>
                                 </td>
                                 <td>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="2">
+                                        <span class="checkmark checkmark-left-43"></span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="3">
+                                        <span class="checkmark checkmark-left-45"></span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="4">
+                                        <span class="checkmark  checkmark-left-45"></span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="5">
+                                        <span class="checkmark  checkmark-left-45"></span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="5">
+                                        <span class="checkmark checkmark-left-33"></span>
+                                    </label>
+                                </td>
+                                <td class="text-center">
                                     <a href="#" class="text-secondary"><i class="fa fa-edit"></i></a>
                                     <a href="#" class="text-danger"><i class="fas fa-eraser"></i></a>
                                 </td>
                             </tr>
                             <tr>
                                 <td>Cimone Tanggerang</td>
-                                <td class="text-center">
+                                <td>
                                     <label class="checkbox">
                                         <input type="checkbox" value="1">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td class="text-center">
-                                    <label class="checkbox">
-                                        <input type="checkbox" value="2">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td class="text-center">
-                                    <label class="checkbox">
-                                        <input type="checkbox" value="3">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td class="text-center">
-                                    <label class="checkbox">
-                                        <input type="checkbox" value="4">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td class="text-center">
-                                    <label class="checkbox">
-                                        <input type="checkbox" value="5">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td class="text-center">
-                                    <label class="checkbox">
-                                        <input type="checkbox" value="5">
-                                        <span class="checkmark"></span>
+                                        <span class="checkmark checkmark-left-33"></span>
                                     </label>
                                 </td>
                                 <td>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="2">
+                                        <span class="checkmark checkmark-left-43"></span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="3">
+                                        <span class="checkmark checkmark-left-45"></span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="4">
+                                        <span class="checkmark  checkmark-left-45"></span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="5">
+                                        <span class="checkmark  checkmark-left-45"></span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="5">
+                                        <span class="checkmark checkmark-left-33"></span>
+                                    </label>
+                                </td>
+                                <td class="text-center">
                                     <a href="#" class="text-secondary"><i class="fa fa-edit"></i></a>
                                     <a href="#" class="text-danger"><i class="fas fa-eraser"></i></a>
                                 </td>
                             </tr>
                             <tr>
                                 <td>Jakarta Utara</td>
-                                <td class="text-center">
+                                <td>
                                     <label class="checkbox">
                                         <input type="checkbox" value="1">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td class="text-center">
-                                    <label class="checkbox">
-                                        <input type="checkbox" value="2">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td class="text-center">
-                                    <label class="checkbox">
-                                        <input type="checkbox" value="3">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td class="text-center">
-                                    <label class="checkbox">
-                                        <input type="checkbox" value="4">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td class="text-center">
-                                    <label class="checkbox">
-                                        <input type="checkbox" value="5">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td class="text-center">
-                                    <label class="checkbox">
-                                        <input type="checkbox" value="5">
-                                        <span class="checkmark"></span>
+                                        <span class="checkmark checkmark-left-33"></span>
                                     </label>
                                 </td>
                                 <td>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="2">
+                                        <span class="checkmark checkmark-left-43"></span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="3">
+                                        <span class="checkmark checkmark-left-45"></span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="4">
+                                        <span class="checkmark  checkmark-left-45"></span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="5">
+                                        <span class="checkmark  checkmark-left-45"></span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="5">
+                                        <span class="checkmark checkmark-left-33"></span>
+                                    </label>
+                                </td>
+                                <td class="text-center">
                                     <a href="#" class="text-secondary"><i class="fa fa-edit"></i></a>
                                     <a href="#" class="text-danger"><i class="fas fa-eraser"></i></a>
                                 </td>
                             </tr>
                             <tr>
                                 <td>Cilodong Raya</td>
-                                <td class="text-center">
+                                <td>
                                     <label class="checkbox">
                                         <input type="checkbox" value="1">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td class="text-center">
-                                    <label class="checkbox">
-                                        <input type="checkbox" value="2">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td class="text-center">
-                                    <label class="checkbox">
-                                        <input type="checkbox" value="3">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td class="text-center">
-                                    <label class="checkbox">
-                                        <input type="checkbox" value="4">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td class="text-center">
-                                    <label class="checkbox">
-                                        <input type="checkbox" value="5">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </td>
-                                <td class="text-center">
-                                    <label class="checkbox">
-                                        <input type="checkbox" value="5">
-                                        <span class="checkmark"></span>
+                                        <span class="checkmark checkmark-left-33"></span>
                                     </label>
                                 </td>
                                 <td>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="2">
+                                        <span class="checkmark checkmark-left-43"></span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="3">
+                                        <span class="checkmark checkmark-left-45"></span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="4">
+                                        <span class="checkmark  checkmark-left-45"></span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="5">
+                                        <span class="checkmark  checkmark-left-45"></span>
+                                    </label>
+                                </td>
+                                <td>
+                                    <label class="checkbox">
+                                        <input type="checkbox" value="5">
+                                        <span class="checkmark checkmark-left-33"></span>
+                                    </label>
+                                </td>
+                                <td class="text-center">
                                     <a href="#" class="text-secondary"><i class="fa fa-edit"></i></a>
                                     <a href="#" class="text-danger"><i class="fas fa-eraser"></i></a>
                                 </td>

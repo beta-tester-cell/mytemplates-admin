@@ -33,7 +33,7 @@
                             <tr>
                                 <th>No</th>
                                 <th>Metode Pembayaran</th>
-                                <th>Status</th>
+                                <th class="text-center">Status</th>
                                 <th>Keterangan</th>
                                 <th>Action</th>
                             </tr>
@@ -42,7 +42,7 @@
                             <tr>
                                 <td>1</td>
                                 <td>Host to Host VA BNI</td>
-                                <td>Active</td>
+                                <td class="text-center"> <span class="btn-status btn-secondary"> Active</span></td>
                                 <td>Pembayaran melalui Virtual Account BNI</td>
                                 <td>
                                     <a href="#" class="text-secondary"><i class="fa fa-edit"></i></a>
@@ -52,7 +52,7 @@
                             <tr>
                                 <td>2</td>
                                 <td>Host to Host IDN</td>
-                                <td>Active</td>
+                                <td class="text-center"> <span class="btn-status btn-secondary"> Active</span></td>
                                 <td>Pembayaran melalui Jaringan IDN</td>
                                 <td>
                                     <a href="#" class="text-secondary"><i class="fa fa-edit"></i></a>
@@ -62,7 +62,7 @@
                             <tr>
                                 <td>3 </td>
                                 <td>Input System</td>
-                                <td>Active</td>
+                                <td class="text-center"> <span class="btn-status btn-secondary"> Active</span></td>
                                 <td>Pembayaran dicatat melalui system aplikasi</td>
                                 <td>
                                     <a href="#" class="text-secondary"><i class="fa fa-edit"></i></a>

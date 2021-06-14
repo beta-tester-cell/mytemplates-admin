@@ -285,6 +285,11 @@
     /* flex-direction: column; */
   }
 
+  .checkmark-left-45,
+  .checkmark-left-43 {
+    left: 33% !important;
+  }
+
   /* css footer start */
   footer {
     padding-left: 0;
@@ -544,6 +549,11 @@
     gap: 1rem;
   }
 
+  .checkmark-left-45,
+  .checkmark-left-43 {
+    left: 33% !important;
+  }
+
   /* css footer start */
   footer {
     padding-left: 0;
@@ -614,6 +624,10 @@
   }
   .dd + .dd {
     margin-left: 2%;
+  }
+
+  .grid-custom-card {
+    grid-template-columns: 1fr;
   }
 }
 
