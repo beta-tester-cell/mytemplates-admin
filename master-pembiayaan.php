@@ -32,7 +32,7 @@
                         <thead>
                             <tr>
                                 <th>No</th>
-                                <th style="text-align: left;">Pembiayaann</th>
+                                <th style="text-align: left;">Pembiayaan</th>
                                 <th style="text-align: center;">Status</th>
                                 <th style="text-align: left;">Keterangan</th>
                                 <th>Action</th>
