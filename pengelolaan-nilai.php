@@ -173,7 +173,10 @@
 									</tr>
 								</tbody>
 							</table>
-						<button class="btn btn-medium btn-submit" style="float:right; margin-top:10px;" data-toggle="modal" data-target="#ValidasiUpdate" id="button-update-nilai">Update Nilai</button>
+						</div>
+						<div class="form grid-2 grid-gap-1 py-1">
+							<span>Last Update : Thursday , 10 June 2021 09:00 (UTC +7)</span>
+							<button class="btn btn-medium btn-submit" data-toggle="modal" data-target="#ValidasiUpdate" id="button-update-nilai">Update Nilai</button>
 						</div>
 
 					</div>
