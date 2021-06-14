@@ -480,4 +480,78 @@ $(document).ready(function() {
         $('table.display-kelas').DataTable();
     } );
 
-// batas
+
+     // TAGIHAN PEMBIAYAAN
+    $(document).ready(function() {
+        $('table.display').DataTable();
+
+
+        var RealisasiPembiayaan = document.getElementById("getRealisasiPembiayaan");
+
+        Chart.defaults.global.defaultFontFamily = "helveticaregular";
+        Chart.defaults.global.defaultFontSize = 18;
+
+    // Start Collection Data
+
+    var dataFirst = {
+        label: "Users", // Penamanaan Data Tersebut
+        data: [53, 115, 78, 57, 47, 89,60], // Data yang berasal dari database
+        lineTension: 0,
+        fill: true,
+        borderColor: 'rgb(30, 66, 105)',
+        backgroundColor: 'rgb(30, 66, 105)'
+        // yAxisID: 'left-axis'
+    };
+
+    var dataSecond = {
+        label: "My Users", // Penamanaan Data Tersebut
+        data: [42, 104, 77, 50, 32, 98,50], // Data yang berasal dari database
+        lineTension: 0,
+        fill: true, 
+        borderColor: 'rgba(75, 192, 192, 1)',
+        backgroundColor: 'rgba(75, 192, 192, 0.6)',
+        // yAxisID: 'right-axis'
+    };
+
+    var MergeData = {
+        labels: ["Januari 2021", "Februari 2021", "Maret 2021", "April 2021", "Mei 2021", "Juni 2021"], // Label horizontal
+        datasets: [dataFirst, dataSecond]
+    };
+
+    // End Collection Data
+
+    // Start Option Line Chart
+
+    var chartOptions = {
+        legend: {
+            display: true,
+            position: 'bottom',
+            labels: {
+                boxWidth: 50,
+                fontColor: 'black',
+                fontSize: 12
+            }
+        },
+        title: {display: true},
+        // RESPONSIVE CHART
+        responsive: true,
+        maintainAspectRatio: false,
+        // START MULTI AXIS
+        scales: {
+            xAxes: [{
+                scaleFontSize: 12 , 
+                ticks: {
+                    fontSize: 14 // Mengubah Font X axis (Vertical)
+                }, 
+            }]
+        }
+    };
+
+
+    var lineChart = new Chart(RealisasiPembiayaan, {
+        type: 'bar',
+        data: MergeData,
+        options: chartOptions
+    });
+} );
+
