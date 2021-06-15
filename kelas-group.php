@@ -24,7 +24,7 @@
 
                 <div class="py-1">
                     <button class="btn btn-link modal-button text-primary" data-toggle="modal" data-target="#formKelasGroup">
-                        <span>List Mahasiswa  <i class="fa fa-plus"></i></span>
+                        <span>List Mahasiswa <i class="fa fa-plus"></i></span>
                     </button>
                     <div class="table-responsive">
                         <table class="basic-table display-kelas">
@@ -77,7 +77,7 @@
                             </tbody>
                         </table>
                     </div>
-                    <button type='submit' class="btn btn-link btn-secondary  px-20">Save</button>
+                    <button type='submit' class="btn btn-link btn-secondary  px-20 my-1">Save</button>
                 </div>
             </div>
 
@@ -247,8 +247,8 @@
                     </div>
                 </div>
 
+            </div>
         </div>
     </div>
-</div>
 
-<?php include('footer-datatable.php') ?>
+    <?php include('footer-datatable.php') ?>

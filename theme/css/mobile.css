@@ -308,6 +308,16 @@
     padding: 30px;
   }
 
+  .chart-width-custom {
+    width: 100%;
+  }
+
+  .filtering-jurusan select,
+  .filtering-tahun-akademik select,
+  .filtering-semester select {
+    width: 100%;
+  }
+
   /* css footer start */
   footer {
     padding-left: 0;
@@ -366,7 +376,7 @@
   }
 
   .card-border {
-    padding: 5 1rem
+    padding: 5 1rem;
   }
 
   input[type="date"] {
@@ -585,6 +595,16 @@
     padding: 30px;
   }
 
+  .chart-width-custom {
+    width: 100%;
+  }
+
+  .filtering-jurusan select,
+  .filtering-tahun-akademik select,
+  .filtering-semester select {
+    width: 100%;
+  }
+
   /* css footer start */
   footer {
     padding-left: 0;
@@ -596,6 +616,17 @@
 @media (min-width: 769px) and (max-width: 950px) {
   .flex-change {
     flex-direction: column;
+  }
+  .chart-width-custom {
+    width: 100%;
+  }
+  .filtering-jurusan select,
+  .filtering-tahun-akademik select,
+  .filtering-semester select,
+  .filtering-jurusan,
+  .filtering-tahun-akademik,
+  .filtering-semester {
+    width: 100%;
   }
 }
 

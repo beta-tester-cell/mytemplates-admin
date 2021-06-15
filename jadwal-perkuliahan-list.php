@@ -12,7 +12,7 @@
             </div>
         </div>
 
-        <div class="form grid-1 grid-gap-1 py-1">
+        <div class="py-1">
 
 
             <div class="card">
@@ -33,45 +33,43 @@
 
                 <div class="py-1">
 
-                    <div class="form-inputs">
-                        <div class="d-flex grid-gap-1 py-1 flex-change">
+                    <div class="d-flex grid-gap-1 py-1 flex-change">
 
-                            <div class="filtering-jurusan">
-                                <select name="jurusan" id="jurusan">
-                                    <option value="">-- Pilih Jurusan --</option>
-                                    <option value="1">Administrasi Bisnis</option>
-                                    <option value="2">Administrasi Perkantoran</option>
-                                    <option value="3">Informatika Komputer</option>
-                                    <option value="4">Komputerisasi Akuntansi</option>
-                                </select>
-                            </div>
-
-                            <div class="filtering-tahun-akademik">
-                                <select name="tahunakademik" id="tahunakademik">
-                                    <option value="">-- Pilih Tahun Akademik --</option>
-                                    <option value="2017/2018">2017/2018</option>
-                                    <option value="2018/2019">2018/2019</option>
-                                    <option value="2019/2020">2019/2020</option>
-                                    <option value="2020/2021">2020/2021</option>
-                                </select>
-                            </div>
-
-                            <div class="filtering-semester">
-                                <select name="semester" id="semester">
-                                    <option value="">-- Pilih Semester --</option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                    <option value="5">5</option>
-                                    <option value="6">6</option>
-                                    <option value="7">7</option>
-                                    <option value="8">8</option>
-                                </select>
-                            </div>
-
-                            <button class="btn btn-submit btn-primary" style="width: 150px;padding:0.5rem" id="button-view">Submit</button>
+                        <div class="filtering-jurusan">
+                            <select name="jurusan" id="jurusan">
+                                <option value="">-- Pilih Jurusan --</option>
+                                <option value="1">Administrasi Bisnis</option>
+                                <option value="2">Administrasi Perkantoran</option>
+                                <option value="3">Informatika Komputer</option>
+                                <option value="4">Komputerisasi Akuntansi</option>
+                            </select>
                         </div>
+
+                        <div class="filtering-tahun-akademik">
+                            <select name="tahunakademik" id="tahunakademik">
+                                <option value="">-- Pilih Tahun Akademik --</option>
+                                <option value="2017/2018">2017/2018</option>
+                                <option value="2018/2019">2018/2019</option>
+                                <option value="2019/2020">2019/2020</option>
+                                <option value="2020/2021">2020/2021</option>
+                            </select>
+                        </div>
+
+                        <div class="filtering-semester">
+                            <select name="semester" id="semester">
+                                <option value="">-- Pilih Semester --</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                            </select>
+                        </div>
+
+                        <button class="btn btn-submit btn-primary" style="width: 150px;padding:0.5rem" id="button-view">Submit</button>
                     </div>
 
                     <div class="table-responsive">

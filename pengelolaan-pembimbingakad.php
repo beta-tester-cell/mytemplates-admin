@@ -82,7 +82,7 @@
 							</tbody>
 						</table>
 					</div>
-					<button type='submit' class="btn btn-link btn-secondary  px-20">Save</button>
+					<button type='submit' class="btn btn-link btn-secondary  px-20 my-1">Save</button>
 				</div>
 			</div>
 
