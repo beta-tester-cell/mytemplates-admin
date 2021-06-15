@@ -7,21 +7,19 @@
                 <div class="card-header d-flex flex-space-between">
                     <h6>Monitoring Proses Perkuliahaan</h6>
                 </div>
-                
 
-                <div class="filter-monitor">
-                    <input   type="date" id="date-monitoring">
-                    <input type="time"  id="time-monitoring">
-                    <select name="status"   id="status-monitoring">
-                        <option value="0">-- Pilih Status --</option>
-                        <option value="1">Selesai</option>
-                        <option value="2">Sedang Dimulai</option>
-                        <option value="3">Belom Dimulai</option>
-                    </select>
-                </div>
-
-                <div class="list-nilai py-1">
-                    <div class="select-export export-list">
+                <div class="d-flex flex-space-between">
+                    <div class="filter-monitor">
+                        <input type="date" id="date-monitoring">
+                        <input type="time" id="time-monitoring">
+                        <select name="status" id="status-monitoring">
+                            <option value="0">-- Pilih Status --</option>
+                            <option value="1">Selesai</option>
+                            <option value="2">Sedang Dimulai</option>
+                            <option value="3">Belom Dimulai</option>
+                        </select>
+                    </div>
+                    <div class="select-export">
                         <button class="btn btn-secondary btn-submit dropdown-button" style="width: 105px;"><i class="fas fa-file-export"></i> Export</button>
                         <div class="type-export">
                             <a href="#" id="pdf"><i class="far fa-file-pdf"></i> PDF</a>
@@ -29,6 +27,10 @@
                             <a href="#" id="print"><i class="fas fa-print"></i> PRINT</a>
                         </div>
                     </div>
+                </div>
+
+
+                <div class="list-nilai py-1">
 
                     <div class="table-responsive list-table-nilai">
                         <table class="basic-table" id="datatable">

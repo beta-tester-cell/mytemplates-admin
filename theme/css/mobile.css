@@ -318,6 +318,18 @@
     width: 100%;
   }
 
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input-group-area {
+    width: 100%;
+  }
+
+  .wrapper-date {
+    width: 100%;
+  }
   /* css footer start */
   footer {
     padding-left: 0;
@@ -602,6 +614,19 @@
   .filtering-jurusan select,
   .filtering-tahun-akademik select,
   .filtering-semester select {
+    width: 100%;
+  }
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input-group-area {
+    width: 100%;
+  }
+
+  .wrapper-date {
     width: 100%;
   }
 
