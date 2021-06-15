@@ -2,7 +2,7 @@
 
 <div class="content">
     <div class="container">
-    	<div class="py-1 grid-custom-view2 grid-gap-2">
+    	<div class="py-1 grid-custom-view grid-gap-2">
             <div class="card">
             	<div class="card-header d-flex flex-space-between">
                     <h6>Form <br>Tambah Ruang Kelas</h6>
