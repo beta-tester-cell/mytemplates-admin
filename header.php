@@ -175,13 +175,35 @@
                                     </a>
                                 </li>
                                 <li class="side-menu-item">
+                                    <a href="master-pembiayaan.php.php">
+                                        <span>Master Pembiayaan</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
                                     <a href="tagihan-pembiayaan.php">
-                                        <span>Tagihan Pembiayaan</span>
+                                        <span>Tagihan Kewajiban Cabang</span>
                                     </a>
                                 </li>
                                 <li class="side-menu-item">
                                     <a href="realisasi-pembiayaan.php">
-                                        <span>Realisasi Pembiayaan</span>
+                                        <span>Realisasi Kewajiban Cabang</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="side-menu-item">
+                            <a href="#" class="menu-collaps">
+                                <span class="menu-icon"><i class="fas fa-money-check-alt"></i></span>
+                                <span class="menu-title">Keuangan Cabang</span>
+                            </a>
+                            <ul class="submenu-menu-item">
+                                <li class="side-menu-item">
+                                    <a href="rencana-bayar-kuliah.php">
+                                        <span>Rencana Bayar Kuliah</span>
+                                    </a>
+                                </li> <li class="side-menu-item">
+                                    <a href="list-rencana-bayar.php">
+                                        <span>List Rencana Bayar</span>
                                     </a>
                                 </li>
                             </ul>
@@ -216,7 +238,17 @@
                                 <li class="side-menu-item">
 
                                     <a href="pengelolaan-nilai.php">
-                                        <span>Nilai KHS Mahasiswa</span>
+                                        <span>Kelola Nilai Mahasiswa</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="monitoring-perkuliahaan.php">
+                                        <span>Report Absensi</span>
+                                    </a>
+                                </li>
+                                 <li class="side-menu-item">
+                                    <a href="laporan-lkm.php">
+                                        <span>Report LKM</span>
                                     </a>
                                 </li>
                             </ul>

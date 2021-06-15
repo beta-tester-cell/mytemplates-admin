@@ -7,79 +7,90 @@
         <div class="form grid-custom-card grid-gap-1 py-1">
 
 
-            <div class="card">
-                <div class="card-header d-flex flex-space-between">
-                    <h6>Form Tambah Kelas Group</h6>
-                </div>
-
-                <div class="my-1">
-                    <label><b>Kode Kelas</b></label>
-                    <input class="width-100" type="text" value='20101' placeholder="Kode Kelas">
-                </div>
-
-                <div class="my-1">
-                    <label><b>Nama Kelas Group</b></label>
-                    <input class="width-100" type="text" value="Kelas IK Pagi 01" placeholder="Nama Kelas Group">
-                </div>
-
-                <div class="py-1">
-                    <button class="btn btn-link modal-button text-primary" data-toggle="modal" data-target="#formKelasGroup">
-                        <span>List Mahasiswa <i class="fa fa-plus"></i></span>
-                    </button>
-                    <div class="table-responsive">
-                        <table class="basic-table display-kelas">
-                            <thead>
-                                <tr>
-                                    <th class="align-left">No</th>
-                                    <th class="align-left">Id Mhs</th>
-                                    <th class="align-left">NIM</th>
-                                    <th class="align-left">Nama Mahasiswa</th>
-
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>20121</td>
-                                    <td>200101022</td>
-                                    <td>Billar</td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>20122</td>
-                                    <td>20022022</td>
-                                    <td>Malik</td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>20123</td>
-                                    <td>200111022</td>
-                                    <td>Rizki</td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>20124</td>
-                                    <td>2001250022</td>
-                                    <td>Adam</td>
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td>20125</td>
-                                    <td>2001510022</td>
-                                    <td>Hawa</td>
-                                </tr>
-                                <tr>
-                                    <td>6</td>
-                                    <td>20126</td>
-                                    <td>2001310022</td>
-                                    <td>Rafaela</td>
-                                </tr>
-                            </tbody>
-                        </table>
+            <form>
+                <div class="card">
+                    <div class="card-header d-flex flex-space-between">
+                        <h6>Form Tambah Kelas Group</h6>
                     </div>
-                    <button type='submit' class="btn btn-link btn-secondary  px-20 my-1">Save</button>
+
+                    <div class="my-1">
+                        <label><b>Kode Kelas</b></label>
+                        <input class="width-100" name="kode_kelas" type="text" value='20101' placeholder="Kode Kelas">
+                    </div>
+
+                    <div class="my-1">
+                        <label><b>Nama Kelas Group</b></label>
+                        <input class="width-100" name="nama_kelas" type="text" value="Kelas IK Pagi 01" placeholder="Nama Kelas Group">
+                    </div>
+
+
+                    <div class="my-1">
+                        <label><b>Jenis Kelas</b></label>
+                        <select name="jenis_kelas" class="width-100" id="jenis_kelas">
+                            <option value="0">-- Pilih Jenis Kelas --</option>
+                            <option selected value="Reguler">Reguler</option>
+                            <option value="Moduler">Moduler</option>
+                        </select>
+                    </div>
+
+                    <div class="py-1">
+                        <a class="btn btn-link modal-button text-primary" data-toggle="modal" data-target="#formKelasGroup">
+                            <span>List Mahasiswa  <i class="fa fa-plus"></i></span>
+                        </a>
+                        <div class="table-responsive">
+                            <table class="basic-table display-kelas">
+                                <thead>
+                                    <tr>
+                                        <th class="align-left">No</th>
+                                        <th class="align-left">Id Mhs</th>
+                                        <th class="align-left">NIM</th>
+                                        <th class="align-left">Nama Mahasiswa</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>20121</td>
+                                        <td>200101022</td>
+                                        <td>Billar</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>20122</td>
+                                        <td>20022022</td>
+                                        <td>Malik</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>20123</td>
+                                        <td>200111022</td>
+                                        <td>Rizki</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>20124</td>
+                                        <td>2001250022</td>
+                                        <td>Adam</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>20125</td>
+                                        <td>2001510022</td>
+                                        <td>Hawa</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>20126</td>
+                                        <td>2001310022</td>
+                                        <td>Rafaela</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <button type='submit' class="btn btn-link btn-secondary  px-20">Save</button>
+                    </div>
                 </div>
-            </div>
+            </form>
 
             <div class="card">
                 <div class="card-header d-flex flex-space-between">
@@ -94,6 +105,7 @@
                                     <th class="align-left">No</th>
                                     <th class="align-left">Kode</th>
                                     <th class="align-left">Kelas Group</th>
+                                    <th class="align-left">Jenis Kelas</th>
                                     <th class="align-left">Jumlah Mhs</th>
                                     <th></th>
                                 </tr>
@@ -103,6 +115,7 @@
                                     <td>1</td>
                                     <td>20101</td>
                                     <td>IK Pagi 01</td>
+                                    <td>Reguler</td>
                                     <td>25</td>
                                     <td>
                                         <a href="edit-pembimbing.php" class="text-secondary"><i class="fa fa-edit"></i></a>
@@ -114,6 +127,7 @@
                                     <td>2</td>
                                     <td>20102</td>
                                     <td>Itikaf PD Agama</td>
+                                    <td>Reguler</td>
                                     <td>50</td>
                                     <td>
                                         <a href="edit-pembimbing.php" class="text-secondary"><i class="fa fa-edit"></i></a>
@@ -125,6 +139,7 @@
                                     <td>3</td>
                                     <td>20103</td>
                                     <td>Seminar AP 01</td>
+                                    <td>Moduler</td>
                                     <td>25</td>
                                     <td>
                                         <a href="edit-pembimbing.php" class="text-secondary"><i class="fa fa-edit"></i></a>
@@ -135,6 +150,7 @@
                                     <td>4</td>
                                     <td>20104</td>
                                     <td>B.Inggris Group A</td>
+                                    <td>Moduler</td>
                                     <td>30</td>
                                     <td>
                                         <a href="edit-pembimbing.php" class="text-secondary"><i class="fa fa-edit"></i></a>
@@ -152,7 +168,7 @@
                     <div class="modal-dialog modal-fit-custom">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="fformKelasGroupLabel">Tambah Mahasiswa Ploting Kelas</h5>
+                                <h5 class="modal-title" id="formKelasGroupLabel">Tambah Mahasiswa Ploting Kelas</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>

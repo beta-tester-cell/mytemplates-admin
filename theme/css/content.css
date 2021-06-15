@@ -308,6 +308,40 @@
   left: 45% !important;
 }
 
+
+.modal-fit-custom-md {
+  max-width: 900px;
+}
+
+.textbox-primary{
+  width: 200px;
+  background-color: var(--primary-color);
+  color:white; 
+}
+
+.textbox-warning{
+ width: 200px; 
+ background-color: #DFD43B; 
+ color:white;
+}
+
+.textbox-danger{
+  width: 200px;  
+  background-color:  #BF111F; 
+  color:white;
+}
+
+.grid-custom-button{
+  display:  grid;
+  grid-template-columns: 50% 50%;
+}
+
+.btn-export-up{
+ position: absolute;
+ right: 15px; 
+ top: 17px;
+}
+
 .total {
   font-size: 1rem;
   font-weight: 700;
