@@ -92,7 +92,7 @@
                             </a>
                         </li>
                         <li class="side-menu-item">
-                            <a href="index2.php">
+                            <a href="dashboard-page.php">
                                 <span class="menu-icon"><i class="fa fa-tachometer-alt"></i></span>
                                 <span class="menu-title">Dashboard-2</span>
                             </a>
