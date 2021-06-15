@@ -154,6 +154,11 @@
                                     </a>
                                 </li>
                                 <li class="side-menu-item">
+                                    <a href="master-pembiayaan.php">
+                                        <span>Pembiayaan Cabang</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
                                     <a href="tagihan-pembayaran.php">
                                         <span>Tagihan Pembayaran</span>
                                     </a>
@@ -168,7 +173,7 @@
                                         <span>Tagihan Pembiayaan</span>
                                     </a>
                                 </li>
-                                 <li class="side-menu-item">
+                                <li class="side-menu-item">
                                     <a href="realisasi-pembiayaan.php">
                                         <span>Realisasi Pembiayaan</span>
                                     </a>
