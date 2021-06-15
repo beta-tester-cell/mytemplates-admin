@@ -6,85 +6,86 @@
 
 		<div class="form grid-custom-card grid-gap-1 py-1">
 
-
-			<div class="card">
-				<div class="card-header d-flex flex-space-between">
-					<h6>Form Konfigurasi Pembimbing Akademik</h6>
-				</div>
-
-				<div class="my-1">
-					<label><b>Tahun Akadmeik</b></label>
-					<input class="width-100" type="text" value='2020/2021' placeholder="Tahun Akademik">
-				</div>
-
-				<div class="my-1">
-					<label><b>Kode Pembimbing Akademik</b></label>
-					<input class="width-100" type="text" value='20PA01' placeholder="Kode Pembimbing Akademik">
-				</div>
-
-				<div class="my-1">
-					<label><b>Nama Pembimbing Akademik</b></label>
-					<input class="width-100" type="text" value="Rakhmat SH" placeholder="Nama Pembimbing Akademik">
-				</div>
-
-				<div class="py-1">
-					<button class="btn btn-link modal-button text-primary" data-toggle="modal" data-target="#formPimbingakad">
-						<span>List Mahasiswa  <i class="fa fa-plus"></i></span>
-					</button>
-					<div class="table-responsive">
-						<table class="basic-table display-pa">
-							<thead>
-								<tr>
-									<th class="align-left">No</th>
-									<th class="align-left">Id Mhs</th>
-									<th class="align-left">NIM</th>
-									<th class="align-left">Nama Mahasiswa</th>
-
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>1</td>
-									<td>20121</td>
-									<td>200101022</td>
-									<td>Billar</td>
-								</tr>
-								<tr>
-									<td>2</td>
-									<td>20122</td>
-									<td>20022022</td>
-									<td>Malik</td>
-								</tr>
-								<tr>
-									<td>3</td>
-									<td>20123</td>
-									<td>200111022</td>
-									<td>Rizki</td>
-								</tr>
-								<tr>
-									<td>4</td>
-									<td>20124</td>
-									<td>2001250022</td>
-									<td>Adam</td>
-								</tr>
-								<tr>
-									<td>5</td>
-									<td>20125</td>
-									<td>2001510022</td>
-									<td>Hawa</td>
-								</tr>
-								<tr>
-									<td>6</td>
-									<td>20126</td>
-									<td>2001310022</td>
-									<td>Rafaela</td>
-								</tr>
-							</tbody>
-						</table>
+			<form>
+				<div class="card">
+					<div class="card-header d-flex flex-space-between">
+						<h6>Form Input Pembimbing Akademik</h6>
 					</div>
-					<button type='submit' class="btn btn-link btn-secondary  px-20">Save</button>
+
+					<div class="my-1">
+						<label><b>Tahun Akadmeik</b></label>
+						<input class="width-100" type="text" value='2020/2021' placeholder="Tahun Akademik">
+					</div>
+
+					<div class="my-1">
+						<label><b>Kode Pembimbing Akademik</b></label>
+						<input class="width-100" type="text" value='20PA01' placeholder="Kode Pembimbing Akademik">
+					</div>
+
+					<div class="my-1">
+						<label><b>Nama Pembimbing Akademik</b></label>
+						<input class="width-100" type="text" value="Rakhmat SH" placeholder="Nama Pembimbing Akademik">
+					</div>
+
+					<div class="py-1">
+						<a class="btn btn-link modal-button text-primary" data-toggle="modal" data-target="#formPimbingakad">
+							<span>List Mahasiswa  <i class="fa fa-plus"></i></span>
+						</a>
+						<div class="table-responsive">
+							<table class="basic-table display-pa">
+								<thead>
+									<tr>
+										<th class="align-left">No</th>
+										<th class="align-left">Id Mhs</th>
+										<th class="align-left">NIM</th>
+										<th class="align-left">Nama Mahasiswa</th>
+
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>1</td>
+										<td>20121</td>
+										<td>200101022</td>
+										<td>Billar</td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td>20122</td>
+										<td>20022022</td>
+										<td>Malik</td>
+									</tr>
+									<tr>
+										<td>3</td>
+										<td>20123</td>
+										<td>200111022</td>
+										<td>Rizki</td>
+									</tr>
+									<tr>
+										<td>4</td>
+										<td>20124</td>
+										<td>2001250022</td>
+										<td>Adam</td>
+									</tr>
+									<tr>
+										<td>5</td>
+										<td>20125</td>
+										<td>2001510022</td>
+										<td>Hawa</td>
+									</tr>
+									<tr>
+										<td>6</td>
+										<td>20126</td>
+										<td>2001310022</td>
+										<td>Rafaela</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<button type='submit' class="btn btn-link btn-secondary  px-20">Save</button>
+					</div>
 				</div>
-			</div>
+			</form>
 
 			<div class="card">
 				<div class="card-header d-flex flex-space-between">
@@ -244,22 +245,22 @@
 													</td>
 													<td>200151022</td>
 													<td>Munir</td>
-											</tbody>
-										</table>
-									</div>
+												</tbody>
+											</table>
+										</div>
 
-								</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-									<button type="button" class="btn btn-primary">Save changes</button>
-								</div>
-							</form>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+										<button type="button" class="btn btn-primary">Save changes</button>
+									</div>
+								</form>
+							</div>
 						</div>
 					</div>
+
 				</div>
-
+			</div>
 		</div>
-	</div>
-</div>
 
-<?php include('footer-datatable.php') ?>
+		<?php include('footer-datatable.php') ?>
