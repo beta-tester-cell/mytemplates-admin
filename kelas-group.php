@@ -23,6 +23,7 @@
                         <input class="width-100" name="nama_kelas" type="text" value="Kelas IK Pagi 01" placeholder="Nama Kelas Group">
                     </div>
 
+
                     <div class="my-1">
                         <label><b>Jenis Kelas</b></label>
                         <select name="jenis_kelas" class="width-100" id="jenis_kelas">
@@ -44,7 +45,6 @@
                                         <th class="align-left">Id Mhs</th>
                                         <th class="align-left">NIM</th>
                                         <th class="align-left">Nama Mahasiswa</th>
-
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -263,8 +263,8 @@
                     </div>
                 </div>
 
+            </div>
         </div>
     </div>
-</div>
 
-<?php include('footer-datatable.php') ?>
+    <?php include('footer-datatable.php') ?>

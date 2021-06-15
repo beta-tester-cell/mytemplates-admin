@@ -268,8 +268,8 @@
                     <h6>EWS Pengisian KRS Mahasiswa 2020/2021</h6>
                     <span class="subtitle-text">Kampus Jakarta Pusat (Kramat Raya)</span>
                 </div>
-                <div class="card-body grid-2 grid-gap-1 py-1">
-                    <div class="chart-container">
+                <div class="card-body d-flex flex-change grid-gap-1 py-1">
+                    <div class="chart-container chart-width-custom">
                         <canvas id="getEWSKRS"></canvas>
                     </div>
 

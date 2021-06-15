@@ -288,12 +288,12 @@
   position: absolute;
   margin-bottom: 10px;
   right: 0;
-  top: -35px;
+  top: 45px;
 }
 
 .list-table-nilai {
   position: relative;
-  top: 5%;
+  top: 13%;
 }
 
 .checkmark-left-33 {
@@ -361,4 +361,6 @@
   width: 100%;
 }
 
-
+.chart-width-custom {
+  width: 50%;
+}

@@ -144,7 +144,7 @@ h6 {
   font-family: var(--secondary-font);
 }
 
-.subtitle-text{
+.subtitle-text {
   font-size: 14px;
   font-family: var(--secondary-font);
   color: rgb(194, 194, 194);
@@ -707,7 +707,7 @@ img {
 .side-menu .menu-nav .side-menu-item a .menu-icon {
   position: relative;
 
-  padding-right: 10px;
+  padding-right: 5px;
 
   font-size: 20px;
 }
@@ -857,7 +857,6 @@ img {
   border: 3px solid var(--medium-color);
   border-radius: 20px;
 }
-
 
 .img-circle {
   width: 75px;

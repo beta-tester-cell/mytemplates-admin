@@ -14,15 +14,10 @@
         <div class="py-1">
             <div class="card">
                 <div class="form grid-custom-onecard grid-gap-1 py-1">
-                    <div class="card-header d-flex flex-space-between">
-                        <h6>Filter Data Nilai</h6>
-                    </div>
-                    <div class="card-header d-flex flex-space-between">
-                        <h6>List Nilai Komponen Mahasiswa</h6>
-                    </div>
-                </div>
-                <div class="form grid-custom-onecard grid-gap-1 py-1">
                     <div class="filtering-list">
+                        <div class="card-header d-flex flex-space-between">
+                            <h6>Filter Data Nilai</h6>
+                        </div>
                         <div class="my-1">
                             <label><b>Tahun Akademik</b></label>
                             <select name="tahunakademik" class="width-100" id="tahunakademik">
@@ -73,16 +68,21 @@
                     </div>
 
                     <div class="list-nilai">
-                        <div class="select-export export-list">
-                            <div type="button" class="btn btn-link btn-secondary dropdown-button"><i class="fas fa-file-export"></i> Export</div>
+                        <div class="card-header d-flex flex-space-between">
+                            <h6>List Nilai Komponen Mahasiswa</h6>
 
-                            <div class="type-export">
-                                <a href="#" id="pdf"><i class="far fa-file-pdf"></i> PDF</a>
-                                <a href="#" id="excel"><i class="far fa-file-excel"></i> EXCEL</a>
-                                <a href="#" id="print"><i class="fas fa-print"></i> PRINT</a>
+                            <div class="select-export">
+                                <div type="button" class="btn btn-link btn-secondary dropdown-button"><i class="fas fa-file-export"></i> Export</div>
+
+                                <div class="type-export">
+                                    <a href="#" id="pdf"><i class="far fa-file-pdf"></i> PDF</a>
+                                    <a href="#" id="excel"><i class="far fa-file-excel"></i> EXCEL</a>
+                                    <a href="#" id="print"><i class="fas fa-print"></i> PRINT</a>
+                                </div>
                             </div>
                         </div>
-                        <div class="table-responsive  list-table-nilai">
+
+                        <div class="table-responsive">
                             <table id="datatable" class="table-list">
                                 <thead>
                                     <tr>
