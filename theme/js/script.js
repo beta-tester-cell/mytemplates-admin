@@ -630,3 +630,11 @@ var EWSKRS = document.getElementById("getEWSKRS");
 
 } );
 // batas
+
+// START SCROLLX datatable jadwal ujian
+$(document).ready(function() {
+    $('#datatable-jadwal-ujian').DataTable( {
+        "scrollX": true
+    } );
+} );
+// END
