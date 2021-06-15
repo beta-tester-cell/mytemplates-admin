@@ -208,11 +208,11 @@
 
                     </div>
 
-                    <div class="d-flex flex-center py-1">
+                    <div class="d-flex flex-start py-1">
 
-                        <button type="submit" class="btn btn-primary btn-submit mx-1">Submit</button>
+                        <button type="submit" class="btn btn-primary mx-1">Submit</button>
 
-                        <button type="reset" class="btn btn-medium btn-cancel mx-1">Cancel</button>
+                        <button type="reset" class="btn btn-medium mx-1">Cancel</button>
 
                     </div>
 
