@@ -480,29 +480,42 @@ $(document).ready(function() {
         $('table.display-kelas').DataTable();
     } );
 
-// batas
+
+     // TAGIHAN PEMBIAYAAN
+    $(document).ready(function() {
+        $('table.display').DataTable();
 
 
-// Dashboard - EWS KRS Mhs
-$(document).ready(function() {
-    var EWSKRS = document.getElementById("getEWSKRS");
+        var RealisasiPembiayaan = document.getElementById("getRealisasiPembiayaan");
 
-    Chart.defaults.global.defaultFontFamily = "helveticaregular";
-    Chart.defaults.global.defaultFontSize = 18;
+        Chart.defaults.global.defaultFontFamily = "helveticaregular";
+        Chart.defaults.global.defaultFontSize = 18;
+
+    // Start Collection Data
 
     var dataFirst = {
-        type:'line',
-        label: "Rasio", // Penamanaan Data Tersebut
-        data: [20, 40, 30, 90, 80, 80, 100], // Data yang berasal dari database
+        label: "Users", // Penamanaan Data Tersebut
+        data: [53, 115, 78, 57, 47, 89,60], // Data yang berasal dari database
         lineTension: 0,
         fill: true,
-        borderColor: 'rgb(0, 0, 0)',
-        yAxisID: 'left-axis'
+        borderColor: 'rgb(30, 66, 105)',
+        backgroundColor: 'rgb(30, 66, 105)'
+        // yAxisID: 'left-axis'
+    };
+
+    var dataSecond = {
+        label: "My Users", // Penamanaan Data Tersebut
+        data: [42, 104, 77, 50, 32, 98,50], // Data yang berasal dari database
+        lineTension: 0,
+        fill: true, 
+        borderColor: 'rgba(75, 192, 192, 1)',
+        backgroundColor: 'rgba(75, 192, 192, 0.6)',
+        // yAxisID: 'right-axis'
     };
 
     var MergeData = {
-        labels: ["BA", "KA", "IK", "TI", "ABI", "SK"], // Label horizontal
-        datasets: [dataFirst]
+        labels: ["Januari 2021", "Februari 2021", "Maret 2021", "April 2021", "Mei 2021", "Juni 2021"], // Label horizontal
+        datasets: [dataFirst, dataSecond]
     };
 
     // End Collection Data
@@ -512,7 +525,7 @@ $(document).ready(function() {
     var chartOptions = {
         legend: {
             display: true,
-            position: 'top',
+            position: 'bottom',
             labels: {
                 boxWidth: 50,
                 fontColor: 'black',
@@ -520,58 +533,25 @@ $(document).ready(function() {
             }
         },
         title: {display: true},
+        // RESPONSIVE CHART
         responsive: true,
         maintainAspectRatio: false,
+        // START MULTI AXIS
         scales: {
             xAxes: [{
-                display: true, 
                 scaleFontSize: 12 , 
                 ticks: {
-                fontSize: 14 // Mengubah Font X axis (Vertical)
-            }, 
-            stacked:true
-        }],
-        yAxes: [{
-         ticks: {
-               fontSize: 14, // Mengubah Font Y axis (Vertical)
-               fontColor : 'rgb(0, 0, 0)'
-           },
-           type:'linear',
-           id:'left-axis',
-           display: true,
-           position: 'left'
-           // scaleLabel: {display: true, labelString: 'Ratio (%)',fontColor : 'rgb(0, 0, 0)' }
-       }]
-   }
-};
+                    fontSize: 14 // Mengubah Font X axis (Vertical)
+                }, 
+            }]
+        }
+    };
 
-    // End Option Line Chart
 
-    // Action Line Chart
-    var lineChart = new Chart(EWSKRS, {
+    var lineChart = new Chart(RealisasiPembiayaan, {
         type: 'bar',
         data: MergeData,
         options: chartOptions
     });
-
 } );
 
-<<<<<<< Updated upstream
-$(document).ready(function() {
-        $('table.display-ews').DataTable();
-});
-// === End
-
-
-// Checkbox in datatable - ploating dosen
-$('.checked-all').on('change', function(e){
-    e.preventDefault()
-    $('input[name=pilih-ploating]').prop('checked', this.checked)
-})
-// ==== end
-=======
-
-$(document).ready(function() {
-        $('table.display-reportabsensi').DataTable();
-} );
->>>>>>> Stashed changes

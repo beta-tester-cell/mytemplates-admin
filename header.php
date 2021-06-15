@@ -131,6 +131,11 @@
                                         <span>Pengelolaan Siswa</span>
                                     </a>
                                 </li>
+                                <li class="side-menu-item">
+                                    <a href="pengelolaan-matakuliah.php" class="d-flex">
+                                        <span>Pengelolaan Matakuliah</span>
+                                    </a>
+                                </li>
                             </ul>
                         </li>
                         <li class="side-menu-item">
@@ -155,6 +160,11 @@
                                     </a>
                                 </li>
                                 <li class="side-menu-item">
+                                    <a href="master-pembiayaan.php">
+                                        <span>Pembiayaan Cabang</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
                                     <a href="tagihan-pembayaran.php">
                                         <span>Tagihan Pembayaran</span>
                                     </a>
@@ -169,12 +179,17 @@
                                         <span>Tagihan Pembiayaan</span>
                                     </a>
                                 </li>
+                                <li class="side-menu-item">
+                                    <a href="realisasi-pembiayaan.php">
+                                        <span>Realisasi Pembiayaan</span>
+                                    </a>
+                                </li>
                             </ul>
                         </li>
                         <li class="side-menu-item">
                             <a href="#" class="menu-collaps">
-                                    <span class="menu-icon"><i class="fa fa-university"></i></span>
-                                    <span class="menu-title">Akademik Cabang</span>
+                                <span class="menu-icon"><i class="fa fa-university"></i></span>
+                                <span class="menu-title">Akademik Cabang</span>
                             </a>
                             <ul class="submenu-menu-item">
                                 <li class="side-menu-item">
@@ -190,6 +205,16 @@
                                 <li class="side-menu-item">
                                     <a href="pengelolaan-pembimbingakad.php">
                                         <span>Pengelolaan PA</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="jadwal-perkuliahan-list.php">
+                                        <span>Pengelolaan Jadwal</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="pengelolaan-nilai.php">
+                                        <span>Nilai KHS Mahasiswa</span>
                                     </a>
                                 </li>
                             </ul>
