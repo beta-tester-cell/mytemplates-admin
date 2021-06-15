@@ -226,7 +226,7 @@ $(document).ready(function() {
     };
 
     var MergeData = {
-        labels: ["Q1 2021", "Q2 2021", "Q3 2021", "Q4 2021", "Q5 2021", "Q6 2021"], // Label horizontal
+        labels: ["M1 2021", "M2 2021", "M3 2021", "M4 2021", "M5 2021", "M6 2021"], // Label horizontal
         datasets: [dataFirst, dataSecond]
     };
 
@@ -330,7 +330,7 @@ $(document).ready(function() {
     };
 
     var MergeData = {
-        labels: ["Q1 2021", "Q2 2021", "Q3 2021", "Q4 2021", "Q5 2021", "Q6 2021"], // Label horizontal
+        labels: ["M1 2021", "M2 2021", "M3 2021", "M4 2021", "M5 2021", "M6 2021"], // Label horizontal
         datasets: [dataFirst, dataSecond]
     };
 
@@ -411,7 +411,7 @@ $(document).ready(function() {
     // Start Collection Data
 
     var dataFirst = {
-        label: "Users", // Penamanaan Data Tersebut
+        label: "Tagihan", // Penamanaan Data Tersebut
         data: [53, 115, 78, 57, 47, 89,60], // Data yang berasal dari database
         lineTension: 0,
         fill: true,
@@ -421,7 +421,7 @@ $(document).ready(function() {
     };
 
     var dataSecond = {
-        label: "My Users", // Penamanaan Data Tersebut
+        label: "Pembayaran", // Penamanaan Data Tersebut
         data: [42, 104, 77, 50, 32, 98,50], // Data yang berasal dari database
         lineTension: 0,
         fill: true, 
@@ -494,7 +494,7 @@ $(document).ready(function() {
     // Start Collection Data
 
     var dataFirst = {
-        label: "Users", // Penamanaan Data Tersebut
+        label: "Tagihan", // Penamanaan Data Tersebut
         data: [53, 115, 78, 57, 47, 89,60], // Data yang berasal dari database
         lineTension: 0,
         fill: true,
@@ -504,7 +504,7 @@ $(document).ready(function() {
     };
 
     var dataSecond = {
-        label: "My Users", // Penamanaan Data Tersebut
+        label: "Pembayaran", // Penamanaan Data Tersebut
         data: [42, 104, 77, 50, 32, 98,50], // Data yang berasal dari database
         lineTension: 0,
         fill: true, 
