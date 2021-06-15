@@ -103,7 +103,6 @@
                                     <th class="dt-left">Matakuliah</th>
                                     <th>SKS</th>
                                     <th>Smt</th>
-                                    <th></th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -115,7 +114,6 @@
                                     <td>Basis Data</td>
                                     <td class="dt-center">4</td>
                                     <td class="dt-center">1</td>
-                                    <td class="dt-center"><button class="btn btn-link btn-secondary">Move</button></td>
                                 </tr>
                                 <tr>
                                     <td class="dt-center"><input type="checkbox" name="pilih-ploating" value="1"></td>
@@ -125,7 +123,6 @@
                                     <td>SQL & PHP</td>
                                     <td class="dt-center">4</td>
                                     <td class="dt-center">3</td>
-                                    <td class="dt-center"><button class="btn btn-link btn-secondary">Move</button></td>
                                 </tr>
                                 <tr>
                                     <td class="dt-center"><input type="checkbox" name="pilih-ploating" value="1"></td>
@@ -135,7 +132,6 @@
                                     <td>Basis Data</td>
                                     <td class="dt-center">4</td>
                                     <td class="dt-center">1</td>
-                                    <td class="dt-center"><button class="btn btn-link btn-secondary">Move</button></td>
                                 </tr>
                                 <tr>
                                     <td class="dt-center"><input type="checkbox" name="pilih-ploating" value="1"></td>
@@ -145,7 +141,6 @@
                                     <td>Aplikasi Komputer</td>
                                     <td class="dt-center">2</td>
                                     <td class="dt-center">1</td>
-                                    <td class="dt-center"><button class="btn btn-link btn-secondary">Move</button></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -154,7 +149,7 @@
 
                 <div class="my-2 d-flex flex-center">
                     <!-- perhitungan sks berdasarka data yang di centang pada checkbox -->
-                    <h6 style="font-size:20px;">Total SKS : --Jumlah SKS--</h6>
+                    <h6 style="font-size:20px;">Total SKS : 14</h6>
                 </div>
             </div>
         </div>
