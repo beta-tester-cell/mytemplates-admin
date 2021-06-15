@@ -556,6 +556,7 @@ $(document).ready(function() {
 
 } );
 
+<<<<<<< Updated upstream
 $(document).ready(function() {
         $('table.display-ews').DataTable();
 });
@@ -568,3 +569,9 @@ $('.checked-all').on('change', function(e){
     $('input[name=pilih-ploating]').prop('checked', this.checked)
 })
 // ==== end
+=======
+
+$(document).ready(function() {
+        $('table.display-reportabsensi').DataTable();
+} );
+>>>>>>> Stashed changes
