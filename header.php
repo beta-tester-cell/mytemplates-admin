@@ -197,6 +197,11 @@
                                     </a>
                                 </li>
                                 <li class="side-menu-item">
+                                    <a href="jadwal-perkuliahan-list.php">
+                                        <span>Pengelolaan Jadwal</span>
+                                    </a>
+                                </li>
+                              <li class="side-menu-item">
                                     <a href="pengelolaan-nilai.php">
                                         <span>Nilai KHS Mahasiswa</span>
                                     </a>
