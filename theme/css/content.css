@@ -261,39 +261,38 @@
   text-align: left;
 }
 
-.align-center{
+.align-center {
   text-align: center;
 }
 
-.grid-custom-card{
-  display:  grid;
-  grid-template-columns:  40% 60%;
+.grid-custom-card {
+  display: grid;
+  grid-template-columns: 40% 60%;
 }
 
-.grid-custom-onecard{
-  display:  grid;
-  grid-template-columns:  25% 73%;
+.grid-custom-onecard {
+  display: grid;
+  grid-template-columns: 25% 73%;
 }
 
-.list-nilai{
+.list-nilai {
   position: relative;
 }
 
-.export-list{
+.export-list {
   position: absolute;
   margin-bottom: 10px;
   right: 0;
   top: -35px;
 }
 
-.list-table-nilai{
-  position: relative; 
+.list-table-nilai {
+  position: relative;
   top: 5%;
 }
 
 .checkmark-left-33 {
   left: 33% !important;
-
 }
 
 .checkmark-left-43 {
@@ -313,3 +312,14 @@
   bottom: 0;
   margin-bottom: 8px;
 }
+
+.width-50 {
+  width: 50%;
+}
+
+.kurikulum-right-side,
+.kurikulum-left-side {
+  width: 100%;
+}
+
+

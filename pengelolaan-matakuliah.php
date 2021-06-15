@@ -27,7 +27,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" id="tab3">
                             <div class="wizard-wrapper">
                                 <div class="wizard-number">3</div>
@@ -37,11 +37,11 @@
                                 </div>
                             </div>
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
 
                 <!-- Tab panes -->
-                <div class="tab-content">
+                <div class="tab-content pd-30">
 
                     <!-- tab 1 start-->
 
@@ -65,7 +65,7 @@
                             </div>
                         </div>
 
-                        <div class="table-resposive">
+                        <div class="table-responsive">
                             <table id="datatable" class="table-list">
                                 <thead>
                                     <th>No</th>
@@ -124,7 +124,7 @@
                                         <a href="#" id="print"><i class="fas fa-print"></i> PRINT</a>
                                     </div>
                                 </div>
-                                <a href="#" class="btn btn-link">
+                                <a href="form-kurikulum.php" class="btn btn-link">
                                     <span><i class="fa fa-plus"></i> ADD A NEW</span>
                                 </a>
                             </div>
