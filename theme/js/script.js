@@ -555,3 +555,78 @@ $(document).ready(function() {
     });
 } );
 
+// CHART EWS KRS
+$(document).ready(function() {
+    $('table.display').DataTable();
+
+var EWSKRS = document.getElementById("getEWSKRS");
+
+    Chart.defaults.global.defaultFontFamily = "helveticaregular";
+    Chart.defaults.global.defaultFontSize = 18;
+
+    var dataFirst = {
+        type:'line',
+        label: "Rasio", // Penamanaan Data Tersebut
+        data: [20, 40, 30, 90, 80, 80, 100], // Data yang berasal dari database
+        lineTension: 0,
+        fill: true,
+        borderColor: 'rgb(0, 0, 0)',
+        yAxisID: 'left-axis'
+    };
+
+    var MergeData = {
+        labels: ["BA", "KA", "IK", "TI", "ABI", "SK"], // Label horizontal
+        datasets: [dataFirst]
+    };
+
+    // End Collection Data
+
+    // Start Option Line Chart
+
+    var chartOptions = {
+        legend: {
+            display: true,
+            position: 'top',
+            labels: {
+                boxWidth: 50,
+                fontColor: 'black',
+                fontSize: 12
+            }
+        },
+        title: {display: true},
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+            xAxes: [{
+                display: true, 
+                scaleFontSize: 12 , 
+                ticks: {
+                fontSize: 14 // Mengubah Font X axis (Vertical)
+            }, 
+            stacked:true
+        }],
+        yAxes: [{
+         ticks: {
+               fontSize: 14, // Mengubah Font Y axis (Vertical)
+               fontColor : 'rgb(0, 0, 0)'
+           },
+           type:'linear',
+           id:'left-axis',
+           display: true,
+           position: 'left'
+           // scaleLabel: {display: true, labelString: 'Ratio (%)',fontColor : 'rgb(0, 0, 0)' }
+       }]
+   }
+};
+
+    // End Option Line Chart
+
+    // Action Line Chart
+    var lineChart = new Chart(EWSKRS, {
+        type: 'bar',
+        data: MergeData,
+        options: chartOptions
+    });
+
+} );
+// batas
