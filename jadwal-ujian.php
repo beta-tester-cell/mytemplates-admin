@@ -67,11 +67,11 @@
                     </div>
                 </div>
                 <div class="table-responsive">
-                    <table id="jadwal_ujian" class="table-list">
+                    <table id="datatable-jadwal-ujian" class="table-list">
                         <thead>
                             <tr>
                                 <th>No</th>
-                                <th>Program Studi</th>
+                                <th class="dt-left">Program Studi</th>
                                 <th>Mata Kuliah</th>
                                 <th>Smt</th>
                                 <th>Kelas</th>
@@ -89,21 +89,59 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>1</td>
+                                <td class="dt-center">1</td>
                                 <td>Manajemen Informatika</td>
                                 <td>Basis Data</td>
-                                <td>1</td>
+                                <td class="dt-center">1</td>
                                 <td>IK_Reguler 01</td>
                                 <td>LMS-Online</td>
                                 <td>Selasa, 15 Juni 2021</td>
                                 <td>08.00 - 09.45</td>
-                                <td>UTS</td>
+                                <td class="dt-center">UTS</td>
                                 <td>Masria, M.Kom</td>
-                                <td>Tersedia</td>
+                                <td class="dt-center">Tersedia</td>
                                 <td>Lokal</td>
                                 <td>Masria, M.Kom</td>
-                                <td>Utama</td>
-                                <td>
+                                <td class="dt-center">Utama</td>
+                                <td class="dt-center">
+                                    <a href="#" class="btn btn-link text-secondary"><i class="far fa-edit"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="dt-center">2</td>
+                                <td>Manajemen Informatika</td>
+                                <td>Basis Data</td>
+                                <td class="dt-center">1</td>
+                                <td>IK_REG_Susulan</td>
+                                <td>LMS-Online</td>
+                                <td>Selasa, 15 Juni 2021</td>
+                                <td>08.00 - 09.45</td>
+                                <td class="dt-center">UTS</td>
+                                <td>Susi</td>
+                                <td class="dt-center">Tersedia</td>
+                                <td>Lokal</td>
+                                <td>Masria, M.Kom</td>
+                                <td class="dt-center">Susulan</td>
+                                <td class="dt-center">
+                                    <a href="#" class="btn btn-link text-secondary"><i class="far fa-edit"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="dt-center">3</td>
+                                <td>Manajemen Informatika</td>
+                                <td>Pendidikan Pancasila</td>
+                                <td class="dt-center">5</td>
+                                <td>IK_Reguler 01</td>
+                                <td>R. 302</td>
+                                <td>Selasa, 15 Juni 2021</td>
+                                <td>08.00 - 09.45</td>
+                                <td class="dt-center">UTS</td>
+                                <td>Karto</td>
+                                <td class="dt-center">Tersedia</td>
+                                <td>Terpusat</td>
+                                <td>Tim Penyusun</td>
+                                <td class="dt-center">Utama</td>
+                                <td class="dt-center">
                                     <a href="#" class="btn btn-link text-secondary"><i class="far fa-edit"></i></a>
                                 </td>
                             </tr>
