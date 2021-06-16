@@ -2,7 +2,7 @@
 
 <div class="content">
 
-    <div class="container">
+    <div class="container height-100">
 
         <div class="py-1">
             <div class="card">
