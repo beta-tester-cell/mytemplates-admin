@@ -308,38 +308,37 @@
   left: 45% !important;
 }
 
-
 .modal-fit-custom-md {
   max-width: 900px;
 }
 
-.textbox-primary{
+.textbox-primary {
   width: 200px;
   background-color: var(--primary-color);
-  color:white; 
+  color: white;
 }
 
-.textbox-warning{
- width: 200px; 
- background-color: #DFD43B; 
- color:white;
+.textbox-warning {
+  width: 200px;
+  background-color: #dfd43b;
+  color: white;
 }
 
-.textbox-danger{
-  width: 200px;  
-  background-color:  #BF111F; 
-  color:white;
+.textbox-danger {
+  width: 200px;
+  background-color: #bf111f;
+  color: white;
 }
 
-.grid-custom-button{
-  display:  grid;
+.grid-custom-button {
+  display: grid;
   grid-template-columns: 50% 50%;
 }
 
-.btn-export-up{
- position: absolute;
- right: 15px; 
- top: 17px;
+.btn-export-up {
+  position: absolute;
+  right: 15px;
+  top: 17px;
 }
 
 .total {
@@ -363,4 +362,18 @@
 
 .chart-width-custom {
   width: 50%;
+}
+
+.bg-image-close {
+  background-image: url(theme/img/bg-error-2.png);
+  background-size: cover;
+  background-position: center left;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.center-position-text {
+  position: absolute;
+  left: 35%;
+  right: 25%;
 }

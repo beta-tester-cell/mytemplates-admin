@@ -1,35 +1,17 @@
 <?php include('header.php') ?>
-<div class="content">
-    <div class="container height-100">
-        <div class="grid-1 grid-gap-1">
+<div class="d-flex flex-center height-100 bg-image-close" style="background-image: url('theme/img/bg-error-2.png');">
 
-            <div class="card">
+    <div class="center-position-text py-1" style="text-align: center">
 
-                <style type="text/css">
-                    strong{
-                        color : red;
-                    }
-                </style>
-
-                <div class="flex-center py-1" style="text-align: center">
-
-                    <span><strong>MOHON MAAF PENGISIAN KRS ONLINE SUDAH DITUTUP ATAU BELUM DIJADWALKAN.!</strong></span>
-                    <br>
-                    <span><strong>TERIMA KASIH</strong></span>
-                    <p></p>
-                    <span><strong>Best Regards</strong></span>
-                    <br>
-                    <span><strong>Administrator</strong></span>
-
-                </div>
-
-            </div>
-        <div class="d-flex flex-center pagination py-1 my-1">
-
-        </div>
+        <h4 class="text-danger">MOHON MAAF PENGISIAN KRS ONLINE SUDAH DITUTUP ATAU BELUM DIJADWALKAN...!</h4>
+        <br>
+        <h5 class="text-danger">TERIMA KASIH</h5>
+        <p></p>
+        <p class="text-danger"><b>Best Regards</b></p>
+        <br>
+        <strong class="text-danger">Administrator</strong>
 
     </div>
 
-    </div>
 </div>
 <?php include('footer.php') ?>

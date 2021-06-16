@@ -280,6 +280,19 @@
                         </li>
                         <li class="side-menu-item">
                             <a href="#" class="menu-collaps">
+                                <span class="menu-icon"><i class="fa fa-user"></i></span>
+                                <span class="menu-title">Manajemen Dosen</span>
+                            </a>
+                            <ul class="submenu-menu-item">
+                                <li class="side-menu-item">
+                                    <a href="message.php">
+                                        <span>Chat Message</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="side-menu-item">
+                            <a href="#" class="menu-collaps">
                                 <span class="menu-icon"><i class="fa fa-files-o"></i></span>
                                 <span class="menu-title">Report</span>
                             </a>
@@ -307,6 +320,8 @@
 
                             </ul>
                         </li>
+
+
                         <li class="side-menu-item">
                             <a href="menu.php">
                                 <span class="menu-icon"><i class="fab fa-elementor"></i></span>

@@ -330,6 +330,54 @@
   .wrapper-date {
     width: 100%;
   }
+
+  .bg-image-close {
+    background-position: center;
+  }
+
+  .center-position-text {
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+
+  .message-left-side {
+    width: 100%;
+  }
+
+  .message-list-panel {
+    height: 30vh;
+    overflow-y: auto;
+  }
+
+  .message-right-side {
+    width: 100%;
+  }
+
+  .message-subject {
+    padding: 1.5rem;
+  }
+
+  .btn-send-second {
+    padding: 0.25rem;
+    height: 34px;
+    margin: 7px;
+    font-size: 16px;
+  }
+
+  .message-send {
+    display: flex;
+  }
+
+  .input-text {
+    width: 100%;
+    margin: 7px;
+    border: 1px solid var(--medium-color);
+  }
+
+  #send > span {
+    display: none;
+  }
   /* css footer start */
   footer {
     padding-left: 0;
@@ -630,6 +678,57 @@
     width: 100%;
   }
 
+  .bg-image-close {
+    background-position: center;
+  }
+
+  .center-position-text {
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+
+  .message-left-side {
+    width: 100%;
+  }
+
+  .message-left-side {
+    width: 100%;
+  }
+
+  .message-list-panel {
+    height: 30vh;
+    overflow-y: auto;
+  }
+
+  .message-right-side {
+    width: 100%;
+  }
+
+  .message-subject {
+    padding: 1.5rem;
+  }
+
+  .btn-send-second {
+    padding: 0.25rem;
+    height: 34px;
+    margin: 7px;
+    font-size: 16px;
+  }
+
+  .message-send {
+    display: flex;
+  }
+
+  .input-text {
+    width: 100%;
+    margin: 7px;
+    border: 1px solid var(--medium-color);
+  }
+  #send > span {
+    display: none;
+  }
+
   /* css footer start */
   footer {
     padding-left: 0;
@@ -652,6 +751,43 @@
   .filtering-tahun-akademik,
   .filtering-semester {
     width: 100%;
+  }
+
+  .message-left-side {
+    width: 100%;
+  }
+
+  .message-list-panel {
+    height: 30vh;
+    overflow-y: auto;
+  }
+
+  .message-right-side {
+    width: 100%;
+  }
+
+  .message-subject {
+    padding: 1.5rem;
+  }
+
+  .btn-send-second {
+    padding: 0.25rem;
+    height: 34px;
+    margin: 7px;
+    font-size: 16px;
+  }
+
+  .message-send {
+    display: flex;
+  }
+
+  .input-text {
+    width: 100%;
+    margin: 7px;
+    border: 1px solid var(--medium-color);
+  }
+  #send > span {
+    display: none;
   }
 }
 
@@ -723,6 +859,12 @@
   .grid-custom-card {
     grid-template-columns: 1fr;
   }
+
+  .center-position-text {
+    position: absolute;
+    left: 35%;
+    right: 0;
+  }
 }
 
 @media (min-width: 1025px) and (max-width: 1264px) {
@@ -737,5 +879,11 @@
 
   .nav-pills .nav-link {
     height: 133px;
+  }
+
+  .center-position-text {
+    position: absolute;
+    left: 35%;
+    right: 0;
   }
 }

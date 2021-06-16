@@ -27,7 +27,7 @@
                             </div>
                         </a>
                     </li>
-                    <!-- <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link" id="tab3">
                             <div class="wizard-wrapper">
                                 <div class="wizard-number">3</div>
@@ -37,7 +37,7 @@
                                 </div>
                             </div>
                         </a>
-                    </li> -->
+                    </li>
                 </ul>
 
                 <!-- Tab panes -->
@@ -173,8 +173,14 @@
                                         <td>Informatika Komputer</td>
                                         <td>2020/2021</td>
                                         <td>2021</td>
-                                        <td></td>
-                                        <td></td>
+                                        <td>
+                                            <span class="menu-icon"><i class="fa fa-check text-success"></i></span>
+
+                                        </td>
+                                        <td>
+                                            <span class="menu-icon"><i class="fa fa-check text-success"></i></span>
+
+                                        </td>
                                         <td>2021-02-09 16:27:55</td>
                                         <td>Tabah</td>
                                         <td>-</td>
@@ -193,7 +199,9 @@
                                         <td>Informatika Komputer</td>
                                         <td>2020/2021</td>
                                         <td>2021</td>
-                                        <td></td>
+                                        <td>
+                                            <span class="menu-icon"><i class="fa fa-check text-success"></i></span>
+                                        </td>
                                         <td></td>
                                         <td>2021-02-09 16:27:55</td>
                                         <td>Tabah</td>
@@ -213,7 +221,10 @@
                                         <td>Informatika Komputer</td>
                                         <td>2020/2021</td>
                                         <td>2021</td>
-                                        <td></td>
+                                        <td>
+                                            <span class="menu-icon"><i class="fa fa-check text-success"></i></span>
+
+                                        </td>
                                         <td></td>
                                         <td>2021-02-09 16:27:55</td>
                                         <td>Tabah</td>
@@ -233,7 +244,10 @@
                                         <td>Informatika Komputer</td>
                                         <td>2020/2021</td>
                                         <td>2021</td>
-                                        <td></td>
+                                        <td>
+                                            <span class="menu-icon"><i class="fa fa-check text-success"></i></span>
+
+                                        </td>
                                         <td></td>
                                         <td>2021-02-09 16:27:55</td>
                                         <td>Tabah</td>
@@ -253,8 +267,13 @@
                                         <td>Informatika Komputer</td>
                                         <td>2020/2021</td>
                                         <td>2021</td>
-                                        <td></td>
-                                        <td></td>
+                                        <td>
+                                            <span class="menu-icon"><i class="fa fa-check text-success"></i></span>
+                                        </td>
+                                        <td>
+                                            <span class="menu-icon"><i class="fa fa-check text-success"></i></span>
+
+                                        </td>
                                         <td>2021-02-09 16:27:55</td>
                                         <td>Tabah</td>
                                         <td>-</td>
@@ -273,7 +292,10 @@
                                         <td>Informatika Komputer</td>
                                         <td>2020/2021</td>
                                         <td>2021</td>
-                                        <td></td>
+                                        <td>
+                                            <span class="menu-icon"><i class="fa fa-check text-success"></i></span>
+
+                                        </td>
                                         <td></td>
                                         <td>2021-02-09 16:27:55</td>
                                         <td>Tabah</td>
@@ -294,8 +316,101 @@
 
                     <!-- tab 3 start -->
 
-                    <div class="container tab-pane" id="tab3C">
+                    <div class="tab-pane" id="tab3C">
+                        <div class="card-header d-flex flex-space-between">
+                            <span class="total">E-book | 22 Total</span>
 
+                            <div>
+                                <div class="select-export export-matakuliah">
+                                    <div type="button" class="btn btn-link btn-secondary dropdown-button"><i class="fas fa-file-export"></i> Export</div>
+
+                                    <div class="type-export">
+                                        <a href="#" id="pdf"><i class="far fa-file-pdf"></i> PDF</a>
+                                        <a href="#" id="excel"><i class="far fa-file-excel"></i> EXCEL</a>
+                                        <a href="#" id="print"><i class="fas fa-print"></i> PRINT</a>
+                                    </div>
+                                </div>
+                                <a href="form-ebook.php" class="btn btn-link">
+                                    <span><i class="fa fa-plus"></i> Upload new</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="table-responsive">
+                            <table class="table-list" id="datatable">
+                                <thead>
+                                    <th>Kode Buku</th>
+                                    <th>Judul Buku</th>
+                                    <th>Penulis</th>
+                                    <th>Tahun Terbit</th>
+                                    <th>Upload Data</th>
+                                    <th>Penerbit</th>
+                                    <th>Action</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>20MJ001</td>
+                                        <td>Manajemen Perkantoran</td>
+                                        <td>Ratna,M.M</td>
+                                        <td>2020</td>
+                                        <td>2021-02-09 16:27:55</td>
+                                        <td>Lentera Ilmu</td>
+                                        <td>
+                                            <a href="#" class="text-secondary"><i class="fa fa-edit"></i></a>
+                                            <a href="#" class="text-danger"><i class="fas fa-eraser"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>20EK001</td>
+                                        <td>Dasar-dasar Akuntasi</td>
+                                        <td>Rakhmat, S.E</td>
+                                        <td>2019</td>
+                                        <td>2021-02-09 16:27:55</td>
+                                        <td>Lentera Ilmu</td>
+                                        <td>
+                                            <a href="#" class="text-secondary"><i class="fa fa-edit"></i></a>
+                                            <a href="#" class="text-danger"><i class="fas fa-eraser"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>20EN001</td>
+                                        <td>English Conversation</td>
+                                        <td>Haris,M.M</td>
+                                        <td>2019</td>
+                                        <td>2021-02-09 16:27:55</td>
+                                        <td>Lentera Ilmu</td>
+                                        <td>
+                                            <a href="#" class="text-secondary"><i class="fa fa-edit"></i></a>
+                                            <a href="#" class="text-danger"><i class="fas fa-eraser"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>20MJ002</td>
+                                        <td>Filling Manajemen</td>
+                                        <td>Siswandi,S.E</td>
+                                        <td>2018</td>
+                                        <td>2021-02-09 16:27:55</td>
+                                        <td>Lentera Ilmu</td>
+                                        <td>
+                                            <a href="#" class="text-secondary"><i class="fa fa-edit"></i></a>
+                                            <a href="#" class="text-danger"><i class="fas fa-eraser"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>20EK001</td>
+                                        <td>Dasar-dasar Akuntansi</td>
+                                        <td>Rakhmat,S.E</td>
+                                        <td>2019</td>
+                                        <td>2021-02-09 16:27:55</td>
+                                        <td>Lentera Ilmu</td>
+                                        <td>
+                                            <a href="#" class="text-secondary"><i class="fa fa-edit"></i></a>
+                                            <a href="#" class="text-danger"><i class="fas fa-eraser"></i></a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                     <!-- tab 3 end -->
                 </div>
