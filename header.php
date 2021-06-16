@@ -262,6 +262,19 @@
                                         <span>Verifikasi Soal Ujian</span>
                                     </a>
                                 </li>
+
+                                <li class="side-menu-item">
+                                    <a href="form-krs-online.php">
+                                        <span>KRS Online</span>
+                                    </a>
+                                </li>
+
+                                <li class="side-menu-item">
+                                    <a href="form-tambah-mhs.php">
+                                        <span>Kelengkapan Biodata</span>
+                                    </a>
+                                </li>
+
                             </ul>
                         </li>
                         <li class="side-menu-item">
