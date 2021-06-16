@@ -136,6 +136,11 @@
                                         <span>Pengelolaan Matakuliah</span>
                                     </a>
                                 </li>
+                                <li class="side-menu-item">
+                                    <a href="kelola-ploating-dosen.php">
+                                        <span>Kelola Ploating Dosen</span>
+                                    </a>
+                                </li>
                             </ul>
                         </li>
                         <li class="side-menu-item">
@@ -180,12 +185,12 @@
                                     </a>
                                 </li>
                                 <li class="side-menu-item">
-                                    <a href="tagihan-pembiayaan.php">
+                                    <a href="tagihan-pembiayaan.php" class="d-flex">
                                         <span>Tagihan Kewajiban Cabang</span>
                                     </a>
                                 </li>
                                 <li class="side-menu-item">
-                                    <a href="realisasi-pembiayaan.php">
+                                    <a href="realisasi-pembiayaan.php" class="d-flex">
                                         <span>Realisasi Kewajiban Cabang</span>
                                     </a>
                                 </li>
@@ -201,7 +206,8 @@
                                     <a href="rencana-bayar-kuliah.php">
                                         <span>Rencana Bayar Kuliah</span>
                                     </a>
-                                </li> <li class="side-menu-item">
+                                </li>
+                                <li class="side-menu-item">
                                     <a href="list-rencana-bayar.php">
                                         <span>List Rencana Bayar</span>
                                     </a>
@@ -214,6 +220,11 @@
                                 <span class="menu-title">Akademik Cabang</span>
                             </a>
                             <ul class="submenu-menu-item">
+                                <li class="side-menu-item">
+                                    <a href="ruang-kelas.php">
+                                        <span>Ruang Kelas</span>
+                                    </a>
+                                </li>
                                 <li class="side-menu-item">
                                     <a href="data-matakuliah.php">
                                         <span>Data Matakuliah</span>
@@ -238,16 +249,6 @@
                                 <li class="side-menu-item">
                                     <a href="pengelolaan-nilai.php">
                                         <span>Kelola Nilai Mahasiswa</span>
-                                    </a>
-                                </li>
-                                <li class="side-menu-item">
-                                    <a href="monitoring-perkuliahaan.php">
-                                        <span>Report Absensi</span>
-                                    </a>
-                                </li>
-                                 <li class="side-menu-item">
-                                    <a href="laporan-lkm.php">
-                                        <span>Report LKM</span>
                                     </a>
                                 </li>
 
@@ -279,33 +280,31 @@
                         </li>
                         <li class="side-menu-item">
                             <a href="#" class="menu-collaps">
-                                <span class="menu-icon"><i class="fa fa-cog"></i></span>
-                                <span class="menu-title">Setting Data Master</span>
-                            </a>
-                            <ul class="submenu-menu-item">
-                                <li class="side-menu-item">
-                                    <a href="ruang-kelas.php">
-                                        <span>Ruang Kelas</span>
-                                    </a>
-                                </li>
-                                <li class="side-menu-item">
-                                    <a href="kelola-ploating-dosen.php">
-                                        <span>Kelola Ploating Dosen</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="side-menu-item">
-                            <a href="#" class="menu-collaps">
                                 <span class="menu-icon"><i class="fa fa-files-o"></i></span>
                                 <span class="menu-title">Report</span>
                             </a>
                             <ul class="submenu-menu-item">
                                 <li class="side-menu-item">
-                                    <a href="report-absensi-mhs.php">
-                                        <span>Report Absensi</span>
+                                    <a href="monitoring-perkuliahaan.php">
+                                        <span>Monitoring Perkuliahan</span>
                                     </a>
                                 </li>
+                                <li class="side-menu-item">
+                                    <a href="laporan-lkm.php">
+                                        <span>Report LKM</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="report-absensi-mhs.php" class="d-flex">
+                                        <span>Report Kehadiran Mahasiswa</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="report-nilai.php" class="d-flex">
+                                        <span>Report Nilai Mahasiswa</span>
+                                    </a>
+                                </li>
+
                             </ul>
                         </li>
                         <li class="side-menu-item">
