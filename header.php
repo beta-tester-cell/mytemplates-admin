@@ -236,7 +236,6 @@
                                 </li>
 
                                 <li class="side-menu-item">
-
                                     <a href="pengelolaan-nilai.php">
                                         <span>Kelola Nilai Mahasiswa</span>
                                     </a>
@@ -249,6 +248,18 @@
                                  <li class="side-menu-item">
                                     <a href="laporan-lkm.php">
                                         <span>Report LKM</span>
+                                    </a>
+                                </li>
+
+                                <li class="side-menu-item">
+                                    <a href="jadwal-ujian.php">
+                                        <span>Input Jadwal Ujian</span>
+                                    </a>
+                                </li>
+
+                                <li class="side-menu-item">
+                                    <a href="verifikasi-soal-ujian.php">
+                                        <span>Verifikasi Soal Ujian</span>
                                     </a>
                                 </li>
                             </ul>
@@ -267,6 +278,19 @@
                                 <li class="side-menu-item">
                                     <a href="kelola-ploating-dosen.php">
                                         <span>Kelola Ploating Dosen</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="side-menu-item">
+                            <a href="#" class="menu-collaps">
+                                <span class="menu-icon"><i class="fa fa-files-o"></i></span>
+                                <span class="menu-title">Report</span>
+                            </a>
+                            <ul class="submenu-menu-item">
+                                <li class="side-menu-item">
+                                    <a href="report-absensi-mhs.php">
+                                        <span>Report Absensi</span>
                                     </a>
                                 </li>
                             </ul>

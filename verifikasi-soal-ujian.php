@@ -2,24 +2,11 @@
 
 <div class="content">
     <div class="container">
-        
-        <div class="py-1">
-            <div class="card">
-                <div class="d-flex flex-start">
-                    <a href="form-jadwal-ujian.php" class="btn btn-link">
-                        <span><i class="fa fa-plus"></i> ADD Jadwal Ujian Reguler</span>
-                    </a>
-                    <a href="jadwal-ujian.php" class="btn btn-link">
-                        <span><i class="far fa-list-alt"></i> Daftar Ujian Moduler</span>
-                    </a>
-                </div>
-            </div>
-        </div>
 
         <div class="py-1">
             <div class="card">
                 <div class="card-header d-flex flex-space-between">
-                    <h6>Jadwal Ujian Periode Ganjil 2020/2021</h6>
+                    <h6>Verifikasi Soal Ujian Periode Ganjil 2020/2021</h6>
                     <div class="select-export" style="width: 100px; float: right; display: block;">
                         <button class="btn btn-secondary btn-submit dropdown-button" style="width: 105px;"><i class="fas fa-file-export"></i> Export</button>
                         <div class="type-export">
@@ -29,8 +16,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="card-header form-inputs my-2">
-                    <div class="form d-flex grid-4 grid-gap-1 py-1">
+                
+                <div class="card-header form-inputs">
+                    <div class="form d-flex grid-4 grid-gap-1 py-1 my-1">
                         <div class="input-group">
                             <select name="ujian" id="ujian">
                                 <option value="">Filter Jenis Ujian</option>
@@ -66,83 +54,63 @@
                         </div>  
                     </div>
                 </div>
+
                 <div class="table-responsive">
-                    <table id="datatable-jadwal-ujian" class="table-list">
+                    <table id="datatable" class="table-list">
                         <thead>
                             <tr>
-                                <th>No</th>
-                                <th class="dt-left">Program Studi</th>
+                                <th class="dt-center">No</th>
                                 <th>Mata Kuliah</th>
-                                <th>Smt</th>
+                                <th class="dt-center">Smt</th>
                                 <th>Kelas</th>
+                                <th class="dt-center">Jenis Ujian</th>
                                 <th>Ruang</th>
                                 <th>Hari & Tanggal</th>
-                                <th>Waktu</th>
-                                <th>Jenis Ujian</th>
-                                <th>Pengawas</th>
-                                <th>Soal Ujian</th>
-                                <th>Jenis Soal</th>
-                                <th>Sumber Soal</th>
-                                <th>Kategori Ujian</th>
-                                <th>Action</th>
+                                <th class="dt-center">Status</th>
+                                <th class="dt-center">Action</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td class="dt-center">1</td>
-                                <td>Manajemen Informatika</td>
-                                <td>Basis Data</td>
+                                <td>[89900] Basis Data</td>
                                 <td class="dt-center">1</td>
-                                <td>IK_Reguler 01</td>
+                                <td>IK_REGuler 01</td>
+                                <td class="dt-center">UTS</td>
                                 <td>LMS-Online</td>
                                 <td>Selasa, 15 Juni 2021</td>
-                                <td>08.00 - 09.45</td>
-                                <td class="dt-center">UTS</td>
-                                <td>Masria, M.Kom</td>
-                                <td class="dt-center">Tersedia</td>
-                                <td>Lokal</td>
-                                <td>Masria, M.Kom</td>
-                                <td class="dt-center">Utama</td>
+                                <td class="dt-center">Terverifikasi</td>
                                 <td class="dt-center">
-                                    <a href="#" class="btn btn-link text-secondary"><i class="far fa-edit"></i></a>
+                                    <a href="view-soal-ujian.php" class="btn btn-link text-secondary"><i class="far fa-edit"></i></a>
+                                    <a href="#" class="btn btn-link text-danger"><i class="fas fa-eraser"></i></a>
                                 </td>
                             </tr>
                             <tr>
-                                <td class="dt-center">2</td>
-                                <td>Manajemen Informatika</td>
-                                <td>Basis Data</td>
+                                <td class="dt-center">1</td>
+                                <td>[89900] Basis Data</td>
                                 <td class="dt-center">1</td>
                                 <td>IK_REG_Susulan</td>
+                                <td class="dt-center">UTS</td>
                                 <td>LMS-Online</td>
                                 <td>Selasa, 15 Juni 2021</td>
-                                <td>08.00 - 09.45</td>
-                                <td class="dt-center">UTS</td>
-                                <td>Susi</td>
-                                <td class="dt-center">Tersedia</td>
-                                <td>Lokal</td>
-                                <td>Masria, M.Kom</td>
-                                <td class="dt-center">Susulan</td>
+                                <td class="dt-center">Terverifikasi</td>
                                 <td class="dt-center">
-                                    <a href="#" class="btn btn-link text-secondary"><i class="far fa-edit"></i></a>
+                                    <a href="view-soal-ujian.php" class="btn btn-link text-secondary"><i class="far fa-edit"></i></a>
+                                    <a href="#" class="btn btn-link text-danger"><i class="fas fa-eraser"></i></a>
                                 </td>
                             </tr>
                             <tr>
-                                <td class="dt-center">3</td>
-                                <td>Manajemen Informatika</td>
-                                <td>Pendidikan Pancasila</td>
-                                <td class="dt-center">5</td>
-                                <td>IK_Reguler 01</td>
-                                <td>R. 302</td>
-                                <td>Selasa, 15 Juni 2021</td>
-                                <td>08.00 - 09.45</td>
+                                <td class="dt-center">1</td>
+                                <td>[89900] Basis Data</td>
+                                <td class="dt-center">1</td>
+                                <td>IK_REGuler 01</td>
                                 <td class="dt-center">UTS</td>
-                                <td>Karto</td>
-                                <td class="dt-center">Tersedia</td>
-                                <td>Terpusat</td>
-                                <td>Tim Penyusun</td>
-                                <td class="dt-center">Utama</td>
+                                <td>R.202</td>
+                                <td>Selasa, 15 Juni 2021</td>
+                                <td class="dt-center">Terverifikasi</td>
                                 <td class="dt-center">
-                                    <a href="#" class="btn btn-link text-secondary"><i class="far fa-edit"></i></a>
+                                    <a href="view-soal-ujian.php" class="btn btn-link text-secondary"><i class="far fa-edit"></i></a>
+                                    <a href="#" class="btn btn-link text-danger"><i class="fas fa-eraser"></i></a>
                                 </td>
                             </tr>
                         </tbody>
