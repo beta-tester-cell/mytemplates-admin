@@ -70,7 +70,7 @@
         <!-- side-bar menu start -->
         <div class="aside aside-menu-header">
             <div class="logo">
-                <a href="#">
+                <a href="">
                     <img src="theme/img/LOGO-POLITEKNIK.png" alt="">
                 </a>
 
@@ -234,6 +234,12 @@
                             <a href="error-page.html">
                                 <span class="menu-icon"><i class="fa fa-file"></i></span>
                                 <span class="menu-title">Page Error</span>
+                            </a>
+                        </li>
+                        <li class="side-menu-item">
+                            <a href="message.php">
+                                <span class="menu-icon"><i class="fa fa-comments"></i></span>
+                                <span class="menu-title">Message</span>
                             </a>
                         </li>
                     </ul>
