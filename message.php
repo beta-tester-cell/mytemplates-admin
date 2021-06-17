@@ -335,7 +335,7 @@
 </div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-<!-- <script src="theme/js/script.js" defer></script> -->
+ <script src="theme/js/script.js" defer></script> 
 <script>
     $(document).ready(function() {
 
@@ -343,6 +343,12 @@
             $(".form-new-message").show()
             $(".message-display").hide()
             $(".message-first-panel").hide()
+            $(".btn-message-list-active").each(function(index){
+	    		$(this).removeClass('btn-message-list-active').addClass('btn-message-list')
+	    	})
+	    	$(".btn-message-dot-active").each(function(index){
+	    		$(this).removeClass('btn-message-dot-active').addClass('btn-message-dot')
+	    	})
         })
 
         $(".btn-message-list").each(function(index) {

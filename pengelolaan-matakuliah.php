@@ -145,7 +145,7 @@
                         </div>
 
                         <div class="table-responsive">
-                            <table class="table-list" id="datatable">
+                            <table class="table-list" id="datatable2">
                                 <thead>
                                     <th>No</th>
                                     <th>Matakuliah </th>
@@ -337,7 +337,7 @@
                         </div>
 
                         <div class="table-responsive">
-                            <table class="table-list" id="datatable">
+                            <table class="table-list" id="datatable3">
                                 <thead>
                                     <th>Kode Buku</th>
                                     <th>Judul Buku</th>

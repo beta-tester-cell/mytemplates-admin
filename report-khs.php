@@ -13,7 +13,7 @@
             </div>
         </div>
 
-        <div class="grid-2 grid-gap-1 py-1">
+        <div class="form grid-2 grid-gap-1 py-1">
 
             <div class="card">
                 <div class="card-header">
@@ -75,7 +75,7 @@
                 </div>
 
                 <div class="py-1">
-                     <input type="checkbox" name="check-all" id="check-all">
+                    <input type="checkbox" name="check-all" id="check-all">
                     <label><b>Check All</b></label>
                 </div>
 

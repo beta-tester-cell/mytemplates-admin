@@ -377,3 +377,8 @@
   left: 35%;
   right: 25%;
 }
+
+.info-krs{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}

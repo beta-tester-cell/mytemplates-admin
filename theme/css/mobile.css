@@ -378,6 +378,10 @@
   #send > span {
     display: none;
   }
+
+  .info-krs {
+    grid-template-columns: 30% 70%;
+  }
   /* css footer start */
   footer {
     padding-left: 0;
@@ -727,6 +731,9 @@
   }
   #send > span {
     display: none;
+  }
+  .info-krs {
+    grid-template-columns: 30% 70%;
   }
 
   /* css footer start */

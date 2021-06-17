@@ -142,7 +142,7 @@
                                     </a>
                                 </li>
                                 <li class="side-menu-item">
-                                    <a href="pengelolaan-manajemen-akun.php">
+                                    <a href="pengelolaan-manajemen-akun.php" class="d-flex">
                                         <span>Pengelolaan Manajemen Akun</span>
                                     </a>
                                 </li>
@@ -185,7 +185,7 @@
                                     </a>
                                 </li>
                                 <li class="side-menu-item">
-                                    <a href="master-pembiayaan.php.php">
+                                    <a href="master-pembiayaan.php">
                                         <span>Master Pembiayaan</span>
                                     </a>
                                 </li>
@@ -327,6 +327,12 @@
                                         <span>Report Komponen & KHS</span>
                                     </a>
                                 </li>
+                                <li class="side-menu-item">
+                                    <a href="report-krs.php" class="d-flex">
+                                        <span>Report KRS Mahasiswa</span>
+                                    </a>
+                                </li>
+
 
                             </ul>
                         </li>

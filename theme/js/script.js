@@ -146,6 +146,48 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+
+    $('#datatable2').DataTable({
+
+        responsive: true,
+        "language" : {
+
+            "info" : "Show _END_ of _TOTAL_ Records",
+            "lengthMenu": "Display _MENU_ Records",
+            "paginate": {
+                "first":      "<i class='fas fa-angle-double-left'></i>",
+                "last":       "<i class='fas fa-angle-double-right'></i>",
+                "next":       "<i class='fas fa-angle-right'></i>",
+                "previous":   "<i class='fas fa-angle-left'></i>"
+            },
+
+        }         
+    });
+
+});
+
+$(document).ready(function(){
+
+    $('#datatable3').DataTable({
+
+        responsive: true,
+        "language" : {
+
+            "info" : "Show _END_ of _TOTAL_ Records",
+            "lengthMenu": "Display _MENU_ Records",
+            "paginate": {
+                "first":      "<i class='fas fa-angle-double-left'></i>",
+                "last":       "<i class='fas fa-angle-double-right'></i>",
+                "next":       "<i class='fas fa-angle-right'></i>",
+                "previous":   "<i class='fas fa-angle-left'></i>"
+            },
+
+        }         
+    });
+
+});
+
+$(document).ready(function(){
     $(".logo-toggle").click(function(){
         $(".wrapper").toggleClass("collapse");
     });
