@@ -285,6 +285,11 @@
                             </a>
                             <ul class="submenu-menu-item">
                                 <li class="side-menu-item">
+                                    <a href="jadwal-perkuliahan-dosen.php">
+                                        <span>Jadwal Perkuliahan</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
                                     <a href="message.php">
                                         <span>Chat Message</span>
                                     </a>
