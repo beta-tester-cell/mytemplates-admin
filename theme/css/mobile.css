@@ -860,6 +860,10 @@
     grid-template-columns: 1fr;
   }
 
+  .grid-custom-card-flip {
+    grid-template-columns: 1fr;
+  }
+
   .center-position-text {
     position: absolute;
     left: 35%;
