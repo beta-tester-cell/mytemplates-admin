@@ -141,6 +141,11 @@
                                         <span>Kelola Ploating Dosen</span>
                                     </a>
                                 </li>
+                                <li class="side-menu-item">
+                                    <a href="pengelolaan-manajemen-akun.php">
+                                        <span>Pengelolaan Manajemen Akun</span>
+                                    </a>
+                                </li>
                             </ul>
                         </li>
                         <li class="side-menu-item">
@@ -315,6 +320,11 @@
                                 <li class="side-menu-item">
                                     <a href="report-nilai.php" class="d-flex">
                                         <span>Report Nilai Mahasiswa</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="report-khs.php" class="d-flex">
+                                        <span>Report Komponen & KHS</span>
                                     </a>
                                 </li>
 
