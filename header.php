@@ -281,6 +281,12 @@
                                     </a>
                                 </li>
 
+                                <li class="side-menu-item">
+                                    <a href="form-jadwal-kuliah.php">
+                                        <span>Jadwal Kuliah</span>
+                                    </a>
+                                </li>
+
                             </ul>
                         </li>
                         <li class="side-menu-item">
