@@ -268,7 +268,7 @@ $(document).ready(function() {
     };
 
     var MergeData = {
-        labels: ["M1 2021", "M2 2021", "M3 2021", "M4 2021", "M5 2021", "M6 2021"], // Label horizontal
+        labels: ["M 2021", "M 2021", "M 2021", "M 2021", "M 2021", "M 2021"], // Label horizontal
         datasets: [dataFirst, dataSecond]
     };
 
@@ -372,7 +372,7 @@ $(document).ready(function() {
     };
 
     var MergeData = {
-        labels: ["M1 2021", "M2 2021", "M3 2021", "M4 2021", "M5 2021", "M6 2021"], // Label horizontal
+        labels: ["M 2021", "M 2021", "M 2021", "M 2021", "M 2021", "M 2021"], // Label horizontal
         datasets: [dataFirst, dataSecond]
     };
 
