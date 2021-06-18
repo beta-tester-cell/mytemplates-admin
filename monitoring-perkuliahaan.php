@@ -39,12 +39,12 @@
                                     <th class="align-left">Nama Dosen</th>
                                     <th class="align-left">Kelas</th>
                                     <th class="align-left">MataKuliah</th>
-                                    <th class="align-left">Smt</th>
-                                    <th class="align-left">SKS</th>
-                                    <th class="align-left">Pert Ke</th>
+                                    <th class="align-center">Smt</th>
+                                    <th class="align-center">SKS</th>
+                                    <th class="align-center">Pert Ke</th>
                                     <th class="align-left">Ruang</th>
                                     <th class="align-left">Hari & Tanggal</th>
-                                    <th class="align-left">Jam Mulai</th>
+                                    <th class="align-center">Jam Mulai</th>
                                     <th class="align-left">Status</th>
 
                                 </tr>
@@ -54,36 +54,36 @@
                                     <td>[20101] Sabrina S.KOM</td>
                                     <td>IK01</td>
                                     <td>Basis Data</td>
-                                    <td>1</td>
-                                    <td>2</td>
-                                    <td>1</td>
+                                    <td class="align-center">1</td>
+                                    <td class="align-center">2</td>
+                                    <td class="align-center">1</td>
                                     <td>LMS Online</td>
-                                    <td>Senin, 2021-07-14</td>
-                                    <td>08.00</td>
+                                    <td class="align-left">Senin, 2021-07-14</td>
+                                    <td class="align-center">08.00</td>
                                     <td style="color:red; font-weight: bold;">Selesai</td>
                                 </tr>
                                 <tr>
                                     <td>[20102] Fadillah S.KOM</td>
                                     <td>IK01</td>
                                     <td>Aplikom 2</td>
-                                    <td>3</td>
-                                    <td>2</td>
-                                    <td>2</td>
+                                    <td class="align-center">3</td>
+                                    <td class="align-center">2</td>
+                                    <td class="align-center">2</td>
                                     <td>LMS Online</td>
-                                    <td>Senin, 2021-07-15</td>
-                                    <td>08.00</td>
+                                    <td class="align-left">Senin, 2021-07-15</td>
+                                    <td class="align-center">08.00</td>
                                     <td style="color:green; font-weight: bold;">Sedang Dimulai</td>
                                 </tr>
                                 <tr>
                                     <td>[20103] Sabrina S.KOM</td>
                                     <td>IK01</td>
                                     <td>Sql Server</td>
-                                    <td>1</td>
-                                    <td>4</td>
-                                    <td>1</td>
+                                    <td class="align-center">1</td>
+                                    <td class="align-center">4</td>
+                                    <td class="align-center">1</td>
                                     <td>LMS Online</td>
-                                    <td>Senin, 2021-07-16</td>
-                                    <td>08.00</td>
+                                    <td class="align-left">Senin, 2021-07-16</td>
+                                    <td class="align-center">08.00</td>
                                     <td style="color:black; font-weight: bold;">Belom Dimulai</td>
                                 </tr>
 

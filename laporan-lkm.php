@@ -56,53 +56,53 @@
                             <thead>
                                 <tr>
                                     <th class="align-left">Kelas</th>
-                                    <th class="align-left">Pert Ke</th>
+                                    <th class="align-center">Pert Ke</th>
                                     <th class="align-left">Ruang</th>
                                     <th class="align-left">Tanggal</th>
                                     <th class="align-left">Pokok Bahasan</th>
                                     <th class="align-left">Sub Pokok Bahasan</th>
                                     <th class="align-left">Tugas</th>
                                     <th class="align-left">Status</th>
-                                    <th class="align-left">Kehadiran</th>
+                                    <th class="align-center">Kehadiran</th>
                                     <th class="align-left">Action</th>
 
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>IK01</td>
-                                    <td>1</td>
-                                    <td>LMS Online</td>
-                                    <td>2021-07-09</td>
-                                    <td>Pengertian Basis Data</td>
-                                    <td>Sejarah Basis Data</td>
-                                    <td>-</td>
-                                    <td>on Track</td>
-                                    <td>25</td>
+                                    <td class="align-left">IK01</td>
+                                    <td class="align-center">1</td>
+                                    <td class="align-left">LMS Online</td>
+                                    <td class="align-left">2021-07-09</td>
+                                    <td class="align-left">Pengertian Basis Data</td>
+                                    <td class="align-left">Sejarah Basis Data</td>
+                                    <td class="align-left">-</td>
+                                    <td class="align-left">on Track</td>
+                                    <td class="align-center">25</td>
                                     <td><a href="laporan-detail-lkm.php">View</a></td>
                                 </tr>
                                 <tr>
                                     <td>IK01</td>
-                                    <td>2</td>
-                                    <td>LMS Online</td>
-                                    <td>2021-07-16</td>
-                                    <td>Struktur Data</td>
-                                    <td>Memahami Struktur Data</td>
-                                    <td>Membuat Struktur Data</td>
-                                    <td>Make-up class</td>
-                                    <td>25</td>
+                                    <td class="align-center">2</td>
+                                    <td class="align-left">LMS Online</td>
+                                    <td class="align-left">2021-07-16</td>
+                                    <td class="align-left">Struktur Data</td>
+                                    <td class="align-left">Memahami Struktur Data</td>
+                                    <td class="align-left">Membuat Struktur Data</td>
+                                    <td class="align-left">Make-up class</td>
+                                    <td class="align-center">25</td>
                                     <td><a href="laporan-detail-lkm.php">View</a></td>
                                 </tr>
                                 <tr>
-                                    <td>IK01</td>
-                                    <td>3</td>
-                                    <td>LMS Online</td>
-                                    <td>2021-07-21</td>
-                                    <td>Pengertian Database</td>
-                                    <td>Struktur Database</td>
-                                    <td>Membuat Database</td>
-                                    <td>on Track</td>
-                                    <td>25</td>
+                                    <td class="align-left">IK01</td>
+                                    <td class="align-center">3</td>
+                                    <td class="align-left">LMS Online</td>
+                                    <td class="align-left">2021-07-21</td>
+                                    <td class="align-left">Pengertian Database</td>
+                                    <td class="align-left">Struktur Database</td>
+                                    <td class="align-left">Membuat Database</td>
+                                    <td class="align-left">on Track</td>
+                                    <td class="align-center">25</td>
                                     <td><a href="laporan-detail-lkm.php">View</a></td>
                                 </tr>
 
