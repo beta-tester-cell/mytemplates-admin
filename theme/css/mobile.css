@@ -98,7 +98,7 @@
   }
 
   .wrapper.open .aside {
-    width: 250px;
+    width: 285px;
   }
 
   /* css aside mobile end */
@@ -382,6 +382,10 @@
   .info-krs {
     grid-template-columns: 30% 70%;
   }
+
+  .filter-monitor select {
+    width: 100%;
+  }
   /* css footer start */
   footer {
     padding-left: 0;
@@ -480,7 +484,7 @@
   }
 
   .wrapper.open .aside {
-    width: 250px;
+    width: 285px;
   }
 
   /* css aside mobile end */
@@ -796,6 +800,10 @@
   #send > span {
     display: none;
   }
+  .grid-custom-onecard {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -875,6 +883,10 @@
     position: absolute;
     left: 35%;
     right: 0;
+  }
+  .grid-custom-onecard {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
 

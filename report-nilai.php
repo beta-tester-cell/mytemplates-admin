@@ -22,7 +22,7 @@
                         <div class="card-header">
                             <h6>Report Nilai Komponen</h6>
                         </div>
-                        <div class="my-1">
+                        <div class="form-inputs">
                             <label><b>Tahun Akademik</b></label>
                             <select name="tahunakademik" class="width-100" id="tahunakademik">
                                 <option value="0">-- Pilih Tahun Akademik --</option>
@@ -31,7 +31,7 @@
                                 <option value="2018/2019">2018/2019</option>
                             </select>
                         </div>
-                        <div class="my-1">
+                        <div class="form-inputs">
                             <label><b>Semester</b></label>
                             <select name="semester" class="width-100" id="semester">
                                 <option value="0">-- Pilih Semester --</option>
@@ -42,7 +42,7 @@
                                 <option value="5">5</option>
                             </select>
                         </div>
-                        <div class="my-1">
+                        <div class="form-inputs">
                             <label><b>Jurusan</b></label>
                             <select name="tahunakademik" class="width-100" id="tahunakademik">
                                 <option value="0">-- Pilih Jurusan --</option>

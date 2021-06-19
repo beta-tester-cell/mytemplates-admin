@@ -20,340 +20,347 @@
 
         </div>
 
-        <style type="text/css">
-            .f1{
-                font-size:18px;
-            }
-            .f2{
-                font-size:15x;
-            }
-        </style>
 
-        <div class="py-1" style="margin-top:-40px">
+        <div class="py-1">
 
             <!-- BEGIN TAB CARD -->
 
-             <div class="content-tabs">
+            <div class="content-tabs px-0">
 
-            <!-- Nav pills -->
+                <!-- Nav pills -->
 
-            <ul class="nav nav-pills" id="tabs">
+                <ul class="nav nav-pills" id="tabs">
+                    <li class="nav-item">
+                        <a class="nav-link" id="tab1">
+                            <div class="wizard-wrapper">
+                                <div class="wizard-number">1</div>
+                                <div class="wizard-label">
+                                    <span class="wizard-title">Profile</span>
+                                    <span class="wizard-desc">Biodata Mahasiswa</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="tab2">
+                            <div class="wizard-wrapper">
+                                <div class="wizard-number">2</div>
+                                <div class="wizard-label">
+                                    <span class="wizard-title">Kemahasiswaan</span>
+                                    <span class="wizard-desc">Data Kemahasiswaan</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="tab3">
+                            <div class="wizard-wrapper">
+                                <div class="wizard-number">3</div>
+                                <div class="wizard-label">
+                                    <span class="wizard-title">Dokumen</span>
+                                    <span class="wizard-desc">Dokumen Mahasiswa</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="tab4">
+                            <div class="wizard-wrapper">
+                                <div class="wizard-number">4</div>
+                                <div class="wizard-label">
+                                    <span class="wizard-title">Orang Tua</span>
+                                    <span class="wizard-desc">Data Orang Tua</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
 
-                <li class="nav-item">
-                    <a class="nav-link" id="tab1">
-                        <font class="f1"> Profile</font> 
-                        <br><font class="f2">Biodata Mahasiswa</font>
-                    </a>
-                </li>
-
-                 <li class="nav-item">
-                    <a class="nav-link" id="tab2">
-                        <font class="f1"> Kemahasiswaan</font> 
-                        <br><font class="f2">Data Mahasiswa</font>
-                    </a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" id="tab3">
-                        <font class="f1"> Dokumen</font> 
-                        <br><font class="f2">Dokumen Mahasiswa</font>
-                    </a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" id="tab4">
-                        <font class="f1"> Orang Tua</font> 
-                        <br><font class="f2">Data Data</font>
-                    </a>
-                </li>
-
-            </ul>
 
 
+                <!-- Tab panes -->
 
-            <!-- Tab panes -->
+                <div class="tab-content">
 
-            <div class="tab-content">
+                    <div class="container tab-pane active" id="tab1C">
 
-                <div class="container tab-pane active" id="tab1C">
+                        <div class="form grid-2 grid-gap-1 py-1">
 
-                    <div class="form grid-2 grid-gap-1 py-1">
+                            <!-- BEGIN FORM 1 -->
+                            <div class="card">
 
-                        <!-- BEGIN FORM 1 -->
-                        <div class="card">
+                                <form>
 
-                            <form>
+                                    <div class="form-inputs">
 
-                        <div class="form-inputs">
+                                        <label>ID</label>
 
-                            <label>ID</label>
+                                        <input class="width-100" type="text" name="id" value="1">
 
-                            <input class="width-100" type="text" name="id" value="1">
+                                    </div>
 
-                        </div>
+                                    <div class="form-inputs">
 
-                        <div class="form-inputs">
+                                        <label>NIK</label>
 
-                            <label>NIK</label>
+                                        <input class="width-100" type="text" name="nik" value="31720111330011552">
 
-                             <input class="width-100" type="text" name="nik" value="31720111330011552">
+                                    </div>
 
-                        </div>
+                                    <div class="form-inputs">
 
-                         <div class="form-inputs">
+                                        <label>NIM</label>
 
-                            <label>NIM</label>
+                                        <input class="width-100" type="text" name="nim" value="180442020018">
 
-                             <input class="width-100" type="text" name="nim" value="180442020018">
+                                    </div>
 
-                        </div>
+                                    <div class="form-inputs">
 
-                        <div class="form-inputs">
+                                        <label>Nama Lengkap</label>
 
-                            <label>Nama Lengkap</label>
+                                        <input class="width-100" type="text" name="namalengkap" value="Khaerul Istafa">
 
-                             <input class="width-100" type="text" name="namalengkap" value="Khaerul Istafa">
+                                    </div>
 
-                        </div>
+                                    <div class="form-inputs">
 
-                        <div class="form-inputs">
+                                        <label>Tanggal Lahir</label>
 
-                            <label>Tanggal Lahir</label>
+                                        <input class="width-100" type="date" name="tgl-lahir">
 
-                            <input class="width-100" type="date" name="tgl-lahir">
+                                    </div>
 
-                        </div>
+                                    <div class="form-inputs">
 
-                         <div class="form-inputs">
+                                        <label>Tempat Lahir</label>
 
-                            <label>Tempat Lahir</label>
+                                        <input class="width-100" type="text" name="tmp-lahir" value="Jakarta">
 
-                             <input class="width-100" type="text" name="tmp-lahir" value="Jakarta">
+                                    </div>
 
-                        </div>
+                                    <div class="form-inputs">
 
-                        <div class="form-inputs">
+                                        <label>Jenis Kelamin</label>
 
-                            <label>Jenis Kelamin</label>
+                                        <div class="d-flex flex-start">
+                                            <label class="radio-button"> Laki-laki
+                                                <input type="radio" name="jenis-kelamin" value="" checked>
+                                                <span class="checkmark"></span>
+                                            </label>
 
-                            <div class="d-flex flex-start">
-                             <label class="radio-button"> Laki-laki
-                                <input type="radio" name="jenis-kelamin" value="" checked>
-                                <span class="checkmark"></span>
-                            </label>
+                                            <label class="radio-button"> Perempuan
+                                                <input type="radio" name="jenis-kelamin" value="">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
 
-                            <label class="radio-button"> Perempuan
-                                <input type="radio" name="jenis-kelamin" value="">
-                                <span class="checkmark"></span>
-                            </label>
-                        </div>
+                                    </div>
 
-                        </div>
+                                    <div class="form-inputs">
 
-                        <div class="form-inputs">
+                                        <label>Agama</label>
 
-                            <label>Agama</label>
+                                        <select name="agama" id="agama">
+                                            <option value="">-- Pilih Agama --</option>
+                                            <option value="islam" selected>Islam</option>
+                                            <option value="kristen-katolik">Kristen Katolik</option>
+                                            <option value="kristen-protestan">Kristen Protestan</option>
+                                            <option value="hindu">Hindu</option>
+                                            <option value="budha">Budha</option>
+                                            <option value="kong Hu Cu">Kong Hu Cu</option>
+                                        </select>
 
-                             <select name="agama" id="agama">
-                                <option value="">-- Pilih Agama --</option>
-                                <option value="islam" selected>Islam</option>
-                                <option value="kristen-katolik">Kristen Katolik</option>
-                                <option value="kristen-protestan">Kristen Protestan</option>
-                                <option value="hindu">Hindu</option>
-                                <option value="budha">Budha</option>
-                                <option value="kong Hu Cu">Kong Hu Cu</option>
-                            </select>
+                                    </div>
 
-                        </div>
+                                    <div class="form-inputs">
 
-                        <div class="form-inputs">
+                                        <label>Email</label>
 
-                            <label>Email</label>
+                                        <input class="width-100" type="email" name="email" value="khaeruistafa@gmail.com">
 
-                             <input class="width-100" type="email" name="email" value="khaeruistafa@gmail.com">
+                                    </div>
+
+                            </div>
+
+                            <!-- END FORM 1 -->
+
+                            <!-- BEGIN FORM 2 -->
+                            <div class="card">
+
+                                <div class="form-inputs">
+
+                                    <label>No. Handphone</label>
+
+                                    <input class="width-100" type="text" name="hp" value="084888233554">
+
+                                </div>
+
+                                <div class="form-inputs">
+
+                                    <label>Email Orang Tua</label>
+
+                                    <input class="width-100" type="email" name="email-ortu" value="khaeruistafa@gmail.com">
+
+                                </div>
+
+                                <div class="form-inputs">
+
+                                    <label>No. Handphone Orang Tua</label>
+
+                                    <input class="width-100" type="text" name="hp-ortu" value="086623344520">
+
+                                </div>
+
+                                <div class="form-inputs">
+
+                                    <label>Foto</label>
+
+                                    <input class="width-100" type="file" name="foto">
+
+                                </div>
+
+                                <div class="d-flex flex-center py-1">
+
+                                    <button type="submit" class="btn btn-primary btn-submit mx-1">Submit</button>
+
+                                    <button type="reset" class="btn btn-medium btn-cancel mx-1">Cancel</button>
+
+                                </div>
+
+                                </form>
+                            </div>
+                            <!-- END FORM 2 -->
 
                         </div>
 
                     </div>
 
-                    <!-- END FORM 1 -->
 
-                    <!-- BEGIN FORM 2 -->
-                     <div class="card">
 
-                        <div class="form-inputs">
+                    <div class="container tab-pane" id="tab2C">
 
-                            <label>No. Handphone</label>
+                        <form>
 
-                             <input class="width-100" type="text" name="hp" value="084888233554">
+                            <div class="form-inputs">
 
-                        </div>
+                                <label>Text</label>
 
-                        <div class="form-inputs">
+                                <input class="width-100" type="text" placeholder="Text Here...">
 
-                            <label>Email Orang Tua</label>
+                            </div>
 
-                             <input class="width-100" type="email" name="email-ortu" value="khaeruistafa@gmail.com">
+                            <div class="form-inputs">
 
-                        </div>
+                                <label>Email</label>
 
-                        <div class="form-inputs">
+                                <input type="email" placeholder="Text Here...">
 
-                            <label>No. Handphone Orang Tua</label>
+                            </div>
 
-                             <input class="width-100" type="text" name="hp-ortu" value="086623344520">
+                            <div class="form-inputs">
 
-                        </div>
+                                <label>Number</label>
 
-                        <div class="form-inputs">
+                                <input class="width-100" type="number" placeholder="Text Here...">
 
-                            <label>Foto</label>
+                            </div>
 
-                            <input class="width-100" type="file" name="foto">
+                            <div class="d-flex flex-center py-1">
 
-                        </div>
+                                <button type="submit" class="btn btn-primary btn-submit mx-1">Submit</button>
 
-                        <div class="d-flex flex-center py-1">
+                                <button type="reset" class="btn btn-medium btn-cancel mx-1">Cancel</button>
 
-                            <button type="submit" class="btn btn-primary btn-submit mx-1">Submit</button>
+                            </div>
 
-                            <button type="reset" class="btn btn-medium btn-cancel mx-1">Cancel</button>
+                        </form>
 
-                        </div>
-
-                    </form>
                     </div>
-                    <!-- END FORM 2 -->
 
-                </div>
+                    <div class="container tab-pane" id="tab3C">
 
-                </div>
+                        <form>
 
+                            <div class="form-inputs">
 
+                                <label>Text</label>
 
-                <div class="container tab-pane" id="tab2C">
+                                <input class="width-100" type="text" placeholder="Text Here...">
 
-                    <form>
+                            </div>
 
-                        <div class="form-inputs">
+                            <div class="form-inputs">
 
-                            <label>Text</label>
+                                <label>Email</label>
 
-                            <input class="width-100" type="text" placeholder="Text Here...">
+                                <input type="email" placeholder="Text Here...">
 
-                        </div>
+                            </div>
 
-                        <div class="form-inputs">
+                            <div class="form-inputs">
 
-                            <label>Email</label>
+                                <label>Number</label>
 
-                            <input type="email" placeholder="Text Here...">
+                                <input class="width-100" type="number" placeholder="Text Here...">
 
-                        </div>
+                            </div>
 
-                        <div class="form-inputs">
+                            <div class="d-flex flex-center py-1">
 
-                            <label>Number</label>
+                                <button type="submit" class="btn btn-primary btn-submit mx-1">Submit</button>
 
-                            <input class="width-100" type="number" placeholder="Text Here...">
+                                <button type="reset" class="btn btn-medium btn-cancel mx-1">Cancel</button>
 
-                        </div>
+                            </div>
 
-                        <div class="d-flex flex-center py-1">
+                        </form>
 
-                            <button type="submit" class="btn btn-primary btn-submit mx-1">Submit</button>
+                    </div>
 
-                            <button type="reset" class="btn btn-medium btn-cancel mx-1">Cancel</button>
+                    <div class="container tab-pane" id="tab4C">
 
-                        </div>
+                        <form>
 
-                    </form>
+                            <div class="form-inputs">
 
-                </div>
+                                <label>Text</label>
 
-                <div class="container tab-pane" id="tab3C">
+                                <input class="width-100" type="text" placeholder="Text Here...">
 
-                    <form>
+                            </div>
 
-                        <div class="form-inputs">
+                            <div class="form-inputs">
 
-                            <label>Text</label>
+                                <label>Email</label>
 
-                            <input class="width-100" type="text" placeholder="Text Here...">
+                                <input type="email" placeholder="Text Here...">
 
-                        </div>
+                            </div>
 
-                        <div class="form-inputs">
+                            <div class="form-inputs">
 
-                            <label>Email</label>
+                                <label>Number</label>
 
-                            <input type="email" placeholder="Text Here...">
+                                <input class="width-100" type="number" placeholder="Text Here...">
 
-                        </div>
+                            </div>
 
-                        <div class="form-inputs">
+                            <div class="d-flex flex-center py-1">
 
-                            <label>Number</label>
+                                <button type="submit" class="btn btn-primary btn-submit mx-1">Submit</button>
 
-                            <input class="width-100" type="number" placeholder="Text Here...">
+                                <button type="reset" class="btn btn-medium btn-cancel mx-1">Cancel</button>
 
-                        </div>
+                            </div>
 
-                        <div class="d-flex flex-center py-1">
+                        </form>
 
-                            <button type="submit" class="btn btn-primary btn-submit mx-1">Submit</button>
-
-                            <button type="reset" class="btn btn-medium btn-cancel mx-1">Cancel</button>
-
-                        </div>
-
-                    </form>
-
-                </div>
-
-                <div class="container tab-pane" id="tab4C">
-
-                    <form>
-
-                        <div class="form-inputs">
-
-                            <label>Text</label>
-
-                            <input class="width-100" type="text" placeholder="Text Here...">
-
-                        </div>
-
-                        <div class="form-inputs">
-
-                            <label>Email</label>
-
-                            <input type="email" placeholder="Text Here...">
-
-                        </div>
-
-                        <div class="form-inputs">
-
-                            <label>Number</label>
-
-                            <input class="width-100" type="number" placeholder="Text Here...">
-
-                        </div>
-
-                        <div class="d-flex flex-center py-1">
-
-                            <button type="submit" class="btn btn-primary btn-submit mx-1">Submit</button>
-
-                            <button type="reset" class="btn btn-medium btn-cancel mx-1">Cancel</button>
-
-                        </div>
-
-                    </form>
+                    </div>
 
                 </div>
 
             </div>
-
-        </div>
 
             <!-- END TAB CARD -->
         </div>

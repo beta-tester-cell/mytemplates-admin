@@ -8,7 +8,7 @@
                     <h6>Report Lembar Kegiatan Mengajar</h6>
                 </div>
 
-                <div class="d-flex flex-space-between">
+                <div class="d-flex flex-space-between flex-change grid-gap-1">
                     <div class="filter-monitor">
                         <select name="tahunakademik" id="tahunakademik">
                             <option value="0">-- Pilih Tahun Akademik --</option>

@@ -144,12 +144,6 @@ h6 {
   font-family: var(--secondary-font);
 }
 
-.subtitle-text {
-  font-size: 14px;
-  font-family: var(--secondary-font);
-  color: rgb(194, 194, 194);
-  font-style: italic;
-}
 
 ul {
   list-style: none;
@@ -206,9 +200,9 @@ img {
 
   margin: auto;
 
-  padding-left: 3rem;
+  padding-left: 2rem;
 
-  padding-right: 3rem;
+  padding-right: 2rem;
 }
 
 .height-100 {
@@ -338,6 +332,7 @@ img {
 
 .flex-center {
   justify-content: center;
+  justify-items: center;
   align-items: center;
 }
 
@@ -443,9 +438,9 @@ img {
 
   z-index: 1;
 
-  width: calc(100% - 250px);
+  width: calc(100% - 300px);
 
-  margin-left: 250px;
+  margin-left: 300px;
 
   transition: 0.3s;
 }
@@ -553,13 +548,33 @@ img {
 
   z-index: 1;
 
-  width: 250px;
+  width: 300px;
 
   transition: 0.3s;
 
   transition-property: width;
 
   overflow-y: auto;
+}
+
+/* width */
+.aside-menu-header::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.aside-menu-header::-webkit-scrollbar-track {
+  background: #00649d;
+}
+
+/* Handle */
+.aside-menu-header::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+}
+
+/* Handle on hover */
+.aside-menu-header::-webkit-scrollbar-thumb:hover {
+  background: #d9d9d9;
 }
 
 .logo {
@@ -764,9 +779,11 @@ img {
   overflow: hidden;
 
   transition: max-height 0.2s;
+
+  padding-left: 1rem;
 }
 
-.submenu-menu-item .side-menu-item a::before {
+/* .submenu-menu-item .side-menu-item a::before {
   content: "\2212";
 
   position: relative;
@@ -774,10 +791,16 @@ img {
   float: left;
 
   padding-right: 15px;
+} */
+
+.submenu-menu-item .side-menu-item a .menu-icon-child {
+  position: relative;
+  font-size: 1rem;
+  padding-right: 5px;
 }
 
 .wrapper.collapse .aside {
-  width: 70px;
+  width: 90px;
 }
 
 .wrapper.collapse .aside:hover {
@@ -826,9 +849,9 @@ img {
 
 /* css content */
 .content {
-  margin-left: 250px;
+  margin-left: 300px;
   margin-top: 100px;
-  width: calc(100% - 250px);
+  width: calc(100% - 300px);
   transition: 0.3s;
 }
 
@@ -1026,7 +1049,7 @@ img {
 
   top: 5px;
 
-  color: #a3a3a3;
+  color: #8b8585;
 }
 
 .filter-wrapper select {
@@ -1351,7 +1374,7 @@ input[type="file"] {
 
   color: #fff;
 
-  border-radius: 30px;
+  border-radius: 10px;
 
   height: 115px;
 }
@@ -1374,7 +1397,7 @@ input[type="file"] {
 
   color: #000;
 
-  border-radius: 30px;
+  border-radius: 10px;
 
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
 

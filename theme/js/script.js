@@ -612,7 +612,7 @@ var EWSKRS = document.getElementById("getEWSKRS");
         data: [20, 40, 30, 90, 80, 80, 100], // Data yang berasal dari database
         lineTension: 0,
         fill: true,
-        borderColor: 'rgb(0, 0, 0)',
+        borderColor: 'rgb(30, 66, 105)',
         yAxisID: 'left-axis'
     };
 
