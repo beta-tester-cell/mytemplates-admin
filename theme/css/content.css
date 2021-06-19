@@ -382,3 +382,18 @@
     display: grid;
     grid-template-columns: 1fr 3fr;
 }
+
+grid-custom-card.width-100 {
+  width: 100%;
+}
+
+.grid-text {
+  display: grid;
+  grid-template-columns: 25% 20%;
+}
+
+.border-text{
+  border: 1px #006400 ridge;
+   padding: 5px; 
+   text-align: center;
+}
