@@ -217,6 +217,11 @@
                                         <span>List Rencana Bayar</span>
                                     </a>
                                 </li>
+                                 <li class="side-menu-item">
+                                    <a href="form-pembayaran-kegiatan.php">
+                                        <span>Pembayaran Kegiatan</span>
+                                    </a>
+                                </li>
                             </ul>
                         </li>
                         <li class="side-menu-item">
