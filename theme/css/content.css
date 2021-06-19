@@ -1,4 +1,4 @@
-.width-100 {
+grid-custom-card.width-100 {
   width: 100%;
 }
 
@@ -273,6 +273,11 @@
 .grid-custom-card {
   display: grid;
   grid-template-columns: 40% 60%;
+}
+
+.grid-custom-card-flip {
+  display: grid;
+  grid-template-columns: 60% 40%;
 }
 
 .grid-custom-onecard {

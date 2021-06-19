@@ -33,24 +33,11 @@
                                 <option value="product_id">Teknologi Komputer</option>
                             </select>
                         </div>
-                        
-                        <div class="my-1"></div>
-
-                        <div class="d-flex flex-center filter-wrapper">
-                            <select style="width: 100px;" name="filter">
-                                <option value="10">10</option>
-                                <option value="20">20</option>
-                                <option value="30">30</option>
-                                <option value="40">40</option>
-                            </select>
-                            <span class="info-filter">records per page</span>
-                        </div>
                     </div>
                 </div>
 
-
                 <div class="table-responsive">
-                    <table class="table-list">
+                    <table id="datatable" class="table-list">
                         <thead>
                             <tr>
                                 <th class="text-center">Semester</th>
@@ -167,4 +154,4 @@
     </div>
 </div>
 
-<?php include('footer.php') ?>
+<?php include('footer-datatable.php') ?>
