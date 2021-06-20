@@ -1,4 +1,7 @@
-grid-custom-card.width-100 {
+.width-100 {
+  width: 100%;
+}
+.grid-custom-card.width-100 {
   width: 100%;
 }
 
@@ -407,8 +410,18 @@ grid-custom-card.width-100 {
 }
 
 .subtitle-text {
-    font-size: 14px;
-    font-family: var(--secondary-font);
-    color: rgb(136 133 133);
-    font-style: italic;
-  }
+  font-size: 14px;
+  font-family: var(--secondary-font);
+  color: rgb(136 133 133);
+  font-style: italic;
+}
+
+.persentage-wrapper {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.persentage-text {
+  font-size: 1.75rem;
+  font-weight: 600;
+}

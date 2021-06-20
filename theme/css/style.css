@@ -144,7 +144,6 @@ h6 {
   font-family: var(--secondary-font);
 }
 
-
 ul {
   list-style: none;
   margin: 0;
@@ -187,10 +186,34 @@ input[type="number"] {
   appearance: textfield;
 }
 
+progress {
+  width: 100%;
+}
+
 img {
   max-width: var(--max-width);
 
   width: 100%;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--light-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-color);
 }
 
 .container {
@@ -875,10 +898,9 @@ img {
 }
 
 .card-border {
-  padding: 10 1rem;
   margin-bottom: 1rem;
   border: 3px solid var(--medium-color);
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .img-circle {
@@ -899,6 +921,11 @@ img {
   margin-bottom: 0;
 
   line-height: 2.5rem;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 1.1rem;
 }
 
 /* css card end */
@@ -2513,6 +2540,54 @@ table.dataTable.no-footer {
 }
 
 /*css message page end*/
+
+/* css progress bar start */
+.progress-bar-primary > progress {
+  width: 100%;
+  height: 13px;
+  border-radius: 10px;
+}
+.progress-bar-primary > progress::-webkit-progress-bar {
+  background: rgba(30, 66, 105, 0.3);
+  border-radius: 10px;
+}
+
+.progress-bar-primary > progress::-webkit-progress-value {
+  background: var(--primary-color);
+  border-radius: 10px;
+}
+
+.progress-bar-secondary > progress {
+  width: 100%;
+  height: 13px;
+  border-radius: 10px;
+}
+.progress-bar-secondary > progress::-webkit-progress-bar {
+  background: rgba(75, 192, 192, 0.3);
+  border-radius: 10px;
+}
+
+.progress-bar-secondary > progress::-webkit-progress-value {
+  background: var(--secondary-color);
+  border-radius: 10px;
+}
+
+.progress-bar-danger > progress {
+  width: 100%;
+  height: 13px;
+  border-radius: 10px;
+}
+.progress-bar-danger > progress::-webkit-progress-bar {
+  background: rgba(232, 90, 103, 0.3);
+  border-radius: 10px;
+}
+
+.progress-bar-danger > progress::-webkit-progress-value {
+  background: #e85a67;
+  border-radius: 10px;
+}
+
+/* css progress bar end */
 
 footer {
   padding-left: 265px;

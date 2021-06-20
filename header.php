@@ -501,7 +501,12 @@
                                 <span class="menu-icon"><i class="fa fa-chart-bar"></i></span>
                                 <span class="menu-title">Chart</span>
                             </a>
-
+                        </li>
+                        <li class="side-menu-item">
+                            <a href="progress-bar.php">
+                                <span class="menu-icon"><i class="fas fa-spinner"></i></span>
+                                <span class="menu-title">Progress Bar</span>
+                            </a>
                         </li>
                     </ul>
                 </div>

@@ -680,3 +680,258 @@ $(document).ready(function() {
     } );
 } );
 // END
+
+
+// type chart line start
+
+$(document).ready(function() {
+    var ChartLine = document.getElementById("ChartLine");
+
+    Chart.defaults.global.defaultFontFamily = "helveticaregular";
+    Chart.defaults.global.defaultFontSize = 18;
+
+    // Start Collection Data
+
+
+    var dataFirst = {
+        type:'line',
+        label: "Graphics", // Penamanaan Data Tersebut
+        data: [3250, 2900, 2150, 2250, 1700, 800], // Data yang berasal dari database
+        lineTension: 0,
+        fill: false,
+        borderColor: 'rgba(0, 66, 105, 1)',
+        backgroundColor:'rgba(0, 66, 105, 0.2)',
+        yAxisID: 'left-axis'
+    };
+
+    
+    var dataSecond = {
+        type:'line',
+        label: "Presentation", // Penamanaan Data Tersebut
+        data: [2850, 2750, 2400, 2300, 1800, 900], // Data yang berasal dari database
+        lineTension: 0,
+        fill: true, 
+        borderColor: 'rgba(75, 192, 192, 1)',
+        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+        yAxisID: 'right-axis'
+    };
+
+
+    var MergeData = {
+        labels: ["10", "20", "30", "40", "50", "60"], // Label horizontal
+        datasets: [dataFirst,dataSecond]
+    };
+
+    // End Collection Data
+
+    // Start Option Line Chart
+
+    var chartOptions = {
+        legend: {
+            display: true,
+            position: 'top',
+            labels: {
+                boxWidth: 50,
+                fontColor: 'black',
+                fontSize: 12
+            }
+        },
+        title: {display: true},
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+            xAxes: [{
+                display: true, 
+                scaleFontSize: 12 , 
+                ticks: {
+                fontSize: 14 // Mengubah Font X axis (Vertical)
+            }, 
+            stacked:true
+        }],
+        yAxes: [{
+         ticks: {
+               fontSize: 14, // Mengubah Font Y axis (Vertical)
+               fontColor : 'rgba(0, 66, 105,1)'
+           },
+           type:'linear',
+           id:'left-axis',
+           display: true,
+           position: 'left',
+           scaleLabel: {display: true, labelString: 'Range',fontColor : 'rgba(0, 66, 105,1)' }
+       },{
+        ticks: {
+              fontSize: 14, // Mengubah Font Y axis (Vertical)
+              fontColor : 'rgba(75, 192, 192, 1)'
+          },
+          type:'linear',
+          id:'right-axis',
+          display: false,
+          position: 'right',
+          stacked:false,
+          scaleLabel: {display: false, labelString: 'Presentation',fontColor : 'rgba(75, 192, 192, 1)' },
+          gridLines: {drawOnChartArea:false}
+      }]
+   }
+};
+    // End Option Line Chart
+
+    // Action Line Chart
+    var ChartLine = new Chart(ChartLine, {
+        type: 'line',
+        data: MergeData,
+        options: chartOptions
+    });
+
+} );
+
+// type chart line end
+
+
+// type chart bar start
+$(document).ready(function() {
+    var chartbar = document.getElementById("ChartBar");
+
+    Chart.defaults.global.defaultFontFamily = "helveticaregular";
+    Chart.defaults.global.defaultFontSize = 18;
+
+// Start Collection Data
+
+var dataFirst = {
+    label: "Presentation 1", // Penamanaan Data Tersebut
+    data: [53, 115, 78, 57, 47, 89,60], // Data yang berasal dari database
+    lineTension: 0,
+    fill: true,
+    borderColor: 'rgb(30, 66, 105)',
+    backgroundColor: 'rgb(30, 66, 105)'
+    // yAxisID: 'left-axis'
+};
+
+var dataSecond = {
+    label: "presentation 2", // Penamanaan Data Tersebut
+    data: [42, 104, 77, 50, 32, 98,50], // Data yang berasal dari database
+    lineTension: 0,
+    fill: true, 
+    borderColor: 'rgba(75, 192, 192, 1)',
+    backgroundColor: 'rgba(75, 192, 192, 0.6)',
+    // yAxisID: 'right-axis'
+};
+
+var MergeData = {
+    labels: ["10", "20", "30", "40", "50", "60"], // Label horizontal
+    datasets: [dataFirst, dataSecond]
+};
+
+// End Collection Data
+
+// Start Option Line Chart
+
+var chartOptions = {
+    legend: {
+        display: true,
+        position: 'bottom',
+        labels: {
+            boxWidth: 50,
+            fontColor: 'black',
+            fontSize: 12
+        }
+    },
+    title: {display: true},
+    // RESPONSIVE CHART
+    responsive: true,
+    maintainAspectRatio: false,
+    // START MULTI AXIS
+    scales: {
+        xAxes: [{
+            scaleFontSize: 12 , 
+            ticks: {
+                fontSize: 14 // Mengubah Font X axis (Vertical)
+            }, 
+        }]
+    }
+};
+
+
+var barchart = new Chart(chartbar, {
+    type: 'bar',
+    data: MergeData,
+    options: chartOptions
+});
+} );
+
+// type chart bar end
+
+// type chart pie start
+$(document).ready(function() {
+    var chartpie = document.getElementById("ChartPie");
+
+    Chart.defaults.global.defaultFontFamily = "helveticaregular";
+    Chart.defaults.global.defaultFontSize = 18;
+
+// Start Collection Data
+
+var MergeData = {
+    labels: ['Primary','Secondary','Third'], // Label horizontal
+    datasets: [{
+        data: [10,20,30], //data dari database
+        backgroundColor: ['rgb(30, 66, 105)','rgba(75, 192, 192,1)','rgba(232, 90, 103, 1)'] 
+    }]
+};
+
+// End Collection Data
+
+// Start Option Line Chart
+
+var chartOptions = {
+    title: {display: true},
+    // RESPONSIVE CHART
+    responsive: true,
+    maintainAspectRatio: false,
+
+
+};
+var pie = new Chart(chartpie, {
+    type: 'pie',
+    data: MergeData,
+    options: chartOptions
+});
+} );
+
+// type chart pie end
+
+// type chart doughtnuts start
+
+$(document).ready(function() {
+    var donut = document.getElementById("ChartDoughnut");
+
+    Chart.defaults.global.defaultFontFamily = "helveticaregular";
+    Chart.defaults.global.defaultFontSize = 18;
+
+// Start Collection Data
+
+var MergeData = {
+    labels: ['Primary','Secondary','Third'], // Label horizontal
+    datasets: [{
+        data: [10,20,30], //data dari database
+        backgroundColor: ['rgb(30, 66, 105)','rgba(75, 192, 192,1)','rgba(232, 90, 103, 1)'] 
+    }]
+};
+
+// End Collection Data
+
+// Start Option Line Chart
+
+var chartOptions = {
+    title: {display: true},
+    // RESPONSIVE CHART
+    responsive: true,
+    maintainAspectRatio: false,
+
+
+};
+var doughtnut = new Chart(donut, {
+    type: 'doughnut',
+    data: MergeData,
+    options: chartOptions
+});
+} );
+// type chart doughtnuts end
