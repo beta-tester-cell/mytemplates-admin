@@ -216,6 +216,12 @@
                                         <span>Realisasi Kewajiban Cabang</span>
                                     </a>
                                 </li>
+                                <li class="side-menu-item">
+                                    <a href="transaksi-va.php" class="d-flex">
+                                        <span class="menu-icon-child"><i class="fa fa-donate"></i></span>
+                                        <span>Transaksi VA</span>
+                                    </a>
+                                </li>
                             </ul>
                         </li>
                         <li class="side-menu-item">
@@ -315,6 +321,28 @@
                                         <span>Kelengkapan Biodata</span>
                                     </a>
                                 </li>
+
+                                <li class="side-menu-item">
+                                    <a href="jadwal-ujian-semester.php">
+                                        <span class="menu-icon-child"><i class="fa fa-university"></i></span>
+                                        <span>Ujian Semester</span>
+                                    </a>
+                                </li>
+
+                                <li class="side-menu-item">
+                                    <a href="form-ebook-kurikulum.php">
+                                        <span class="menu-icon-child"><i class="fa fa-university"></i></span>
+                                        <span>E-Book</span>
+                                    </a>
+                                </li>
+
+                                <li class="side-menu-item">
+                                    <a href="rekap-kehadiran.php">
+                                        <span class="menu-icon-child"><i class="fa fa-university"></i></span>
+                                        <span>Rekap Kehadiran</span>
+                                    </a>
+                                </li>
+
                             </ul>
                         </li>
                         <li class="side-menu-item">
