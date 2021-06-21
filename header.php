@@ -363,6 +363,20 @@
                                         <span>Chat Message</span>
                                     </a>
                                 </li>
+
+                                <hr>
+                                <li class="side-menu-item">
+                                    <a href="kegiatan-perkuliahan.php">
+                                        <span class="menu-icon-child"><i class="fa fa-user"></i></span>
+                                        <span>Proses Perkuliahan</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="nilai-mhs.php">
+                                        <span class="menu-icon-child"><i class="fa fa-user"></i></span>
+                                        <span>Aktifitas Mahasiswa</span>
+                                    </a>
+                                </li>
                             </ul>
                         </li>
                         <li class="side-menu-item">
