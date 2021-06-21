@@ -34,7 +34,7 @@
                     <span class="text-mature">
                         <h6 style="font-size: 15px;"><i>Form Nilai - Tugas</i></h6>
                     </span>
-                    <table class="table-list">
+                    <table class="table-list" id="datatable">
                         <thead>
                             <tr>
                                 <th>NIM</th>
@@ -103,7 +103,7 @@
                     </div> -->
                     <!-- == End -->
 
-                    <table class="table-list">
+                    <table class="table-list" id="datatable2">
                         <thead>
                             <tr>
                                 <th>NIM</th>
