@@ -5,7 +5,7 @@
 
         <div class="py-1">
             <div class="card">
-                <h6>Basis Data &rarr; IK_REGuler 01</h6>
+                <h6 style="font-size:22px;">Nama Mata Kuliah &rarr; Kode Kelas</h6>
             </div>
         </div>
         
@@ -53,16 +53,16 @@
                             </a>
                         </div>
                         <div class="my-1 grid-1">
-                            <h6 style="font-size: 18px;">Tugas & Formatif :</h6>
+                            <h6 style="font-size: 18px;">Tugas & Formatif :</h6>                            
                             <a href="#" class="text-danger">
                                 <span class="menu-icon"><i class="fa fa-file-text"></i></span>
-                                <b>&nbsp;Latihan-1</b>
+                                <b>&nbsp;Tugas - Basis Data</b>
                             </a>
                         </div>
 
                         <div class="d-flex flex-center py-1">
-                            <a href="#" class="btn btn-secondary mx-1 width-100">Mulai</a>
-                            <a href="detail-lkm-dosen.php" class="btn btn-medium mx-1  width-100">Verifikasi Absensi</a>
+                            <a href="#" class="align-center btn-status btn-secondary btn-submit mx-1 width-100">Mulai</a>
+                            <a href="detail-lkm-dosen.php" class="align-center btn-status btn-medium btn-submit mx-1 width-100">Verifikasi Kehadiran Mhs</a>
                         </div>
                     </div>
 
