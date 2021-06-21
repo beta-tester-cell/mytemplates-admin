@@ -367,6 +367,20 @@
                         </li>
                         <li class="side-menu-item">
                             <a href="#" class="menu-collaps">
+                                <span class="menu-icon"><i class="fa fa-users"></i></span>
+                                <span class="menu-title">Mahasiswa</span>
+                            </a>
+                            <ul class="submenu-menu-item">
+                                <li class="side-menu-item">
+                                    <a href="jadual-kuliah.php">
+                                        <span class="menu-icon-child"><i class="fa fa-users"></i></span>
+                                        <span class="menu-title">Jadwal Kuliah</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="side-menu-item">
+                            <a href="#" class="menu-collaps">
                                 <span class="menu-icon"><i class="fa fa-files-o"></i></span>
                                 <span class="menu-title">Report</span>
                             </a>

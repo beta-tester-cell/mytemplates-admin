@@ -18,7 +18,7 @@
                 </div>
                 <div class="card-header form-inputs my-2">
                     <div class="form d-flex grid-4 grid-gap-1 py-1">
-                         <div class="input-group">
+                        <div class="input-group">
                             <select name="tahun-akademik" id="tahun-akademik">
                                 <option value="">-- Tahun Akademik --</option>
                                 <option value="2019/2020">2019/2020</option>
@@ -52,53 +52,53 @@
                     </div>
                 </div>
                 <div class="table-responsive">
-                    <table id="datatable-jadwal-ujian-semester" class="table-list">
+                    <table id="datatable" class="table-list">
                         <thead>
                             <tr>
-                                <th class="dt-center">No</th>
+                                <th>No</th>
                                 <th>Mata Kuliah</th>
-                                <th class="dt-center">SKS</th>
-                                <th class="dt-center">Smt</th>
+                                <th>SKS</th>
+                                <th>Smt</th>
                                 <th>Kelas</th>
-                                <th class="dt-center">Ruang</th>
-                                <th class="dt-center">Tanggal</th>
-                                <th class="dt-center">Durasi</th>
-                                <th class="dt-center">Soal</th>
-                                <th class="dt-center">Jawaban</th>
-                                <th class="dt-center">Status</th>
-                                <th class="dt-center">&nbsp;</th>
+                                <th>Ruang</th>
+                                <th>Tanggal</th>
+                                <th>Durasi</th>
+                                <th>Soal</th>
+                                <th>Jawaban</th>
+                                <th>Status</th>
+                                <th>&nbsp;</th>
                             </tr>
                         </thead>
                         <tbody>
 
                             <tr>
-                                <td class="dt-center">1</td>
+                                <td>1</td>
                                 <td>Pendidikan Agama</td>
-                                <td class="dt-center">4</td>
-                                <td class="dt-center">1</td>
-                                <td class="dt-center">IK_Reguler 01</td>
-                                <td class="dt-center">R.30</td>
-                                <td class="dt-center">20 Juni 2021</td>
-                                <td class="dt-center">08.00 - 09.45</td>
-                                <td class="dt-center">-</td>
-                                <td class="dt-center">-</td>
-                                <td class="dt-center">Selesai</td>
-                                <td class="dt-center">-</td>
+                                <td>4</td>
+                                <td>1</td>
+                                <td>IK_Reguler 01</td>
+                                <td>R.30</td>
+                                <td>20 Juni 2021</td>
+                                <td>08.00 - 09.45</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>Selesai</td>
+                                <td>-</td>
                             </tr>
 
                             <tr>
-                                <td class="dt-center">2</td>
+                                <td>2</td>
                                 <td>Basis Data</td>
-                                <td class="dt-center">4</td>
-                                <td class="dt-center">1</td>
-                                <td class="dt-center">IK_Reguler 02</td>
-                                <td class="dt-center">LMS-Online</td>
-                                <td class="dt-center">21 Juni 2021</td>
-                                <td class="dt-center">10.00 - 12.00</td>
-                                <td class="dt-center"><a href="#"><i class="far fa-download"></i></a></td>
-                                <td class="dt-center">-</td>
-                                <td class="dt-center">Berlangsung</td>
-                                <td class="dt-center"><a href="#"><i class="far fa-upload"></i></a></td>
+                                <td>4</td>
+                                <td>1</td>
+                                <td>IK_Reguler 02</td>
+                                <td>LMS-Online</td>
+                                <td>21 Juni 2021</td>
+                                <td>10.00 - 12.00</td>
+                                <td><a href="#"><i class="fa fa-download"></i></a></td>
+                                <td>-</td>
+                                <td>Berlangsung</td>
+                                <td><a href="#"><i class="fa fa-upload"></i></a></td>
                             </tr>
 
                         </tbody>

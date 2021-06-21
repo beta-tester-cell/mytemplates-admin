@@ -54,14 +54,14 @@
 
                         <div class="check-all-btn" style="margin-top:8px">
                             <input type="checkbox" name="check-all" id="check-all">
-                           <label><b>Check All</b></label>
+                            <label><b>Check All</b></label>
                         </div>
 
                         <button class="btn btn-submit btn-primary" style="width: 150px;padding:0.5rem" id="button-view">Simpan</button>
                     </div>
 
                     <div class="table-responsive">
-                        <table class="basic-table display-pa">
+                        <table class="basic-table" id="datatable">
                             <thead>
                                 <tr>
                                     <th class="align-left" colspan="2">No</th>
@@ -145,13 +145,17 @@
                         </table>
 
                         <div class="check-all-btn" style="margin-top:8px">
-                           <label><b>Total SKS : </b></label>
+                            <label><b>Total SKS : </b></label>
                             <label><b>22 SKS</b></label>
                         </div>
 
                         <div class="check-all-btn" style="margin-top:8px;float:right;">
-                           <label><b><font color="red">Batas Waktu Pengisian : </font></b></label>
-                            <label><b><font color="red">2021-07-20</font></b></label>
+                            <label><b>
+                                    <font color="red">Batas Waktu Pengisian : </font>
+                                </b></label>
+                            <label><b>
+                                    <font color="red">2021-07-20</font>
+                                </b></label>
                         </div>
 
                     </div>

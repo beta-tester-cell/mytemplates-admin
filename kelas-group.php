@@ -35,10 +35,10 @@
 
                     <div class="py-1">
                         <a class="btn btn-link modal-button text-primary" data-toggle="modal" data-target="#formKelasGroup">
-                            <span>List Mahasiswa  <i class="fa fa-plus"></i></span>
+                            <span>List Mahasiswa <i class="fa fa-plus"></i></span>
                         </a>
                         <div class="table-responsive">
-                            <table class="basic-table display-kelas">
+                            <table class="basic-table" id="datatable">
                                 <thead>
                                     <tr>
                                         <th class="align-left">No</th>
@@ -99,7 +99,7 @@
 
                 <div class="py-1">
                     <div class="table-responsive">
-                        <table class="basic-table display-kelas">
+                        <table class="table-list" id="datatable2">
                             <thead>
                                 <tr>
                                     <th class="align-left">No</th>

@@ -41,13 +41,13 @@
 
             <div class="card">
                 <div class="card-header d-flex flex-space-between">
-                    <h6>List Nilai Komponen Mahasiswa </h6>
+                    <h6>List E-book </h6>
 
                 </div>
 
 
                 <div class="table-responsive">
-                    <table class="basic-table">
+                    <table class="basic-table" id="datatable">
                         <thead>
                             <tr>
                                 <th class="dt-center">No</th>
@@ -58,7 +58,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            
+
                             <tr>
                                 <td class="dt-center">1</td>
                                 <td>[9892201] Basis Data</td>
@@ -110,10 +110,10 @@
                         </tbody>
                     </table>
 
-                     <div style="margin-top:8px">
-                           <label><b>Total SKS : </b></label>
-                            <label><b>22 SKS</b></label>
-                        </div>
+                    <div style="margin-top:8px">
+                        <label><b>Total SKS : </b></label>
+                        <label><b>22 SKS</b></label>
+                    </div>
 
                 </div>
             </div>

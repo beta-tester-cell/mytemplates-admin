@@ -26,7 +26,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="card-header d-flex flex-start my-2">
                     <div class="grid-3 grid-gap-1 py-1">
                         <div class="detail-wrapper mx-1">
@@ -70,7 +70,7 @@
                                 <span><strong>Tahun Akademik :</strong></span>
                                 <span class="text-mature">2020/2021</span>
                             </div>
-                        </div>                        
+                        </div>
                         <div class="detail-wrapper mx-1">
                             <div class="grid-1">
                                 <span><strong>Semester :</strong></span>
@@ -86,9 +86,9 @@
                     </div>
                 </div>
 
-                
+
                 <div class="table-responsive">
-                    <table class="basic-table">
+                    <table id="datatable" class="table-list">
                         <thead>
                             <tr>
                                 <th class="align-center">NIM</th>
@@ -143,7 +143,7 @@
                 </div>
             </div>
         </div>
-        
+
     </div>
 </div>
 
@@ -158,7 +158,7 @@
             </div>
             <form>
                 <div class="modal-body" style="height: 150px;">
-                    <h6 style="text-align:center; ">Apakah anda yakin??</h6> 
+                    <h6 style="text-align:center; ">Apakah anda yakin??</h6>
                     <h6 style="font-size: 20px; text-align:center; line-height: inherit;"> Melakukan Verifikasi Berarti Anda Mengirimkan Data Absensi Kepada Bagian Pendidikan</h6>
                 </div>
                 <div class="modal-footer">

@@ -36,7 +36,7 @@
                 </div>
 
                 <div class="table-responsive">
-                    <table class="basic-table display">
+                    <table class="table-list" id="datatable2">
                         <thead>
                             <tr>
                                 <th>No</th>

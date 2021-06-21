@@ -73,7 +73,7 @@
                     </div>
 
                     <div class="table-responsive">
-                        <table class="basic-table display-pa">
+                        <table class="basic-table" id="datatable">
                             <thead>
                                 <tr>
                                     <th class="align-left">Nama Dosen</th>

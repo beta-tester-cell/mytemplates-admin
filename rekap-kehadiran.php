@@ -20,52 +20,52 @@
                     <div class="form d-flex grid-4 grid-gap-1 py-1">
 
                         <div class="my-1">
-                         <div class="input-group">
-                            <select name="tahun-akademik" id="tahun-akademik">
-                                <option value="">-- Tahun Akademik --</option>
-                                <option value="2019/2020">2019/2020</option>
-                                <option value="2020/2021" selected>2020/2021</option>
-                                <option value="2021/2022">2021/2022</option>
-                            </select>
+                            <div class="input-group">
+                                <select name="tahun-akademik" id="tahun-akademik">
+                                    <option value="">-- Tahun Akademik --</option>
+                                    <option value="2019/2020">2019/2020</option>
+                                    <option value="2020/2021" selected>2020/2021</option>
+                                    <option value="2021/2022">2021/2022</option>
+                                </select>
+                            </div>
                         </div>
-                    </div>
 
                         <div class="my-1">
-                        <div class="input-group">
-                            <select name="semester" id="semester">
-                                <option value="">-- Pilih Semester --</option>
-                                <option value="1" selected>Semester 1</option>
-                                <option value="2">Semester 2</option>
-                                <option value="3">Semester 3</option>
-                                <option value="4">Semester 4</option>
-                                <option value="5">Semester 5</option>
-                                <option value="6">Semester 6</option>
-                                <option value="7">Semester 7</option>
-                                <option value="8">Semester 8</option>
-                            </select>
+                            <div class="input-group">
+                                <select name="semester" id="semester">
+                                    <option value="">-- Pilih Semester --</option>
+                                    <option value="1" selected>Semester 1</option>
+                                    <option value="2">Semester 2</option>
+                                    <option value="3">Semester 3</option>
+                                    <option value="4">Semester 4</option>
+                                    <option value="5">Semester 5</option>
+                                    <option value="6">Semester 6</option>
+                                    <option value="7">Semester 7</option>
+                                    <option value="8">Semester 8</option>
+                                </select>
+                            </div>
                         </div>
-                    </div>
 
                         <div class="my-1">
                             <input type="date" name="tanggal">
                         </div>
 
                         <div class="my-1">
-                        <div class="input-group">
-                            <select name="matakuliah" id="matakuliah">
-                                <option value="">-- Pilih Mata Kuliah --</option>
-                                <option value="Aplikasi Komputer 1">Aplikasi Komputer 1</option>
-                                <option value="Aplikasi Komputer 2">Aplikasi Komputer 2</option>
-                                <option value="Basis Data">Basis Data</option>
-                                <option value="Pemrograman PHP">Pemrograman PHP</option>
-                            </select>
+                            <div class="input-group">
+                                <select name="matakuliah" id="matakuliah">
+                                    <option value="">-- Pilih Mata Kuliah --</option>
+                                    <option value="Aplikasi Komputer 1">Aplikasi Komputer 1</option>
+                                    <option value="Aplikasi Komputer 2">Aplikasi Komputer 2</option>
+                                    <option value="Basis Data">Basis Data</option>
+                                    <option value="Pemrograman PHP">Pemrograman PHP</option>
+                                </select>
+                            </div>
                         </div>
-                    </div>
 
                     </div>
                 </div>
                 <div class="table-responsive">
-                    <table id="datatable-jadwal-ujian-semester" class="table-list">
+                    <table id="datatable" class="table-list">
                         <thead>
                             <tr>
                                 <th>Kelas</th>
@@ -96,7 +96,7 @@
                                 <td class="dt-center">08.00 - 09.45</td>
                                 <td class="dt-center">28</td>
                                 <td class="dt-center">1</td>
-                                <td class="dt-center"><a href="rekap-kehadiran-detail.php" target="_blank">View</a></td>
+                                <td class="dt-center"><a href="rekap-kehadiran-detail.php">View</a></td>
                             </tr>
 
                             <tr>
@@ -111,7 +111,7 @@
                                 <td class="dt-center">08.00 - 09.45</td>
                                 <td class="dt-center">28</td>
                                 <td class="dt-center">1</td>
-                                <td class="dt-center"><a href="rekap-kehadiran-detail.php" target="_blank">View</a></td>
+                                <td class="dt-center"><a href="rekap-kehadiran-detail.php">View</a></td>
                             </tr>
 
                         </tbody>

@@ -51,11 +51,11 @@
                                 <option value="kode_mk">Apilkasi Komputer 2</option>
                                 <option value="kode_mk">SQL Server</option>
                             </select>
-                        </div>  
+                        </div>
                     </div>
                 </div>
                 <div class="table-responsive">
-                    <table class="basic-table display">
+                    <table class="basic-table" id="datatable">
                         <thead>
                             <tr>
                                 <th>Nama Dosen</th>
@@ -112,7 +112,7 @@
                 </div>
             </div>
         </div>
-        
+
     </div>
 </div>
 

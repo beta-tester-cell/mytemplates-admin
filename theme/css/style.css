@@ -2589,9 +2589,7 @@ table.dataTable.no-footer {
 
 /* css progress bar end */
 
-footer {
-  padding-left: 265px;
-
+footer {        
   background-color: var(--light-color);
 }
 

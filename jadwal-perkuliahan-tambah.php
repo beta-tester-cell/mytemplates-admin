@@ -166,75 +166,75 @@
 
 
                 <div class="table-responsive">
-                        <table class="basic-table display-pa">
-                            <thead>
-                                <tr>
-                                    <th class="align-left">Kampus</th>
-                                    <th class="align-left">Jurusan</th>
-                                    <th class="align-left">Smt</th>
-                                    <th class="align-left">Mata Kuliah</th>
-                                    <th class="align-left">SKS</th>
-                                    <th class="align-left">Kelas</th>
-                                    <th class="align-left">Lokasi</th>
-                                    <th class="align-left">Jenis Jadwal</th>
-                                    <th class="align-left">Hari</th>
-                                    <th class="align-left">Waktu</th>
-                                    <th class="align-left">Status</th>
-                                    <th class="align-left">&nbsp;</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Kramat Raya</td>
-                                    <td>Manajemen Informatika</td>
-                                    <td>1</td>
-                                    <td>Aplikasi Komputer 1</td>
-                                    <td>4</td>
-                                    <td>BDIK01</td>
-                                    <td>R LAB 1</td>
-                                    <td>Lokal</td>
-                                    <td>Selasa</td>
-                                    <td>08.00 - 11.45</td>
-                                    <td>Verified</td>
-                                    <td> <a href="jadwal-perkuliahan-action.php"><i class="fas fa-edit"></i></a> </td>
-                                </tr>
+                    <table class="basic-table" id="datatable">
+                        <thead>
+                            <tr>
+                                <th class="align-left">Kampus</th>
+                                <th class="align-left">Jurusan</th>
+                                <th class="align-left">Smt</th>
+                                <th class="align-left">Mata Kuliah</th>
+                                <th class="align-left">SKS</th>
+                                <th class="align-left">Kelas</th>
+                                <th class="align-left">Lokasi</th>
+                                <th class="align-left">Jenis Jadwal</th>
+                                <th class="align-left">Hari</th>
+                                <th class="align-left">Waktu</th>
+                                <th class="align-left">Status</th>
+                                <th class="align-left">&nbsp;</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Kramat Raya</td>
+                                <td>Manajemen Informatika</td>
+                                <td>1</td>
+                                <td>Aplikasi Komputer 1</td>
+                                <td>4</td>
+                                <td>BDIK01</td>
+                                <td>R LAB 1</td>
+                                <td>Lokal</td>
+                                <td>Selasa</td>
+                                <td>08.00 - 11.45</td>
+                                <td>Verified</td>
+                                <td> <a href="jadwal-perkuliahan-action.php"><i class="fas fa-edit"></i></a> </td>
+                            </tr>
 
-                                <tr>
-                                    <td>Kramat Raya</td>
-                                    <td>Bisnis Administrasi</td>
-                                    <td>1</td>
-                                    <td>Aplikasi Komputer 1</td>
-                                    <td>4</td>
-                                    <td>BDIK09</td>
-                                    <td>Online</td>
-                                    <td>Zonasi</td>
-                                    <td>Senin</td>
-                                    <td>10.00 - 11.45</td>
-                                    <td>Submitted</td>
-                                    <td>
-                                        <a href="jadwal-perkuliahan-action.php"><i class="fas fa-edit"></i></a>
-                                        <a href="javascript:;"><i class="fas fa-eraser"></i></a>
-                                    </td>
-                                </tr>
+                            <tr>
+                                <td>Kramat Raya</td>
+                                <td>Bisnis Administrasi</td>
+                                <td>1</td>
+                                <td>Aplikasi Komputer 1</td>
+                                <td>4</td>
+                                <td>BDIK09</td>
+                                <td>Online</td>
+                                <td>Zonasi</td>
+                                <td>Senin</td>
+                                <td>10.00 - 11.45</td>
+                                <td>Submitted</td>
+                                <td>
+                                    <a href="jadwal-perkuliahan-action.php"><i class="fas fa-edit"></i></a>
+                                    <a href="javascript:;"><i class="fas fa-eraser"></i></a>
+                                </td>
+                            </tr>
 
-                                <tr>
-                                    <td>Jakarta Utara</td>
-                                    <td>Manajemen Informatika</td>
-                                    <td>1</td>
-                                    <td>Pemrograman PHP</td>
-                                    <td>4</td>
-                                    <td>BDIK01</td>
-                                    <td>Online</td>
-                                    <td>Lokal</td>
-                                    <td>Rabu</td>
-                                    <td>08.00 - 11.45</td>
-                                    <td>Verified</td>
-                                    <td> <a href="jadwal-perkuliahan-action.php"><i class="fas fa-edit"></i></a> </td>
-                                </tr>
+                            <tr>
+                                <td>Jakarta Utara</td>
+                                <td>Manajemen Informatika</td>
+                                <td>1</td>
+                                <td>Pemrograman PHP</td>
+                                <td>4</td>
+                                <td>BDIK01</td>
+                                <td>Online</td>
+                                <td>Lokal</td>
+                                <td>Rabu</td>
+                                <td>08.00 - 11.45</td>
+                                <td>Verified</td>
+                                <td> <a href="jadwal-perkuliahan-action.php"><i class="fas fa-edit"></i></a> </td>
+                            </tr>
 
-                            </tbody>
-                        </table>
-                    </div>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
 

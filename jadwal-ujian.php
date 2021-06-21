@@ -2,7 +2,7 @@
 
 <div class="content">
     <div class="container">
-        
+
         <div class="py-1">
             <div class="card">
                 <div class="d-flex flex-start">
@@ -63,11 +63,11 @@
                                 <option value="5">Semester 5</option>
                                 <option value="6">Semester 6</option>
                             </select>
-                        </div>  
+                        </div>
                     </div>
                 </div>
                 <div class="table-responsive">
-                    <table id="datatable-jadwal-ujian" class="table-list">
+                    <table id="datatable" class="table-list">
                         <thead>
                             <tr>
                                 <th>No</th>
