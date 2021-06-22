@@ -78,7 +78,10 @@
 									<td class="align-left">08.00 - 09.45</td>
 									<td class="align-center">1</td>
 									<td class="align-left">On Going</td>
-									<td class="align-left"><a href="jadual-pertemuan-kuliah.php">Check-in</a></td>
+									<td class="align-left">
+										<a href="jadual-pertemuan-kuliah.php">Check-in</a> |
+										<a href="jadual-detail-pertemuan-kuliah.php">Detail</a>
+									</td>
 								</tr>
 								<tr>
 									<td class="align-left">IK_Reguler_01</td>

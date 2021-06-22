@@ -15,8 +15,15 @@
 					<h6 style="font-size: 20px;">Info Pertemuan</h6>
 				</div>
 				<div class="form grid-1">
-					<div class="my-1 border-text">
-						<span>Pertemuan Ke1 - 16 Juni 2021</span>
+					<div class="my-1">
+						<input class="width-100" type="text" list="tanggal-pertemuan" value="Pertemuan Ke1 - 16 Juni 2021" placeholder="Pilih Tanggal Pertemuan" />
+	                    <datalist id="tanggal-pertemuan">
+	                        <option value="Pertemuan Ke1 - 16 Juni 2021">
+	                        <option value="Pertemuan Ke2 - 20 Juni 2021">
+	                        <option value="Pertemuan Ke3 - 22 Juni 2021">
+	                        <option value="Pertemuan Ke4 - 23 Juni 2021">
+	                        <option value="Pertemuan Ke5 - 25 Juni 2021">
+	                    </datalist>
 					</div>
 					<div class="my-1 grid-1">
 						<font><span  style="font-size: 18px;">Kehadiran :</span><span class="text-success"> Hadir </span> [08.01]</font>				
@@ -80,7 +87,7 @@
 						</div>
 
 						<div class="form-inputs">
-							<button href="#" class="btn btn-secondary mx-1 ">Upload Tugas</button>
+							<button href="#" disabled class="btn btn-secondary mx-1 ">Upload Tugas</button>
 						</div>
 					</div>
 				</div>

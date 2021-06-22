@@ -15,8 +15,15 @@
 					<h6 style="font-size: 20px;">Info Pertemuan</h6>
 				</div>
 				<div class="form grid-1">
-					<div class="my-1 border-text">
-						<span>Pertemuan Ke1 - 16 Juni 2021</span>
+					<div class="my-1">
+	                    <input class="width-100" type="text" list="tanggal-pertemuan" value="Pertemuan Ke1 - 16 Juni 2021" placeholder="Pilih Tanggal Pertemuan" />
+	                    <datalist id="tanggal-pertemuan">
+	                        <option value="Pertemuan Ke1 - 16 Juni 2021">
+	                        <option value="Pertemuan Ke2 - 20 Juni 2021">
+	                        <option value="Pertemuan Ke3 - 22 Juni 2021">
+	                        <option value="Pertemuan Ke4 - 23 Juni 2021">
+	                        <option value="Pertemuan Ke5 - 25 Juni 2021">
+	                    </datalist>
 					</div>				
 					<div class="align-center">
 						<p style="font-weight: bold;">Pukul</p>
@@ -36,12 +43,16 @@
 							<!-- </div> -->
 							<button class="btn btn-link btn-secondary  px-20">Check In</button>
 						</form>
+						<div class="my-1">
+							<font><span  class="text-success" style="font-size: 18px;">Signed at 08:01:00 </span></font>		
+						</div>
 					</div>
 
 					<div class="my-1 align-center">
 						<span class="text-mature"><i>Jl. Kp Muara Bahari Gang 2 Tnjng PRiok</i></span>
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.698057091853!2d106.84754411542649!3d-6.171168462195049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5b3cdca5e71%3A0xde19185e92dc6850!2sGg.%20Kiara%2C%20RW.8%2C%20Bungur%2C%20Kec.%20Senen%2C%20Kota%20Jakarta%20Pusat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2010460!5e0!3m2!1sid!2sid!4v1624092611816!5m2!1sid!2sid" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 					</div>
+
 				</div>
 			</div>
 			<div class="card">
