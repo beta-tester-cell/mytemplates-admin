@@ -154,6 +154,18 @@
                                         <span>Pengelolaan Manajemen Akun</span>
                                     </a>
                                 </li>
+                                <li class="side-menu-item">
+                                    <a href="rekap-data-mahasiswa-kampus.php" class="d-flex">
+                                        <span class="menu-icon-child"><i class="fas fa-school"></i></span>
+                                        <span>Data Mahasiswa</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="pengelolaan-kalender-akedemik.php" class="d-flex">
+                                        <span class="menu-icon-child"><i class="fas fa-school"></i></span>
+                                        <span>Kelola Kalender Akademik</span>
+                                    </a>
+                                </li>
                             </ul>
                         </li>
                         <li class="side-menu-item">
