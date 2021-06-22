@@ -299,12 +299,7 @@
                                     </a>
                                 </li>
 
-                                <li class="side-menu-item">
-                                    <a href="pengelolaan-nilai.php">
-                                        <span class="menu-icon-child"><i class="fa fa-university"></i></span>
-                                        <span>Kelola Nilai Mahasiswa</span>
-                                    </a>
-                                </li>
+
 
                                 <li class="side-menu-item">
                                     <a href="jadwal-ujian.php">
@@ -320,41 +315,6 @@
                                     </a>
                                 </li>
 
-                                <li class="side-menu-item">
-                                    <a href="form-krs-online.php">
-                                        <span class="menu-icon-child"><i class="fa fa-university"></i></span>
-                                        <span>KRS Online</span>
-                                    </a>
-                                </li>
-
-                                <li class="side-menu-item">
-                                    <a href="form-tambah-mhs.php">
-                                        <span class="menu-icon-child"><i class="fa fa-university"></i></span>
-                                        <span>Kelengkapan Biodata</span>
-                                    </a>
-                                </li>
-
-                                <li class="side-menu-item">
-                                    <a href="jadwal-ujian-semester.php">
-                                        <span class="menu-icon-child"><i class="fa fa-university"></i></span>
-                                        <span>Ujian Semester</span>
-                                    </a>
-                                </li>
-
-                                <li class="side-menu-item">
-                                    <a href="form-ebook-kurikulum.php">
-                                        <span class="menu-icon-child"><i class="fa fa-university"></i></span>
-                                        <span>E-Book</span>
-                                    </a>
-                                </li>
-
-                                <li class="side-menu-item">
-                                    <a href="rekap-kehadiran.php">
-                                        <span class="menu-icon-child"><i class="fa fa-university"></i></span>
-                                        <span>Rekap Kehadiran</span>
-                                    </a>
-                                </li>
-
                             </ul>
                         </li>
                         <li class="side-menu-item">
@@ -364,10 +324,50 @@
                             </a>
                             <ul class="submenu-menu-item">
                                 <li class="side-menu-item">
+                                    <a href="#">
+                                        <span class="menu-icon-child"><i class="fa fa-tachometer-alt"></i></span>
+                                        <span>Dashboard</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
                                     <a href="jadwal-perkuliahan-dosen.php">
                                         <span class="menu-icon-child"><i class="fa fa-user"></i></span>
                                         <span>Jadwal Perkuliahan</span>
                                     </a>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="#">
+                                        <span class="menu-icon-child"><i class="fa fa-user"></i></span>
+                                        <span>User Profile</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="message.php">
+                                        <span class="menu-icon-child"><i class="fa fa-user"></i></span>
+                                        <span>Chat Message</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="#">
+                                        <span class="menu-icon-child"><i class="fa fa-user"></i></span>
+                                        <span>Link VC</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="#">
+                                        <span class="menu-icon-child"><i class="fa fa-user"></i></span>
+                                        <span>Sidang</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="#">
+                                        <span class="menu-icon-child"><i class="fa fa-user"></i></span>
+                                        <span>Berita & Informasi</span>
+                                    </a>
+                                </li>
+                                <hr>
+                                <li class="menu-section" style="margin: 0;">
+                                    <h4 style="font-size: 11px;">Pengantar Database Administrasi</h4>
                                 </li>
                                 <li class="side-menu-item">
                                     <a href="kegiatan-perkuliahan.php">
@@ -382,11 +382,12 @@
                                     </a>
                                 </li>
                                 <li class="side-menu-item">
-                                    <a href="message.php">
+                                    <a href="pengelolaan-nilai.php">
                                         <span class="menu-icon-child"><i class="fa fa-user"></i></span>
-                                        <span>Chat Message</span>
+                                        <span>Kelola Nilai Mahasiswa</span>
                                     </a>
                                 </li>
+
                             </ul>
                         </li>
                         <li class="side-menu-item">
@@ -396,11 +397,99 @@
                             </a>
                             <ul class="submenu-menu-item">
                                 <li class="side-menu-item">
-                                    <a href="jadual-kuliah.php">
-                                        <span class="menu-icon-child"><i class="fa fa-users"></i></span>
-                                        <span class="menu-title">Jadwal Kuliah</span>
+                                    <a href="#">
+                                        <span class="menu-icon-child"><i class="fa fa-tachometer-alt"></i></span>
+                                        <span>Dashboard</span>
                                     </a>
                                 </li>
+                                <li class="side-menu-item">
+                                    <a href="form-tambah-mhs.php">
+                                        <span class="menu-icon-child"><i class="fa fa-users"></i></span>
+                                        <span>Kelengkapan Biodata</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="#" class="menu-collaps">
+                                        <span class="menu-icon-child"><i class="fa fa-users"></i></span>
+                                        <span>Perkuliahan</span>
+                                    </a>
+                                    <ul class="submenu-menu-item">
+                                        <li class="side-menu-item">
+                                            <a href="form-krs-online.php">
+                                                <span class="menu-icon-child"><i class="fa fa-users"></i></span>
+                                                <span>KRS Online</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="jadual-kuliah.php">
+                                                <span class="menu-icon-child"><i class="fa fa-users"></i></span>
+                                                <span class="menu-title">Jadwal Kuliah</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="rekap-kehadiran.php">
+                                                <span class="menu-icon-child"><i class="fa fa-users"></i></span>
+                                                <span>Rekap Kehadiran</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="form-perbaikan-nilai.php">
+                                                <span class="menu-icon-child"><i class="fa fa-users"></i></span>
+                                                <span>Nilai</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="jadwal-ujian-semester.php">
+                                                <span class="menu-icon-child"><i class="fa fa-users"></i></span>
+                                                <span>Ujian Semester</span>
+                                            </a>
+                                        </li>
+
+                                        <li class="side-menu-item">
+                                            <a href="form-ebook-kurikulum.php">
+                                                <span class="menu-icon-child"><i class="fa fa-users"></i></span>
+                                                <span>E-Book</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="#">
+                                        <span class="menu-icon-child"><i class="fa fa-users"></i></span>
+                                        <span>Keuangan</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="#">
+                                        <span class="menu-icon-child"><i class="fa fa-users"></i></span>
+                                        <span>Sidang</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="#">
+                                        <span class="menu-icon-child"><i class="fa fa-users"></i></span>
+                                        <span>Screening Test</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="#">
+                                        <span class="menu-icon-child"><i class="fa fa-users"></i></span>
+                                        <span>Vocabulary Online</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="#">
+                                        <span class="menu-icon-child"><i class="fa fa-users"></i></span>
+                                        <span>Umpan Balik</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="#">
+                                        <span class="menu-icon-child"><i class="fa fa-users"></i></span>
+                                        <span>Informasi Akademik</span>
+                                    </a>
+                                </li>
+
                             </ul>
                         </li>
                         <li class="side-menu-item">

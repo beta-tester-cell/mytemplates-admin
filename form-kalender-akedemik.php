@@ -5,7 +5,7 @@
 		<div class="py-1">
 			<div class="card">
 				<div class="d-flex flex-start">
-					<a href="pengelolaan-kalender-akademik.php" class="btn btn-link btn-danger px-20">
+					<a href="pengelolaan-kalender-akedemik.php" class="btn btn-link btn-danger px-20">
 						Back
 					</a>
 				</div>
@@ -61,7 +61,7 @@
 					<button class="btn btn-link btn-primary"><i class="fa fa-plus"></i></button>
 				</div>
 				<div class="table-responsive">
-					<table border='1' class="basic-table">
+					<table class="basic-table" id="datatable">
 						<thead style="background-color: rgb(30, 66, 105); color: white;">
 							<tr>
 								<th>No</th>
