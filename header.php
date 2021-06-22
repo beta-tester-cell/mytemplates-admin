@@ -370,15 +370,39 @@
                                     <h4 style="font-size: 11px;">Pengantar Database Administrasi</h4>
                                 </li>
                                 <li class="side-menu-item">
+                                    <a href="#">
+                                        <span class="menu-icon-child"><i class="fa fa-user"></i></span>
+                                        <span>Rencana Kegiatan Kuliah</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
                                     <a href="kegiatan-perkuliahan.php">
                                         <span class="menu-icon-child"><i class="fa fa-user"></i></span>
                                         <span>Proses Perkuliahan</span>
                                     </a>
                                 </li>
                                 <li class="side-menu-item">
+                                    <a href="#">
+                                        <span class="menu-icon-child"><i class="fa fa-user"></i></span>
+                                        <span>Kehadiran Mahasiswa</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
                                     <a href="nilai-mhs.php">
                                         <span class="menu-icon-child"><i class="fa fa-user"></i></span>
                                         <span>Aktifitas Mahasiswa</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="#">
+                                        <span class="menu-icon-child"><i class="fa fa-user"></i></span>
+                                        <span>Daftar Mahasiswa</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="#">
+                                        <span class="menu-icon-child"><i class="fa fa-user"></i></span>
+                                        <span>Ujian Semester</span>
                                     </a>
                                 </li>
                                 <li class="side-menu-item">
