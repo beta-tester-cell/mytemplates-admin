@@ -1,11 +1,11 @@
 <?php include('header.php') ?>
 <div class="content">
     <div class="container">
-        <div class="py-1">
+       <div class="py-1">
             <div class="card">
                 <div class="d-flex flex-start">
-                    <a href="form-kampus.php" class="btn btn-link">
-                        <span><i class="fa fa-plus"></i> Jadwal Input Nilai UTS/UAS</span>
+                    <a href="pengelolaan-nilai.php" class="btn btn-link btn-danger px-20">
+                        Back
                     </a>
                 </div>
             </div>
