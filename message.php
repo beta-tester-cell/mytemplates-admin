@@ -338,9 +338,8 @@
  <script src="theme/js/script.js" defer></script> 
 <script>
     $(document).ready(function() {
-
         $("#new-message").click(function() {
-            $(".form-new-message").show()
+            $(".form-new-message").show(300)
             $(".message-display").hide()
             $(".message-first-panel").hide()
             $(".btn-message-list-active").each(function(index){

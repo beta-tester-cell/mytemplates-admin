@@ -370,7 +370,7 @@
                                     <h4 style="font-size: 11px;">Pengantar Database Administrasi</h4>
                                 </li>
                                 <li class="side-menu-item">
-                                    <a href="#">
+                                    <a href="rkk.php">
                                         <span class="menu-icon-child"><i class="fa fa-user"></i></span>
                                         <span>Rencana Kegiatan Kuliah</span>
                                     </a>
