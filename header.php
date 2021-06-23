@@ -353,44 +353,6 @@
                                         <span>Link VC</span>
                                     </a>
                                 </li>
-                            </ul>
-                        </li>
-                        <li class="side-menu-item">
-                            <a href="#" class="menu-collaps">
-                                <span class="menu-icon"><i class="fa fa-user"></i></span>
-                                <span class="menu-title">Dosen</span>
-                            </a>
-                            <ul class="submenu-menu-item">
-                                <li class="side-menu-item">
-                                    <a href="#">
-                                        <span class="menu-icon-child"><i class="fa fa-tachometer-alt"></i></span>
-                                        <span>Dashboard</span>
-                                    </a>
-                                </li>
-                                <li class="side-menu-item">
-                                    <a href="jadwal-perkuliahan-dosen.php">
-                                        <span class="menu-icon-child"><i class="fa fa-user"></i></span>
-                                        <span>Jadwal Perkuliahan</span>
-                                    </a>
-                                </li>
-                                <li class="side-menu-item">
-                                    <a href="#">
-                                        <span class="menu-icon-child"><i class="fa fa-user"></i></span>
-                                        <span>User Profile</span>
-                                    </a>
-                                </li>
-                                <li class="side-menu-item">
-                                    <a href="message.php">
-                                        <span class="menu-icon-child"><i class="fa fa-user"></i></span>
-                                        <span>Chat Message</span>
-                                    </a>
-                                </li>
-                                <li class="side-menu-item">
-                                    <a href="#">
-                                        <span class="menu-icon-child"><i class="fa fa-user"></i></span>
-                                        <span>Link VC</span>
-                                    </a>
-                                </li>
                                 <li class="side-menu-item">
                                     <a href="#">
                                         <span class="menu-icon-child"><i class="fa fa-user"></i></span>
