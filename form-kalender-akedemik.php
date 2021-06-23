@@ -40,17 +40,17 @@
 					</div>
 				</div>
 				<div class="filter-mahasiswa py-1">
-					<input type="date" id="tanggal_start" name="tanggal_start" placeholder="Start Date" style="width: 300px;">
-					<input type="date" id="tanggal_akhir" name="tanggal_akhir" placeholder="Start End" style="width: 300px;">
-					<input type="text" id="nama_event" name="nama_event" placeholder="Name Event" style="width: 400px;">
-					<select name="kategori" id="kategori" style="width: 200px;">
+					<input type="date" id="tanggal_start" name="tanggal_start" placeholder="Start Date">
+					<input type="date" id="tanggal_akhir" name="tanggal_akhir" placeholder="Start End">
+					<input type="text" id="nama_event" name="nama_event" placeholder="Name Event">
+					<select name="kategori" id="kategori">
 						<option value="">-- Pilih Kategori --</option>
 						<option value="Kategori 1">Kategori 1</option>
 						<option value="Kategori 2">Kategori 2</option>
 						<option value="Kategori 3">Kategori 3</option>
 						<option value="Kategori 4" selected>Kategori 4</option>
 					</select>
-					<select name="pelaksana" id="pelaksana" style="width: 250px;">
+					<select name="pelaksana" id="pelaksana">
 						<option value="">-- Pilih Pelaksana --</option>
 						<option value="Pelaksana 1" selected>Pelaksana 1</option>
 						<option value="Pelaksana 2">Pelaksana 2</option>

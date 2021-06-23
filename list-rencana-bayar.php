@@ -32,7 +32,10 @@
             <div class="card">
                 <div class="table-responsive">
                     <div class="form grid-1 grid-gap-1 py-1" style="float: right;">
-                        <input type="text" value="75.000.000" style="width: 200px; background-color: #DFD43B; color:white;">
+                        <div class="tes">                      
+                            <input type="text" value="75.000.000" class="textbox-warning"><br>
+                            <small><b>Besar</b></small>
+                        </div>
                     </div>
                     <table class="basic-table display">
                         <thead>

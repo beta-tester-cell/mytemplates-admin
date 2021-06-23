@@ -354,6 +354,7 @@
                                         <span>Rekap Kehadiran</span>
                                     </a>
                                 </li>
+<<<<<<< Updated upstream
 
                             </ul>
                         </li>
@@ -363,6 +364,18 @@
                                 <span class="menu-title">Dosen</span>
                             </a>
                             <ul class="submenu-menu-item">
+=======
+                                <li class="side-menu-item">
+                                    <a href="rekap-lkm.php">
+                                        <span class="menu-icon-child"><i class="fa fa-user"></i></span>
+                                        <span>Rekap LKM</span>
+                                    </a>
+                                </li>
+                                <hr>
+                                <li class="menu-section" style="margin: 0;">
+                                    <h4 style="font-size: 11px;">Pengantar Database Administrasi</h4>
+                                </li>
+>>>>>>> Stashed changes
                                 <li class="side-menu-item">
                                     <a href="jadwal-perkuliahan-dosen.php">
                                         <span class="menu-icon-child"><i class="fa fa-user"></i></span>
