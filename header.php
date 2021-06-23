@@ -417,7 +417,6 @@
                                         <span>Kelola Nilai Mahasiswa</span>
                                     </a>
                                 </li>
-
                             </ul>
                         </li>
                         <li class="side-menu-item">
