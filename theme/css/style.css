@@ -310,6 +310,10 @@ img {
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .text-primary {
   color: var(--primary-color);
 }
@@ -334,6 +338,9 @@ img {
   color: var(--mature-color);
 }
 
+.text-white {
+  color: var(--light-color);
+}
 /* csss text end */
 
 /* css flex start */
@@ -2588,6 +2595,75 @@ table.dataTable.no-footer {
 }
 
 /* css progress bar end */
+
+/* CSS RKK Start */
+.rkk-page-tittle {
+  padding: 0;
+  margin: 0;
+}
+
+.rkk-list-panel {
+  height: 80vh;
+  overflow-y: auto;
+}
+
+.rkk-list-finish {
+  border: none;
+  outline: none;
+  padding: 0.75rem 0.5rem;
+  font-size: 16px;
+  width: 100%;
+  background-color: #F15B67;
+  font-weight: bold;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.rkk-list-active {
+  border: none;
+  outline: none;
+  padding: 0.75rem 0.5rem;
+  font-size: 16px;
+  width: 100%;
+  background-color: var(--secondary-color);
+  font-weight: bold;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.rkk-list {
+  border: none;
+  outline: none;
+  padding: 0.75rem 0.5rem;
+  font-size: 16px;
+  width: 100%;
+  background-color: var(--medium-color);
+  color: var(--dark-color);
+  font-weight: bold;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.rkk-hor-form {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  margin-bottom: 1rem;
+  position: relative;
+  font-weight: bold;
+}
+
+.rkk-bold {
+  font-weight: bold;
+}
+
+.rkk-p-modal {
+  margin-left: 2rem;
+}
+
+
+
+
+/* CSS RKK End */
 
 footer {        
   background-color: var(--light-color);
