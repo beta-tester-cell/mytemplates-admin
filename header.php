@@ -365,6 +365,12 @@
                                         <span>Berita & Informasi</span>
                                     </a>
                                 </li>
+                                <li class="side-menu-item">
+                                    <a href="rekap-lkm.php">
+                                        <span class="menu-icon-child"><i class="fa fa-user"></i></span>
+                                        <span>Rekap LKM</span>
+                                    </a>
+                                </li>
                                 <hr>
                                 <li class="menu-section" style="margin: 0;">
                                     <h4 style="font-size: 11px;">Pengantar Database Administrasi</h4>
@@ -411,7 +417,6 @@
                                         <span>Kelola Nilai Mahasiswa</span>
                                     </a>
                                 </li>
-
                             </ul>
                         </li>
                         <li class="side-menu-item">

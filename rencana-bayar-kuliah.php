@@ -19,7 +19,7 @@
         </div>
         <div class="py-1">
             <div class="card">
-                <div class="form-inputs">
+                <div class="grid-2 grid-gap-1">
                     <div class="form grid-2 grid-gap-1 py-1">
                         <div class="input-group">
                             <div class="input-group-area"><input class="width-100" type="date" id="tanggal_awal"></div>
@@ -29,9 +29,18 @@
                         <button class="btn btn-secondary btn-submit" style="width: 70px;" id="button-view">View</button>
                     </div>
                     <div class="grid-3 flex-center">
-                        <input type="text" class="textbox-primary" value="1.450.000.000">
-                        <input type="text" class="textbox-warning" value="875.000.000">
-                        <input type="text" class="textbox-danger" value="Realisasi : 38%">
+                        <div class="outstanding-textbox">
+                            <input type="text" class="textbox-primary" value="1.450.000.000"><br>
+                            <small><b>Outstanding</b></small>
+                        </div>
+                        <div class="pembayaran-textbox">
+                            <input type="text" class="textbox-warning" value="875.000.000"><br>
+                            <small><b>Pembayaran</b></small>
+                        </div>
+                        <div class="realisasi-textbox">
+                            <input type="text" class="textbox-danger" value="38%"><br>
+                            <small><b>Realisasi</b></small>
+                        </div>
                     </div>
                 </div>
 
