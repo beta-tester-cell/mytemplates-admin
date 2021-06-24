@@ -67,7 +67,7 @@
                     </div>
                 </div>
                 <div class="table-responsive">
-                    <table id="datatable" class="table-list">
+                    <table id="scroll-horizontal-datatable" class="table-list">
                         <thead>
                             <tr>
                                 <th>No</th>
