@@ -69,8 +69,8 @@
                     </div>
                 </div>
 
-                <div class="table-horizon-scroll">
-                    <table class="basic-table">
+                 <div class="table-responsive">
+                    <table id="scroll-horizontal-datatable" class="basic-table">
                         <thead>
                             <tr>
                                 <th rowspan="2">NIM</th>
