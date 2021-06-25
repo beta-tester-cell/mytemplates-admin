@@ -834,7 +834,7 @@ img {
 }
 
 .wrapper.collapse .aside:hover {
-  width: 250px;
+  width: 300px;
   z-index: 5;
 }
 
@@ -2667,6 +2667,7 @@ table.dataTable.no-footer {
 
 footer {        
   background-color: var(--light-color);
+  padding-left:300px ;
 }
 
 footer p {
