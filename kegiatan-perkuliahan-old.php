@@ -31,8 +31,8 @@
             </div>
             <div class="card">
                 <div class="card-header d-flex flex-space-between">
-                    <h6 style="font-size: 20px;">Pertemuan Ke-2</h6>
-                    <span class="subtitle-text">18 Juni 2021, 08.00-09.45 [Online]</span>
+                    <h6 style="font-size: 20px;">Pertemuan Ke-1</h6>
+                    <span class="subtitle-text">15 Juni 2021, 08.00-09.45 [Online]</span>
                 </div>
 
                 <div class="form grid-custom-card-flip">
@@ -55,7 +55,7 @@
                             <hr>
                             <a href="#" class="text-danger my-0">
                                 <span class="menu-icon"><i class="fa fa-book"></i></span>
-                                <b>&nbsp;Materi Pertemuan 2</b>
+                                <b>&nbsp;Materi Pertemuan 1</b>
                             </a>
                         </div>
                         <div class="my-1 grid-1">
@@ -67,8 +67,8 @@
                         </div>
 
                         <div class="d-flex flex-center py-1">
-                            <a href="#" class="align-center btn-status btn-secondary btn-submit mx-1 width-100">Mulai</a>
-                            <a href="detail-lkm-dosen.php" class="align-center btn-status btn-medium btn-submit mx-1 width-100">Verifikasi Kehadiran Mhs</a>
+                            <a href="#" class="align-center btn-status btn-medium btn-submit mx-1 width-100">Selesai</a>
+                            <a href="#" class="align-center btn-status btn-medium btn-submit mx-1 width-100">Kehadiran Terverifikasi</a>
                         </div>
                     </div>
 
@@ -109,7 +109,8 @@
                             <div class="my-1">
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15927.243782077974!2d98.67106109999999!3d3.6306034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1623954838375!5m2!1sid!2sid" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                             </div>
-                        </div>   
+                        </div>
+                        
                     </div>
                 </div>
             </div>

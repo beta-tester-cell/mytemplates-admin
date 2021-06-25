@@ -6,7 +6,7 @@
         <div class="py-1">
             <div class="card">
                 <div class="d-flex flex-start">
-                    <a href="report-absensi-mhs.php" class="btn btn-link text-danger">
+                    <a href="jadwal-perkuliahan-dosen.php" class="btn btn-link text-danger">
                         <span><i class="fa fa-arrow-left"></i> Back</span>
                     </a>
                 </div>
@@ -16,7 +16,7 @@
         <div class="py-1">
             <div class="card">
                 <div class="card-header d-flex flex-space-between">
-                    <h6>Report Absensi Mahasiswa</h6>
+                    <h6 style="font-size:22px;">Report Absensi Mahasiswa</h6>
                     <div class="select-export" style="width: 100px; float: right; display: block;">
                         <button class="btn btn-secondary btn-submit dropdown-button" style="width: 105px;"><i class="fas fa-file-export"></i> Export</button>
                         <div class="type-export">
@@ -26,7 +26,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="card-header d-flex flex-start my-2">
                     <div class="grid-3 grid-gap-1 py-1">
                         <div class="detail-wrapper mx-1">
@@ -38,16 +38,15 @@
                         <div class="detail-wrapper mx-1">
                             <div class="grid-1">
                                 <span><strong>Kelas :</strong></span>
-                                <span class="text-mature">IK01</span>
+                                <span class="text-mature">IK_Reguler_01</span>
                             </div>
                         </div>
                         <div class="detail-wrapper mx-1">
                             <div class="grid-1">
-                                <span><strong>Tahun Akademik :</strong></span>
+                                <span><strong>Tahun Akademik</strong></span>
                                 <span class="text-mature">2020/2021</span>
                             </div>
                         </div>
-
                         <div class="detail-wrapper mx-1">
                             <div class="grid-1">
                                 <span><strong>MataKuliah :</strong></span>
@@ -69,11 +68,11 @@
                     </div>
                 </div>
 
-                 <div class="table-responsive">
-                    <table id="scroll-horizontal-datatable" class="basic-table">
+                <div class="table-responsive">
+                    <table id="scroll-horizontal-datatable" class="basic-table" style="width:100%;">
                         <thead>
                             <tr>
-                                <th rowspan="2">NIM</th>
+                                <th rowspan="2" class="align-center">NIM</th>
                                 <th rowspan="2">Nama Mahasiswa</th>
                                 <th rowspan="2">Jurusan</th>
                                 <th colspan="28" class="align-center">Pertemuan Ke</th>
@@ -111,7 +110,7 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>1222009</td>
+                                <td class="align-center">1222009</td>
                                 <td>Rosihan Arbi Said</td>
                                 <td>Manajemen Informatika</td>
                                 <th class="align-center">H</th>
@@ -119,12 +118,12 @@
                                 <th class="align-center">H</th>
                                 <th class="align-center">H</th>
                                 <th class="align-center">H</th>
-                                <th class="align-center"><span class="text-success">S</th>
+                                <th class="align-center text-success">S</th>
                                 <th class="align-center">H</th>
                                 <th class="align-center">H</th>
-                                <th class="align-center">H</th>
-                                <th class="align-center">H</th>
-                                <th class="align-center">H</th>
+                                <th class="align-center">-</th>
+                                <th class="align-center">-</th>
+                                <th class="align-center">-</th>
                                 <th class="align-center">-</th>
                                 <th class="align-center">-</th>
                                 <th class="align-center">-</th>
@@ -144,20 +143,20 @@
                                 <th class="align-center">-</th>
                             </tr>
                             <tr>
-                                <td>1222009</td>
+                                <td class="align-center">1222009</td>
                                 <td>Irfan Zadin</td>
                                 <td>Manajemen Informatika</td>
                                 <th class="align-center">H</th>
-                                <th class="align-center"><span class="text-orange">I</th>
+                                <th class="align-center">H</th>
+                                <th class="align-center">H</th>
+                                <th class="align-center text-danger">A</th>
                                 <th class="align-center">H</th>
                                 <th class="align-center">H</th>
                                 <th class="align-center">H</th>
                                 <th class="align-center">H</th>
-                                <th class="align-center">H</th>
-                                <th class="align-center">H</th>
-                                <th class="align-center">H</th>
-                                <th class="align-center">H</th>
-                                <th class="align-center">H</th>
+                                <th class="align-center">-</th>
+                                <th class="align-center">-</th>
+                                <th class="align-center">-</th>
                                 <th class="align-center">-</th>
                                 <th class="align-center">-</th>
                                 <th class="align-center">-</th>
@@ -177,20 +176,20 @@
                                 <th class="align-center">-</th>
                             </tr>
                             <tr>
-                                <td>1222009</td>
+                                <td class="align-center">1222009</td>
                                 <td>Khairul Mustafa</td>
                                 <td>Manajemen Informatika</td>
                                 <th class="align-center">H</th>
                                 <th class="align-center">H</th>
                                 <th class="align-center">H</th>
                                 <th class="align-center">H</th>
+                                <th class="align-center text-secondary">I</th>
                                 <th class="align-center">H</th>
                                 <th class="align-center">H</th>
                                 <th class="align-center">H</th>
-                                <th class="align-center"><span class="text-danger">A</th>
-                                <th class="align-center">H</th>
-                                <th class="align-center">H</th>
-                                <th class="align-center">H</th>
+                                <th class="align-center">-</th>
+                                <th class="align-center">-</th>
+                                <th class="align-center">-</th>
                                 <th class="align-center">-</th>
                                 <th class="align-center">-</th>
                                 <th class="align-center">-</th>
@@ -214,7 +213,7 @@
                 </div>
             </div>
         </div>
-        
+
     </div>
 </div>
 
