@@ -315,6 +315,13 @@
                                     </a>
                                 </li>
 
+                                <li class="side-menu-item">
+                                    <a href="proses-data-perkuliahan.php">
+                                        <span class="menu-icon-child"><i class="fa fa-university"></i></span>
+                                        <span>Proses Perkuliahan</span>
+                                    </a>
+                                </li>
+
                             </ul>
                         </li>
                         <li class="side-menu-item">

@@ -55,7 +55,7 @@
 
             <div class="card">
                 <div class="card-header d-flex flex-space-between">
-                    <h6>List Nilai Komponen Mahasiswa </h6>
+                    <h6>Daftar Akun </h6>
 
                     <div class="select-export">
                         <div type="button" class="btn btn-link btn-secondary dropdown-button">Export</div>
