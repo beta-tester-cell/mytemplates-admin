@@ -935,3 +935,11 @@ var doughtnut = new Chart(donut, {
 });
 } );
 // type chart doughtnuts end
+
+//START SCROLL HORIZONTAL DATATABLE
+$(document).ready(function() {
+    $('#scroll-horizontal-datatable').DataTable( {
+        "scrollX": true
+    } );
+} );
+// === END

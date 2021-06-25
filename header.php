@@ -315,6 +315,13 @@
                                     </a>
                                 </li>
 
+                                <li class="side-menu-item">
+                                    <a href="proses-data-perkuliahan.php">
+                                        <span class="menu-icon-child"><i class="fa fa-university"></i></span>
+                                        <span>Proses Perkuliahan</span>
+                                    </a>
+                                </li>
+
                             </ul>
                         </li>
                         <li class="side-menu-item">
@@ -388,7 +395,7 @@
                                     </a>
                                 </li>
                                 <li class="side-menu-item">
-                                    <a href="#">
+                                    <a href="kehadiran-mhs.php">
                                         <span class="menu-icon-child"><i class="fa fa-user"></i></span>
                                         <span>Kehadiran Mahasiswa</span>
                                     </a>
@@ -400,13 +407,13 @@
                                     </a>
                                 </li>
                                 <li class="side-menu-item">
-                                    <a href="#">
+                                    <a href="daftar-mhs.php">
                                         <span class="menu-icon-child"><i class="fa fa-user"></i></span>
                                         <span>Daftar Mahasiswa</span>
                                     </a>
                                 </li>
                                 <li class="side-menu-item">
-                                    <a href="#">
+                                    <a href="ujian-semester.php">
                                         <span class="menu-icon-child"><i class="fa fa-user"></i></span>
                                         <span>Ujian Semester</span>
                                     </a>
