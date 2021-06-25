@@ -49,6 +49,8 @@
                             </select>
                         </div>
 
+                        <a href="cetak-kartu-ujian.php" target="_blank"><button class="btn btn-submit btn-primary" style="width: 190px;padding:0.5rem;margin-top: 0px" id="button-view">Download Kartu Ujian</button></a>
+
                     </div>
                 </div>
                 <div class="table-responsive">
