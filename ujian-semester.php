@@ -1,5 +1,12 @@
 <?php include('header.php') ?>
-
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Dosen</a>
+        <a href="jadwal-perkuliahan-dosen.php">Jadwal Perkuliahan</a>
+        <a href="ujian-semester.php">Ujian Semester</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
         <div class="py-1 grid-custom-view grid-gap-1">
@@ -34,7 +41,6 @@
                 </div>
 
                 <div class="my-2 d-flex flex-change grid-gap-1">
-                    <span class="fa fa-filter"></span>
                     <select name="TA" id="TA">
                         <option value="0">-- Pilih Tahun Akademik --</option>
                         <option value="1">2018/2019</option>

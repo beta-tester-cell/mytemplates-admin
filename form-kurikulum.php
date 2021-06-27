@@ -1,19 +1,14 @@
 <?php include('header.php') ?>
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Akademik Pusat</a>
+        <a href="pengelolaan-matakuliah.php">Pengelolaan Matakuliah</a>
+        <a href="form-kurikulum.php">Tambah Kurikulum</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
-        <div class="py-1">
-            <div class="card">
-                <div class="d-flex flex-start">
-                    <a href="pengelolaan-matakuliah.php" class="btn btn-link">
-                        <span>Data Master</span>
-                    </a>
-                    <span class="fa fa-chevron-right py-1"></span>
-                    <a href="form-kurikulum.php" class="btn btn-link">
-                        <span>Tambah Kurikulum</span>
-                    </a>
-                </div>
-            </div>
-        </div>
 
         <div class="py-1">
             <div class="card">
@@ -70,12 +65,12 @@
                                 <label>SAP</label>
                                 <div class="form-group">
                                     <label class="radio-button"> List
-                                        <input type="radio" value="list">
+                                        <input type="radio" name="sap_list" value="list">
                                         <span class="checkmark"></span>
                                     </label>
 
                                     <label class="radio-button"> New file
-                                        <input type="radio" value="newfile">
+                                        <input type="radio" name="sap_list" value="newfile">
                                         <span class="checkmark"></span>
                                     </label>
 

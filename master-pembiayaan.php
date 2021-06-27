@@ -1,4 +1,11 @@
 <?php include('header.php') ?>
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Keuangan</a>
+        <a href="master-pembiayaan.php">Pembiayaan Cabang</a>
+    </div>
+</div>
 <div class="content" style="height: 80vh;">
     <div class="container">
         <div class="py-1">
@@ -69,7 +76,7 @@
                                     <a href="#" class="text-danger"><i class="fas fa-eraser"></i></a>
                                 </td>
                             </tr>
-                             <tr>
+                            <tr>
                                 <td style="text-align: center;">4 </td>
                                 <td>Biaya Managemen</td>
                                 <td style="text-align: center;">Active</td>
@@ -108,7 +115,7 @@
                                                 <span class="checkmark"></span>
                                             </label>
                                             <label class="radio-button">Tidak Aktif
-                                                <input type="radio" value="tidak-aktif" name="status-tidak-aktif">
+                                                <input type="radio" value="tidak-aktif" name="status-aktif">
                                                 <span class="checkmark"></span>
                                             </label>
                                         </div>

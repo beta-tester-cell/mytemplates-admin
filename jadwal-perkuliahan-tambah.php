@@ -1,5 +1,11 @@
 <?php include('header.php') ?>
-
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="dashboard-page.php">Akademik Cabang</a>
+        <a href="jadwal-perkuliahan-list.php">Pengelolaan Jadwal</a>
+    </div>
+</div>
 <div class="content">
 
     <div class="container">
@@ -7,13 +13,13 @@
         <div class="py-1">
             <div class="card">
                 <div class="d-flex flex-start">
-                    <a href="jadwal-perkuliahan-list.php" class="btn-status btn-danger"><i class="fa fa-angle-left"></i> BACK</a>
-                    <a href="#javascript:;" class="btn-status btn-primary" style="margin-left:10px"><i class="fa fa-plus"></i> ADD JADWAL ZONASI</a>
+                    <a href="jadwal-perkuliahan-list.php" class="btn-status btn-danger">BACK</a>
+                    <a href="#javascript:;" class="btn btn-link" style="margin-left:10px"><i class="fa fa-plus"></i> ADD JADWAL ZONASI</a>
                 </div>
             </div>
         </div>
 
-        <div class="grid-2 grid-gap-1 py-1">
+        <div class="grid-custom-view grid-gap-1 py-1">
 
             <div class="card">
                 <div class="card-header">
@@ -166,21 +172,21 @@
 
 
                 <div class="table-responsive">
-                    <table class="basic-table" id="datatable">
+                    <table class="table-list" id="datatable">
                         <thead>
                             <tr>
-                                <th class="align-left">Kampus</th>
-                                <th class="align-left">Jurusan</th>
-                                <th class="align-left">Smt</th>
-                                <th class="align-left">Mata Kuliah</th>
-                                <th class="align-left">SKS</th>
-                                <th class="align-left">Kelas</th>
-                                <th class="align-left">Lokasi</th>
-                                <th class="align-left">Jenis Jadwal</th>
-                                <th class="align-left">Hari</th>
-                                <th class="align-left">Waktu</th>
-                                <th class="align-left">Status</th>
-                                <th class="align-left">&nbsp;</th>
+                                <th>Kampus</th>
+                                <th>Jurusan</th>
+                                <th>Smt</th>
+                                <th>Mata Kuliah</th>
+                                <th>SKS</th>
+                                <th>Kelas</th>
+                                <th>Lokasi</th>
+                                <th>Jenis Jadwal</th>
+                                <th>Hari</th>
+                                <th>Waktu</th>
+                                <th>Status</th>
+                                <th>Action</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -196,7 +202,7 @@
                                 <td>Selasa</td>
                                 <td>08.00 - 11.45</td>
                                 <td>Verified</td>
-                                <td> <a href="jadwal-perkuliahan-action.php"><i class="fas fa-edit"></i></a> </td>
+                                <td> <a href="#"><i class="fas fa-edit"></i></a> </td>
                             </tr>
 
                             <tr>
@@ -212,7 +218,7 @@
                                 <td>10.00 - 11.45</td>
                                 <td>Submitted</td>
                                 <td>
-                                    <a href="jadwal-perkuliahan-action.php"><i class="fas fa-edit"></i></a>
+                                    <a href="#"><i class="fas fa-edit"></i></a>
                                     <a href="javascript:;"><i class="fas fa-eraser"></i></a>
                                 </td>
                             </tr>
@@ -229,7 +235,7 @@
                                 <td>Rabu</td>
                                 <td>08.00 - 11.45</td>
                                 <td>Verified</td>
-                                <td> <a href="jadwal-perkuliahan-action.php"><i class="fas fa-edit"></i></a> </td>
+                                <td> <a href="#"><i class="fas fa-edit"></i></a> </td>
                             </tr>
 
                         </tbody>

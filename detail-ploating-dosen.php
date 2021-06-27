@@ -1,18 +1,25 @@
 <?php include('header.php') ?>
 
 <?php
-    if (isset($_GET['id'])) {
-        $id = $_GET['id'];
-        if ($id == '0290091') {
-            $nama = 'Masria';
-        }else{
-            $nama = "Test Nama Dosen";
-        }
-    }else{
-        $id = "";
+if (isset($_GET['id'])) {
+    $id = $_GET['id'];
+    if ($id == '0290091') {
+        $nama = 'Masria';
+    } else {
+        $nama = "Test Nama Dosen";
     }
- ?>
-
+} else {
+    $id = "";
+}
+?>
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Akademik Pusat</a>
+        <a href="kelola-ploating-dosen.php">Kelola Ploating Dosen</a>
+        <a href="detail-ploating-dosen.php">Detail Ploating Dosen</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
 
@@ -91,7 +98,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="card-body">
                     <div class="table-responsive">
                         <table id="datatable" class="table-list">

@@ -7,7 +7,7 @@
 
 .grid-custom-view {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 30% 68.3%;
 }
 
 .grid-custom-view2 {
@@ -200,7 +200,11 @@
 }
 
 .form-img img {
-  width: 200px;
+  width: 250px;
+}
+
+.form-img input[type="file"] {
+  width: 250px;
 }
 
 .doc-grid-custom {
@@ -424,4 +428,12 @@
 .persentage-text {
   font-size: 1.75rem;
   font-weight: 600;
+}
+
+.info-finance {
+  float: right;
+}
+
+.rkk-distancing {
+  margin: 0 1rem;
 }

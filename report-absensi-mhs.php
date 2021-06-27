@@ -1,5 +1,11 @@
 <?php include('header.php') ?>
-
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Report</a>
+        <a href="report-absensi-mhs.php">Report Absensi Mahasiswa</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
 
@@ -55,7 +61,7 @@
                     </div>
                 </div>
                 <div class="table-responsive">
-                    <table class="basic-table" id="datatable">
+                    <table class="table-list" id="datatable">
                         <thead>
                             <tr>
                                 <th>Nama Dosen</th>
@@ -67,7 +73,7 @@
                                 <th>SKS</th>
                                 <th class="dt-left">Hari & Waktu</th>
                                 <th>Status</th>
-                                <th></th>
+                                <th>action</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -81,7 +87,7 @@
                                 <td class="dt-center">2</td>
                                 <td>Senin, 08.15-09.45</td>
                                 <td class="dt-center">Active</td>
-                                <td class="dt-center"><a href="detail-report-absensi-mhs.php" class="btn-status btn-secondary">View</a></td>
+                                <td class="dt-center"><a href="detail-report-absensi-mhs.php"><i class="fa fa-eye"></i></a></td>
                             </tr>
                             <tr>
                                 <td>[20101] Fadillah, S.Kom</td>
@@ -93,7 +99,7 @@
                                 <td class="dt-center">2</td>
                                 <td>Selasa, 08.15-09.45</td>
                                 <td class="dt-center">Active</td>
-                                <td class="dt-center"><a href="detail-report-absensi-mhs.php" class="btn-status btn-secondary">View</a></td>
+                                <td class="dt-center"><a href="detail-report-absensi-mhs.php"><i class="fa fa-eye"></i></a></td>
                             </tr>
                             <tr>
                                 <td>[20101] Masria, M.Kom</td>
@@ -105,7 +111,7 @@
                                 <td class="dt-center">4</td>
                                 <td>Senin, 12.15-14.45</td>
                                 <td class="dt-center">Active</td>
-                                <td class="dt-center"><a href="detail-report-absensi-mhs.php" class="btn-status btn-secondary">View</a></td>
+                                <td class="dt-center"><a href="detail-report-absensi-mhs.php"><i class="fa fa-eye"></i></a></td>
                             </tr>
                         </tbody>
                     </table>

@@ -1,13 +1,20 @@
 <?php include('header.php') ?>
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Report</a>
+        <a href="report-nilai.php">Report Nilai Mahasiswa</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
         <div class="py-1">
             <div class="card">
                 <div class="d-flex flex-start">
-                    <a href="#" class="btn btn-link">
+                    <a href="#" class="btn-status btn-primary">
                         <span><i class="fa fa-print"></i> Cetak Komponen </span>
                     </a>
-                    <a href="#" class="btn btn-link">
+                    <a href="#" class="btn-status btn-primary" style="margin-left:10px">
                         <span><i class="fa fa-print"></i> Cetak KHS </span>
                     </a>
                 </div>

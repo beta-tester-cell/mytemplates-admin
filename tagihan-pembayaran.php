@@ -1,4 +1,11 @@
 <?php include('header.php') ?>
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Keuangan</a>
+        <a href="tagihan-pembayaran.php">Tagihan Pembayaran</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
 
@@ -40,7 +47,7 @@
 
                 <h3><b>Collage</b></h3>
                 <div class="table-responsive">
-                    <table class="basic-table display">
+                    <table class="table-list" id="datatable">
                         <thead>
                             <tr>
                                 <th>No</th>
@@ -97,7 +104,7 @@
 
                 <h3 style="margin-top: 20px;"><b>PLJ</b></h3>
                 <div class="table-responsive">
-                    <table class="basic-table display">
+                    <table class="table-list" id="datatable2">
                         <thead>
                             <tr>
                                 <th>No</th>

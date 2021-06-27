@@ -1,5 +1,11 @@
 <?php include('header.php') ?>
-
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Report</a>
+        <a href="report-khs.php">Report Komponen & KHS</a>
+    </div>
+</div>
 <div class="content">
 
     <div class="container">
@@ -7,8 +13,8 @@
         <div class="py-1">
             <div class="card">
                 <div class="d-flex flex-start">
-                    <a href="report-khs-cetak-komponen.php" target="_blank" class="btn-status btn-primary"> CETAK KOMPONEN</a>
-                    <a href="report-khs-cetak.php" target="_blank" class="btn-status btn-primary" style="margin-left:10px"> CETAK KHS</a>
+                    <a href="report-khs-cetak-komponen.php" target="_blank" class="btn-status btn-primary"><i class="fa fa-print"></i> CETAK KOMPONEN</a>
+                    <a href="report-khs-cetak.php" target="_blank" class="btn-status btn-primary" style="margin-left:10px"><i class="fa fa-print"></i> CETAK KHS</a>
                 </div>
             </div>
         </div>

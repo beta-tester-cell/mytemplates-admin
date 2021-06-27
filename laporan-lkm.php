@@ -1,4 +1,11 @@
 <?php include('header.php') ?>
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Report</a>
+        <a href="laporan-lkm.php">Report LKM</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
 
@@ -6,6 +13,14 @@
             <div class="card">
                 <div class="card-header d-flex flex-space-between">
                     <h6>Report Lembar Kegiatan Mengajar</h6>
+                    <div class="select-export">
+                        <button class="btn btn-secondary btn-submit dropdown-button" style="width: 105px;"><i class="fas fa-file-export"></i> Export</button>
+                        <div class="type-export">
+                            <a href="#" id="pdf"><i class="far fa-file-pdf"></i> PDF</a>
+                            <a href="#" id="excel"><i class="far fa-file-excel"></i> EXCEL</a>
+                            <a href="#" id="print"><i class="fas fa-print"></i> PRINT</a>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="d-flex flex-space-between flex-change grid-gap-1">
@@ -37,22 +52,15 @@
                             <option value="5551"> Visual Basic</option>
                         </select>
                     </div>
-                    <div class="select-export">
-                        <button class="btn btn-secondary btn-submit dropdown-button" style="width: 105px;"><i class="fas fa-file-export"></i> Export</button>
-                        <div class="type-export">
-                            <a href="#" id="pdf"><i class="far fa-file-pdf"></i> PDF</a>
-                            <a href="#" id="excel"><i class="far fa-file-excel"></i> EXCEL</a>
-                            <a href="#" id="print"><i class="fas fa-print"></i> PRINT</a>
-                        </div>
-                    </div>
+
 
                 </div>
 
-                <div class="list-nilai py-1">
+                <div class="py-1">
 
 
-                    <div class="table-responsive list-table-nilai">
-                        <table class="basic-table" id="datatable">
+                    <div class="table-responsive">
+                        <table class="table-list" id="datatable">
                             <thead>
                                 <tr>
                                     <th class="align-left">Kelas</th>
@@ -79,7 +87,7 @@
                                     <td class="align-left">-</td>
                                     <td class="align-left">on Track</td>
                                     <td class="align-center">25</td>
-                                    <td><a href="laporan-detail-lkm.php">View</a></td>
+                                    <td><a href="laporan-detail-lkm.php"><i class="fa fa-eye"></i></a></td>
                                 </tr>
                                 <tr>
                                     <td>IK01</td>
@@ -91,7 +99,7 @@
                                     <td class="align-left">Membuat Struktur Data</td>
                                     <td class="align-left">Make-up class</td>
                                     <td class="align-center">25</td>
-                                    <td><a href="laporan-detail-lkm.php">View</a></td>
+                                    <td><a href="laporan-detail-lkm.php"><i class="fa fa-eye"></i></a></td>
                                 </tr>
                                 <tr>
                                     <td class="align-left">IK01</td>
@@ -103,7 +111,7 @@
                                     <td class="align-left">Membuat Database</td>
                                     <td class="align-left">on Track</td>
                                     <td class="align-center">25</td>
-                                    <td><a href="laporan-detail-lkm.php">View</a></td>
+                                    <td><a href="laporan-detail-lkm.php"><i class="fa fa-eye"></i></a></td>
                                 </tr>
 
                             </tbody>

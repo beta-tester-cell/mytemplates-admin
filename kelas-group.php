@@ -1,5 +1,11 @@
 <?php include('header.php') ?>
-
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="dashboard-page.php">Akademik Cabang</a>
+        <a href="kelas-group.php">Kelas Group</a>
+    </div>
+</div>
 <div class="content">
 
     <div class="container">
@@ -37,8 +43,8 @@
                         <a class="btn btn-link modal-button text-primary" data-toggle="modal" data-target="#formKelasGroup">
                             <span>List Mahasiswa <i class="fa fa-plus"></i></span>
                         </a>
-                        <div class="table-responsive">
-                            <table class="basic-table" id="datatable">
+                        <div class="table-responsive" style="margin-top:2rem">
+                            <table class="table-list" id="datatable">
                                 <thead>
                                     <tr>
                                         <th class="align-left">No</th>
@@ -118,7 +124,7 @@
                                     <td>Reguler</td>
                                     <td>25</td>
                                     <td>
-                                        <a href="edit-pembimbing.php" class="text-secondary"><i class="fa fa-edit"></i></a>
+                                        <a href="#" class="text-secondary"><i class="fa fa-edit"></i></a>
                                         <a href="#" class="text-primary"><i class="far fa-eye"></i></a>
                                         <a href="#" class="text-danger"><i class="fas fa-eraser"></i></a>
                                     </td>
@@ -130,7 +136,7 @@
                                     <td>Reguler</td>
                                     <td>50</td>
                                     <td>
-                                        <a href="edit-pembimbing.php" class="text-secondary"><i class="fa fa-edit"></i></a>
+                                        <a href="#" class="text-secondary"><i class="fa fa-edit"></i></a>
                                         <a href="#" class="text-primary"><i class="far fa-eye"></i></a>
                                         <a href="#" class="text-danger"><i class="fas fa-eraser"></i></a>
                                     </td>
@@ -142,7 +148,7 @@
                                     <td>Moduler</td>
                                     <td>25</td>
                                     <td>
-                                        <a href="edit-pembimbing.php" class="text-secondary"><i class="fa fa-edit"></i></a>
+                                        <a href="#" class="text-secondary"><i class="fa fa-edit"></i></a>
                                         <a href="#" class="text-primary"><i class="far fa-eye"></i></a>
                                         <a href="#" class="text-danger"><i class="fas fa-eraser"></i></a>
                                 </tr>
@@ -153,7 +159,7 @@
                                     <td>Moduler</td>
                                     <td>30</td>
                                     <td>
-                                        <a href="edit-pembimbing.php" class="text-secondary"><i class="fa fa-edit"></i></a>
+                                        <a href="#" class="text-secondary"><i class="fa fa-edit"></i></a>
                                         <a href="#" class="text-primary"><i class="far fa-eye"></i></a>
                                         <a href="#" class="text-danger"><i class="fas fa-eraser"></i></a>
                                     </td>
@@ -256,7 +262,7 @@
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                    <button type="button" class="btn btn-secondary">Save changes</button>
                                 </div>
                             </form>
                         </div>

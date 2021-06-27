@@ -1,4 +1,14 @@
 <?php include('header.php') ?>
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Akademik Pusat</a>
+        <a href="rekap-data-mahasiswa-kampus.php">Data Mahasiswa</a>
+        <a href="rekap-data-mahasiswa-prodi.php">Data Mahasiswa Per-Prodi</a>
+        <a href="rekap-data-mahasiswa.php">Detail Mahasiswa</a>
+        <a href="rekap-detail-mahasiswa.php">Detail Profil Mahasiswa</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
 
@@ -231,7 +241,7 @@
                 <div class="card-header d-flex flex-space-between">
                     <h6>Profil Orang Tua</h6>
                 </div>
-                <div class="card-header">
+                <div>
                     <h6>Ayah</h6>
                 </div>
 
@@ -279,7 +289,7 @@
                     <input type="text" name="penghasilan_ayah" id="penghasilan_ayah">
                 </div>
 
-                <div class="card-header">
+                <div>
                     <h6>Ibu</h6>
                 </div>
                 <div class="form-inputs">

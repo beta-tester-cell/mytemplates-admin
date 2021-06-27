@@ -1,5 +1,10 @@
 <?php include('header.php') ?>
-
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="card.php">Card</a>
+    </div>
+</div>
 <div class="content">
 
     <div class="container">

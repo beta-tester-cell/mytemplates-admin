@@ -1,5 +1,10 @@
 <?php include('header.php') ?>
-
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="dashboard-page.php">Akademik Cabang</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
 
@@ -276,7 +281,7 @@
 
                     <div class="table-responsive">
                         <h6 style="font-size: 20px;">Rasio KRS Mahasiswa Semester 1</h6>
-                        <table class="basic-table display">
+                        <table class="table-list" id="datatable">
                             <thead>
                                 <tr>
                                     <th>Jurusan</th>

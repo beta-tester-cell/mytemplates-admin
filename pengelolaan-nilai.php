@@ -1,11 +1,19 @@
 <?php include('header.php') ?>
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Dosen</a>
+        <a href="jadwal-perkuliahan-dosen.php">Jadwal Perkuliahan</a>
+        <a href="pengelolaan-nilai.php">Kelola Nilai Mahasiswa</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
         <div class="py-1">
             <div class="card">
                 <div class="d-flex flex-start">
                     <a href="form-jadual-nilai.php" class="btn btn-link">
-                        <span><i class="fa fa-plus"></i> Jadwal Input Nilai UTS/UAS</span>
+                        <span><i class="fa fa-plus"></i> ADD NILAI UTS/UAS</span>
                     </a>
                 </div>
             </div>

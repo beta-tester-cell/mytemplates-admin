@@ -1,4 +1,11 @@
 <?php include('header.php') ?>
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Akademik Pusat</a>
+        <a href="pengelolaan-kalender-akademik.php">Pengelolaan Kalender Akademik</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
 
@@ -41,8 +48,8 @@
 
 
                 <div class="table-responsive py-1">
-                    <table class="basic-table" id="datatable">
-                        <thead style="background-color: rgb(30, 66, 105); color: white;">
+                    <table class="table-list" id="datatable">
+                        <thead>
                             <tr>
                                 <th>No</th>
                                 <th>Kegiatan</th>

@@ -91,12 +91,7 @@
                                 <span class="menu-title">Dashboard</span>
                             </a>
                         </li>
-                        <li class="side-menu-item">
-                            <a href="dashboard-page.php">
-                                <span class="menu-icon"><i class="fa fa-tachometer-alt"></i></span>
-                                <span class="menu-title">Dashboard-2</span>
-                            </a>
-                        </li>
+
                         <li class="menu-section">
                             <h4>Menu Section Title</h4>
                         </li>
@@ -211,12 +206,6 @@
                                     </a>
                                 </li>
                                 <li class="side-menu-item">
-                                    <a href="master-pembiayaan.php">
-                                        <span class="menu-icon-child"><i class="fa fa-donate"></i></span>
-                                        <span>Master Pembiayaan</span>
-                                    </a>
-                                </li>
-                                <li class="side-menu-item">
                                     <a href="tagihan-pembiayaan.php" class="d-flex">
                                         <span class="menu-icon-child"><i class="fa fa-donate"></i></span>
                                         <span>Tagihan Kewajiban Cabang</span>
@@ -226,12 +215,6 @@
                                     <a href="realisasi-pembiayaan.php" class="d-flex">
                                         <span class="menu-icon-child"><i class="fa fa-donate"></i></span>
                                         <span>Realisasi Kewajiban Cabang</span>
-                                    </a>
-                                </li>
-                                <li class="side-menu-item">
-                                    <a href="transaksi-va.php" class="d-flex">
-                                        <span class="menu-icon-child"><i class="fa fa-donate"></i></span>
-                                        <span>Transaksi VA</span>
                                     </a>
                                 </li>
                             </ul>
@@ -268,6 +251,12 @@
                                 <span class="menu-title">Akademik Cabang</span>
                             </a>
                             <ul class="submenu-menu-item">
+                                <li class="side-menu-item">
+                                    <a href="dashboard-page.php">
+                                        <span class="menu-icon-child"><i class="fa fa-tachometer-alt"></i></span>
+                                        <span class="menu-title">Dashboard</span>
+                                    </a>
+                                </li>
                                 <li class="side-menu-item">
                                     <a href="ruang-kelas.php">
                                         <span class="menu-icon-child"><i class="fa fa-university"></i></span>
@@ -314,14 +303,6 @@
                                         <span>Verifikasi Soal Ujian</span>
                                     </a>
                                 </li>
-
-                                <li class="side-menu-item">
-                                    <a href="proses-data-perkuliahan.php">
-                                        <span class="menu-icon-child"><i class="fa fa-university"></i></span>
-                                        <span>Proses Perkuliahan</span>
-                                    </a>
-                                </li>
-
                             </ul>
                         </li>
                         <li class="side-menu-item">
@@ -380,7 +361,7 @@
                                 </li>
                                 <hr>
                                 <li class="menu-section" style="margin: 0;">
-                                    <h4 style="font-size: 11px;">Pengantar Database Administrasi</h4>
+                                    <h4 style="font-size: 10px;">Pengantar Database Administrasi</h4>
                                 </li>
                                 <li class="side-menu-item">
                                     <a href="rkk.php">
@@ -391,7 +372,7 @@
                                 <li class="side-menu-item">
                                     <a href="kegiatan-perkuliahan.php">
                                         <span class="menu-icon-child"><i class="fa fa-user"></i></span>
-                                        <span>Proses Perkuliahan</span>
+                                        <span>Kegiatan Perkuliahan</span>
                                     </a>
                                 </li>
                                 <li class="side-menu-item">
@@ -471,7 +452,7 @@
                                         <li class="side-menu-item">
                                             <a href="form-perbaikan-nilai.php">
                                                 <span class="menu-icon-child"><i class="fa fa-users"></i></span>
-                                                <span>Nilai</span>
+                                                <span>Komponen Nilai</span>
                                             </a>
                                         </li>
                                         <li class="side-menu-item">
@@ -487,12 +468,18 @@
                                                 <span>E-Book</span>
                                             </a>
                                         </li>
+                                        <li class="side-menu-item">
+                                            <a href="#">
+                                                <span class="menu-icon-child"><i class="fa fa-users"></i></span>
+                                                <span>EUB</span>
+                                            </a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li class="side-menu-item">
-                                    <a href="#">
+                                    <a href="transaksi-va.php">
                                         <span class="menu-icon-child"><i class="fa fa-users"></i></span>
-                                        <span>Keuangan</span>
+                                        <span>Tagihan</span>
                                     </a>
                                 </li>
                                 <li class="side-menu-item">

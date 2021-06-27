@@ -140,7 +140,8 @@ $(document).ready(function(){
                 "previous":   "<i class='fas fa-angle-left'></i>"
             },
 
-        }         
+        },
+        "scrollX": true         
     });
 
 });
@@ -161,7 +162,8 @@ $(document).ready(function(){
                 "previous":   "<i class='fas fa-angle-left'></i>"
             },
 
-        }         
+        },
+        "scrollX": true        
     });
 
 });
@@ -182,7 +184,8 @@ $(document).ready(function(){
                 "previous":   "<i class='fas fa-angle-left'></i>"
             },
 
-        }         
+        },
+        "scrollX": true         
     });
 
 });
@@ -235,7 +238,6 @@ $(document).ready(function()
 
 // REALISASI PEMBAYARAN
 $(document).ready(function() {
-    $('table.display').DataTable();
 
 
     var RealisasiPembayaran = document.getElementById("getRealisasiPembayaran");
@@ -339,8 +341,6 @@ $(document).ready(function() {
 
 // TAGIHAN PEMBAYARAN
 $(document).ready(function() {
-    $('table.display').DataTable();
-
 
     var TagihanPembayaran = document.getElementById("getTagihanPembayaran");
 
@@ -442,7 +442,6 @@ $(document).ready(function() {
 
     // TAGIHAN PEMBIAYAAN
     $(document).ready(function() {
-        $('table.display').DataTable();
 
 
         var TagihanPembiayaan = document.getElementById("getTagihanPembiayaan");
@@ -514,18 +513,9 @@ $(document).ready(function() {
     });
 } );
 
-    $(document).ready(function() {
-        $('table.display-pa').DataTable();
-    } );
-
-    $(document).ready(function() {
-        $('table.display-kelas').DataTable();
-    } );
-
 
      // TAGIHAN PEMBIAYAAN
     $(document).ready(function() {
-        $('table.display').DataTable();
 
 
         var RealisasiPembiayaan = document.getElementById("getRealisasiPembiayaan");
@@ -599,7 +589,6 @@ $(document).ready(function() {
 
 // CHART EWS KRS
 $(document).ready(function() {
-    $('table.display').DataTable();
 
 var EWSKRS = document.getElementById("getEWSKRS");
 
@@ -672,15 +661,6 @@ var EWSKRS = document.getElementById("getEWSKRS");
 
 } );
 // batas
-
-// START SCROLLX datatable jadwal ujian
-$(document).ready(function() {
-    $('#datatable-jadwal-ujian').DataTable( {
-        "scrollX": true
-    } );
-} );
-// END
-
 
 // type chart line start
 

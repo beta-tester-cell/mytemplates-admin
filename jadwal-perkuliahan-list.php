@@ -1,5 +1,11 @@
 <?php include('header.php') ?>
-
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="dashboard-page.php">Akademik Cabang</a>
+        <a href="jadwal-perkuliahan-list.php">Pengelolaan Jadwal</a>
+    </div>
+</div>
 <div class="content">
 
     <div class="container height-100">
@@ -7,14 +13,12 @@
         <div class="py-1">
             <div class="card">
                 <div class="d-flex flex-start">
-                    <a href="jadwal-perkuliahan-tambah.php" class="btn-status btn-primary"><i class="fa fa-plus"></i> ADD JADWAL LOKAL</a>
+                    <a href="jadwal-perkuliahan-tambah.php" class="btn btn-link"><i class="fa fa-plus"></i> ADD JADWAL LOKAL</a>
                 </div>
             </div>
         </div>
 
         <div class="py-1">
-
-
             <div class="card">
                 <div class="card-header d-flex flex-space-between">
                     <h6>Daftar Jadwal Periode 2020/2021 </h6>
@@ -30,9 +34,7 @@
                     </div>
 
                 </div>
-
-                <div class="py-1">
-
+                <div class="my-1">
                     <div class="d-flex grid-gap-1 py-1 flex-change">
 
                         <div class="filtering-jurusan">
@@ -71,9 +73,14 @@
 
                         <button class="btn btn-submit btn-primary" style="width: 150px;padding:0.5rem" id="button-view">Submit</button>
                     </div>
+                </div>
+
+                <div class="py-1">
+
+
 
                     <div class="table-responsive">
-                        <table class="basic-table" id="datatable">
+                        <table class="table-list" id="datatable">
                             <thead>
                                 <tr>
                                     <th class="align-left">Nama Dosen</th>
@@ -99,7 +106,7 @@
                                     <td>1</td>
                                     <td>2</td>
                                     <td>Senin, 08.15 - 9.45</td>
-                                    <td> <a href="jadwal-perkuliahan-action.php"><i class="fas fa-edit"></i></a> </td>
+                                    <td> <a href="#"><i class="fas fa-edit"></i></a> </td>
                                 </tr>
                                 <tr>
                                     <td>[20101] Fadillah S.KOM</td>
@@ -111,7 +118,7 @@
                                     <td>1</td>
                                     <td>2</td>
                                     <td>Selasa, 08.15 - 9.45</td>
-                                    <td> <a href="jadwal-perkuliahan-action.php"><i class="fas fa-edit"></i></a> </td>
+                                    <td> <a href="#"><i class="fas fa-edit"></i></a> </td>
                                 </tr>
                                 <tr>
                                     <td>[20103] Masria M.KOM</td>
@@ -123,7 +130,7 @@
                                     <td>1</td>
                                     <td>2</td>
                                     <td>Senin, 09.15 - 11.45</td>
-                                    <td> <a href="jadwal-perkuliahan-action.php"><i class="fas fa-edit"></i></a> </td>
+                                    <td> <a href="#"><i class="fas fa-edit"></i></a> </td>
                                 </tr>
                             </tbody>
                         </table>

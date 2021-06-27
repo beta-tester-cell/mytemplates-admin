@@ -1,5 +1,11 @@
 <?php include('header.php') ?>
-
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="dashboard-page.php">Akademik Cabang</a>
+        <a href="pengelolaan-pembimbingakad.php">Pengelolaan Pembimbing Akademik</a>
+    </div>
+</div>
 <div class="content">
 
     <div class="container">
@@ -31,8 +37,8 @@
                         <a class="btn btn-link modal-button text-primary" data-toggle="modal" data-target="#formPimbingakad">
                             <span>List Mahasiswa <i class="fa fa-plus"></i></span>
                         </a>
-                        <div class="table-responsive">
-                            <table class="basic-table" id="datatable">
+                        <div class="table-responsive my-2">
+                            <table class="table-list" id="datatable">
                                 <thead>
                                     <tr>
                                         <th class="align-left">No</th>
@@ -94,7 +100,7 @@
 
                 <div class="py-1">
                     <div class="table-responsive">
-                        <table class="basic-table" id="datatable2">
+                        <table class="table-list" id="datatable2">
                             <thead>
                                 <tr>
                                     <th class="align-left">No</th>
@@ -252,7 +258,7 @@
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                    <button type="button" class="btn btn-secondary">Save changes</button>
                                 </div>
                             </form>
                         </div>

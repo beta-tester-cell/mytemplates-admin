@@ -1,4 +1,11 @@
 <?php include('header.php') ?>
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Akademik Pusat</a>
+        <a href="pengelolaan-dosen.php">Pengelolaan Dosen</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
         <div class="py-1">
@@ -39,10 +46,10 @@
                         </li>
                     <?php endif; ?>
                     <li>
-                        <a href="#" class="">Politeknik LP3I Bandung</a>
+                        <a href="#">Politeknik LP3I Bandung</a>
                     </li>
                     <li>
-                        <a href="#" class="">Polinas</a>
+                        <a href="#">Polinas</a>
                     </li>
                 </ul>
             </div>

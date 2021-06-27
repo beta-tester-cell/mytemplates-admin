@@ -1,16 +1,22 @@
 <?php include('header.php') ?>
-
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="dashboard-page.php">Akademik Cabang</a>
+        <a href="jadwal-ujian.php">Input Jadwal Ujian</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
-        
+
         <div class="py-1">
             <div class="card">
                 <div class="d-flex flex-start">
                     <a href="form-jadwal-ujian.php" class="btn btn-link">
-                        <span><i class="fa fa-plus"></i> ADD Jadwal Ujian Reguler</span>
+                        <span><i class="fa fa-plus"></i> ADD JADWAL UJIAN REGULER</span>
                     </a>
                     <a href="jadwal-ujian.php" class="btn btn-link">
-                        <span><i class="far fa-list-alt"></i> Daftar Ujian Moduler</span>
+                        <span><i class="far fa-list-alt"></i> DAFTAR UJIAN MODULER</span>
                     </a>
                 </div>
             </div>
@@ -21,9 +27,9 @@
                 <div class="card-header d-flex flex-space-between">
                     <h6>Form Input Jadwal Ujian Reguler</h6>
                 </div>
-                
+
                 <form>
-                    <div class="form grid-2 grid-gap-2 py-1 mx-1">
+                    <div class="form grid-2 grid-gap-1 py-1">
                         <div class="form-inputs">
                             <label>Tahun Akademik</label>
                             <input class="width-100" type="text" id="tahun_akd" name="tahun_akd" placeholder="xxxx/xxxx...">
@@ -100,12 +106,12 @@
                             <label>Jenis Ujian</label>
                             <div class="form-group">
                                 <label class="radio-button"> UTS
-                                    <input type="radio" value="uts" id="jenis_soal">
+                                    <input type="radio" value="uts" name="jenis_soal" id="jenis_soal">
                                     <span class="checkmark"></span>
                                 </label>
 
                                 <label class="radio-button"> UAS
-                                    <input type="radio" value="uas" id="jenis_soal" checked>
+                                    <input type="radio" value="uas" name="jenis_soal" id="jenis_soal" checked>
                                     <span class="checkmark"></span>
                                 </label>
                             </div>

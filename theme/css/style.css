@@ -258,6 +258,30 @@ img {
   padding: 0 3rem !important;
 }
 
+.pt-1 {
+  padding-top: 1rem;
+}
+
+.pt-2 {
+  padding-top: 2rem;
+}
+
+.pt-3 {
+  padding-top: 3rem;
+}
+
+.pb-1 {
+  padding-bottom: 1rem;
+}
+
+.pb-2 {
+  padding-bottom: 2rem;
+}
+
+.pb-3 {
+  padding-bottom: 3rem;
+}
+
 /* css padding end */
 
 /* css margin start */
@@ -560,6 +584,36 @@ img {
 
 /* css header end */
 
+/* css breadcrumb start */
+
+.breadcrumb-wrapper {
+  background: #fff;
+  width: calc(100% - 300px);
+  margin-left: 300px;
+  position: absolute;
+  top: 63px;
+  padding: 0.5rem;
+}
+
+.breadcrumb {
+  padding: 0 1.5rem;
+}
+
+.breadcrumb a {
+  font-size: 14px;
+}
+
+.breadcrumb a + a::before {
+  content: "\f054";
+  font-family: FontAwesome;
+  font-size: 11px;
+  position: relative;
+  bottom: 1px;
+  margin: 0 7px;
+}
+
+/* css breadcrumb end */
+
 /* css aside start */
 .aside {
   background-color: #00649d;
@@ -749,6 +803,10 @@ img {
   min-height: 44px;
 }
 
+.side-menu .menu-nav .side-menu-item a:hover {
+  background-color: var(--secondary-color);
+}
+
 .side-menu .menu-nav .side-menu-item a .menu-icon {
   position: relative;
 
@@ -866,9 +924,10 @@ img {
 }
 
 .wrapper.collapse .content,
-.wrapper.collapse .page-header {
-  margin-left: 70px;
-  width: calc(100% - 70px);
+.wrapper.collapse .page-header,
+.wrapper.collapse .breadcrumb-wrapper {
+  margin-left: 90px;
+  width: calc(100% - 90px);
 }
 
 .collapse:not(.show) {
@@ -880,7 +939,7 @@ img {
 /* css content */
 .content {
   margin-left: 300px;
-  margin-top: 100px;
+  margin-top: 115px;
   width: calc(100% - 300px);
   transition: 0.3s;
 }
@@ -953,6 +1012,7 @@ img {
   width: 50%;
 
   background: none;
+  border-radius: 5px;
 }
 
 .btn:active {
@@ -1533,6 +1593,7 @@ th {
 table.dataTable thead th,
 table.dataTable.no-footer {
   border-bottom: none;
+  white-space: nowrap;
 }
 
 .table-responsive {
@@ -2613,7 +2674,7 @@ table.dataTable.no-footer {
   padding: 0.75rem 0.5rem;
   font-size: 16px;
   width: 100%;
-  background-color: #F15B67;
+  background-color: #f15b67;
   font-weight: bold;
   margin-bottom: 5px;
   border-radius: 5px;
@@ -2660,14 +2721,16 @@ table.dataTable.no-footer {
   margin-left: 2rem;
 }
 
-
-
+.grid-3-rkk {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
 
 /* CSS RKK End */
 
-footer {        
+footer {
   background-color: var(--light-color);
-  padding-left:300px ;
+  padding-left: 300px;
 }
 
 footer p {

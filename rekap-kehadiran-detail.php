@@ -1,5 +1,13 @@
 <?php include('header.php') ?>
-
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Mahasiswa</a>
+        <a href="#">Perkuliahan</a>
+        <a href="rekap-kehadiran.php">Rekap Kehadiran</a>
+        <a href="rekap-kehadiran-detail.php">Rekap Kehadiran Detail</a>
+    </div>
+</div>
 <div class="content">
 
     <div class="container">
@@ -26,46 +34,46 @@
 
                 <div class="py-1">
 
-                    <div class="d-flex grid-gap-3 flex-change">
+                    <div class="grid-3 grid-gap-1 flex-change">
 
                         <div class="my-1">
-                            <label><b>Nama Dosen : </b></label><br>
+                            <label><b>Nama Dosen : </b></label>
                             <label>Masria, M.Kom</label>
                         </div>
 
                         <div class="my-1">
-                            <label><b>Kelas : </b></label><br>
+                            <label><b>Kelas : </b></label>
                             <label>IK-Reguler 01</label>
                         </div>
 
                         <div class="my-1">
-                            <label><b>Tahun Akademik : </b></label><br>
+                            <label><b>Tahun Akademik : </b></label>
                             <label>2020/2021</label>
                         </div>
 
                     </div>
 
-                    <div class="d-flex grid-gap-3 flex-change">
+                    <div class="grid-3 grid-gap-1 flex-change">
 
                         <div class="my-1">
-                            <label><b>Mata Kuliah : </b></label><br>
+                            <label><b>Mata Kuliah : </b></label>
                             <label>[0290091] Basis Data</label>
                         </div>
 
                         <div class="my-1">
-                            <label><b>SKS : </b></label><br>
+                            <label><b>SKS : </b></label>
                             <label>4 (28 Pertemuan)</label>
                         </div>
 
                         <div class="my-1">
-                            <label><b>Semester : </b></label><br>
+                            <label><b>Semester : </b></label>
                             <label>1 (Ganjil)</label>
                         </div>
 
                     </div>
 
                     <div class="table-responsive">
-                        <table class="basic-table display-pa">
+                        <table class="table-list" id="datatable">
                             <thead>
                                 <tr>
                                     <th class="align-left">NIM</th>

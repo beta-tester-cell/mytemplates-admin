@@ -1,5 +1,12 @@
 <?php include('header.php') ?>
-
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Mahasiswa</a>
+        <a href="#">Perkuliahan</a>
+        <a href="rekap-kehadiran.php">Rekap Kehadiran</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
 
@@ -96,7 +103,7 @@
                                 <td class="dt-center">08.00 - 09.45</td>
                                 <td class="dt-center">28</td>
                                 <td class="dt-center">1</td>
-                                <td class="dt-center"><a href="rekap-kehadiran-detail.php">View</a></td>
+                                <td class="dt-center"><a href="rekap-kehadiran-detail.php" title="view"><i class="fa fa-eye"></i></a></td>
                             </tr>
 
                             <tr>
@@ -111,7 +118,7 @@
                                 <td class="dt-center">08.00 - 09.45</td>
                                 <td class="dt-center">28</td>
                                 <td class="dt-center">1</td>
-                                <td class="dt-center"><a href="rekap-kehadiran-detail.php">View</a></td>
+                                <td class="dt-center"><a href="rekap-kehadiran-detail.php" title="view"><i class="fa fa-eye"></i></a></td>
                             </tr>
 
                         </tbody>

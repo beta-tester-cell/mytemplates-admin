@@ -1,5 +1,11 @@
 <?php include('header.php') ?>
-
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Mahasiswa</a>
+        <a href="transaksi-va.php">Tagihan</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
 
@@ -8,7 +14,7 @@
                 <div class="card-header d-flex flex-space-between">
                     <h6>Data Transaksi</h6>
                     <div class="select-export">
-                    <a href="#javascript:;"><button class="btn btn-link btn-primary">Form Re-schedule Pembayaran</button></a>
+                        <a href="#javascript:;"><button class="btn btn-link btn-primary">Form Re-schedule Pembayaran</button></a>
                     </div>
 
                 </div>
@@ -18,7 +24,7 @@
 
                         <div class="filtering-tahun-akademik">
                             <label><b>No. Virtual Account</b> : </label>
-                        <label>988122230988849</label>
+                            <label>988122230988849</label>
                         </div>
 
                     </div>
@@ -79,7 +85,9 @@
                                 <td class="dt-right">Rp. 600.000,-</td>
                                 <td class="dt-center">2021-05-30</td>
                                 <td class="dt-center">Tagihan Mei</td>
-                                <td class="dt-center"><font color="red">Expired</font></td>
+                                <td class="dt-center">
+                                    <font color="red">Expired</font>
+                                </td>
                             </tr>
 
                             <tr>
@@ -88,7 +96,9 @@
                                 <td class="dt-right">Rp. 600.000,-</td>
                                 <td class="dt-center">2021-06-10</td>
                                 <td class="dt-center">Tagihan Mei</td>
-                                <td class="dt-center"><font color="green">Paid</font></td>
+                                <td class="dt-center">
+                                    <font color="green">Paid</font>
+                                </td>
                             </tr>
 
                             <tr>
@@ -97,7 +107,9 @@
                                 <td class="dt-right">Rp. 300.000,-</td>
                                 <td class="dt-center">2021-04-30</td>
                                 <td class="dt-center">Tagihan Ujikom</td>
-                                <td class="dt-center"><font color="green">Paid</font></td>
+                                <td class="dt-center">
+                                    <font color="green">Paid</font>
+                                </td>
                             </tr>
 
                         </tbody>

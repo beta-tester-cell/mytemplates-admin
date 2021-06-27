@@ -1,5 +1,11 @@
 <?php include('header.php') ?>
-
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Akademik Pusat</a>
+        <a href="kelola-ploating-dosen.php">Kelola Ploating Dosen</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
 
@@ -21,7 +27,7 @@
                             </select>
                         </div>
 
-            <!-- == Data yang tampil pada combo box PERIODE, menyesuaikan dengan pilihan pada combo box THN AKD -->
+                        <!-- == Data yang tampil pada combo box PERIODE, menyesuaikan dengan pilihan pada combo box THN AKD -->
                         <div class="my-1">
                             <label><b>Periode</b></label>
                             <select class="my-0 width-100" name="periode" id="periode">
@@ -31,7 +37,7 @@
                             </select>
                         </div>
 
-            <!-- == Data yang tampil pada combo box SEMESTER, menyesuaikan dengan pilihan pada combo box PERIODE -->
+                        <!-- == Data yang tampil pada combo box SEMESTER, menyesuaikan dengan pilihan pada combo box PERIODE -->
                         <div class="my-1">
                             <label><b>Semester</b></label>
                             <select class="my-0 width-100" name="semester" id="semester">
@@ -69,16 +75,16 @@
                     </div>
                 </div>
 
-                <div class="card-header form-inputs">
-                    <div class="form grid-2 grid-gap-2 py-1">
-                        <div class="input-group mx-1">
+                <div class="card-header">
+                    <div class="d-flex align-center grid-gap-1 mb-1">
+                        <div class="input-group" style="width: 100px;">
                             <label class="checkbox">
                                 <input type="checkbox" class="checked-all"> Check All<br>
                                 <span class="checkmark"></span>
                             </label>
                         </div>
-                        <div class="d-flex flex-center">
-                            <button type="button" class="btn btn-secondary btn-submit mx-1" style="width: 90px;" data-toggle="modal" data-target="#approve">Approve</button>
+                        <div class="">
+                            <button type="button" class="btn btn-secondary btn-submit" style="width: 90px;" data-toggle="modal" data-target="#approve">Approve</button>
                         </div>
 
                         <!-- Modal Approve -->
@@ -99,80 +105,79 @@
                             </div>
                         </div>
                         <!-- end modal -->
-                    </div>  
+                    </div>
                 </div>
 
-                <div class="card-body">
-                    <div class="table-responsive">
-                        <table id="datatable" class="table-list">
-                            <thead>
-                                <tr>
-                                    <th colspan="2" class="dt-left">Nama Dosen</th>
-                                    <th>Type</th>
-                                    <th class="dt-left">Homebase</th>
-                                    <th>Total SKS</th>
-                                    <th>SKS Approved</th>
-                                    <th>Status</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="dt-center"></td>
-                                    <td><a href="detail-ploating-dosen.php?id=0290091"><strong>[0290091] - Masria, M.Kom</strong></a></td>
-                                    <td class="dt-center">A</td>
-                                    <td>Kramat Raya</td>
-                                    <td class="dt-center">16</td>
-                                    <td class="dt-center">10</td>
-                                    <td class="dt-center"><span class="btn-status btn-success">Done</span></td>
-                                </tr>
-                                <tr>
-                                    <td class="dt-center"><input type="checkbox" name="pilih-ploating" value="1"></td>
-                                    <td><a href="detail-ploating-dosen.php?id=0290091"><strong>[0290071] - Dedi Mizwar</strong></a></td>
-                                    <td class="dt-center">A</td>
-                                    <td>Kramat Raya</td>
-                                    <td class="dt-center">14</td>
-                                    <td class="dt-center">0</td>
-                                    <td class="dt-center"><span class="btn-status btn-secondary">Approve</span></td>
-                                </tr>
-                                <tr>
-                                    <td class="dt-center"><input type="checkbox" name="pilih-ploating" value="1"></td>
-                                    <td><a href="detail-ploating-dosen.php?id=0290091"><strong>[0330773] - Nasril, M.Kom</strong></a></td>
-                                    <td class="dt-center">A</td>
-                                    <td>Medan Baru</td>
-                                    <td class="dt-center">12</td>
-                                    <td class="dt-center">0</td>
-                                    <td class="dt-center"><span class="btn-status btn-secondary">Approve</span></td>
-                                </tr>
-                                <tr>
-                                    <td class="dt-center"><input type="checkbox" name="pilih-ploating" value="1"></td>
-                                    <td><a href="detail-ploating-dosen.php?id=0290091"><strong>[0290744] - Teddy Setiadi, M.Kom</strong></a></td>
-                                    <td class="dt-center">A</td>
-                                    <td>Kramat Raya</td>
-                                    <td class="dt-center">10</td>
-                                    <td class="dt-center">0</td>
-                                    <td class="dt-center"><span class="btn-status btn-secondary">Approve</span></td>
-                                </tr>
-                                <tr>
-                                    <td class="dt-center"><input type="checkbox" name="pilih-ploating" value="1"></td>
-                                    <td><a href="detail-ploating-dosen.php?id=0290091"><strong>[0290733] - Karto</strong></a></td>
-                                    <td class="dt-center">B</td>
-                                    <td>Cimone-Tanggerang</td>
-                                    <td class="dt-center">10</td>
-                                    <td class="dt-center">0</td>
-                                    <td class="dt-center"><span class="btn-status btn-secondary">Approve</span></td>
-                                </tr>
-                                <tr>
-                                    <td class="dt-center"><input type="checkbox" name="pilih-ploating" value="1"></td>
-                                    <td><a href="detail-ploating-dosen.php?id=0290091"><strong>[0290551] - Fadillah Nurfitrah</strong></a></td>
-                                    <td class="dt-center">C</td>
-                                    <td>Kramat Raya</td>
-                                    <td class="dt-center">14</td>
-                                    <td class="dt-center">0</td>
-                                    <td class="dt-center"><span class="btn-status btn-secondary">Approve</span></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                <div class="table-responsive">
+                    <table class="table-list" id="datatable">
+                        <thead>
+                            <tr>
+                                <th>&nbsp;</th>
+                                <th>Nama Dosen</th>
+                                <th>Type</th>
+                                <th>Homebase</th>
+                                <th>Total SKS</th>
+                                <th>SKS Approved</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td></td>
+                                <td><a href="detail-ploating-dosen.php?id=0290091"><strong>[0290091] - Masria, M.Kom</strong></a></td>
+                                <td>A</td>
+                                <td>Kramat Raya</td>
+                                <td>16</td>
+                                <td>10</td>
+                                <td><span class="btn-status btn-success">Done</span></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="pilih-ploating" value="1"></td>
+                                <td><a href="detail-ploating-dosen.php?id=0290091"><strong>[0290071] - Dedi Mizwar</strong></a></td>
+                                <td>A</td>
+                                <td>Kramat Raya</td>
+                                <td>14</td>
+                                <td>0</td>
+                                <td><span class="btn-status btn-secondary">Approve</span></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="pilih-ploating" value="1"></td>
+                                <td><a href="detail-ploating-dosen.php?id=0290091"><strong>[0330773] - Nasril, M.Kom</strong></a></td>
+                                <td>A</td>
+                                <td>Medan Baru</td>
+                                <td>12</td>
+                                <td>0</td>
+                                <td><span class="btn-status btn-secondary">Approve</span></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="pilih-ploating" value="1"></td>
+                                <td><a href="detail-ploating-dosen.php?id=0290091"><strong>[0290744] - Teddy Setiadi, M.Kom</strong></a></td>
+                                <td>A</td>
+                                <td>Kramat Raya</td>
+                                <td>10</td>
+                                <td>0</td>
+                                <td><span class="btn-status btn-secondary">Approve</span></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="pilih-ploating" value="1"></td>
+                                <td><a href="detail-ploating-dosen.php?id=0290091"><strong>[0290733] - Karto</strong></a></td>
+                                <td>B</td>
+                                <td>Cimone-Tanggerang</td>
+                                <td>10</td>
+                                <td>0</td>
+                                <td><span class="btn-status btn-secondary">Approve</span></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="pilih-ploating" value="1"></td>
+                                <td><a href="detail-ploating-dosen.php?id=0290091"><strong>[0290551] - Fadillah Nurfitrah</strong></a></td>
+                                <td>C</td>
+                                <td>Kramat Raya</td>
+                                <td>14</td>
+                                <td>0</td>
+                                <td><span class="btn-status btn-secondary">Approve</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>

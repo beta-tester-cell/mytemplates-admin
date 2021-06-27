@@ -1,7 +1,13 @@
 <?php include('header.php') ?>
-
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Dosen</a>
+        <a href="jadwal-perkuliahan-dosen.php">Jadwal Perkuliahan</a>
+    </div>
+</div>
 <div class="content">
-    <div class="container">
+    <div class="container" style="height:80vh">
 
         <div class="py-1">
             <div class="card">

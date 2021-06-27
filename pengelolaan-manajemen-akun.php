@@ -1,4 +1,11 @@
 <?php include('header.php') ?>
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Akademik Pusat</a>
+        <a href="pengelolaan-manajemen-akun.php">Pengelolaan Manajemen Akun</a>
+    </div>
+</div>
 
 <div class="content">
 
@@ -85,16 +92,17 @@
 
                 </div>
 
-                <div class="table-responsive" style="padding-top:20px">
-                    <table class="basic-table display-pa">
+                <div class="table-responsive pt-2">
+                    <table class="table-list" id="datatable">
                         <thead>
                             <tr>
-                                <th class="align-left" colspan="2">Username</th>
-                                <th class="align-left">Password</th>
-                                <th class="align-left">Level</th>
-                                <th class="align-left">Cabang/Kampus</th>
-                                <th class="align-left">Date Modified</th>
-                                <th class="align-left">&nbsp;</th>
+                                <th>&nbsp;</th>
+                                <th>Username</th>
+                                <th>Password</th>
+                                <th>Level</th>
+                                <th>Cabang/Kampus</th>
+                                <th>Date Modified</th>
+                                <th>Action</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -138,7 +146,7 @@
                                     Cilodong
                                 </td>
                                 <td class="text-danger">
-                                    2021-07-03 16:00< </td>
+                                    2021-07-03 16:00 </td>
                                 <td>
                                     <a href="javascript:;" data-toggle="modal" data-target="#Modal-Reset" class="text-secondary"><i class="fas fa-edit"></i></a>
                                     <a href="#javascript:;" class="text-danger"><i class="fas fa-eraser"></i></a>
@@ -246,27 +254,16 @@
                     <button type="submit" class="btn btn-link btn-primary" style="width:160px">Generate User</button>
                 </div>
 
-                <table border=1 style="border-collapse: collapse;">
-                    <tr>
-                        <td style="padding:0">
-                            <table border=1 style="border-collapse: collapse;" width="100%">
-                                <tr>
-                                    <td bgcolor="blue"></td>
-                                    <td bgcolor="blue"></td>
-                                    <td bgcolor="blue"></td>
-                                    <td bgcolor="blue"></td>
-                                    <td bgcolor="blue"></td>
-                                    <td bgcolor="blue"></td>
-                                    <td bgcolor="blue"></td>
-                                    <td bgcolor="white"></td>
-                                    <td bgcolor="white"></td>
-                                    <td bgcolor="white"></td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                </table>
-                <label>Total 7 dari 10 Cabang</label>
+                <div class="progress-bar-primary">
+                    <progress id="progress1" value="7" max="10"></progress>
+                </div>
+                <div class="desc d-flex flex-space-between text-primary">
+                    <span>1</span>
+                    <span>10</span>
+                </div>
+                <label class="py-1">
+                    Total 7 dari 10 Cabang
+                </label>
 
             </div>
             <div class="modal-footer">

@@ -1,4 +1,11 @@
 <?php include('header.php') ?>
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Akademik Pusat</a>
+        <a href="pengelolaan-matakuliah.php">Pengelolaan Matakuliah</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
         <div class="py-1">
@@ -130,8 +137,7 @@
                             </div>
                         </div>
 
-                        <div class="my-2">
-                            <span class="fa fa-filter" style="margin-right: 30px;"></span>
+                        <div class="filter-kurikulum my-2">
                             <select name="jurusan" id="jurusan">
                                 <option value="0">-- Pilih Jurusan --</option>
                                 <option value="1">Informartika Komputer</option>

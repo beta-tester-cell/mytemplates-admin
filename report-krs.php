@@ -1,4 +1,11 @@
 <?php include('header.php') ?>
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Report</a>
+        <a href="report-krs.php">Report KRS Mahasiswa</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
         <div class="py-1">
@@ -17,7 +24,6 @@
                 </div>
 
                 <div class="my-2 d-flex flex-change grid-gap-1">
-                    <span class="fa fa-filter"></span>
                     <select name="TA" id="TA">
                         <option value="0">-- Pilih Tahun Akademik --</option>
                         <option value="1">2018/2019</option>

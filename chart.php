@@ -1,4 +1,10 @@
 <?php include('header.php') ?>
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="chart.php">Chart</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
         <div class="form grid-2 grid-gap-1 py-1">

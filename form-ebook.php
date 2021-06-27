@@ -1,19 +1,14 @@
 <?php include('header.php') ?>
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Akademik Pusat</a>
+        <a href="pengelolaan-matakuliah.php">Pengelolaan Matakuliah</a>
+        <a href="form-ebook.php">Tambah E-book</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
-        <div class="py-1">
-            <div class="card">
-                <div class="d-flex flex-start">
-                    <a href="pengelolaan-matakuliah.php" class="btn btn-link">
-                        <span>Data Master</span>
-                    </a>
-                    <span class="fa fa-chevron-right py-1"></span>
-                    <a href="form-ebook.php" class="btn btn-link">
-                        <span>Upload E-book</span>
-                    </a>
-                </div>
-            </div>
-        </div>
         <div class="content-tabs px-0">
             <!-- Nav pills -->
             <ul class="nav nav-pills" id="tabs">

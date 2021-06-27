@@ -1,5 +1,11 @@
 <?php include('header.php') ?>
-
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="dashboard-page.php">Akademik Cabang</a>
+        <a href="jadwal-ujian.php">Input Jadwal Ujian</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
 
@@ -7,10 +13,10 @@
             <div class="card">
                 <div class="d-flex flex-start">
                     <a href="form-jadwal-ujian.php" class="btn btn-link">
-                        <span><i class="fa fa-plus"></i> ADD Jadwal Ujian Reguler</span>
+                        <span><i class="fa fa-plus"></i> ADD JADWAL UJIAN REGULER</span>
                     </a>
                     <a href="jadwal-ujian.php" class="btn btn-link">
-                        <span><i class="far fa-list-alt"></i> Daftar Ujian Moduler</span>
+                        <span><i class="far fa-list-alt"></i> DAFTAR UJIAN MODULER</span>
                     </a>
                 </div>
             </div>

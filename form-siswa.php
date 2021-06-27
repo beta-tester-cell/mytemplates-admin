@@ -1,4 +1,11 @@
 <?php include('header.php') ?>
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Akademik Pusat</a>
+        <a href="pengelolaan-siswa.php">Pengelolaan Mahasiswa</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
         <form>
@@ -143,7 +150,6 @@
                             </div>
                             <div class="form-img">
                                 <img src="theme/img/default-user.jpg" alt="">
-                                <br>
                                 <input type="file" name="img_mahasiswa">
                             </div>
                         </div>

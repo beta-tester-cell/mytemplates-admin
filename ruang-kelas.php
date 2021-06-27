@@ -1,5 +1,11 @@
 <?php include('header.php') ?>
-
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="dashboard-page.php">Akademik Cabang</a>
+        <a href="ruang-kelas.php">Ruang Kelas</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
         <div class="py-1 grid-custom-view grid-gap-2">

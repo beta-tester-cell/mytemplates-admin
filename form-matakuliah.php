@@ -1,19 +1,15 @@
 <?php include('header.php') ?>
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Akademik Pusat</a>
+        <a href="pengelolaan-matakuliah.php">Pengelolaan Matakuliah</a>
+        <a href="form-matakuliah.php">Tambah Matakuliah</a>
+    </div>
+</div>
 <div class="content">
     <div class="container" style="height: 80vh;">
-        <div class="py-1">
-            <div class="card">
-                <div class="d-flex flex-start">
-                    <a href="pengelolaan-matakuliah.php" class="btn btn-link">
-                        <span>Data Master</span>
-                    </a>
-                    <span class="fa fa-chevron-right py-1"></span>
-                    <a href="form-matakuliah.php" class="btn btn-link">
-                        <span>Tambah Matakuliah</span>
-                    </a>
-                </div>
-            </div>
-        </div>
+
         <div class="py-1">
 
             <div class="card">

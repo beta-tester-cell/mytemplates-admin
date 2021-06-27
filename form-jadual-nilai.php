@@ -1,7 +1,15 @@
 <?php include('header.php') ?>
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Dosen</a>
+        <a href="jadwal-perkuliahan-dosen.php">Jadwal Perkuliahan</a>
+        <a href="form-jadual-nilai.php">Tambah Nilai UTS/UAS</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
-       <div class="py-1">
+        <div class="py-1">
             <div class="card">
                 <div class="d-flex flex-start">
                     <a href="pengelolaan-nilai.php" class="btn btn-link btn-danger px-20">
@@ -83,7 +91,7 @@
                                         <td class="align-center">2020-06-09 08:00</td>
                                         <td class="align-center">Active</td>
                                         <td>
-                                            <a href="edit-pembimbing.php" class="text-secondary"><i class="fa fa-edit"></i></a>
+                                            <a href="#" class="text-secondary"><i class="fa fa-edit"></i></a>
                                             <a href="#" class="text-primary"><i class="far fa-eye"></i></a>
                                             <a href="#" class="text-danger"><i class="fas fa-eraser"></i></a>
                                         </td>
@@ -94,7 +102,7 @@
                                         <td class="align-center">2020-06-09 08:00</td>
                                         <td class="align-center">Active</td>
                                         <td>
-                                            <a href="edit-pembimbing.php" class="text-secondary"><i class="fa fa-edit"></i></a>
+                                            <a href="#" class="text-secondary"><i class="fa fa-edit"></i></a>
                                             <a href="#" class="text-primary"><i class="far fa-eye"></i></a>
                                             <a href="#" class="text-danger"><i class="fas fa-eraser"></i></a>
                                         </td>
@@ -105,7 +113,7 @@
                                         <td class="align-center">2020-06-09 08:00</td>
                                         <td class="align-center">Active</td>
                                         <td>
-                                            <a href="edit-pembimbing.php" class="text-secondary"><i class="fa fa-edit"></i></a>
+                                            <a href="#" class="text-secondary"><i class="fa fa-edit"></i></a>
                                             <a href="#" class="text-primary"><i class="far fa-eye"></i></a>
                                             <a href="#" class="text-danger"><i class="fas fa-eraser"></i></a>
                                         </td>

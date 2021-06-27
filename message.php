@@ -1,9 +1,18 @@
 <?php include("header.php") ?>
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Dosen</a>
+        <a href="message.php">Chat Message</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
-        <div class="card">
-            <div class="d-flex flex-start">
-                <h6 class="message-page-tittle"><i class="fa fa-comments px-1"></i> Message Page</h6>
+        <div class="py-1">
+            <div class="card">
+                <div class="d-flex flex-start">
+                    <h6 class="message-page-tittle"><i class="fa fa-comments px-1"></i> Message Page</h6>
+                </div>
             </div>
         </div>
         <div class="py-1">
@@ -335,19 +344,19 @@
 </div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
- <script src="theme/js/script.js" defer></script> 
+<script src="theme/js/script.js" defer></script>
 <script>
     $(document).ready(function() {
         $("#new-message").click(function() {
             $(".form-new-message").show(300)
             $(".message-display").hide()
             $(".message-first-panel").hide()
-            $(".btn-message-list-active").each(function(index){
-	    		$(this).removeClass('btn-message-list-active').addClass('btn-message-list')
-	    	})
-	    	$(".btn-message-dot-active").each(function(index){
-	    		$(this).removeClass('btn-message-dot-active').addClass('btn-message-dot')
-	    	})
+            $(".btn-message-list-active").each(function(index) {
+                $(this).removeClass('btn-message-list-active').addClass('btn-message-list')
+            })
+            $(".btn-message-dot-active").each(function(index) {
+                $(this).removeClass('btn-message-dot-active').addClass('btn-message-dot')
+            })
         })
 
         $(".btn-message-list").each(function(index) {

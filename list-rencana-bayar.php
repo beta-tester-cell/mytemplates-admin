@@ -1,4 +1,11 @@
 <?php include('header.php') ?>
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Keuangan Cabang</a>
+        <a href="list-rencana-bayar.php">List Rencana Bayar</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
 
@@ -31,13 +38,13 @@
         <div class="py-1">
             <div class="card">
                 <div class="table-responsive">
-                    <div class="form grid-1 grid-gap-1 py-1" style="float: right;">
-                        <div class="tes">                      
+                    <div class="info-finance my-1">
+                        <div class="tes">
                             <input type="text" value="75.000.000" class="textbox-warning"><br>
                             <small><b>Besar</b></small>
                         </div>
                     </div>
-                    <table class="basic-table display">
+                    <table class="table-list" id="datatable">
                         <thead>
                             <tr>
                                 <th>No</th>

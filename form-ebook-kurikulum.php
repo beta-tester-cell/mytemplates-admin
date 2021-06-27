@@ -1,5 +1,12 @@
 <?php include('header.php') ?>
-
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Mahasiswa</a>
+        <a href="#">Perkuliahan</a>
+        <a href="form-ebook-kurikulum.php">E-book</a>
+    </div>
+</div>
 <div class="content">
 
     <div class="container height-100">
@@ -42,12 +49,11 @@
             <div class="card">
                 <div class="card-header d-flex flex-space-between">
                     <h6>List E-book </h6>
-
                 </div>
 
 
                 <div class="table-responsive">
-                    <table class="basic-table" id="datatable">
+                    <table class="table-list" id="datatable">
                         <thead>
                             <tr>
                                 <th class="dt-center">No</th>

@@ -1,4 +1,11 @@
 <?php include('header.php') ?>
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Report</a>
+        <a href="monitoring-perkuliahan.php">Monitoring Perkuliahan</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
 
@@ -6,19 +13,6 @@
             <div class="card">
                 <div class="card-header d-flex flex-space-between">
                     <h6>Monitoring Proses Perkuliahaan</h6>
-                </div>
-
-                <div class="d-flex flex-space-between">
-                    <div class="filter-monitor">
-                        <input type="date" id="date-monitoring">
-                        <input type="time" id="time-monitoring">
-                        <select name="status" id="status-monitoring">
-                            <option value="0">-- Pilih Status --</option>
-                            <option value="1">Selesai</option>
-                            <option value="2">Sedang Dimulai</option>
-                            <option value="3">Belom Dimulai</option>
-                        </select>
-                    </div>
                     <div class="select-export">
                         <button class="btn btn-secondary btn-submit dropdown-button" style="width: 105px;"><i class="fas fa-file-export"></i> Export</button>
                         <div class="type-export">
@@ -29,11 +23,22 @@
                     </div>
                 </div>
 
+                <div class="filter-monitor">
+                    <input type="date" id="date-monitoring">
+                    <input type="time" id="time-monitoring">
+                    <select name="status" id="status-monitoring">
+                        <option value="0">-- Pilih Status --</option>
+                        <option value="1">Selesai</option>
+                        <option value="2">Sedang Dimulai</option>
+                        <option value="3">Belom Dimulai</option>
+                    </select>
+                </div>
+
 
                 <div class="list-nilai py-1">
 
                     <div class="table-responsive list-table-nilai">
-                        <table class="basic-table" id="datatable">
+                        <table class="table-list" id="datatable">
                             <thead>
                                 <tr>
                                     <th class="align-left">Nama Dosen</th>

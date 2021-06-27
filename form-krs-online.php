@@ -1,5 +1,12 @@
 <?php include('header.php') ?>
-
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Mahasiswa</a>
+        <a href="#">Perkuliahan</a>
+        <a href="form-krs-online.php">KRS Online</a>
+    </div>
+</div>
 <div class="content">
 
     <div class="container">
@@ -23,12 +30,12 @@
                             <label>2020/2021</label>
                         </div>
 
-                         <div class="filtering-tahun-akademik">
+                        <div class="filtering-tahun-akademik">
                             <label><b>Semester</b> : </label>
                             <label>1 (Ganjil)</label>
                         </div>
 
-                         <div class="filtering-tahun-akademik">
+                        <div class="filtering-tahun-akademik">
                             <label><b>Jurusan</b> : </label>
                             <label>Informatika Komputer</label>
                         </div>
@@ -42,7 +49,7 @@
                     </div>
 
                     <div class="table-responsive">
-                        <table class="basic-table" id="datatable">
+                        <table class="table-list" id="datatable">
                             <thead>
                                 <tr>
                                     <th class="align-left" colspan="2">No</th>

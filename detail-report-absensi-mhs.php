@@ -1,13 +1,20 @@
 <?php include('header.php') ?>
-
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Report</a>
+        <a href="report-absensi-mhs.php">Report Absensi Mahasiswa</a>
+        <a href="detail-report-absensi-mhs.php">Detail Report Absensi Mahasiswa</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
 
         <div class="py-1">
             <div class="card">
                 <div class="d-flex flex-start">
-                    <a href="report-absensi-mhs.php" class="btn btn-link text-danger">
-                        <span><i class="fa fa-arrow-left"></i> Back</span>
+                    <a href="report-absensi-mhs.php" class="btn btn-link btn-danger">
+                        <span>Back</span>
                     </a>
                 </div>
             </div>
@@ -26,8 +33,8 @@
                         </div>
                     </div>
                 </div>
-                
-                <div class="card-header d-flex flex-start my-2">
+
+                <div class="card-header">
                     <div class="grid-3 grid-gap-1 py-1">
                         <div class="detail-wrapper mx-1">
                             <div class="grid-1">
@@ -69,8 +76,8 @@
                     </div>
                 </div>
 
-                 <div class="table-responsive">
-                    <table id="scroll-horizontal-datatable" class="basic-table">
+                <div class="table-responsive">
+                    <table id="datatable" class="table-list">
                         <thead>
                             <tr>
                                 <th rowspan="2">NIM</th>
@@ -214,7 +221,7 @@
                 </div>
             </div>
         </div>
-        
+
     </div>
 </div>
 

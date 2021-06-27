@@ -1,10 +1,20 @@
 <?php include("header.php") ?>
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Dosen</a>
+        <a href="jadwal-perkuliahan-dosen.php">Jadwal Perkuliahan</a>
+        <a href="rkk.php">Rencana Kegiatan Kuliah</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
-        <div class="card">
-            <div class="d-flex flex-start grid-2">
-                <h6 class="rkk-page-tittle"><i class="fas fa-campground px-1"></i> Kelas : MI-00-XX</h6>
-                <h6 class="rkk-page-tittle"> Pengantar Database Administrasi</h6>
+        <div class="py-1">
+            <div class="card">
+                <div class="d-flex flex-start grid-2">
+                    <h6 class="rkk-page-tittle"><i class="fas fa-campground px-1"></i> Kelas : MI-00-XX</h6>
+                    <h6 class="rkk-page-tittle"> Pengantar Database Administrasi</h6>
+                </div>
             </div>
         </div>
         <div class="py-1 grid-2 grid-gap-1">
@@ -15,7 +25,7 @@
                 <form action="">
                     <div class="my-1 rkk-bold">
                         <label for="Tanggal">Tanggal dan Waktu Perkuliahan</label>
-                        <input class="width-100" name="tanggal" id="tanggal" type="datetime-local"/>
+                        <input class="width-100" name="tanggal" id="tanggal" type="datetime-local" />
                     </div>
                     <div class="my-1 rkk-bold">
                         <label>Pencapaian Pembelajaran</label>
@@ -70,7 +80,7 @@
                         </select>
                     </div>
                     <div class="text-right">
-                        <button type="submit" class="btn btn-secondary btn-submit mx-1"><i class="fa fa-save mx-1"></i> Submit</button>
+                        <button type="submit" class="btn btn-secondary btn-submit rkk-distancing"><i class="fa fa-save rkk-distancing"></i> Submit</button>
                     </div>
                 </form>
             </div>
@@ -79,11 +89,11 @@
                     <h6>List Rencana Kegiatan Kuliah</h6>
                 </div>
                 <div class="rkk-list-panel">
-                    <div class="width-100 rkk-list-finish grid-3">
+                    <div class="width-100 rkk-list-finish grid-3-rkk">
                         <div class="text-white">Pertemuan ke-1</div>
                         <div class="text-center text-white">08-06-2021</div>
                         <div class="text-right">
-                            <a data-toggle="modal" data-target="#pertemuan1" class="mx-1 text-white"><i class="fas fa-eye"></i></a>
+                            <a data-toggle="modal" data-target="#pertemuan1" class="rkk-distancing text-white"><i class="fas fa-eye"></i></a>
                         </div>
                         <div class="modal" id="pertemuan1" tabindex="-1" aria-labelledby="test" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-scrollable">
@@ -135,13 +145,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="width-100 rkk-list-active grid-3">
+                    <div class="width-100 rkk-list-active grid-3-rkk">
                         <div class="text-white">Pertemuan ke-2</div>
                         <div class="text-center text-white">15-06-2021</div>
                         <div class="text-right">
-                            <a href="#" class="mx-1 text-white"><i class="fa fa-edit"></i></a>
-                            <a href="#" class="mx-1 text-white"><i class="fas fa-eraser"></i></a>
-                            <a data-toggle="modal" data-target="#pertemuan2" class="mx-1 text-white"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="rkk-distancing text-white"><i class="fa fa-edit"></i></a>
+                            <a href="#" class="rkk-distancing text-white"><i class="fas fa-eraser"></i></a>
+                            <a data-toggle="modal" data-target="#pertemuan2" class="rkk-distancing text-white"><i class="fas fa-eye"></i></a>
                         </div>
                         <div class="modal" id="pertemuan2" tabindex="-1" aria-labelledby="test2" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-scrollable">
@@ -193,13 +203,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="width-100 rkk-list grid-3">
+                    <div class="width-100 rkk-list grid-3-rkk">
                         <div>Pertemuan ke-3</div>
                         <div class="text-center">22-06-2021</div>
                         <div class="text-right">
-                            <a href="#" class="mx-1 text-secondary"><i class="fa fa-edit"></i></a>
-                            <a href="#" class="mx-1 text-danger"><i class="fas fa-eraser"></i></a>
-                            <a data-toggle="modal" data-target="#pertemuan3" class="mx-1 text-primary"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="rkk-distancing text-secondary"><i class="fa fa-edit"></i></a>
+                            <a href="#" class="rkk-distancing text-danger"><i class="fas fa-eraser"></i></a>
+                            <a data-toggle="modal" data-target="#pertemuan3" class="rkk-distancing text-primary"><i class="fas fa-eye"></i></a>
                         </div>
                         <div class="modal" id="pertemuan3" tabindex="-1" aria-labelledby="test3" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-scrollable">
@@ -251,103 +261,103 @@
                             </div>
                         </div>
                     </div>
-                    <div class="width-100 rkk-list grid-3">
+                    <div class="width-100 rkk-list grid-3-rkk">
                         <div>Pertemuan ke-4</div>
                         <div class="text-center">29-06-2021</div>
                         <div class="text-right">
-                            <a href="#" class="mx-1 text-secondary"><i class="fa fa-edit"></i></a>
-                            <a href="#" class="mx-1 text-danger"><i class="fas fa-eraser"></i></a>
-                            <a data-toggle="modal" data-target="#pertemuan3" class="mx-1 text-primary"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="rkk-distancing text-secondary"><i class="fa fa-edit"></i></a>
+                            <a href="#" class="rkk-distancing text-danger"><i class="fas fa-eraser"></i></a>
+                            <a data-toggle="modal" data-target="#pertemuan3" class="rkk-distancing text-primary"><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
-                    <div class="width-100 rkk-list grid-3">
+                    <div class="width-100 rkk-list grid-3-rkk">
                         <div>Pertemuan ke-5</div>
                         <div class="text-center">06-07-2021</div>
                         <div class="text-right">
-                            <a href="#" class="mx-1 text-secondary"><i class="fa fa-edit"></i></a>
-                            <a href="#" class="mx-1 text-danger"><i class="fas fa-eraser"></i></a>
-                            <a data-toggle="modal" data-target="#pertemuan3" class="mx-1 text-primary"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="rkk-distancing text-secondary"><i class="fa fa-edit"></i></a>
+                            <a href="#" class="rkk-distancing text-danger"><i class="fas fa-eraser"></i></a>
+                            <a data-toggle="modal" data-target="#pertemuan3" class="rkk-distancing text-primary"><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
-                    <div class="width-100 rkk-list grid-3">
+                    <div class="width-100 rkk-list grid-3-rkk">
                         <div>Pertemuan ke-6</div>
                         <div class="text-center">13-07-2021</div>
                         <div class="text-right">
-                            <a href="#" class="mx-1 text-secondary"><i class="fa fa-edit"></i></a>
-                            <a href="#" class="mx-1 text-danger"><i class="fas fa-eraser"></i></a>
-                            <a data-toggle="modal" data-target="#pertemuan3" class="mx-1 text-primary"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="rkk-distancing text-secondary"><i class="fa fa-edit"></i></a>
+                            <a href="#" class="rkk-distancing text-danger"><i class="fas fa-eraser"></i></a>
+                            <a data-toggle="modal" data-target="#pertemuan3" class="rkk-distancing text-primary"><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
-                    <div class="width-100 rkk-list grid-3">
+                    <div class="width-100 rkk-list grid-3-rkk">
                         <div>Pertemuan ke-7</div>
                         <div class="text-center">20-07-2021</div>
                         <div class="text-right">
-                            <a href="#" class="mx-1 text-secondary"><i class="fa fa-edit"></i></a>
-                            <a href="#" class="mx-1 text-danger"><i class="fas fa-eraser"></i></a>
-                            <a data-toggle="modal" data-target="#pertemuan3" class="mx-1 text-primary"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="rkk-distancing text-secondary"><i class="fa fa-edit"></i></a>
+                            <a href="#" class="rkk-distancing text-danger"><i class="fas fa-eraser"></i></a>
+                            <a data-toggle="modal" data-target="#pertemuan3" class="rkk-distancing text-primary"><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
-                    <div class="width-100 rkk-list grid-3">
+                    <div class="width-100 rkk-list grid-3-rkk">
                         <div>Pertemuan ke-8</div>
                         <div class="text-center">27-07-2021</div>
                         <div class="text-right">
-                            <a href="#" class="mx-1 text-secondary"><i class="fa fa-edit"></i></a>
-                            <a href="#" class="mx-1 text-danger"><i class="fas fa-eraser"></i></a>
-                            <a data-toggle="modal" data-target="#pertemuan3" class="mx-1 text-primary"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="rkk-distancing text-secondary"><i class="fa fa-edit"></i></a>
+                            <a href="#" class="rkk-distancing text-danger"><i class="fas fa-eraser"></i></a>
+                            <a data-toggle="modal" data-target="#pertemuan3" class="rkk-distancing text-primary"><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
-                    <div class="width-100 rkk-list grid-3">
+                    <div class="width-100 rkk-list grid-3-rkk">
                         <div>Pertemuan ke-9</div>
                         <div class="text-center">03-07-2021</div>
                         <div class="text-right">
-                            <a href="#" class="mx-1 text-secondary"><i class="fa fa-edit"></i></a>
-                            <a href="#" class="mx-1 text-danger"><i class="fas fa-eraser"></i></a>
-                            <a data-toggle="modal" data-target="#pertemuan3" class="mx-1 text-primary"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="rkk-distancing text-secondary"><i class="fa fa-edit"></i></a>
+                            <a href="#" class="rkk-distancing text-danger"><i class="fas fa-eraser"></i></a>
+                            <a data-toggle="modal" data-target="#pertemuan3" class="rkk-distancing text-primary"><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
-                    <div class="width-100 rkk-list grid-3">
+                    <div class="width-100 rkk-list grid-3-rkk">
                         <div>Pertemuan ke-10</div>
                         <div class="text-center">10-07-2021</div>
                         <div class="text-right">
-                            <a href="#" class="mx-1 text-secondary"><i class="fa fa-edit"></i></a>
-                            <a href="#" class="mx-1 text-danger"><i class="fas fa-eraser"></i></a>
-                            <a data-toggle="modal" data-target="#pertemuan3" class="mx-1 text-primary"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="rkk-distancing text-secondary"><i class="fa fa-edit"></i></a>
+                            <a href="#" class="rkk-distancing text-danger"><i class="fas fa-eraser"></i></a>
+                            <a data-toggle="modal" data-target="#pertemuan3" class="rkk-distancing text-primary"><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
-                    <div class="width-100 rkk-list grid-3">
+                    <div class="width-100 rkk-list grid-3-rkk">
                         <div>Pertemuan ke-11</div>
                         <div class="text-center">17-07-2021</div>
                         <div class="text-right">
-                            <a href="#" class="mx-1 text-secondary"><i class="fa fa-edit"></i></a>
-                            <a href="#" class="mx-1 text-danger"><i class="fas fa-eraser"></i></a>
-                            <a data-toggle="modal" data-target="#pertemuan3" class="mx-1 text-primary"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="rkk-distancing text-secondary"><i class="fa fa-edit"></i></a>
+                            <a href="#" class="rkk-distancing text-danger"><i class="fas fa-eraser"></i></a>
+                            <a data-toggle="modal" data-target="#pertemuan3" class="rkk-distancing text-primary"><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
-                    <div class="width-100 rkk-list grid-3">
+                    <div class="width-100 rkk-list grid-3-rkk">
                         <div>Pertemuan ke-12</div>
                         <div class="text-center">24-07-2021</div>
                         <div class="text-right">
-                            <a href="#" class="mx-1 text-secondary"><i class="fa fa-edit"></i></a>
-                            <a href="#" class="mx-1 text-danger"><i class="fas fa-eraser"></i></a>
-                            <a data-toggle="modal" data-target="#pertemuan3" class="mx-1 text-primary"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="rkk-distancing text-secondary"><i class="fa fa-edit"></i></a>
+                            <a href="#" class="rkk-distancing text-danger"><i class="fas fa-eraser"></i></a>
+                            <a data-toggle="modal" data-target="#pertemuan3" class="rkk-distancing text-primary"><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
-                    <div class="width-100 rkk-list grid-3">
+                    <div class="width-100 rkk-list grid-3-rkk">
                         <div>Pertemuan ke-13</div>
                         <div class="text-center">31-07-2021</div>
                         <div class="text-right">
-                            <a href="#" class="mx-1 text-secondary"><i class="fa fa-edit"></i></a>
-                            <a href="#" class="mx-1 text-danger"><i class="fas fa-eraser"></i></a>
-                            <a data-toggle="modal" data-target="#pertemuan3" class="mx-1 text-primary"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="rkk-distancing text-secondary"><i class="fa fa-edit"></i></a>
+                            <a href="#" class="rkk-distancing text-danger"><i class="fas fa-eraser"></i></a>
+                            <a data-toggle="modal" data-target="#pertemuan3" class="rkk-distancing text-primary"><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
-                    <div class="width-100 rkk-list grid-3">
+                    <div class="width-100 rkk-list grid-3-rkk">
                         <div>Pertemuan ke-14</div>
                         <div class="text-center">07-08-2021</div>
                         <div class="text-right">
-                            <a href="#" class="mx-1 text-secondary"><i class="fa fa-edit"></i></a>
-                            <a href="#" class="mx-1 text-danger"><i class="fas fa-eraser"></i></a>
-                            <a data-toggle="modal" data-target="#pertemuan3" class="mx-1 text-primary"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="rkk-distancing text-secondary"><i class="fa fa-edit"></i></a>
+                            <a href="#" class="rkk-distancing text-danger"><i class="fas fa-eraser"></i></a>
+                            <a data-toggle="modal" data-target="#pertemuan3" class="rkk-distancing text-primary"><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
@@ -359,8 +369,9 @@
 <?php include('footer.php') ?>
 <script>
     $(document).ready(function() {
-        
+
     })
 </script>
 </body>
+
 </html>

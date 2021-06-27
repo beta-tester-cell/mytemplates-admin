@@ -1,4 +1,10 @@
 <?php include('header.php') ?>
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="menu.php">Manajemen Menu</a>
+    </div>
+</div>
 <div class="content">
     <div class="container height-100">
         <div class="py-1">

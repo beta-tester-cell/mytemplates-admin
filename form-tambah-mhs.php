@@ -1,5 +1,11 @@
 <?php include('header.php') ?>
-
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Mahasiswa</a>
+        <a href="jadwal-perkuliahan-dosen.php">Kelengkapan Biodata</a>
+    </div>
+</div>
 <div class="content">
 
     <div class="container">
@@ -11,8 +17,8 @@
                     <h6>Form Tambah Baru Mahasiswa </h6>
 
                     <div class="d-flex flex-start">
-                        <a href="#javascript:;" class="btn-status btn-danger"><i class="fa fa-angle-left"></i> BACK</a>
-                        <a href="#javascript:;" class="btn-status btn-primary" style="margin-left:10px"><i class="fa fa-plus"></i> SAVE</a>
+                        <a href="#javascript:;" class="btn-status btn-danger"> BACK</a>
+                        <a href="#javascript:;" class="btn-status btn-primary" style="margin-left:10px">SAVE</a>
                     </div>
 
                 </div>
@@ -84,154 +90,81 @@
 
                     <div class="container tab-pane active" id="tab1C">
 
-                        <div class="form grid-2 grid-gap-1 py-1">
+                        <div class="d-flex flex-change">
+                            <div class="form-mr-2">
+                                <div class="form-inputs">
+                                    <label>ID</label>
+                                    <input type="text" name="id_mahasiswa" value="1" placeholder="ID Mahasiswa">
+                                </div>
+                                <div class="form-inputs">
+                                    <label>NIK</label>
+                                    <input type="text" name="nik" value="31710000427839" placeholder="NIK">
+                                </div>
+                                <div class="form-inputs">
+                                    <label>Nama Lengkap</label>
+                                    <input type="text" name="nama_lengkap" value="Khaerul Istafa" placeholder="Nama Lengkap">
+                                </div>
+                                <div class="form-inputs">
+                                    <label>Tanggal Lahir</label>
+                                    <input type="date" value="06/07/2021" name="tanggal_lahir">
+                                </div>
+                                <div class="form-inputs">
+                                    <label>Tempat Lahir</label>
+                                    <input type="text" name="tempat_lahir" value="Jakarta" placeholder="Tempat Lahir">
+                                </div>
+                                <div class="form-inputs">
+                                    <label>Jenis Kelamin</label>
+                                    <div class="form-group">
+                                        <label class="radio-button"> Laki-laki
+                                            <input type="radio" value="Laki-laki" checked>
+                                            <span class="checkmark"></span>
+                                        </label>
 
-                            <!-- BEGIN FORM 1 -->
-                            <div class="card">
-
-                                <form>
-
-                                    <div class="form-inputs">
-
-                                        <label>ID</label>
-
-                                        <input class="width-100" type="text" name="id" value="1">
-
-                                    </div>
-
-                                    <div class="form-inputs">
-
-                                        <label>NIK</label>
-
-                                        <input class="width-100" type="text" name="nik" value="31720111330011552">
-
-                                    </div>
-
-                                    <div class="form-inputs">
-
-                                        <label>NIM</label>
-
-                                        <input class="width-100" type="text" name="nim" value="180442020018">
-
-                                    </div>
-
-                                    <div class="form-inputs">
-
-                                        <label>Nama Lengkap</label>
-
-                                        <input class="width-100" type="text" name="namalengkap" value="Khaerul Istafa">
+                                        <label class="radio-button"> Perempuan
+                                            <input type="radio" value="Perempuan">
+                                            <span class="checkmark"></span>
+                                        </label>
 
                                     </div>
+                                </div>
+                                <div class="form-inputs">
+                                    <label>Agama</label>
+                                    <select name="agama" id="agama">
+                                        <option value="0">-- Pilih Agama --</option>
 
-                                    <div class="form-inputs">
+                                        <option value="islam" selected>Islam</option>
 
-                                        <label>Tanggal Lahir</label>
+                                        <option value="kristen">Kristen</option>
 
-                                        <input class="width-100" type="date" name="tgl-lahir">
+                                        <option value="katolik">Katolik</option>
 
-                                    </div>
+                                        <option value="hindu">Hindu</option>
 
-                                    <div class="form-inputs">
+                                        <option value="budha">Budha</option>
 
-                                        <label>Tempat Lahir</label>
-
-                                        <input class="width-100" type="text" name="tmp-lahir" value="Jakarta">
-
-                                    </div>
-
-                                    <div class="form-inputs">
-
-                                        <label>Jenis Kelamin</label>
-
-                                        <div class="d-flex flex-start">
-                                            <label class="radio-button"> Laki-laki
-                                                <input type="radio" name="jenis-kelamin" value="" checked>
-                                                <span class="checkmark"></span>
-                                            </label>
-
-                                            <label class="radio-button"> Perempuan
-                                                <input type="radio" name="jenis-kelamin" value="">
-                                                <span class="checkmark"></span>
-                                            </label>
-                                        </div>
-
-                                    </div>
-
-                                    <div class="form-inputs">
-
-                                        <label>Agama</label>
-
-                                        <select name="agama" id="agama">
-                                            <option value="">-- Pilih Agama --</option>
-                                            <option value="islam" selected>Islam</option>
-                                            <option value="kristen-katolik">Kristen Katolik</option>
-                                            <option value="kristen-protestan">Kristen Protestan</option>
-                                            <option value="hindu">Hindu</option>
-                                            <option value="budha">Budha</option>
-                                            <option value="kong Hu Cu">Kong Hu Cu</option>
-                                        </select>
-
-                                    </div>
-
-                                    <div class="form-inputs">
-
-                                        <label>Email</label>
-
-                                        <input class="width-100" type="email" name="email" value="khaeruistafa@gmail.com">
-
-                                    </div>
-
+                                    </select>
+                                </div>
+                                <div class="form-inputs">
+                                    <label for="email">Email</label>
+                                    <input type="email" name="email" value="demo@gmail.com" placeholder="Email">
+                                </div>
+                                <div class="form-inputs">
+                                    <label for="email">No.Handphone</label>
+                                    <input type="text" name="no_hp" value="082486346728" placeholder="No. Handphone">
+                                </div>
+                                <div class="form-inputs">
+                                    <label for="email">Email Orang tua</label>
+                                    <input type="email" name="email_ortu" value="admin@admin.com" vlauplaceholder="Email Orang Tua">
+                                </div>
+                                <div class="form-inputs">
+                                    <label for="email">No.Handphone Orang tua</label>
+                                    <input type="text" name="no_hp_ortu" value="089798678436" placeholder="No. Handphone Orang Tua">
+                                </div>
                             </div>
-
-                            <!-- END FORM 1 -->
-
-                            <!-- BEGIN FORM 2 -->
-                            <div class="card">
-
-                                <div class="form-inputs">
-
-                                    <label>No. Handphone</label>
-
-                                    <input class="width-100" type="text" name="hp" value="084888233554">
-
-                                </div>
-
-                                <div class="form-inputs">
-
-                                    <label>Email Orang Tua</label>
-
-                                    <input class="width-100" type="email" name="email-ortu" value="khaeruistafa@gmail.com">
-
-                                </div>
-
-                                <div class="form-inputs">
-
-                                    <label>No. Handphone Orang Tua</label>
-
-                                    <input class="width-100" type="text" name="hp-ortu" value="086623344520">
-
-                                </div>
-
-                                <div class="form-inputs">
-
-                                    <label>Foto</label>
-
-                                    <input class="width-100" type="file" name="foto">
-
-                                </div>
-
-                                <div class="d-flex flex-center py-1">
-
-                                    <button type="submit" class="btn btn-primary btn-submit mx-1">Submit</button>
-
-                                    <button type="reset" class="btn btn-medium btn-cancel mx-1">Cancel</button>
-
-                                </div>
-
-                                </form>
+                            <div class="form-img">
+                                <img src="theme/img/default-user.jpg" alt="">
+                                <input type="file" name="img_mahasiswa">
                             </div>
-                            <!-- END FORM 2 -->
-
                         </div>
 
                     </div>

@@ -58,7 +58,7 @@
     padding: 5 1rem;
     margin-bottom: 1rem;
     border: 3px solid var(--medium-color);
-    border-radius: 20px;
+    border-radius: 10px;
   }
 
   input[type="date"] {
@@ -103,6 +103,27 @@
 
   /* css aside mobile end */
 
+  /* css breadcrumb start */
+  .breadcrumb-wrapper {
+    margin: 0;
+    top: 57px;
+    width: 100%;
+  }
+
+  .breadcrumb {
+    padding: 0 0.5rem;
+  }
+
+  .breadcrumb a {
+    font-size: 9px;
+  }
+
+  .breadcrumb a + a::before {
+    font-size: 6px;
+    margin: 0 3px;
+  }
+  /* css breadcrumb end */
+
   /* css btn start */
   .btn {
     width: auto;
@@ -127,7 +148,7 @@
   /* css tabs start */
   .content-tabs {
     width: 100%;
-    padding: 30px 0;
+    padding: 0;
   }
 
   .nav-pills {
@@ -161,7 +182,7 @@
 
   .content {
     margin-left: 0;
-    margin-top: 65px;
+    margin-top: 120px;
     width: 100%;
     transition: 0.3s;
   }
@@ -292,11 +313,11 @@
   }
 
   .filtering-export {
-    gap: 10px;
+    gap: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* flex-direction: column; */
+    flex-direction: column;
   }
 
   .checkmark-left-45,
@@ -386,6 +407,52 @@
   .filter-monitor select {
     width: 100%;
   }
+
+  .filter-kurikulum select,
+  .filter-kurikulum input,
+  .filter-mahasiswa select,
+  .filter-mahasiswa input,
+  .filter-kalender select,
+  .filter-kalender input,
+  .filter-jadual select,
+  .filter-jadual input,
+  .filter-monitor select,
+  .filter-monitor input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .outstanding-textbox,
+  .pembayaran-textbox,
+  .realisasi-textbox {
+    display: flex;
+    gap: 7px;
+    margin-bottom: 10px;
+  }
+
+  .textbox-primary,
+  .textbox-warning,
+  .textbox-danger {
+    width: 100%;
+  }
+
+  .align-start {
+    align-items: flex-start;
+  }
+
+  .info-finance {
+    float: left;
+  }
+
+  .grid-3-rkk {
+    display: grid;
+    grid-template-columns: 42% 30% 28%;
+  }
+
+  .rkk-distancing {
+    margin: 0;
+  }
+
   /* css footer start */
   footer {
     padding-left: 0;
@@ -489,6 +556,27 @@
 
   /* css aside mobile end */
 
+  /* css breadcrumb start */
+  .breadcrumb-wrapper {
+    margin: 0;
+    top: 57px;
+    width: 100%;
+  }
+
+  .breadcrumb {
+    padding: 0 0.5rem;
+  }
+
+  .breadcrumb a {
+    font-size: 9px;
+  }
+
+  .breadcrumb a + a::before {
+    font-size: 6px;
+    margin: 0 3px;
+  }
+  /* css breadcrumb end */
+
   /* css btn start */
   .btn {
     width: auto;
@@ -551,7 +639,7 @@
 
   .content {
     margin-left: 0;
-    margin-top: 65px;
+    margin-top: 120px;
     width: 100%;
     transition: 0.3s;
   }
@@ -738,6 +826,51 @@
   }
   .info-krs {
     grid-template-columns: 30% 70%;
+  }
+
+  .filter-kurikulum select,
+  .filter-kurikulum input,
+  .filter-mahasiswa select,
+  .filter-mahasiswa input,
+  .filter-kalender select,
+  .filter-kalender input,
+  .filter-jadual select,
+  .filter-jadual input,
+  .filter-monitor select,
+  .filter-monitor input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .outstanding-textbox,
+  .pembayaran-textbox,
+  .realisasi-textbox {
+    display: flex;
+    gap: 7px;
+    margin-bottom: 10px;
+  }
+
+  .textbox-primary,
+  .textbox-warning,
+  .textbox-danger {
+    width: 100%;
+  }
+
+  .align-start {
+    align-items: flex-start;
+  }
+
+  .info-finance {
+    float: left;
+  }
+
+  .grid-3-rkk {
+    display: grid;
+    grid-template-columns: 42% 30% 28%;
+  }
+
+  .rkk-distancing {
+    margin: 0;
   }
 
   /* css footer start */

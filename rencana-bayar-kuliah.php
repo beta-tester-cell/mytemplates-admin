@@ -1,12 +1,19 @@
 <?php include('header.php') ?>
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Keuangan Cabang</a>
+        <a href="rencana-bayar-kuliah.php">Rencana Bayar Kuliah</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
 
         <div class="py-1">
-            <div class="card" style="position: relative;">
-                <div class="grid-custom-button">
-                    <a href="form-rencana-bayar.php" style="width:75px;" class="btn btn-link btn-primary px-20">Add</a>
-                    <div class="select-export btn-export-up">
+            <div class="card">
+                <div class="d-flex flex-space-between">
+                    <a href="form-rencana-bayar.php" class="btn btn-link"><i class="fa fa-plus"></i> ADD RENCANA BAYAR KULIAH </a>
+                    <div class="select-export" style="bottom: 0;">
                         <div type="button" class="btn btn-link btn-secondary dropdown-button"><i class="fas fa-file-export"></i> Export</div>
                         <div class="type-export">
                             <a href="#" id="pdf"><i class="far fa-file-pdf"></i> PDF</a>
@@ -19,7 +26,7 @@
         </div>
         <div class="py-1">
             <div class="card">
-                <div class="grid-2 grid-gap-1">
+                <div class="form grid-2 grid-gap-1">
                     <div class="form grid-2 grid-gap-1 py-1">
                         <div class="input-group">
                             <div class="input-group-area"><input class="width-100" type="date" id="tanggal_awal"></div>
@@ -28,7 +35,7 @@
                         </div>
                         <button class="btn btn-secondary btn-submit" style="width: 70px;" id="button-view">View</button>
                     </div>
-                    <div class="grid-3 flex-center">
+                    <div class="form grid-3 flex-center align-start">
                         <div class="outstanding-textbox">
                             <input type="text" class="textbox-primary" value="1.450.000.000"><br>
                             <small><b>Outstanding</b></small>

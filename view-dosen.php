@@ -1,4 +1,12 @@
 <?php include('header.php') ?>
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Akademik Pusat</a>
+        <a href="pengelolaan-dosen.php">Pengelolaan Dosen</a>
+        <a href="view-dosen.php">View Dosen</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
         <div class="py-1">

@@ -1,7 +1,14 @@
 <?php include('header.php') ?>
-
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Dosen</a>
+        <a href="jadwal-perkuliahan-dosen.php">Jadwal Perkuliahan</a>
+        <a href="upload-soal-ujian.php">Upload Soal Ujian</a>
+    </div>
+</div>
 <div class="content">
-    <div class="container">
+    <div class="container" style="height: 80vh;">
         <div class="py-1 grid-custom-view grid-gap-1">
             <div class="card">
                 <div class="card-header d-flex flex-space-between">
@@ -21,9 +28,9 @@
             </div>
 
             <div class="card">
-                <div class="card-header d-flex flex-space-between">
-                    <h6 style="font-size:20px;">Upload Soal UTS/UAS</h6>
-                    <a href="upload-soal-ujian-tambah.php" class="btn-status btn-primary"><i class="fa fa-plus"></i> Add New</a>                    
+                <div class="card-header d-flex flex-space-between align-center">
+                    <h6 style="font-size:20px;margin:0px;">Upload Soal UTS/UAS</h6>
+                    <a href="upload-soal-ujian-tambah.php" class="btn btn-link"><i class="fa fa-plus"></i> Add New</a>
                 </div>
 
                 <div class="grid-1">

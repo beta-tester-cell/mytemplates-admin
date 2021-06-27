@@ -1,4 +1,11 @@
 <?php include('header.php') ?>
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Akademik Pusat</a>
+        <a href="rekap-data-mahasiswa-kampus.php">Data Mahasiswa</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
 
@@ -22,34 +29,6 @@
             <div class="card">
                 <div class="card-header d-flex flex-space-between">
                     <h6>Data Mahasiswa</h6>
-                </div>
-
-                <div class="d-flex flex-space-between">
-                    <div class="filter-mahasiswa">
-                        <input style="width: 250px;" type="text" list="kampus" value="Jakarta Pusat (Kramat Raya)" placeholder="Pilih Kampus" />
-                        <datalist id="kampus">
-                            <option value="Jakarta Pusat (Kramat Raya)">
-                            <option value="Blok M">
-                            <option value="Jakarta Timur">
-                            <option value="Harvest City">
-                            <option value="Pasar Minggu">
-                        </datalist>
-                        <select name="tahunakademik" id="tahunakademik">
-                            <option value="">-- Pilih Tahun Akademik --</option>
-                            <option value="2017/2018">2017/2018</option>
-                            <option value="2018/2019">2018/2019</option>
-                            <option value="2019/2020">2019/2020</option>
-                            <option value="2020/2021" selected>2020/2021</option>
-                        </select>
-                        <select name="prodi" id="prodi">
-                            <option value="">-- Pilih Prodi --</option>
-                            <option value="Manajemen Informatika" selected>Manajemen Informatika</option>
-                            <option value="Administrasi Bisnis">Administrasi Bisnis</option>
-                            <option value="Akuntansi">Akuntansi</option>
-                            <option value="Hubungan Masyarakat ">Hubungan Masyarakat </option>
-                            <option value="Administrasi Bisnis Internasional">Administrasi Bisnis Internasional</option>
-                        </select>
-                    </div>
                     <div class="select-export">
                         <button class="btn btn-secondary btn-submit dropdown-button" style="width: 105px;"><i class="fas fa-file-export"></i> Export</button>
                         <div class="type-export">
@@ -60,9 +39,35 @@
                     </div>
                 </div>
 
-                <div class="list-nilai py-1">
-                    <div class="table-responsive list-table-nilai">
-                        <table class="basic-table" id="datatable">
+                <div class="filter-mahasiswa">
+                    <input style="width: 250px;" type="text" list="kampus" value="Jakarta Pusat (Kramat Raya)" placeholder="Pilih Kampus" />
+                    <datalist id="kampus">
+                        <option value="Jakarta Pusat (Kramat Raya)">
+                        <option value="Blok M">
+                        <option value="Jakarta Timur">
+                        <option value="Harvest City">
+                        <option value="Pasar Minggu">
+                    </datalist>
+                    <select name="tahunakademik" id="tahunakademik">
+                        <option value="">-- Pilih Tahun Akademik --</option>
+                        <option value="2017/2018">2017/2018</option>
+                        <option value="2018/2019">2018/2019</option>
+                        <option value="2019/2020">2019/2020</option>
+                        <option value="2020/2021" selected>2020/2021</option>
+                    </select>
+                    <select name="prodi" id="prodi">
+                        <option value="">-- Pilih Prodi --</option>
+                        <option value="Manajemen Informatika" selected>Manajemen Informatika</option>
+                        <option value="Administrasi Bisnis">Administrasi Bisnis</option>
+                        <option value="Akuntansi">Akuntansi</option>
+                        <option value="Hubungan Masyarakat ">Hubungan Masyarakat </option>
+                        <option value="Administrasi Bisnis Internasional">Administrasi Bisnis Internasional</option>
+                    </select>
+                </div>
+
+                <div class="py-1">
+                    <div class="table-responsive">
+                        <table class="table-list" id="datatable">
                             <thead>
                                 <tr>
                                     <th class="align-left">No</th>
