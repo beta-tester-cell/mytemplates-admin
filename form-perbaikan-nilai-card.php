@@ -1,60 +1,19 @@
 <?php include('header.php') ?>
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Mahasiswa</a>
+        <a href="#">Perkuliahan</a>
+        <a href="form-perbaikan-nilai.php">Komponen Nilai</a>
+        <a href="form-perbaikan-nilai-card.php">List Komponen Nilai</a>
+    </div>
+</div>
 
 <style type='text/css'>
-
     font {
-        font-family : arial;
+        font-family: arial;
     }
-
-    .title {
-      font-size: 14pt;
-      font-weight: bold;
-  }
-
-  .title2 {
-      font-size: 16pt;
-      font-weight: bold;
-  }
-
-  .sub {
-      font-size: 10pt;
-      font-family : arial;
-  }
-
-  .font1 {
-      font-size: 10pt;
-      margin-top: 80px;
-  }
-
-  .col-tb1 {
-    width: 170px;
-}
-
-.col-tb2 {
-    width: 310px;
-}
-
-.head-col {
-    text-align : center;
-    font-weight: bold;
-    height: 40px;
-}
-
-.cen-col {
-    text-align : center;
-}
-
-.pad-col {
-    padding-left : 5px;
-}
-
-.ket-col {
-    font-size: 10pt;
-    padding-top:100px;
-    float:bottom;
-}
-
-  </style>
+</style>
 
 <div class="content">
 
@@ -92,7 +51,7 @@
                                 <label><b>TAHUN AKADEMIK</b></label><br>
                                 <label>2020/2021</label>
                             </div>
-   
+
                             <div class="my-1">
                                 <label><b>NAMA LENGKAP</b></label><br>
                                 <label>Rosihan Arbi Said</label>
@@ -219,59 +178,59 @@
                         </table>
 
                         <!-- BEGIN FORM 2 -->
-        <table style='padding-top:50px;'>
-        <tr>
-        <td style='padding-left:16px'><b>Keterangan :</b></td>
-        <td width=320px>&nbsp;</td>
-        <td style='padding-left:14px'><b>Jakarta, 14 Juni 2021</b></td>
-        </tr>
+                        <table style='padding-top:50px;'>
+                            <tr>
+                                <td style='padding-left:16px'><b>Keterangan :</b></td>
+                                <td width=320px>&nbsp;</td>
+                                <td style='padding-left:14px'><b>Jakarta, 14 Juni 2021</b></td>
+                            </tr>
 
-        <tr>
-        <td>
+                            <tr>
+                                <td>
 
-        <table style='margin-top:-65px'>
-        <tr>
-        <td width=50px>HM</td>
-        <td>:</td>
-        <td>Huruf Mutu</td>
-        </tr>
+                                    <table style='margin-top:-65px'>
+                                        <tr>
+                                            <td width=50px>HM</td>
+                                            <td>:</td>
+                                            <td>Huruf Mutu</td>
+                                        </tr>
 
-        <tr>
-        <td width=50px>AM</td>
-        <td>:</td>
-        <td>Angka Mutu</td>
-        </tr>
+                                        <tr>
+                                            <td width=50px>AM</td>
+                                            <td>:</td>
+                                            <td>Angka Mutu</td>
+                                        </tr>
 
-        <tr>
-        <td width=50px>M</td>
-        <td>:</td>
-        <td>SKS x AM</td>
-        </tr>
-        </table>
+                                        <tr>
+                                            <td width=50px>M</td>
+                                            <td>:</td>
+                                            <td>SKS x AM</td>
+                                        </tr>
+                                    </table>
 
-        </td>
+                                </td>
 
-        <td>&nbsp;</td>
+                                <td>&nbsp;</td>
 
-        <td>
-            
-        <table>
-        <tr>
-        <td>Ketua Program Studi</td>
-        </tr>
-        <tr>
-        <td height=80px>&nbsp;</td>
-        </tr>
-        <tr>
-        <td>Nasril M.Kom</td>
-        </tr>
-        </table>
+                                <td>
 
-        </td>
+                                    <table>
+                                        <tr>
+                                            <td>Ketua Program Studi</td>
+                                        </tr>
+                                        <tr>
+                                            <td height=80px>&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Nasril M.Kom</td>
+                                        </tr>
+                                    </table>
 
-        </tr>
-        </table>
-        <!-- END FORM 2 -->
+                                </td>
+
+                            </tr>
+                        </table>
+                        <!-- END FORM 2 -->
 
                     </div>
 
