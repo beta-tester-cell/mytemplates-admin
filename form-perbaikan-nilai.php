@@ -12,6 +12,16 @@
     <div class="container">
 
         <div class="py-1">
+            <div class="card">
+                <div class="d-flex flex-start">
+                    <a href="form-perbaikan-nilai-card.php" target="_blank" class="btn-status btn-primary"><i class="fa fa-list"></i> Komponen</a>
+                    <a href="report-khs-cetak.php" target="_blank" class="btn-status btn-primary" style="margin-left:5px"><i class="fa fa-file-pdf"></i> KHS</a>
+                    <a href="#" class="btn-status btn-danger" style="margin-left:5px" disabled><i class="fa fa-edit"></i> Form Perbaikan Nilai</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="py-1">
 
             <!-- JIKA PENGISIAN KRS DITUTUP MAKA TAMPIL : form-krs-online-close.php -->
 
