@@ -14,8 +14,8 @@
         <div class="py-1">
             <div class="card">
                 <div class="d-flex flex-start">
-                    <a href="form-perbaikan-nilai-card.php" target="_blank" class="btn-status btn-primary"><i class="fa fa-list"></i> Komponen</a>
-                    <a href="report-khs-cetak.php" target="_blank" class="btn-status btn-primary" style="margin-left:5px"><i class="fa fa-file-pdf"></i> KHS</a>
+                    <a href="report-khs-cetak-komponen.php" target="_blank" class="btn-status btn-primary"><i class="fa fa-file-pdf"></i> Komponen</a>
+                    <a href="form-perbaikan-nilai-card.php" target="_blank" class="btn-status btn-primary" style="margin-left:5px"><i class="fa fa-file-pdf"></i> KHS</a>
                     <a href="#" class="btn-status btn-danger" style="margin-left:5px" disabled><i class="fa fa-edit"></i> Form Perbaikan Nilai</a>
                 </div>
             </div>
@@ -41,18 +41,32 @@
 
                 </div>
 
-                <div class="py-1">
+                <div class="my-1">
 
-                    <div class="d-flex grid-gap-1 flex-change">
+                    <div class="d-flex grid-gap-1 py-1 flex-change">
 
-                        <div class="my-1">
-                            <label><b>Tahun Akademik : </b></label>
-                            <label>2020/2021</label>
-                        </div>
+                         <!-- <div class="filtering-tahun-akademik">
+                            <select name="tahunakademik" id="tahunakademik">
+                                <option value="">-- Pilih Tahun Akademik --</option>
+                                <option value="2017/2018">2017/2018</option>
+                                <option value="2018/2019">2018/2019</option>
+                                <option value="2019/2020">2019/2020</option>
+                                <option value="2020/2021">2020/2021</option>
+                            </select>
+                        </div> -->
 
-                        <div class="my-1">
-                            <label><b>Semester : </b></label>
-                            <label>1</label>
+                        <div class="filtering-semester">
+                            <select name="semester" id="semester">
+                                <option value="">-- Pilih Semester --</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                            </select>
                         </div>
 
                     </div>

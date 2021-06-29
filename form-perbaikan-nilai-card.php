@@ -5,7 +5,7 @@
         <a href="#">Mahasiswa</a>
         <a href="#">Perkuliahan</a>
         <a href="form-perbaikan-nilai.php">Komponen Nilai</a>
-        <a href="form-perbaikan-nilai-card.php">List Komponen Nilai</a>
+        <a href="form-perbaikan-nilai-card.php">Form KHS</a>
     </div>
 </div>
 
@@ -25,16 +25,10 @@
 
             <div class="card">
                 <div class="card-header d-flex flex-space-between">
-                    <h6>List Nilai Komponen </h6>
+                    <h6>Form KHS </h6>
 
                     <div class="select-export">
-                        <div type="button" class="btn btn-link btn-secondary dropdown-button"><i class="fas fa-file-export"></i> Export</div>
-
-                        <div class="type-export">
-                            <a href="#" id="pdf"><i class="far fa-file-pdf"></i> PDF</a>
-                            <a href="#" id="excel"><i class="far fa-file-excel"></i> EXCEL</a>
-                            <a href="#" id="print"><i class="fas fa-print"></i> PRINT</a>
-                        </div>
+                        <a href="report-khs-cetak.php" target="_blank"> <div type="button" class="btn btn-link btn-secondary"> <i class="fa fa-file-pdf"></i> Cetak KHS</div></a>
                     </div>
 
                 </div>
@@ -177,60 +171,30 @@
 
                         </table>
 
-                        <!-- BEGIN FORM 2 -->
-                        <table style='padding-top:50px;'>
+                     <!-- BEGIN FORM 2 -->
+                        <table style='margin-top:20px;'>
                             <tr>
-                                <td style='padding-left:16px'><b>Keterangan :</b></td>
-                                <td width=320px>&nbsp;</td>
-                                <td style='padding-left:14px'><b>Jakarta, 14 Juni 2021</b></td>
+                                <td style='padding-left:16px' colspan="3"><b>Keterangan :</b></td>
+                            </tr>
+                            <tr>
+                                <td width=10px>HM</td>
+                                <td width=10px>:</td>
+                                <td>Huruf Mutu</td>
                             </tr>
 
                             <tr>
-                                <td>
+                                <td width=10px>AM</td>
+                                <td width=10px>:</td>
+                                <td>Angka Mutu</td>
+                            </tr>
 
-                                    <table style='margin-top:-65px'>
-                                        <tr>
-                                            <td width=50px>HM</td>
-                                            <td>:</td>
-                                            <td>Huruf Mutu</td>
-                                        </tr>
-
-                                        <tr>
-                                            <td width=50px>AM</td>
-                                            <td>:</td>
-                                            <td>Angka Mutu</td>
-                                        </tr>
-
-                                        <tr>
-                                            <td width=50px>M</td>
-                                            <td>:</td>
-                                            <td>SKS x AM</td>
-                                        </tr>
-                                    </table>
-
-                                </td>
-
-                                <td>&nbsp;</td>
-
-                                <td>
-
-                                    <table>
-                                        <tr>
-                                            <td>Ketua Program Studi</td>
-                                        </tr>
-                                        <tr>
-                                            <td height=80px>&nbsp;</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Nasril M.Kom</td>
-                                        </tr>
-                                    </table>
-
-                                </td>
-
+                            <tr>
+                                <td width=10px>M</td>
+                                <td width=10px>:</td>
+                                <td>SKS x AM</td>
                             </tr>
                         </table>
-                        <!-- END FORM 2 -->
+                    <!-- END FORM 2 -->
 
                     </div>
 
