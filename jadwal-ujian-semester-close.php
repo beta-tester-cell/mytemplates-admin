@@ -10,7 +10,7 @@
 <div class="d-flex flex-center height-100 bg-image-close" style="background-image: url('theme/img/bg-error-2.png');">
 
     <div class="center-position-text py-1" style="text-align: center">
-        <i class="far fa-file text-secondary" style="font-size: 130px;"></i>
+        <i class="fas fa-file-invoice-dollar text-secondary" style="font-size: 130px;"></i>
         <p>
         <p></p>
         <label style="margin-top:190px;">

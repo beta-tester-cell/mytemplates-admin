@@ -50,7 +50,7 @@
             </div>
             <div class="card">
                 <div class="card-header">
-                    <font ><span style="font-size: 20px;"><b>Pertemuan Ke-2</b></span></font><br>
+                    <font><span style="font-size: 20px;"><b>Pertemuan Ke-2</b></span></font><br>
                     <span class="subtitle-text">18 Juni 2021, 08.00-09.45 [Online]</span>
                 </div>
 
@@ -60,25 +60,29 @@
                             <div class="my-0 card-header">
                                 <h6 style="font-size:18px;">Link Materi Ajar</h6>
                             </div>
-                            <div class="my-0 card-body">                           
+                            <div class="my-0 card-body">
 
                                 <div class="my-1">
                                     <label><b>Judul Materi Video</b></label>
-                                    <input class="width-100" type="text" placeholder="Judul">    
+                                    <input class="width-100" type="text" placeholder="Judul">
                                 </div>
 
                                 <div class="my-1">
                                     <label><b>Deskripsi Materi Video</b></label>
-                                    <textarea class="width-100" id="mytextarea">Hello, World!</textarea>  
+                                    <textarea class="width-100" id="mytextarea">Hello, World!</textarea>
                                 </div>
 
                                 <div class="my-1">
                                     <label><b>Alamat URL Link materi (ditulis lengkap)</b></label>
-                                    <input class="width-100" type="text" placeholder="URL Youtube">    
+                                    <input class="width-100" type="text" placeholder="URL Youtube">
                                 </div>
 
-                                <button type="submit" style="width: 150px;" class="btn btn-secondary btn-submit mx-1">Simpan</button>
-                                <a style="width: 150px;" class="btn btn-danger btn-cancel mx-1" href="kegiatan-perkuliahan.php">Back</a>
+                                <div class="d-flex">
+                                    <button type="submit" style="width: 150px;" class="btn btn-secondary btn-submit mx-1">Simpan</button>
+                                    <a style="width: 150px;" class="btn btn-danger btn-cancel mx-1 text-center" href="kegiatan-perkuliahan.php">Back</a>
+                                </div>
+
+
 
                             </div>
                         </div>

@@ -50,7 +50,7 @@
             </div>
             <div class="card">
                 <div class="card-header">
-                    <font ><span style="font-size: 20px;"><b>Pertemuan Ke-1</b></span></font><br>
+                    <font><span style="font-size: 20px;"><b>Pertemuan Ke-1</b></span></font><br>
                     <span class="subtitle-text">15 Juni 2021, 08.00-09.45 [Online]</span>
                 </div>
 
@@ -60,64 +60,65 @@
                             <div class="my-0 card-header">
                                 <h6 style="font-size:18px;">Buat Soal Pilihan Ganda</h6>
                             </div>
-                            <div class="my-0 card-body">                           
+                            <div class="my-0 card-body">
 
-                               <div class="my-1">        
-                                <label><b>Soal :</b></label><br>
-                                <span>Tes 1 Soal Ini</span><br>
-                            </div>
-
-                            <div class="my-1">
-                                <label><b>Soal Pertanyaan ke-2 </b></label>
-                                <textarea class="width-100" id="mytextarea">Hello, World!</textarea>  
-                            </div>
-
-
-                            <div class="input-group my-1">
-                            	<div class="input-group-text"><b>Pilihan A</b></div>
-                            	<div class="input-group-area"><input class="width-100" type="text" id="pilihan_a"></div>
-                            </div>
-
-                            <div class="input-group my-1">
-                                <div class="input-group-text"><b>Pilihan B</b></div>
-                                <div class="input-group-area"><input class="width-100" type="text" id="pilihan_b"></div>
-                            </div>
-
-                            <div class="input-group my-1">
-                                <div class="input-group-text"><b>Pilihan C</b></div>
-                                <div class="input-group-area"><input class="width-100" type="text" id="pilihan_c"></div>
-                            </div>
-
-                            <div class="input-group my-1">
-                                <div class="input-group-text"><b>Pilihan D</b></div>
-                                <div class="input-group-area"><input class="width-100" type="text" id="pilihan_d"></div>
-                            </div>
-
-                            <div class="input-group my-1">
-                                <div class="input-group-text"><b>Jawaban</b></div>
-                                <div class="input-group-area">
-                                    <select name="sumber_upload" class="width-100" id="sumber_upload">
-                                        <option value="">-- Kunci Jawaban --</option>
-                                        <option value="A">A</option>
-                                        <option value="B">B</option>
-                                        <option value="C">C</option>
-                                        <option value="D">D</option>
-                                    </select>
+                                <div class="my-1">
+                                    <label><b>Soal :</b></label><br>
+                                    <span>Tes 1 Soal Ini</span><br>
                                 </div>
+
+                                <div class="my-1">
+                                    <label><b>Soal Pertanyaan ke-2 </b></label>
+                                    <textarea class="width-100" id="mytextarea">Hello, World!</textarea>
+                                </div>
+
+
+                                <div class="input-group my-1">
+                                    <div class="input-group-text"><b>Pilihan A</b></div>
+                                    <div class="input-group-area"><input class="width-100" type="text" id="pilihan_a"></div>
+                                </div>
+
+                                <div class="input-group my-1">
+                                    <div class="input-group-text"><b>Pilihan B</b></div>
+                                    <div class="input-group-area"><input class="width-100" type="text" id="pilihan_b"></div>
+                                </div>
+
+                                <div class="input-group my-1">
+                                    <div class="input-group-text"><b>Pilihan C</b></div>
+                                    <div class="input-group-area"><input class="width-100" type="text" id="pilihan_c"></div>
+                                </div>
+
+                                <div class="input-group my-1">
+                                    <div class="input-group-text"><b>Pilihan D</b></div>
+                                    <div class="input-group-area"><input class="width-100" type="text" id="pilihan_d"></div>
+                                </div>
+
+                                <div class="input-group my-1">
+                                    <div class="input-group-text"><b>Jawaban</b></div>
+                                    <div class="input-group-area">
+                                        <select name="sumber_upload" class="width-100" id="sumber_upload">
+                                            <option value="">-- Kunci Jawaban --</option>
+                                            <option value="A">A</option>
+                                            <option value="B">B</option>
+                                            <option value="C">C</option>
+                                            <option value="D">D</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex">
+                                    <button type="submit" style="width: 150px;" class="btn btn-secondary btn-submit mx-1">Simpan</button>
+                                    <a style="width: 150px;" class="btn btn-danger btn-cancel mx-1 text-center" href="kegiatan-perkuliahan.php">Back</a>
+                                </div>
+
                             </div>
-
-
-                            <button type="submit" style="width: 150px;" class="btn btn-secondary btn-submit mx-1">Simpan</button>
-                            <a style="width: 150px;" class="btn btn-danger btn-cancel mx-1" href="kegiatan-perkuliahan.php">Back</a>
-
                         </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
         </div>
-    </div>
 
-</div>
+    </div>
 </div>
 
 <?php include('footer.php') ?>

@@ -98,68 +98,139 @@
                         <li class="side-menu-item">
                             <a href="#" class="menu-collaps">
                                 <span class="menu-icon"><i class="fas fa-school"></i></span>
-                                <span class="menu-title">Akademik Pusat</span>
+                                <span class="menu-title">Akademik Direktorat</span>
                             </a>
                             <ul class="submenu-menu-item">
-                                <li class="side-menu-item">
-                                    <a href="pengelolaan-kampus.php">
-                                        <span class="menu-icon-child"><i class="fas fa-school"></i></span>
-                                        <span>Pengelolaan Kampus</span>
+                                <li class="side-menu-item ">
+                                    <a href="#">
+                                        <span class="menu-icon-child"><i class="fa fa-tachometer-alt"></i></span>
+                                        <span class="menu-title">Dashboard</span>
                                     </a>
                                 </li>
                                 <li class="side-menu-item">
-                                    <a href="pengelolaan-dosen.php">
+                                    <a href="#" class="menu-collaps">
                                         <span class="menu-icon-child"><i class="fas fa-school"></i></span>
-                                        <span>Pengelolaan Dosen</span>
+                                        <span>Data Master</span>
                                     </a>
+                                    <ul class="submenu-menu-item">
+                                        <li class="side-menu-item">
+                                            <a href="pengelolaan-kampus.php">
+                                                <span class="menu-icon-child"><i class="fas fa-school"></i></span>
+                                                <span>Pengelolaan Kampus</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="pengelolaan-dosen.php">
+                                                <span class="menu-icon-child"><i class="fas fa-school"></i></span>
+                                                <span>Pengelolaan Dosen</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="pengelolaan-jurusan.php">
+                                                <span class="menu-icon-child"><i class="fas fa-school"></i></span>
+                                                <span>Pengelolaan Jurusan</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="konfig-jurusan.php" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fas fa-school"></i></span>
+                                                <span>Konfigurasi Jurusan Cabang</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="pengelolaan-siswa.php">
+                                                <span class="menu-icon-child"><i class="fas fa-school"></i></span>
+                                                <span>Pengelolaan Siswa</span>
+                                            </a>
+                                        </li>
+
+                                    </ul>
                                 </li>
                                 <li class="side-menu-item">
-                                    <a href="pengelolaan-jurusan.php">
+                                    <a href="#" class="menu-collaps">
                                         <span class="menu-icon-child"><i class="fas fa-school"></i></span>
-                                        <span>Pengelolaan Jurusan</span>
+                                        <span>Perkuliahan</span>
                                     </a>
+                                    <ul class="submenu-menu-item">
+                                        <li class="side-menu-item">
+                                            <a href="pengelolaan-matakuliah.php" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fas fa-school"></i></span>
+                                                <span>Pengelolaan Matakuliah</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="kelola-ploating-dosen.php">
+                                                <span class="menu-icon-child"><i class="fas fa-school"></i></span>
+                                                <span>Kelola Ploating Dosen</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="pengelolaan-kalender-akedemik.php" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fas fa-school"></i></span>
+                                                <span>Kelola Kalender Akademik</span>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li class="side-menu-item">
-                                    <a href="konfig-jurusan.php" class="d-flex">
+                                    <a href="#" class="menu-collaps">
                                         <span class="menu-icon-child"><i class="fas fa-school"></i></span>
-                                        <span>Konfigurasi Jurusan Cabang</span>
+                                        <span>Sidang</span>
                                     </a>
+                                    <ul class="submenu-menu-item">
+                                        <li class="side-menu-item">
+                                            <a href="#" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fas fa-school"></i></span>
+                                                <span>Konfigurasi Sidang</span>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li class="side-menu-item">
-                                    <a href="pengelolaan-siswa.php">
+                                    <a href="#" class="menu-collaps">
                                         <span class="menu-icon-child"><i class="fas fa-school"></i></span>
-                                        <span>Pengelolaan Siswa</span>
+                                        <span>Tools</span>
                                     </a>
+                                    <ul class="submenu-menu-item">
+                                        <li class="side-menu-item">
+                                            <a href="pengelolaan-manajemen-akun.php" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fas fa-school"></i></span>
+                                                <span>Pengelolaan Manajemen Akun</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="#" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fas fa-school"></i></span>
+                                                <span>Update Status Mahasiswa</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="#" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fas fa-school"></i></span>
+                                                <span>Report Forlap</span>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li class="side-menu-item">
-                                    <a href="pengelolaan-matakuliah.php" class="d-flex">
+                                    <a href="#" class="menu-collaps">
                                         <span class="menu-icon-child"><i class="fas fa-school"></i></span>
-                                        <span>Pengelolaan Matakuliah</span>
+                                        <span>Report</span>
                                     </a>
-                                </li>
-                                <li class="side-menu-item">
-                                    <a href="kelola-ploating-dosen.php">
-                                        <span class="menu-icon-child"><i class="fas fa-school"></i></span>
-                                        <span>Kelola Ploating Dosen</span>
-                                    </a>
-                                </li>
-                                <li class="side-menu-item">
-                                    <a href="pengelolaan-manajemen-akun.php" class="d-flex">
-                                        <span class="menu-icon-child"><i class="fas fa-school"></i></span>
-                                        <span>Pengelolaan Manajemen Akun</span>
-                                    </a>
-                                </li>
-                                <li class="side-menu-item">
-                                    <a href="rekap-data-mahasiswa-kampus.php" class="d-flex">
-                                        <span class="menu-icon-child"><i class="fas fa-school"></i></span>
-                                        <span>Data Mahasiswa</span>
-                                    </a>
-                                </li>
-                                <li class="side-menu-item">
-                                    <a href="pengelolaan-kalender-akedemik.php" class="d-flex">
-                                        <span class="menu-icon-child"><i class="fas fa-school"></i></span>
-                                        <span>Kelola Kalender Akademik</span>
-                                    </a>
+                                    <ul class="submenu-menu-item">
+                                        <li class="side-menu-item">
+                                            <a href="#" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fas fa-school"></i></span>
+                                                <span>Dosen</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="rekap-data-mahasiswa-kampus.php" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fas fa-school"></i></span>
+                                                <span>Mahasiswa</span>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li class="side-menu-item">
                                     <a href="#" class="menu-collaps">
@@ -187,7 +258,6 @@
                                         </li>
                                     </ul>
                                 </li>
-
                             </ul>
                         </li>
                         <li class="side-menu-item">
@@ -196,6 +266,12 @@
                                 <span class="menu-title">Keuangan</span>
                             </a>
                             <ul class="submenu-menu-item">
+                                <li class="side-menu-item ">
+                                    <a href="#">
+                                        <span class="menu-icon-child"><i class="fa fa-tachometer-alt"></i></span>
+                                        <span class="menu-title">Dashboard</span>
+                                    </a>
+                                </li>
                                 <li class="side-menu-item">
                                     <a href="penguncian-mahasiswa.php">
                                         <span class="menu-icon-child"><i class="fa fa-donate"></i></span>
@@ -252,6 +328,12 @@
                                 <span class="menu-title">Keuangan Cabang</span>
                             </a>
                             <ul class="submenu-menu-item">
+                                <li class="side-menu-item ">
+                                    <a href="#">
+                                        <span class="menu-icon-child"><i class="fa fa-tachometer-alt"></i></span>
+                                        <span class="menu-title">Dashboard</span>
+                                    </a>
+                                </li>
                                 <li class="side-menu-item">
                                     <a href="rencana-bayar-kuliah.php">
                                         <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
@@ -285,50 +367,89 @@
                                     </a>
                                 </li>
                                 <li class="side-menu-item">
-                                    <a href="ruang-kelas.php">
+                                    <a href="#" class="menu-collaps">
                                         <span class="menu-icon-child"><i class="fa fa-university"></i></span>
-                                        <span>Ruang Kelas</span>
+                                        <span class="menu-title">Data Master</span>
                                     </a>
+                                    <ul class="submenu-menu-item">
+                                        <li class="side-menu-item">
+                                            <a href="ruang-kelas.php">
+                                                <span class="menu-icon-child"><i class="fa fa-university"></i></span>
+                                                <span>Ruang Kelas</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="pengelolaan-pembimbingakad.php">
+                                                <span class="menu-icon-child"><i class="fa fa-university"></i></span>
+                                                <span>Pengelolaan PA</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="kelas-group.php">
+                                                <span class="menu-icon-child"><i class="fa fa-university"></i></span>
+                                                <span>Kelas Group</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="data-matakuliah.php">
+                                                <span class="menu-icon-child"><i class="fa fa-university"></i></span>
+                                                <span>Data Matakuliah</span>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li class="side-menu-item">
-                                    <a href="data-matakuliah.php">
+                                    <a href="#" class="menu-collaps">
                                         <span class="menu-icon-child"><i class="fa fa-university"></i></span>
-                                        <span>Data Matakuliah</span>
+                                        <span class="menu-title">Perkuliahan</span>
                                     </a>
+                                    <ul class="submenu-menu-item">
+                                        <li class="side-menu-item">
+                                            <a href="jadwal-perkuliahan-list.php">
+                                                <span class="menu-icon-child"><i class="fa fa-university"></i></span>
+                                                <span>Pengelolaan Jadwal</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="monitoring-perkuliahaan.php">
+                                                <span class="menu-icon-child"><i class="fa fa-university"></i></span>
+                                                <span>Monitoring Perkuliahan</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="jadwal-ujian.php">
+                                                <span class="menu-icon-child"><i class="fa fa-university"></i></span>
+                                                <span>Input Jadwal Ujian</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="verifikasi-soal-ujian.php">
+                                                <span class="menu-icon-child"><i class="fa fa-university"></i></span>
+                                                <span>Verifikasi Soal Ujian</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="pengelolaan-nilai.php">
+                                                <span class="menu-icon-child"><i class="fa fa-university"></i></span>
+                                                <span>Nilai Mahasiswa</span>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li class="side-menu-item">
-                                    <a href="kelas-group.php">
+                                    <a href="#" class="menu-collaps">
                                         <span class="menu-icon-child"><i class="fa fa-university"></i></span>
-                                        <span>Kelas Group</span>
+                                        <span class="menu-title">Konfigurasi Sidang</span>
                                     </a>
+                                    <ul class="submenu-menu-item">
+                                        <li class="side-menu-item">
+                                            <a href="#" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fa fa-university"></i></span>
+                                                <span>Pengajuan Dosen Pembimbing</span>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
-                                <li class="side-menu-item">
-                                    <a href="pengelolaan-pembimbingakad.php">
-                                        <span class="menu-icon-child"><i class="fa fa-university"></i></span>
-                                        <span>Pengelolaan PA</span>
-                                    </a>
-                                </li>
-                                <li class="side-menu-item">
-                                    <a href="jadwal-perkuliahan-list.php">
-                                        <span class="menu-icon-child"><i class="fa fa-university"></i></span>
-                                        <span>Pengelolaan Jadwal</span>
-                                    </a>
-                                </li>
-
-                                <li class="side-menu-item">
-                                    <a href="jadwal-ujian.php">
-                                        <span class="menu-icon-child"><i class="fa fa-university"></i></span>
-                                        <span>Input Jadwal Ujian</span>
-                                    </a>
-                                </li>
-
-                                <li class="side-menu-item">
-                                    <a href="verifikasi-soal-ujian.php">
-                                        <span class="menu-icon-child"><i class="fa fa-university"></i></span>
-                                        <span>Verifikasi Soal Ujian</span>
-                                    </a>
-                                </li>
-
                                 <li class="side-menu-item">
                                     <a href="#" class="menu-collaps">
                                         <span class="menu-icon-child"><i class="fa fa-university"></i></span>
@@ -355,7 +476,44 @@
                                         </li>
                                     </ul>
                                 </li>
-
+                                <li class="side-menu-item">
+                                    <a href="#" class="menu-collaps">
+                                        <span class="menu-icon-child"><i class="fa fa-university"></i></span>
+                                        <span class="menu-title">Report</span>
+                                    </a>
+                                    <ul class="submenu-menu-item">
+                                        <li class="side-menu-item">
+                                            <a href="laporan-lkm.php">
+                                                <span class="menu-icon-child"><i class="fa fa-files-o"></i></span>
+                                                <span>Report LKM</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="report-absensi-mhs.php" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fa fa-files-o"></i></span>
+                                                <span>Report Kehadiran Mahasiswa</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="report-nilai.php" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fa fa-files-o"></i></span>
+                                                <span>Report Nilai Mahasiswa</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="report-khs.php" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fa fa-files-o"></i></span>
+                                                <span>Report KHS</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="report-krs.php" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fa fa-files-o"></i></span>
+                                                <span>Report KRS Mahasiswa</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
                             </ul>
                         </li>
                         <li class="side-menu-item">
@@ -505,7 +663,7 @@
                                         <li class="side-menu-item">
                                             <a href="form-perbaikan-nilai.php">
                                                 <span class="menu-icon-child"><i class="fa fa-users"></i></span>
-                                                <span>Komponen Nilai</span>
+                                                <span>Nilai</span>
                                             </a>
                                         </li>
                                         <li class="side-menu-item">
@@ -565,52 +723,6 @@
                                         <span>Informasi Akademik</span>
                                     </a>
                                 </li>
-
-                            </ul>
-                        </li>
-                        <li class="side-menu-item">
-                            <a href="#" class="menu-collaps">
-                                <span class="menu-icon"><i class="fa fa-files-o"></i></span>
-                                <span class="menu-title">Report</span>
-                            </a>
-                            <ul class="submenu-menu-item">
-                                <li class="side-menu-item">
-                                    <a href="monitoring-perkuliahaan.php">
-                                        <span class="menu-icon-child"><i class="fa fa-files-o"></i></span>
-                                        <span>Monitoring Perkuliahan</span>
-                                    </a>
-                                </li>
-                                <li class="side-menu-item">
-                                    <a href="laporan-lkm.php">
-                                        <span class="menu-icon-child"><i class="fa fa-files-o"></i></span>
-                                        <span>Report LKM</span>
-                                    </a>
-                                </li>
-                                <li class="side-menu-item">
-                                    <a href="report-absensi-mhs.php" class="d-flex">
-                                        <span class="menu-icon-child"><i class="fa fa-files-o"></i></span>
-                                        <span>Report Kehadiran Mahasiswa</span>
-                                    </a>
-                                </li>
-                                <li class="side-menu-item">
-                                    <a href="report-nilai.php" class="d-flex">
-                                        <span class="menu-icon-child"><i class="fa fa-files-o"></i></span>
-                                        <span>Report Nilai Mahasiswa</span>
-                                    </a>
-                                </li>
-                                <li class="side-menu-item">
-                                    <a href="report-khs.php" class="d-flex">
-                                        <span class="menu-icon-child"><i class="fa fa-files-o"></i></span>
-                                        <span>Report Komponen & KHS</span>
-                                    </a>
-                                </li>
-                                <li class="side-menu-item">
-                                    <a href="report-krs.php" class="d-flex">
-                                        <span class="menu-icon-child"><i class="fa fa-files-o"></i></span>
-                                        <span>Report KRS Mahasiswa</span>
-                                    </a>
-                                </li>
-
 
                             </ul>
                         </li>
