@@ -23,7 +23,11 @@
 
 <script src="theme/js/jquery.chart.js"></script>
 
+<script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
+
 <script src="theme/js/script.js" defer></script>
+
+
 
 </body>
 
