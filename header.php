@@ -161,6 +161,33 @@
                                         <span>Kelola Kalender Akademik</span>
                                     </a>
                                 </li>
+                                <li class="side-menu-item">
+                                    <a href="#" class="menu-collaps">
+                                        <span class="menu-icon-child"><i class="fa fa-school"></i></span>
+                                        <span>EUB</span>
+                                    </a>
+                                    <ul class="submenu-menu-item">
+                                        <li class="side-menu-item">
+                                            <a href="eub-master-soal.php?bread=akademik-pusat">
+                                                <span class="menu-icon-child"><i class="fa fa-school"></i></span>
+                                                <span>Master Soal</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="eub-dosen.php?bread=akademik-pusat">
+                                                <span class="menu-icon-child"><i class="fa fa-school"></i></span>
+                                                <span class="menu-title">EUB Dosen</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="eub-manajemen.php?bread=akademik-pusat">
+                                                <span class="menu-icon-child"><i class="fa fa-school"></i></span>
+                                                <span>EUB Manajemen</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
                             </ul>
                         </li>
                         <li class="side-menu-item">
@@ -288,8 +315,6 @@
                                     </a>
                                 </li>
 
-
-
                                 <li class="side-menu-item">
                                     <a href="jadwal-ujian.php">
                                         <span class="menu-icon-child"><i class="fa fa-university"></i></span>
@@ -303,6 +328,34 @@
                                         <span>Verifikasi Soal Ujian</span>
                                     </a>
                                 </li>
+
+                                <li class="side-menu-item">
+                                    <a href="#" class="menu-collaps">
+                                        <span class="menu-icon-child"><i class="fa fa-university"></i></span>
+                                        <span>EUB</span>
+                                    </a>
+                                    <ul class="submenu-menu-item">
+                                        <li class="side-menu-item">
+                                            <a href="eub-master-soal.php">
+                                                <span class="menu-icon-child"><i class="fa fa-university"></i></span>
+                                                <span>Master Soal</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="eub-dosen.php">
+                                                <span class="menu-icon-child"><i class="fa fa-university"></i></span>
+                                                <span class="menu-title">EUB Dosen</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="eub-manajemen.php">
+                                                <span class="menu-icon-child"><i class="fa fa-university"></i></span>
+                                                <span>EUB Manajemen</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
                             </ul>
                         </li>
                         <li class="side-menu-item">
