@@ -11,10 +11,10 @@
         <div class="py-1">
             <div class="card">
                 <div class="d-flex flex-start">
-                    <a href="#" class="btn-status btn-primary">
+                    <a href="report-khs-cetak-komponen.php" target="_blank" class="btn-status btn-primary">
                         <span><i class="fa fa-print"></i> Cetak Komponen </span>
                     </a>
-                    <a href="#" class="btn-status btn-primary" style="margin-left:10px">
+                    <a href="report-khs-cetak.php" target="_blank" class="btn-status btn-primary" style="margin-left:10px">
                         <span><i class="fa fa-print"></i> Cetak KHS </span>
                     </a>
                 </div>
