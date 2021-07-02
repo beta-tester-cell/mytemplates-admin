@@ -38,7 +38,7 @@
 								<div class="form-inputs">
 									<label>&nbsp;</label>
 									<div class="grid-2 grid-gap-3">
-										<button class="btn btn-link btn-secondary"><span>Upload</span></button>
+										<button class="btn btn-link btn-secondary"><span>Simpan</span></button>
 										<button class="btn btn-link btn-secondary"><span>Preview</span></button>
 									</div>
 								</div>
