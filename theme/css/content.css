@@ -253,6 +253,14 @@
   color: #777;
   padding: 0 12px;
 }
+
+.input-group-text {
+  background: #eee;
+  color: #777;
+  padding: 0 12px;
+  width: 25%;
+}
+
 .input-group-area {
   width: 100%;
 }

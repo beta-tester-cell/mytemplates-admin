@@ -28,8 +28,13 @@
 
 <script src="theme/js/jquery.chart.js"></script>
 
+<!-- <script src="theme/js/jquery.tinymce.js"></script> -->
+
+<script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
+
 <script src="theme/js/script.js" defer></script>
 
+<script src="theme/js/script-tambahan.js"></script>
 
 </body>
 
