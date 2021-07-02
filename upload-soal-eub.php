@@ -28,7 +28,7 @@
 						<form>
 							<div class="form-mr-2">
 								<div class="form-inputs">
-									<label>Download Template</label>
+									<label>Contoh Template</label>
 									<button class="btn btn-link btn-secondary" style="width: 150px;"><span>Template</span></button>
 								</div>
 								<div class="form-inputs">
