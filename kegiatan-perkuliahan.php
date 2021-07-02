@@ -96,30 +96,30 @@
                             <h6 style="font-size:18px;">Aktivitas Perkuliahan</h6>
                             <div class="my-0">
                                 <span class="menu-icon"><i class="fa fa-upload"></i></span>
-                                <a href="#">&nbsp;Upload Materi</a>
+                                <a href="upload-materi.php">&nbsp;Upload Materi</a>
                             </div>
                             <div class="my-0">
                                 <span class="menu-icon"><i class="fa fa-external-link"></i></span>
-                                <a href="#">&nbsp;Embed Materi</a>
+                                <a href="embed-materi.php">&nbsp;Embed Materi</a>
                             </div>
                             <div class="my-0">
                                 <span class="menu-icon"><i class="fa fa-external-link"></i></span>
-                                <a href="#">&nbsp;Link Materi</a>
+                                <a href="link-materi.php">&nbsp;Link Materi</a>
                             </div>
                         </div>
                         <div class="my-0 card-header">
                             <h6 style="font-size:18px;">Aktivitas Latihan</h6>
                             <div class="my-0">
                                 <span class="menu-icon"><i class="fa fa-upload"></i></span>
-                                <a href="#">&nbsp;Upload Tugas/Formatif</a>
+                                <a href="upload-soal.php">&nbsp;Upload Tugas/Formatif</a>
                             </div>
                             <div class="my-0">
                                 <span class="menu-icon"><i class="fa fa-plus"></i></span>
-                                <a href="#">&nbsp;Buat Tugas/Formatif</a>
+                                <a href="pembuatan-soal.php">&nbsp;Buat Tugas/Formatif</a>
                             </div>
                             <div class="my-0">
                                 <span class="menu-icon"><i class="fa fa-comments"></i></span>
-                                <a href="#">&nbsp;Group Discussion</a>
+                                <a href="message.php">&nbsp;Group Discussion</a>
                             </div>
                         </div>
                         <div class="my-0 card-header">
