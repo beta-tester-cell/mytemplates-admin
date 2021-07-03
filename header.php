@@ -336,9 +336,9 @@
                                     </a>
                                     <ul class="submenu-menu-item">
                                         <li class="side-menu-item">
-                                            <a href="eub-master-soal.php">
+                                            <a href="eub-jadwal.php">
                                                 <span class="menu-icon-child"><i class="fa fa-university"></i></span>
-                                                <span>Master Soal</span>
+                                                <span>Jadwal EUB</span>
                                             </a>
                                         </li>
                                         <li class="side-menu-item">
@@ -348,7 +348,7 @@
                                             </a>
                                         </li>
                                         <li class="side-menu-item">
-                                            <a href="eub-manajemen.php">
+                                            <a href="eub-manajemen-cabang.php">
                                                 <span class="menu-icon-child"><i class="fa fa-university"></i></span>
                                                 <span>EUB Manajemen</span>
                                             </a>
