@@ -1021,6 +1021,10 @@
     display: grid;
     grid-template-columns: 1fr;
   }
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 1025px) and (max-width: 1264px) {

@@ -120,7 +120,7 @@
 
                         <label>Select Datalist</label>
 
-                        <input class="width-100" type="text" list="cars" placeholder="Select or type for suggest" />
+                        <input class="width-100" type="text" list="cars" id="cars_list" placeholder="Select or type for suggest" />
 
                         <datalist id="cars">
 
@@ -135,6 +135,8 @@
                             <option value="Select 5">
 
                         </datalist>
+
+                        <input type="hidden" name="cars" id="listmahasiswa-id">
 
                     </div>
 
