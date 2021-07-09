@@ -199,7 +199,7 @@
                                             </a>
                                         </li>
                                         <li class="side-menu-item">
-                                            <a href="#" class="d-flex">
+                                            <a href="update-status-mahasiswa.php" class="d-flex">
                                                 <span class="menu-icon-child"><i class="fas fa-school"></i></span>
                                                 <span>Update Status Mahasiswa</span>
                                             </a>
@@ -472,6 +472,20 @@
                                             <a href="eub-manajemen-cabang.php">
                                                 <span class="menu-icon-child"><i class="fa fa-university"></i></span>
                                                 <span>EUB Manajemen</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                 <li class="side-menu-item">
+                                    <a href="#" class="menu-collaps">
+                                        <span class="menu-icon-child"><i class="fas fa-university"></i></span>
+                                        <span>Tools</span>
+                                    </a>
+                                    <ul class="submenu-menu-item">
+                                        <li class="side-menu-item">
+                                            <a href="pengajuan-status-mahasiswa.php" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fas fa-university"></i></span>
+                                                <span>Pengajuan Status Mahasiswa </span>
                                             </a>
                                         </li>
                                     </ul>
