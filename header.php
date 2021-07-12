@@ -219,7 +219,7 @@
                                     </a>
                                     <ul class="submenu-menu-item">
                                         <li class="side-menu-item">
-                                            <a href="#" class="d-flex">
+                                            <a href="laporan-dosen.php" class="d-flex">
                                                 <span class="menu-icon-child"><i class="fas fa-school"></i></span>
                                                 <span>Dosen</span>
                                             </a>
