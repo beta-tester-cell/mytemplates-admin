@@ -453,6 +453,18 @@
     margin: 0;
   }
 
+  .grid-custom-card,
+  .grid-custom-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grid-button {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
   /* css footer start */
   footer {
     padding-left: 0;
@@ -873,6 +885,18 @@
     margin: 0;
   }
 
+  .grid-custom-card,
+  .grid-custom-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grid-button {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
   /* css footer start */
   footer {
     padding-left: 0;
@@ -936,6 +960,18 @@
   .grid-custom-onecard {
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  .grid-custom-card,
+  .grid-custom-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grid-button {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 }
 
@@ -1025,6 +1061,21 @@
     display: flex;
     flex-direction: column;
   }
+
+  .input-group > div {
+    display: flex;
+  }
+  .form-mr-2 .form-inputs {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 1rem;
+  }
+
+  .grid-button {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
 }
 
 @media (min-width: 1025px) and (max-width: 1264px) {
@@ -1045,5 +1096,17 @@
     position: absolute;
     left: 35%;
     right: 0;
+  }
+
+  .form-mr-2 .form-inputs {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 1rem;
+  }
+
+  .grid-button {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 }

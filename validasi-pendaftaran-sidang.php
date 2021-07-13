@@ -27,7 +27,7 @@
                             <a href="konfigurasi-gelombang-sidang.php">Gelombang</a>
                         </li>
                     <?php endif; ?>
-                     <?php
+                    <?php
                     if ($_SERVER['REQUEST_URI'] == '/mytemplates/konfigurasi-ploting-dospem.php') :
                     ?>
                         <li class="active">
@@ -49,7 +49,7 @@
                             <a href="konfigurasi-nilai-sidang.php">Nilai Komponen Sidang</a>
                         </li>
                     <?php endif; ?>
-                     <?php
+                    <?php
                     if ($_SERVER['REQUEST_URI'] == '/mytemplates/konfigurasi-nilai-bimbingan.php') :
                     ?>
                         <li class="active">
@@ -60,7 +60,7 @@
                             <a href="konfigurasi-nilai-bimbingan.php">Nilai Komponen Bimbingan</a>
                         </li>
                     <?php endif; ?>
-                     <?php
+                    <?php
                     if ($_SERVER['REQUEST_URI'] == '/mytemplates/validasi-pendaftaran-sidang.php') :
                     ?>
                         <li class="active">
@@ -91,7 +91,7 @@
                     <button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-link btn-secondary"> Add New </button>
                 </div>
                 <div class="table-responsive py-1">
-                    <table id="datatable" class="table-list" border="1">
+                    <table id="datatable" class="table-list">
                         <thead>
                             <tr class="thead-color">
                                 <th class="align-center">No</th>
@@ -112,8 +112,8 @@
                                 <td class="align-center">21</td>
                                 <td class="align-center">TA</td>
                                 <td class="align-center">
-                                	<a href="#" class="btn btn-link text-secondary"><i class="far fa-edit"></i></a>
-                                	<a href="#" class="btn btn-link text-danger"><i class="fas fa-eraser"></i></a>
+                                    <a href="#" class="btn btn-link text-secondary"><i class="far fa-edit"></i></a>
+                                    <a href="#" class="btn btn-link text-danger"><i class="fas fa-eraser"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -124,11 +124,11 @@
                                 <td class="align-center">21</td>
                                 <td class="align-center">TA</td>
                                 <td class="align-center">
-                                	<a href="#" class="btn btn-link text-secondary"><i class="far fa-edit"></i></a>
-                                	<a href="#" class="btn btn-link text-danger"><i class="fas fa-eraser"></i></a>
+                                    <a href="#" class="btn btn-link text-secondary"><i class="far fa-edit"></i></a>
+                                    <a href="#" class="btn btn-link text-danger"><i class="fas fa-eraser"></i></a>
                                 </td>
                             </tr>
-                             <tr>
+                            <tr>
                                 <td class="align-center">3</td>
                                 <td class="align-left">Tidak Ada NIlai E </td>
                                 <td class="align-center">E</td>
@@ -136,11 +136,11 @@
                                 <td class="align-center">21</td>
                                 <td class="align-center">TA</td>
                                 <td class="align-center">
-                                	<a href="#" class="btn btn-link text-secondary"><i class="far fa-edit"></i></a>
-                                	<a href="#" class="btn btn-link text-danger"><i class="fas fa-eraser"></i></a>
+                                    <a href="#" class="btn btn-link text-secondary"><i class="far fa-edit"></i></a>
+                                    <a href="#" class="btn btn-link text-danger"><i class="fas fa-eraser"></i></a>
                                 </td>
-                            </tr>	
-                             <tr>
+                            </tr>
+                            <tr>
                                 <td class="align-center">4</td>
                                 <td class="align-left">Lunas Biaya Kuliah</td>
                                 <td class="align-center">Biaya</td>
@@ -148,11 +148,11 @@
                                 <td class="align-center">21</td>
                                 <td class="align-center">TA</td>
                                 <td class="align-center">
-                                	<a href="#" class="btn btn-link text-secondary"><i class="far fa-edit"></i></a>
-                                	<a href="#" class="btn btn-link text-danger"><i class="fas fa-eraser"></i></a>
+                                    <a href="#" class="btn btn-link text-secondary"><i class="far fa-edit"></i></a>
+                                    <a href="#" class="btn btn-link text-danger"><i class="fas fa-eraser"></i></a>
                                 </td>
-                            </tr>	
-                           
+                            </tr>
+
                         </tbody>
                     </table>
                 </div>

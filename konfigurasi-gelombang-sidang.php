@@ -27,7 +27,7 @@
                             <a href="konfigurasi-gelombang-sidang.php">Gelombang</a>
                         </li>
                     <?php endif; ?>
-                     <?php
+                    <?php
                     if ($_SERVER['REQUEST_URI'] == '/mytemplates/konfigurasi-ploting-dospem.php') :
                     ?>
                         <li class="active">
@@ -49,7 +49,7 @@
                             <a href="konfigurasi-nilai-sidang.php">Nilai Komponen Sidang</a>
                         </li>
                     <?php endif; ?>
-                     <?php
+                    <?php
                     if ($_SERVER['REQUEST_URI'] == '/mytemplates/konfigurasi-nilai-bimbingan.php') :
                     ?>
                         <li class="active">
@@ -60,7 +60,7 @@
                             <a href="konfigurasi-nilai-bimbingan.php">Nilai Komponen Bimbingan</a>
                         </li>
                     <?php endif; ?>
-                     <?php
+                    <?php
                     if ($_SERVER['REQUEST_URI'] == '/mytemplates/validasi-pendaftaran-sidang.php') :
                     ?>
                         <li class="active">
@@ -91,7 +91,7 @@
                     <a href="form-gelombang-sidang.php" class="btn btn-link btn-secondary"> Add New </a>
                 </div>
                 <div class="table-responsive py-1">
-                    <table id="datatable" class="table-list" border="1">
+                    <table id="datatable" class="table-list">
                         <thead>
                             <tr class="thead-color">
                                 <th rowspan="2">No</th>
@@ -106,10 +106,10 @@
                                 <!-- Pendaftaran Bimbingan -->
                                 <th class="align-center">Awal</th>
                                 <th class="align-center">Akhir</th>
-                                 <!-- Pendaftaran Sidang -->
+                                <!-- Pendaftaran Sidang -->
                                 <th class="align-center">Awal</th>
                                 <th class="align-center">Akhir</th>
-                                 <!-- Revisi Tugas Akhir -->
+                                <!-- Revisi Tugas Akhir -->
                                 <th class="align-center">Awal</th>
                                 <th class="align-center">Akhir</th>
                                 <!-- Sidang Ulang -->
@@ -130,7 +130,7 @@
                                 <td>2022-01-01</td>
                                 <td>2022-01-31</td>
                                 <td class="align-center">
-                                    <a href="#">Edit</a>
+                                    <a href="#" class="text-secondary"><i class="fa fa-edit"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -145,7 +145,7 @@
                                 <td>2022-01-01</td>
                                 <td>2022-01-31</td>
                                 <td class="align-center">
-                                    <span>InActive</span>
+                                    <span class="text-danger">InActive</span>
                                 </td>
                             </tr>
                         </tbody>
