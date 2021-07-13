@@ -179,10 +179,10 @@
                                     </a>
                                     <ul class="submenu-menu-item">
                                         <li class="side-menu-item">
-                                            <a href="#" class="d-flex">
+                                            <a href="konfigurasi-gelombang-sidang.php" class="d-flex">
                                                 <span class="menu-icon-child"><i class="fas fa-school"></i></span>
                                                 <span>Konfigurasi Sidang</span>
-                                            </a>
+                                            </a> 
                                         </li>
                                     </ul>
                                 </li>

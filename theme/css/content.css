@@ -287,7 +287,7 @@
 
 .grid-custom-card {
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 40% 58.3%;
 }
 
 .grid-custom-card-flip {
@@ -492,3 +492,19 @@
   padding-top: 100px;
   float: bottom;
 }
+
+.thead-color{
+  background-color: var(--primary-color) !important;
+  color: white;
+}
+
+.grid-custom-row {
+  display: grid;
+  grid-template-columns: 45% 54.3%;
+}
+
+.grid-button {
+  display: grid;
+  grid-template-columns: 85% 15%;
+}
+
