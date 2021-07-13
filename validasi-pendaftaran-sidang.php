@@ -166,7 +166,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel" class="align-center">Tambah Komponen Bimbingan</h5>
+                <h5 class="modal-title" id="exampleModalLabel" class="align-center">Tambah Validasi Pendaftaran Sidang</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -190,18 +190,18 @@
                             </div>
 
                             <div class="my-1">
-                                <label><b>validasi</b></label>
+                                <label><b>Validasi</b></label>
                                 <textarea class="width-100" id="validasi" style="resize:none;height:100px;" type="text" placeholder="validasi">Kepatuhan</textarea>
                             </div>
 
                              <div class="my-1">
-                                <label><b>inisial</b></label>
+                                <label><b>Inisial</b></label>
                                 <input class="width-100" id="inisial" value="5" type="text" placeholder="inisial">
                             </div>
 
 
                             <div class="my-1">
-                                <label><b>value</b></label>
+                                <label><b>Value</b></label>
                                 <input class="width-100" id="value" value="5" type="text" placeholder="value">
                             </div>
 
