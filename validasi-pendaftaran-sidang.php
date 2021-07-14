@@ -161,3 +161,60 @@
     </div>
 </div>
 <?php include('footer-datatable.php') ?>
+
+<div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel" class="align-center">Tambah Validasi Pendaftaran Sidang</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="grid-gap-2">
+                        <div class="input-data">
+                            <div class="my-1">
+                                <label><b>Jenis Sidang</b></label>
+                                <select name="jenis_sidang" class="width-100" id="jenis_sidang">
+                                    <option value="0">-- Pilih Jenis Sidang --</option>
+                                    <option value="1" selected>Tugas Akhir (TA)</option>
+                                    <option value="2">Tugas Akhir Susulan</option>
+                                </select>
+                            </div>
+
+                            <div class="my-1">
+                                <label><b>Periode</b></label>
+                                <input class="width-100" id="periode" type="text" value="21" placeholder="Periode">
+                            </div>
+
+                            <div class="my-1">
+                                <label><b>Validasi</b></label>
+                                <textarea class="width-100" id="validasi" style="resize:none;height:100px;" type="text" placeholder="validasi">Kepatuhan</textarea>
+                            </div>
+
+                             <div class="my-1">
+                                <label><b>Inisial</b></label>
+                                <input class="width-100" id="inisial" value="5" type="text" placeholder="inisial">
+                            </div>
+
+
+                            <div class="my-1">
+                                <label><b>Value</b></label>
+                                <input class="width-100" id="value" value="5" type="text" placeholder="value">
+                            </div>
+
+
+                            <div class="d-flex py-1 ">
+                                <button type="submit" style="width: 150px;" class="btn btn-secondary btn-submit mx-1">Simpan</button>
+                               <button type="button"  style="width: 150px;" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

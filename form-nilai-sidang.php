@@ -79,7 +79,7 @@
             </div>
             <div class="card">
                 <div class="card-header d-flex flex-space-between">
-                   <h6>Input Konfigurasi Gelombang Sidang</h6>
+                   <h6>Form Konfigurasi Nilai Komponen</h6>
                 </div>
                 <form>
                     <div class="grid-gap-2 py-1">
@@ -95,12 +95,15 @@
 
                             <div class="my-1">
                                 <label><b>Periode</b></label>
-                                <input class="width-100" id="periode" type="text" placeholder="Periode">
+                                <input class="width-100" id="periode" type="text" value="21" placeholder="Periode">
                             </div>
 
                             <div class="my-1">
                                 <label><b>Komponen</b></label>
-                                <textarea class="width-100" id="komponen" style="resize:none;height:100px;" type="text" placeholder="Komponen"></textarea>
+                                <textarea class="width-100" id="komponen" style="resize:none;height:100px;" type="text" placeholder="Komponen">
+                                    Kesesuaian Susunan TA Bagian Awal (cover, pengesahan, keterangan
+                                    perusahaan, kata pengantar dan daftar isi) dengan Pedoman Tugas Akhir
+                                </textarea>
                             </div>
 
                              <div class="my-1">
@@ -114,7 +117,7 @@
 
                             <div class="my-1">
                                 <label><b>Bobot</b></label>
-                                <input class="width-100" id="bobot" type="text" placeholder="Bobot">
+                                <input class="width-100" id="bobot" type="text" value="5" placeholder="Bobot">
                             </div>
 
 
