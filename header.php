@@ -423,6 +423,12 @@
                                             </a>
                                         </li>
                                         <li class="side-menu-item">
+                                            <a href="jadwal-krs.php">
+                                                <span class="menu-icon-child"><i class="fa fa-university"></i></span>
+                                                <span> Input Jadwal Pengisian KRS</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
                                             <a href="verifikasi-soal-ujian.php">
                                                 <span class="menu-icon-child"><i class="fa fa-university"></i></span>
                                                 <span>Verifikasi Soal Ujian</span>
@@ -579,10 +585,24 @@
                                     </a>
                                 </li>
                                 <li class="side-menu-item">
-                                    <a href="rekap-lkm.php">
+                                    <a href="#" class="menu-collaps">
                                         <span class="menu-icon-child"><i class="fa fa-user"></i></span>
-                                        <span>Rekap LKM</span>
+                                        <span class="menu-title">Report</span>
                                     </a>
+                                    <ul class="submenu-menu-item">
+                                        <li class="side-menu-item">
+                                            <a href="rekap-lkm.php">
+                                                <span class="menu-icon-child"><i class="fa fa-user"></i></span>
+                                                <span>Rekap LKM</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="report-honor.php">
+                                                <span class="menu-icon-child"><i class="fa fa-user"></i></span>
+                                                <span>Honor</span>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <hr>
                                 <li class="menu-section" style="margin: 0;">

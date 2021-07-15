@@ -89,7 +89,7 @@
                                 <select name="jenis_sidang" class="width-100" id="jenis_sidang">
                                     <option value="0">-- Pilih Jenis Sidang --</option>
                                     <option value="1" selected>Tugas Akhir (TA)</option>
-                                    <option value="2">Tugas Akhir Susulan</option>
+                                    <option value="2">Skripsi</option>
                                 </select>
                             </div>
 
