@@ -32,11 +32,11 @@
                         </div>
                         <div class="my-1">
                             <label><b>Tanggal</b></label>
-                            <div class="form grid-2 grid-gap-1 my-0 ">
+                            <div class="form grid-gap-1 my-0 ">
                                 <div class="input-group">
-                                    <div class="input-group-area"><input class="width-100" type="date" value="<?= date('Y-m-d') ?>" id="tanggal_awal"></div>
+                                    <div class="input-group-area"><input type="date" value="<?= date('Y-m-d') ?>" id="tanggal_awal" style="width:145px"></div>
                                     <div class="input-group-icon">TO</div>
-                                    <div class="input-group-area"><input class="width-100" type="date" value="<?= date('Y-m-d') ?>" id="tanggal_akhir"></div>
+                                    <div class="input-group-area"><input type="date" value="<?= date('Y-m-d') ?>" id="tanggal_akhir" style="width:145px"></div>
                                 </div>
                             </div>
                         </div>
