@@ -183,6 +183,13 @@
                                                 <span class="menu-icon-child"><i class="fas fa-school"></i></span>
                                                 <span>Konfigurasi Sidang</span>
                                             </a>
+                                        </li>                                
+                                        <li class="side-menu-item">
+                                            <a href="dokumen-sidang.php" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fas fa-school"></i></span>
+                                                <span>Dokumen Sidang</span>
+                                            </a>
+
                                         </li>
                                     </ul>
                                 </li>
