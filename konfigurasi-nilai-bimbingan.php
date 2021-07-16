@@ -27,7 +27,7 @@
                             <a href="konfigurasi-gelombang-sidang.php">Gelombang</a>
                         </li>
                     <?php endif; ?>
-                     <?php
+                    <?php
                     if ($_SERVER['REQUEST_URI'] == '/mytemplates/konfigurasi-ploting-dospem.php') :
                     ?>
                         <li class="active">
@@ -49,7 +49,7 @@
                             <a href="konfigurasi-nilai-sidang.php">Nilai Komponen Sidang</a>
                         </li>
                     <?php endif; ?>
-                     <?php
+                    <?php
                     if ($_SERVER['REQUEST_URI'] == '/mytemplates/konfigurasi-nilai-bimbingan.php') :
                     ?>
                         <li class="active">
@@ -60,7 +60,7 @@
                             <a href="konfigurasi-nilai-bimbingan.php">Nilai Komponen Bimbingan</a>
                         </li>
                     <?php endif; ?>
-                     <?php
+                    <?php
                     if ($_SERVER['REQUEST_URI'] == '/mytemplates/validasi-pendaftaran-sidang.php') :
                     ?>
                         <li class="active">
@@ -91,7 +91,7 @@
                     <button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-link btn-secondary"> Add New </button>
                 </div>
                 <div class="table-responsive py-1">
-                    <table id="datatable" class="table-list" border="1">
+                    <table id="datatable" class="table-list">
                         <thead>
                             <tr class="thead-color">
                                 <th class="align-center">No</th>
@@ -110,8 +110,8 @@
                                 <td class="align-center">21</td>
                                 <td class="align-center">TA</td>
                                 <td class="align-center">
-                                	<a href="#" class="btn btn-link text-secondary"><i class="far fa-edit"></i></a>
-                                	<a href="#" class="btn btn-link text-danger"><i class="fas fa-eraser"></i></a>
+                                    <a href="#" class="btn btn-link text-secondary"><i class="far fa-edit"></i></a>
+                                    <a href="#" class="btn btn-link text-danger"><i class="fas fa-eraser"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -121,8 +121,8 @@
                                 <td class="align-center">21</td>
                                 <td class="align-center">TA</td>
                                 <td class="align-center">
-                                	<a href="#" class="btn btn-link text-secondary"><i class="far fa-edit"></i></a>
-                                	<a href="#" class="btn btn-link text-danger"><i class="fas fa-eraser"></i></a>
+                                    <a href="#" class="btn btn-link text-secondary"><i class="far fa-edit"></i></a>
+                                    <a href="#" class="btn btn-link text-danger"><i class="fas fa-eraser"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -132,20 +132,20 @@
                                 <td class="align-center">21</td>
                                 <td class="align-center">TA</td>
                                 <td class="align-center">
-                                	<a href="#" class="btn btn-link text-secondary"><i class="far fa-edit"></i></a>
-                                	<a href="#" class="btn btn-link text-danger"><i class="fas fa-eraser"></i></a>
+                                    <a href="#" class="btn btn-link text-secondary"><i class="far fa-edit"></i></a>
+                                    <a href="#" class="btn btn-link text-danger"><i class="fas fa-eraser"></i></a>
                                 </td>
                             </tr>
                             <tr>
-                            	<td class="align-center">4</td>
-                            	<td class="align-left">PENGUASAAN MATERI</td>
-                            	<td class="align-center">10</td>
-                            	<td class="align-center">21</td>
-                            	<td class="align-center">TA</td>
-                            	<td class="align-center">
-                            		<a href="#" class="btn btn-link text-secondary"><i class="far fa-edit"></i></a>
-                            		<a href="#" class="btn btn-link text-danger"><i class="fas fa-eraser"></i></a>
-                            	</td>
+                                <td class="align-center">4</td>
+                                <td class="align-left">PENGUASAAN MATERI</td>
+                                <td class="align-center">10</td>
+                                <td class="align-center">21</td>
+                                <td class="align-center">TA</td>
+                                <td class="align-center">
+                                    <a href="#" class="btn btn-link text-secondary"><i class="far fa-edit"></i></a>
+                                    <a href="#" class="btn btn-link text-danger"><i class="fas fa-eraser"></i></a>
+                                </td>
                             </tr>
                         </tbody>
                     </table>
@@ -157,16 +157,16 @@
 <?php include('footer-datatable.php') ?>
 
 <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel" class="align-center">Tambah Komponen Bimbingan</h5>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<form>
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel" class="align-center">Tambah Komponen Bimbingan</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
                     <div class="grid-gap-2">
                         <div class="input-data">
                             <div class="my-1">
@@ -197,13 +197,13 @@
 
                             <div class="d-flex py-1 ">
                                 <button type="submit" style="width: 150px;" class="btn btn-secondary btn-submit mx-1">Simpan</button>
-                               <button type="button"  style="width: 150px;" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                <button type="button" style="width: 150px;" class="btn btn-danger" data-dismiss="modal">Close</button>
                             </div>
 
                         </div>
                     </div>
                 </form>
-			</div>
-		</div>
-	</div>
+            </div>
+        </div>
+    </div>
 </div>

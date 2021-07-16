@@ -44,7 +44,7 @@
                         <hr>
                     </div>
 
-                    <div class="filter-dosen form-inputs">
+                    <div class="filter-dosen d-flex flex-change grid-gap-1">
                         <select name="tahunakademik" id="tahunakademik">
                             <option value="">-- Pilih Tahun Akademik --</option>
                             <option value="2017/2018">2017/2018</option>
@@ -52,16 +52,16 @@
                             <option value="2019/2020">2019/2020</option>
                             <option value="2020/2021" selected>2020/2021</option>
                         </select>
-                        <select name="Peripde" id="Peripde" style="width: 430px;"  >
+                        <select name="Periode" id="Periode">
                             <option value="">-- Pilih Prodi --</option>
                             <option value="20120" selected>20120</option>
                             <option value="20121">20121</option>
                             <option value="20191">20191</option>
                             <option value="20192">20192</option>
                         </select>
-                     </div>
+                    </div>
 
-                     <div class="py-1">
+                    <div class="py-1">
                         <div class="table-responsive">
                             <table class="table-list" id="datatable">
                                 <thead>
@@ -125,7 +125,7 @@
                                             <a href="laporan-detail-dosen.php">View</a>
                                         </td>
                                     </tr>
-                                     <tr>
+                                    <tr>
                                         <td class="align-center">3</td>
                                         <td class="align-left">2020/2021</td>
                                         <td class="align-left">20181 [ Ganjil ]</td>
@@ -154,7 +154,7 @@
                         </div>
                     </div>
 
-                        
+
                 </div>
 
                 <div class="container tab-pane" id="tab2C">
@@ -164,13 +164,13 @@
                         <hr>
                     </div>
 
-                    <div class="filter-dosen form-inputs">
+                    <div class="filter-dosen d-flex grid-gap-1">
                         <select name="kriteria" id="kriteria">
                             <option value="" selected>-- Pilih Kriteria --</option>
                         </select>
-                     </div>
+                    </div>
 
-                     <div class="py-1">
+                    <div class="py-1">
                         <div class="table-responsive">
                             <table class="table-list" id="datatable2">
                                 <thead>

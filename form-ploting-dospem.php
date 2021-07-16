@@ -28,7 +28,7 @@
                                 </div>
                                 <div class="form-inputs">
                                     <label><b>Periode</b></label>
-                                    <input class="width-100" id="periode" type="text" value="21" placeholder="Periode">
+                                    <input id="periode" type="text" value="21" placeholder="Periode">
                                 </div>
                                 <div class="form-inputs">
                                     <label><b>Dosen Pembimbing</b></label>
@@ -40,7 +40,7 @@
                                     </select>
                                 </div>
                                 <div class="form-inputs">
-                                    <label><b>Cabang/Kampus</b></label>
+                                    <label><b>Cabang / Kampus</b></label>
                                     <select name="cabang_kampus" id="cabang_kampus">
                                         <option value="0">-- Pilih Cabang/Kampus --</option>
                                         <option value="1" selected>Jakarta Pusat (Kramat Raya)</option>
@@ -63,53 +63,53 @@
                                 </div>
                             </div>
 
+                    </div>
+
+                    <div class="py-1">
+
+                        <label><b>Total Mahasiswa</b></label>
+                        <input style="width: 50px;" type="text" value="10" disabled>
+
+                        <div class="table-responsive py-1">
+                            <table class="table-list" id="datatable">
+                                <thead>
+                                    <tr>
+                                        <th class="align-center">No</th>
+                                        <th class="align-center">Nim</th>
+                                        <th class="align-left">Nama Mahasiswa</th>
+                                        <th class="align-left">Prodi</th>
+                                        <th class="align-center">Jenjang</th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="align-center"><input type="checkbox" name="checkbox_mhs[]"> 1</td>
+                                        <td class="align-center">180009990 </td>
+                                        <td class="align-left"> Rakhmat SH</td>
+                                        <td class="align-left">Manajemen Informatika</td>
+                                        <td class="align-center">D3</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-center"><input type="checkbox" name="checkbox_mhs[]"> 2</td>
+                                        <td class="align-center">180009992 </td>
+                                        <td class="align-left"> Rosihan</td>
+                                        <td class="align-left">Manajemen Informatika</td>
+                                        <td class="align-center">D3</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="align-center"><input type="checkbox" name="checkbox_mhs[]"> 3</td>
+                                        <td class="align-center">180009993 </td>
+                                        <td class="align-left"> Rohmana</td>
+                                        <td class="align-left">Manajemen Informatika</td>
+                                        <td class="align-center">D3</td>
+
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
-
-                        <div class="py-1">
-
-                            <label><b>Total Mahasiswa</b></label>
-                            <input style="width: 50px;" type="text" value="10" disabled>
-
-                            <div class="table-responsive py-1">
-                                <table class="table-list" id="datatable">
-                                    <thead>
-                                        <tr>
-                                            <th class="align-center">No</th>
-                                            <th class="align-center">Nim</th>
-                                            <th class="align-left">Nama Mahasiswa</th>
-                                            <th class="align-left">Prodi</th>
-                                            <th class="align-center">Jenjang</th>
-                                            
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td class="align-center"><input type="checkbox" name="checkbox_mhs[]"> 1</td>
-                                            <td class="align-center">180009990 </td>
-                                            <td class="align-left"> Rakhmat SH</td>
-                                            <td class="align-left">Manajemen Informatika</td>
-                                            <td class="align-center">D3</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="align-center"><input type="checkbox" name="checkbox_mhs[]"> 2</td>
-                                            <td class="align-center">180009992  </td>
-                                            <td class="align-left"> Rosihan</td>
-                                            <td class="align-left">Manajemen Informatika</td>
-                                            <td class="align-center">D3</td> 
-                                        </tr>
-                                        <tr>
-                                            <td class="align-center"><input type="checkbox" name="checkbox_mhs[]"> 3</td>
-                                            <td class="align-center">180009993  </td>
-                                            <td class="align-left"> Rohmana</td>
-                                            <td class="align-left">Manajemen Informatika</td>
-                                            <td class="align-center">D3</td>
-                                            
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <label class="text-danger">* Ploting Mahasiswa Bimbingan tidak boleh lebih dari 10 MHS</label>
-                        </div>
+                        <label class="text-danger">* Ploting Mahasiswa Bimbingan tidak boleh lebih dari 10 MHS</label>
+                    </div>
                     </form>
                 </div>
 

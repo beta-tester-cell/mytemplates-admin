@@ -493,7 +493,7 @@
   float: bottom;
 }
 
-.thead-color{
+.thead-color {
   background-color: var(--primary-color) !important;
   color: white;
 }
@@ -505,6 +505,10 @@
 
 .grid-button {
   display: grid;
-  grid-template-columns: 85% 15%;
+  grid-template-columns: 66% 34%;
 }
 
+.button-plot {
+  display: flex;
+  gap: 10px;
+}

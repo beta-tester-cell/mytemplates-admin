@@ -189,6 +189,7 @@
                                                 <span class="menu-icon-child"><i class="fas fa-school"></i></span>
                                                 <span>Dokumen Sidang</span>
                                             </a>
+
                                         </li>
                                     </ul>
                                 </li>
@@ -429,7 +430,7 @@
                                             </a>
                                         </li>
                                         <li class="side-menu-item">
-                                            <a href="jadwal-krs.php">
+                                            <a href="jadwal-krs.php" class="d-flex">
                                                 <span class="menu-icon-child"><i class="fa fa-university"></i></span>
                                                 <span> Input Jadwal Pengisian KRS</span>
                                             </a>
@@ -488,7 +489,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                 <li class="side-menu-item">
+                                <li class="side-menu-item">
                                     <a href="#" class="menu-collaps">
                                         <span class="menu-icon-child"><i class="fas fa-university"></i></span>
                                         <span>Tools</span>

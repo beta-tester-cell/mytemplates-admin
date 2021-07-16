@@ -34,7 +34,7 @@
                                     <label><b>Dosen Pembimbing</b></label>
                                     <select name="dospem" id="dospem">
                                         <option value="0">-- Pilih Dosen Pembimbing --</option>
-                                        <option value="1" >Masria, M.Kom</option>
+                                        <option value="1">Masria, M.Kom</option>
                                         <option value="2">>Nasril, M.Kom</option>
                                         <option value="3" selected>Euis Winarti</option>
                                     </select>
@@ -45,32 +45,32 @@
                                 </div>
                             </div>
 
-                        </div>
+                    </div>
 
-                        <div class="py-1">
-                            <div class="grid-button">
-                                <div class="total">
-                                    <label><b>Total Mahasiswa</b></label>
-                                    <input style="width: 50px;" type="text" value="10" disabled>
-                                </div>
-                                <div class="button-plot">
-                                    <a href="#" class="btn btn-link btn-secondary" data-toggle="modal" data-target="#exampleModal">+</a>
-                                    <button class="btn btn-link btn-secondary">Delete All</button>
-                                </div>
+                    <div class="py-1">
+                        <div class="grid-button">
+                            <div class="total">
+                                <label><b>Total Mahasiswa</b></label>
+                                <input style="width: 50px;" type="text" value="10" disabled>
                             </div>
-                            <div class="table-responsive py-1">
-                                <table class="table-list" id="datatable">
-                                    <thead>
-                                        <tr>
-                                            <th class="align-center">No</th>
-                                            <th class="align-center">Nim</th>
-                                            <th class="align-left">Nama Mahasiswa</th>
-                                            <th class="align-left">Prodi</th>
-                                            <th class="align-center">Jenjang</th>
-                                            <th class="align-center">Action</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
+                            <div class="button-plot">
+                                <a href="#" class="btn btn-link btn-secondary" data-toggle="modal" data-target="#exampleModal">Add Komponen</a>
+                                <button class="btn btn-link btn-secondary">Delete All</button>
+                            </div>
+                        </div>
+                        <div class="table-responsive py-1">
+                            <table class="table-list" id="datatable">
+                                <thead>
+                                    <tr>
+                                        <th class="align-center">No</th>
+                                        <th class="align-center">Nim</th>
+                                        <th class="align-left">Nama Mahasiswa</th>
+                                        <th class="align-left">Prodi</th>
+                                        <th class="align-center">Jenjang</th>
+                                        <th class="align-center">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
                                     <tr>
                                         <td class="align-center">1</td>
                                         <td class="align-center">180009990 </td>
@@ -78,39 +78,39 @@
                                         <td class="align-left">Manajemen Informatika</td>
                                         <td class="align-center">D3</td>
                                         <td class="align-center">
-                                             <a href="#" class="btn btn-link text-danger"><i class="fas fa-eraser"></i></a>
+                                            <a href="#" class="btn btn-link text-danger"><i class="fas fa-eraser"></i></a>
                                         </td>
                                     </tr>
-                                     <tr>
+                                    <tr>
                                         <td class="align-center">2</td>
-                                        <td class="align-center">180009992  </td>
+                                        <td class="align-center">180009992 </td>
                                         <td class="align-left"> Rosihan</td>
                                         <td class="align-left">Manajemen Informatika</td>
                                         <td class="align-center">D3</td>
                                         <td class="align-center">
-                                           <a href="#" class="btn btn-link text-danger"><i class="fas fa-eraser"></i></a>
-                                       </td>
-                                   </tr>
-                                   <tr>
+                                            <a href="#" class="btn btn-link text-danger"><i class="fas fa-eraser"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
                                         <td class="align-center">3</td>
-                                        <td class="align-center">180009993  </td>
+                                        <td class="align-center">180009993 </td>
                                         <td class="align-left"> Rohmana</td>
                                         <td class="align-left">Manajemen Informatika</td>
                                         <td class="align-center">D3</td>
                                         <td class="align-center">
-                                           <a href="#" class="btn btn-link text-danger"><i class="fas fa-eraser"></i></a>
-                                       </td>
+                                            <a href="#" class="btn btn-link text-danger"><i class="fas fa-eraser"></i></a>
+                                        </td>
                                     </tr>
                                 </tbody>
-                             </table>
+                            </table>
                         </div>
                         <label class="text-danger">* Ploting Mahasiswa Bimbingan tidak boleh lebih dari 10 MHS</label>
                     </div>
-                </form>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
-</div>
 </div>
 
 <?php include('footer-datatable.php') ?>
@@ -118,17 +118,17 @@
 
 <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-fit-custom">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel" class="align-center">Tambah Komponen Bimbingan</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="grid-gap-2">
-                        <div class="input-data">
-                          <div class="form-inputs">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel" class="align-center">Tambah Komponen Bimbingan</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="grid-gap-2">
+                    <div class="input-data">
+                        <div class="form-inputs">
                             <label><b>Cabang/Kampus</b></label>
                             <select name="cabang_kampus" id="cabang_kampus">
                                 <option value="0">-- Pilih Cabang/Kampus --</option>
@@ -146,18 +146,18 @@
                                 <option value="3">Multimedia</option>
                             </select>
                         </div>
-                         <div class="table-responsive py-1">
-                                <table class="table-list" id="datatable2">
-                                    <thead>
-                                        <tr>
-                                            <th class="align-center">No</th>
-                                            <th class="align-center">Nim</th>
-                                            <th class="align-left">Nama Mahasiswa</th>
-                                            <th class="align-left">Prodi</th>
-                                            <th class="align-center">Jenjang</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
+                        <div class="table-responsive py-1">
+                            <table class="table-list" id="datatable2">
+                                <thead>
+                                    <tr>
+                                        <th class="align-center">No</th>
+                                        <th class="align-center">Nim</th>
+                                        <th class="align-left">Nama Mahasiswa</th>
+                                        <th class="align-left">Prodi</th>
+                                        <th class="align-center">Jenjang</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
                                     <tr>
                                         <td class="align-center"><input type="checkbox" name="checkbox_mhs[]"> 1</td>
                                         <td class="align-center">180009990 </td>
@@ -165,27 +165,27 @@
                                         <td class="align-left">Manajemen Informatika</td>
                                         <td class="align-center">D3</td>
                                     </tr>
-                                     <tr>
+                                    <tr>
                                         <td class="align-center"><input type="checkbox" name="checkbox_mhs[]"> 2</td>
-                                        <td class="align-center">180009992  </td>
+                                        <td class="align-center">180009992 </td>
                                         <td class="align-left"> Rosihan</td>
                                         <td class="align-left">Manajemen Informatika</td>
                                         <td class="align-center">D3</td>
-                                   </tr>
-                                   <tr>
+                                    </tr>
+                                    <tr>
                                         <td class="align-center"><input type="checkbox" name="checkbox_mhs[]"> 3</td>
-                                        <td class="align-center">180009993  </td>
+                                        <td class="align-center">180009993 </td>
                                         <td class="align-left"> Rohmana</td>
                                         <td class="align-left">Manajemen Informatika</td>
                                         <td class="align-center">D3</td>
                                     </tr>
                                 </tbody>
-                             </table>
+                            </table>
                         </div>
 
                         <div class="d-flex py-1 ">
                             <button type="submit" style="width: 150px;" class="btn btn-secondary btn-submit mx-1">Tambah</button>
-                            <button type="button"  style="width: 150px;" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            <button type="button" style="width: 150px;" class="btn btn-danger" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>

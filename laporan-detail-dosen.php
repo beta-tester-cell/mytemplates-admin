@@ -45,7 +45,7 @@
                         <hr>
                     </div>
 
-                    <div class="filter-dosen form-inputs">
+                    <div class="filter-dosen d-flex flex-change grid-gap-1">
                         <select name="tahunakademik" id="tahunakademik">
                             <option value="">-- Pilih Tahun Akademik --</option>
                             <option value="2017/2018">2017/2018</option>
@@ -53,16 +53,16 @@
                             <option value="2019/2020">2019/2020</option>
                             <option value="2020/2021" selected>2020/2021</option>
                         </select>
-                        <select name="Peripde" id="Peripde" style="width: 430px;"  >
+                        <select name="Peripde" id="Peripde">
                             <option value="">-- Pilih Prodi --</option>
                             <option value="20120" selected>20120</option>
                             <option value="20121">20121</option>
                             <option value="20191">20191</option>
                             <option value="20192">20192</option>
                         </select>
-                     </div>
+                    </div>
 
-                     <div class="py-1">
+                    <div class="py-1">
                         <div class="table-responsive">
                             <table class="table-list" id="datatable">
                                 <thead>
@@ -78,7 +78,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                     <tr>
+                                    <tr>
                                         <td class="align-center">1</td>
                                         <td class="align-left">00122</td>
                                         <td class="align-left">2012234</td>
@@ -98,7 +98,7 @@
                                         <td class="align-left">Tetap</td>
                                         <td class="align-left">Jakarta Pusat ( Kramat Raya)</td>
                                     </tr>
-                                     <tr>
+                                    <tr>
                                         <td class="align-center">3</td>
                                         <td class="align-left">00124</td>
                                         <td class="align-left">-</td>
@@ -108,7 +108,7 @@
                                         <td class="align-left">Tetap</td>
                                         <td class="align-left">Jakarta Pusat ( Kramat Raya)</td>
                                     </tr>
-                                     <tr>
+                                    <tr>
                                         <td class="align-center">4</td>
                                         <td class="align-left">00125</td>
                                         <td class="align-left">-</td>
@@ -118,7 +118,7 @@
                                         <td class="align-left">Partime</td>
                                         <td class="align-left">-</td>
                                     </tr>
-                                     <tr>
+                                    <tr>
                                         <td class="align-center">5</td>
                                         <td class="align-left">00126</td>
                                         <td class="align-left">4452112</td>
@@ -143,7 +143,7 @@
                         </div>
                     </div>
 
-                        
+
                 </div>
 
                 <div class="container tab-pane" id="tab2C">
@@ -157,9 +157,9 @@
                         <select name="kriteria" id="kriteria">
                             <option value="" selected>-- Pilih Kriteria --</option>
                         </select>
-                     </div>
+                    </div>
 
-                     <div class="py-1">
+                    <div class="py-1">
                         <div class="table-responsive">
                             <table class="table-list" id="datatable2">
                                 <thead>
@@ -175,7 +175,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                     <tr>
+                                    <tr>
                                         <td class="align-center">1</td>
                                         <td class="align-left">00122</td>
                                         <td class="align-left">2012234</td>
@@ -195,7 +195,7 @@
                                         <td class="align-left">Tetap</td>
                                         <td class="align-left">Jakarta Pusat ( Kramat Raya)</td>
                                     </tr>
-                                     <tr>
+                                    <tr>
                                         <td class="align-center">3</td>
                                         <td class="align-left">00124</td>
                                         <td class="align-left">-</td>
@@ -205,7 +205,7 @@
                                         <td class="align-left">Tetap</td>
                                         <td class="align-left">Jakarta Pusat ( Kramat Raya)</td>
                                     </tr>
-                                     <tr>
+                                    <tr>
                                         <td class="align-center">4</td>
                                         <td class="align-left">00125</td>
                                         <td class="align-left">-</td>
@@ -215,7 +215,7 @@
                                         <td class="align-left">Partime</td>
                                         <td class="align-left">-</td>
                                     </tr>
-                                     <tr>
+                                    <tr>
                                         <td class="align-center">5</td>
                                         <td class="align-left">00126</td>
                                         <td class="align-left">4452112</td>
