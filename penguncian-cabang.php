@@ -3,7 +3,8 @@
     <div class="breadcrumb">
         <a href="index.php">Dashboard</a>
         <a href="#">Keuangan</a>
-        <a href="penguncian-cabang.php">Penguncian Cabang</a>
+        <a href="#">Setting</a>
+        <a href="penguncian-cabang.php">Master Lock Branch</a>
     </div>
 </div>
 <div class="content">

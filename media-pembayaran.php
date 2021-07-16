@@ -3,7 +3,8 @@
     <div class="breadcrumb">
         <a href="index.php">Dashboard</a>
         <a href="#">Keuangan</a>
-        <a href="media-pembayaran.php">Media Pembayaran</a>
+        <a href="#">Setting</a>
+        <a href="media-pembayaran.php">Payment Gateway</a>
     </div>
 </div>
 <div class="content" style="height: 80vh;">

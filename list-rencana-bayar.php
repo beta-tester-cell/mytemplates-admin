@@ -3,7 +3,8 @@
     <div class="breadcrumb">
         <a href="index.php">Dashboard</a>
         <a href="#">Keuangan Cabang</a>
-        <a href="list-rencana-bayar.php">List Rencana Bayar</a>
+        <a href="#">Transaksi</a>
+        <a href="list-rencana-bayar.php">Pembayaran Kuliah</a>
     </div>
 </div>
 <div class="content">

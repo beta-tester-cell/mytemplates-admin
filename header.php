@@ -183,7 +183,7 @@
                                                 <span class="menu-icon-child"><i class="fas fa-school"></i></span>
                                                 <span>Konfigurasi Sidang</span>
                                             </a>
-                                        </li>                                
+                                        </li>
                                         <li class="side-menu-item">
                                             <a href="dokumen-sidang.php" class="d-flex">
                                                 <span class="menu-icon-child"><i class="fas fa-school"></i></span>
@@ -270,62 +270,93 @@
                         <li class="side-menu-item">
                             <a href="#" class="menu-collaps">
                                 <span class="menu-icon"><i class="fa fa-donate"></i></span>
-                                <span class="menu-title">Keuangan</span>
+                                <span class="menu-title">Keuangan Pusat</span>
                             </a>
                             <ul class="submenu-menu-item">
-                                <li class="side-menu-item ">
+                                <li class="side-menu-item">
                                     <a href="#">
                                         <span class="menu-icon-child"><i class="fa fa-tachometer-alt"></i></span>
                                         <span class="menu-title">Dashboard</span>
                                     </a>
                                 </li>
                                 <li class="side-menu-item">
-                                    <a href="penguncian-mahasiswa.php">
+                                    <a href="#" class="menu-collaps">
                                         <span class="menu-icon-child"><i class="fa fa-donate"></i></span>
-                                        <span>Penguncian Mahasiswa</span>
+                                        <span>Setting</span>
                                     </a>
+
+                                    <ul class="submenu-menu-item">
+                                        <li class="side-menu-item">
+                                            <a href="penguncian-mahasiswa.php">
+                                                <span class="menu-icon-child"><i class="fa fa-donate"></i></span>
+                                                <span>Master Lock Student</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="penguncian-cabang.php">
+                                                <span class="menu-icon-child"><i class="fa fa-donate"></i></span>
+                                                <span>Master Lock Branch</span>
+                                            </a>
+                                        </li>
+
+                                        <li class="side-menu-item">
+                                            <a href="media-pembayaran.php">
+                                                <span class="menu-icon-child"><i class="fa fa-donate"></i></span>
+                                                <span>Payment Gateway</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+
                                 </li>
+
                                 <li class="side-menu-item">
-                                    <a href="penguncian-cabang.php">
+                                    <a href="#" class="menu-collaps">
                                         <span class="menu-icon-child"><i class="fa fa-donate"></i></span>
-                                        <span>Penguncian Cabang</span>
+                                        <span>Kewajiban Cabang</span>
                                     </a>
+                                    <ul class="submenu-menu-item">
+                                        <li class="side-menu-item">
+                                            <a href="master-pembiayaan.php">
+                                                <span class="menu-icon-child"><i class="fa fa-donate"></i></span>
+                                                <span>Master Akun Kewajiban</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="tagihan-pembiayaan.php" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fa fa-donate"></i></span>
+                                                <span>List Tagihan Cabang</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="realisasi-pembiayaan.php" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fa fa-donate"></i></span>
+                                                <span>Realisasi Kewajiban Cabang</span>
+                                            </a>
+                                        </li>
+
+                                    </ul>
                                 </li>
+
                                 <li class="side-menu-item">
-                                    <a href="media-pembayaran.php">
+                                    <a href="#" class="menu-collaps">
                                         <span class="menu-icon-child"><i class="fa fa-donate"></i></span>
-                                        <span>Media Pembayaran</span>
+                                        <span>Report</span>
                                     </a>
-                                </li>
-                                <li class="side-menu-item">
-                                    <a href="master-pembiayaan.php">
-                                        <span class="menu-icon-child"><i class="fa fa-donate"></i></span>
-                                        <span>Pembiayaan Cabang</span>
-                                    </a>
-                                </li>
-                                <li class="side-menu-item">
-                                    <a href="tagihan-pembayaran.php">
-                                        <span class="menu-icon-child"><i class="fa fa-donate"></i></span>
-                                        <span>Tagihan Pembayaran</span>
-                                    </a>
-                                </li>
-                                <li class="side-menu-item">
-                                    <a href="realisasi-pembayaran.php">
-                                        <span class="menu-icon-child"><i class="fa fa-donate"></i></span>
-                                        <span>Realisasi Pembayaran</span>
-                                    </a>
-                                </li>
-                                <li class="side-menu-item">
-                                    <a href="tagihan-pembiayaan.php" class="d-flex">
-                                        <span class="menu-icon-child"><i class="fa fa-donate"></i></span>
-                                        <span>Tagihan Kewajiban Cabang</span>
-                                    </a>
-                                </li>
-                                <li class="side-menu-item">
-                                    <a href="realisasi-pembiayaan.php" class="d-flex">
-                                        <span class="menu-icon-child"><i class="fa fa-donate"></i></span>
-                                        <span>Realisasi Kewajiban Cabang</span>
-                                    </a>
+                                    <ul class="submenu-menu-item">
+                                        <li class="side-menu-item">
+                                            <a href="tagihan-pembayaran.php">
+                                                <span class="menu-icon-child"><i class="fa fa-donate"></i></span>
+                                                <span>Tagihan Mahasiswa</span>
+                                            </a>
+                                        </li>
+
+                                        <li class="side-menu-item">
+                                            <a href="realisasi-pembayaran.php">
+                                                <span class="menu-icon-child"><i class="fa fa-donate"></i></span>
+                                                <span>Realisasi Pembayaran</span>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
                         </li>
@@ -342,23 +373,194 @@
                                     </a>
                                 </li>
                                 <li class="side-menu-item">
-                                    <a href="rencana-bayar-kuliah.php">
+                                    <a href="#" class="menu-collaps">
                                         <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
-                                        <span>Rencana Bayar Kuliah</span>
+                                        <span>Data Master</span>
                                     </a>
+                                    <ul class="submenu-menu-item">
+                                        <li class="side-menu-item">
+                                            <a href="#" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+                                                <span>Input Akun Perkiraan Bank</span>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li class="side-menu-item">
-                                    <a href="list-rencana-bayar.php">
+                                    <a href="#" class="menu-collaps">
                                         <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
-                                        <span>List Rencana Bayar</span>
+                                        <span>Transaksi</span>
                                     </a>
+                                    <ul class="submenu-menu-item">
+                                        <li class="side-menu-item">
+                                            <a href="rencana-bayar-kuliah.php">
+                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+                                                <span>Rencana Bayar</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="list-rencana-bayar.php">
+                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+                                                <span>Pembayaran Kuliah</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="form-pembayaran-kegiatan.php">
+                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+                                                <span>Non Biaya Kuliah</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="#" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+                                                <span>Pembayaran Kewajiban Cabang</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="#" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+                                                <span>Registrasi Mahasiswa Tingkat 1,2,3 dan $</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="#">
+                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+                                                <span>Pindah Mahasiswa Aktif</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="#">
+                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+                                                <span>Pindah Kampus</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="#" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+                                                <span>Mahasiswa Pindah Kampus</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="#" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+                                                <span>Registrasi Sidang dan Wisuda</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="#" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+                                                <span>Transaksi Pembayaran Sidang,Wisuda,Ijazah, SKPI</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="#" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+                                                <span>Pernyataan Pelunasan Biaya Sidang,Wisuda,Ijazah, SKPI</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="#" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+                                                <span>Posting Peserta Sidang Wisuda</span>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li class="side-menu-item">
-                                    <a href="form-pembayaran-kegiatan.php">
+                                    <a href="#" class="menu-collaps">
                                         <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
-                                        <span>Pembayaran Kegiatan</span>
+                                        <span>Virtual Account</span>
                                     </a>
+                                    <ul class="submenu-menu-item">
+                                        <li class="side-menu-item">
+                                            <a href="#">
+                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+                                                <span>Billing Data</span>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </li>
+                                <li class="side-menu-item">
+                                    <a href="#" class="menu-collaps">
+                                        <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+                                        <span>Report</span>
+                                    </a>
+                                    <ul class="submenu-menu-item">
+                                        <li class="side-menu-item">
+                                            <a href="#">
+                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+                                                <span>Tagihan Mahasiswa</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="#" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+                                                <span>Realisasi Pembayaran Mahasiswa</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="#" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+                                                <span>Tagihan Kewajiban Cabang</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="#" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+                                                <span>Realisasi Kewajiban Cabang</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="#">
+                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+                                                <span>Potensi Revenue</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="#">
+                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+                                                <span>Realisasi Revenue</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="#" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+                                                <span>Cetak Kartu Rencana Pembayaran</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="#" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+                                                <span>Registrasi Mahasiswa</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="#" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+                                                <span>Surat Tagihan Pembayaran</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="#" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+                                                <span>Surat Tagihan Kewajiban Cabang</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="#" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+                                                <span>Surat Tagihan Pembayaran Kirim Email</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
+                                            <a href="#" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+                                                <span>Cetak Kwintasi Pembayaran</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
                             </ul>
                         </li>
                         <li class="side-menu-item">

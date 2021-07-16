@@ -3,6 +3,7 @@
     <div class="breadcrumb">
         <a href="index.php">Dashboard</a>
         <a href="#">Keuangan</a>
+        <a href="#">Kewajiban Cabang</a>
         <a href="realisasi-pembiayaan.php">Realisasi Kewajiban Cabang</a>
     </div>
 </div>

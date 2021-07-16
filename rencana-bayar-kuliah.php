@@ -3,7 +3,8 @@
     <div class="breadcrumb">
         <a href="index.php">Dashboard</a>
         <a href="#">Keuangan Cabang</a>
-        <a href="rencana-bayar-kuliah.php">Rencana Bayar Kuliah</a>
+        <a href="#">Transaksi</a>
+        <a href="rencana-bayar-kuliah.php">Rencana Bayar</a>
     </div>
 </div>
 <div class="content">

@@ -3,7 +3,8 @@
     <div class="breadcrumb">
         <a href="index.php">Dashboard</a>
         <a href="#">Keuangan</a>
-        <a href="master-pembiayaan.php">Pembiayaan Cabang</a>
+        <a href="#">Kewajiban Cabang</a>
+        <a href="master-pembiayaan.php">Master Akun Kewajiban</a>
     </div>
 </div>
 <div class="content" style="height: 80vh;">

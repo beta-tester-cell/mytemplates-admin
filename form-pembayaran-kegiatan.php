@@ -3,7 +3,8 @@
     <div class="breadcrumb">
         <a href="index.php">Dashboard</a>
         <a href="#">Keuangan Cabang</a>
-        <a href="form-pembayaran-kegiatan.php">Pembayaran Kegiatan Kuliah</a>
+        <a href="#">Transaksi</a>
+        <a href="form-pembayaran-kegiatan.php">Non Biaya Kuliah</a>
     </div>
 </div>
 <div class="content">
