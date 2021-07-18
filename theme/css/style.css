@@ -1598,6 +1598,21 @@ table.dataTable.no-footer {
   overflow-x: auto;
 }
 
+.bg-color-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.bg-color-secondary {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.bg-color-danger {
+  background-color: var(--danger-color);
+  color: #fff;
+}
+
 .dataTables_filter,
 .dataTables_length {
   margin-bottom: 1rem;
