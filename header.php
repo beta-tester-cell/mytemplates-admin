@@ -473,7 +473,7 @@
                                     </a>
                                     <ul class="submenu-menu-item">
                                         <li class="side-menu-item">
-                                            <a href="#">
+                                            <a href="billing-data.php">
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
                                                 <span>Billing Data</span>
                                             </a>
@@ -658,7 +658,7 @@
                                     </a>
                                     <ul class="submenu-menu-item">
                                         <li class="side-menu-item">
-                                            <a href="#" class="d-flex">
+                                            <a href="list-dospem.php" class="d-flex">
                                                 <span class="menu-icon-child"><i class="fa fa-university"></i></span>
                                                 <span>Pengajuan Dosen Pembimbing</span>
                                             </a>
