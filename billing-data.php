@@ -15,7 +15,7 @@
                     <a href="form-tambah-billing.php" class="btn btn-link btn-primary">
                         <span>Add Billing</span>
                     </a>
-                    <a href="form-upload-billing.php" class="btn btn-link btn-primary" style="margin-left: 20px;">
+                    <a href="form-update-billing.php" class="btn btn-link btn-primary" style="margin-left: 20px;">
                         <span>Bulk Upload Billing</span>
                     </a>
                 </div>
@@ -38,15 +38,15 @@
                 </div>
 
                 <div class="filter-billing">
-                   <div class="form-inputs">
-                    <div class="form grid-2 grid-gap-1 py-1">
-                        <div class="input-group">
-                            <div class="input-group-area"><input class="width-100" type="date" id="tanggal_awal"></div>
-                            <div class="input-group-icon">TO</div>
-                            <div class="input-group-area"><input class="width-100" type="date" id="tanggal_akhir"></div>
+                    <div class="form-inputs">
+                        <div class="form grid-2 grid-gap-1 py-1">
+                            <div class="input-group">
+                                <div class="input-group-area"><input class="width-100" type="date" id="tanggal_awal"></div>
+                                <div class="input-group-icon">TO</div>
+                                <div class="input-group-area"><input class="width-100" type="date" id="tanggal_akhir"></div>
+                            </div>
                         </div>
                     </div>
-                </div>
 
                 </div>
 
@@ -117,4 +117,4 @@
     </div>
 </div>
 
-<?php include('footer-datatable.php') ?> 
+<?php include('footer-datatable.php') ?>
