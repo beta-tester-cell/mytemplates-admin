@@ -59,8 +59,8 @@
 
                 <div class="py-1" id="table-preview">
                     <div class="table-responsive">
-                        <table class="table-list" id="datatable">
-                        <thead>
+                        <table id="datatable">
+                        <thead class="bg-color-primary">
                             <tr>
                                 <th class="align-left">Billing_ID</th>
                                 <th class="align-left">VA Number</th>

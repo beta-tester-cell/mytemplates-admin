@@ -52,8 +52,8 @@
 
                 <div class="py-1">
                     <div class="table-responsive">
-                        <table class="table-list" id="datatable">
-                            <thead>
+                        <table id="datatable">
+                            <thead class="bg-color-primary">
                                 <tr>
                                     <th class="align-center">No</th>
                                     <th class="align-left">Billing Id</th>
