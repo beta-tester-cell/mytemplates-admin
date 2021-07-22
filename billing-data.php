@@ -13,9 +13,9 @@
             <div class="card">
                 <div class="d-flex flex-start">
                     <a href="form-tambah-billing.php" class="btn btn-link btn-primary">
-                        <span>Add Billing</span>
+                        <span>Create Billing</span>
                     </a>
-                    <a href="form-upload-billing.php" class="btn btn-link btn-primary" style="margin-left: 20px;">
+                    <a href="form-upload-bulk-billing.php" class="btn btn-link btn-primary" style="margin-left: 20px;">
                         <span>Bulk Upload Billing</span>
                     </a>
                 </div>
