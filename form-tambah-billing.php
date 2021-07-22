@@ -218,8 +218,8 @@
 
                         <div class="py-1">
                             <div class="table-responsive">
-                                <table class="table-list" id="datatable">
-                                    <thead>
+                                <table id="datatable">
+                                    <thead class="bg-color-primary">
                                         <tr>
                                             <th class="align-left">MHS_ID</th>
                                             <th class="align-left">Billing_ID</th>

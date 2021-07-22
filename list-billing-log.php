@@ -4,6 +4,7 @@
         <a href="index.php">Dashboard</a>
         <a href="#">Keuangan Cabang</a>
         <a href="billing-data.php">Billing Data</a>
+        <a href="list-billing-log.php">List Billing Log</a>
     </div>
 </div>
 <div class="content">
