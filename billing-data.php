@@ -13,9 +13,9 @@
             <div class="card">
                 <div class="d-flex flex-start">
                     <a href="form-tambah-billing.php" class="btn btn-link btn-primary">
-                        <span>Add Billing</span>
+                        <span>Create Billing</span>
                     </a>
-                    <a href="form-update-billing.php" class="btn btn-link btn-primary" style="margin-left: 20px;">
+                    <a href="form-upload-bulk-billing.php" class="btn btn-link btn-primary" style="margin-left: 20px;">
                         <span>Bulk Upload Billing</span>
                     </a>
                 </div>
@@ -52,8 +52,8 @@
 
                 <div class="py-1">
                     <div class="table-responsive">
-                        <table class="table-list" id="datatable">
-                            <thead>
+                        <table id="datatable">
+                            <thead class="bg-color-primary">
                                 <tr>
                                     <th class="align-center">No</th>
                                     <th class="align-left">Billing Id</th>

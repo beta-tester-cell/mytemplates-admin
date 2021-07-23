@@ -89,7 +89,7 @@
                                     <td class="align-left">2021-07-31</td>
                                     <td class="align-left"><span class="text-danger">Unpaid</span></td>
                                     <td class="align-center">
-                                        <a href="form-update-billing.php" class="btn btn-link text-secondary" title="Update Billing"><i class="far fa-edit"></i></a>
+                                        <a href="form-tambah-billing.php?action=update" class="btn btn-link text-secondary" title="Update Billing"><i class="far fa-edit"></i></a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -104,7 +104,7 @@
                                     <td class="align-left">2021-06-30</td>
                                     <td class="align-left"><span class="text-success">[1.200.000] Paid</span></td>
                                     <td class="align-center">
-                                        <a href="form-update-billing.php" class="btn btn-link text-secondary" title="Update Billing"><i class="far fa-edit"></i></a>
+                                        <a href="form-tambah-billing.php?action=update" class="btn btn-link text-secondary" title="Update Billing"><i class="far fa-edit"></i></a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -119,7 +119,7 @@
                                     <td class="align-left">2021-05-30</td>
                                     <td class="align-left"><span class="text-success">[500.000] Paid</span></td>
                                     <td class="align-center">
-                                        <a href="form-update-billing.php" class="btn btn-link text-secondary" title="Update Billing"><i class="far fa-edit"></i></a>
+                                        <a href="form-tambah-billing.php?action=update" class="btn btn-link text-secondary" title="Update Billing"><i class="far fa-edit"></i></a>
                                     </td>
                                 </tr>
                             </tbody>
