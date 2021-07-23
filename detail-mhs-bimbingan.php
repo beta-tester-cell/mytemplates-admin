@@ -26,16 +26,16 @@
                     </div>
                 </div>
 
-                <div class="py-1 grid-detail-list grid-gap-2">
+                <div class="py-1 grid-detail-list grid-gap-1">
                     <div class="form-img">
-                       <img src="theme/img/default-user.jpg" alt="Foto Mahasiswa">
+                        <img src="theme/img/default-user.jpg" alt="Foto Mahasiswa">
                     </div>
-                   <div class="detail-list">
-                       <div class="grid-4 grid-gap-2">
+                    <div class="detail-list">
+                        <div class="grid-4 grid-gap-2">
                             <div class="list-1">
                                 <div class="detail-list">
-                                   <label><b>Nama Mahasiswa</b></label><br>
-                                   <span>[180099298] Rohmana</span>
+                                    <label><b>Nama Mahasiswa</b></label><br>
+                                    <span>[180099298] Rohmana</span>
                                 </div>
 
                                 <label><b>Dosen Pembimbing</b></label><br>
@@ -43,24 +43,24 @@
                             </div>
                             <div class="list-1">
                                 <div class="detail-list">
-                                   <label><b>Prodi</b></label><br>
-                                   <span>[022] Manajemen Informatika</span>
+                                    <label><b>Prodi</b></label><br>
+                                    <span>[022] Manajemen Informatika</span>
                                 </div>
 
                                 <label><b>Judul TA/Skripsi</b></label><br>
                                 <span>Sistem Perencanaan Budget Pada LP3I College (E-Budgeting)</span>
                             </div>
                             <div class="list-1">
-                               <div class="detail-list">
-                                   <label><b>Kampus</b></label><br>
-                                   <span>Jakarta Pusat ( Kramat Raya)</span>
+                                <div class="detail-list">
+                                    <label><b>Kampus</b></label><br>
+                                    <span>Jakarta Pusat ( Kramat Raya)</span>
                                 </div>
                             </div>
-                       </div>
-                   </div>
-                   <div class="list-nilai">
+                        </div>
+                    </div>
+                    <div class="list-nilai">
                         <a href="detail-list-dospem.php" class="btn btn-link btn-danger export-list">Back</a>
-                   </div>
+                    </div>
                 </div>
 
                 <div class="py-1">
@@ -116,14 +116,14 @@
                                     </td>
                                     <td class="align-left">-</td>
                                 </tr>
-                         </tbody>
-                    </table>      
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-            </div>
 
+            </div>
         </div>
     </div>
-</div>
 </div>
 
 <?php include('footer-datatable.php') ?>

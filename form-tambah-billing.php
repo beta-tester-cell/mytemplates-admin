@@ -1,11 +1,11 @@
 <?php include('header.php') ?>
 <div class="breadcrumb-wrapper">
-	<div class="breadcrumb">
-		<a href="index.php">Dashboard</a>
-		<a href="#">Keuangan Cabang</a>
-		<a href="billing-data.php">Billing Data</a>
-		<a href="form-tambah-billing.php">Form Tambah Billing</a>
-	</div>
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Keuangan Cabang</a>
+        <a href="billing-data.php">Billing Data</a>
+        <a href="form-tambah-billing.php">Form Tambah Billing</a>
+    </div>
 </div>
 <div class="content">
     <div class="container">
@@ -270,11 +270,9 @@
                         </div>
 
                     </form>
-
                 </div>
-
-
-            </div>
+              
+            </div> 
         </div>
     </div>
 </div>

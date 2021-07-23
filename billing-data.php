@@ -38,15 +38,15 @@
                 </div>
 
                 <div class="filter-billing">
-                   <div class="form-inputs">
-                    <div class="form grid-2 grid-gap-1 py-1">
-                        <div class="input-group">
-                            <div class="input-group-area"><input class="width-100" type="date" id="tanggal_awal"></div>
-                            <div class="input-group-icon">TO</div>
-                            <div class="input-group-area"><input class="width-100" type="date" id="tanggal_akhir"></div>
+                    <div class="form-inputs">
+                        <div class="form grid-2 grid-gap-1 py-1">
+                            <div class="input-group">
+                                <div class="input-group-area"><input class="width-100" type="date" id="tanggal_awal"></div>
+                                <div class="input-group-icon">TO</div>
+                                <div class="input-group-area"><input class="width-100" type="date" id="tanggal_akhir"></div>
+                            </div>
                         </div>
                     </div>
-                </div>
 
                 </div>
 
@@ -117,4 +117,4 @@
     </div>
 </div>
 
-<?php include('footer-datatable.php') ?> 
+<?php include('footer-datatable.php') ?>
