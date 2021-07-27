@@ -65,7 +65,7 @@
                                     <td>LMS Online</td>
                                     <td class="align-left">Senin, 2021-07-14</td>
                                     <td class="align-center">08.00</td>
-                                    <td style="color:red; font-weight: bold;">Selesai</td>
+                                    <td><a href="monitoring-selesai.php" style="color:red; font-weight: bold;"> Selesai</a></td>
                                 </tr>
                                 <tr>
                                     <td>[20102] Fadillah S.KOM</td>
@@ -77,7 +77,7 @@
                                     <td>LMS Online</td>
                                     <td class="align-left">Senin, 2021-07-15</td>
                                     <td class="align-center">08.00</td>
-                                    <td style="color:green; font-weight: bold;">Sedang Dimulai</td>
+                                    <td><a href="monitoring-sedang-dimulai.php" style="color:green; font-weight: bold;">Sedang Dimulai</a></td>
                                 </tr>
                                 <tr>
                                     <td>[20103] Sabrina S.KOM</td>

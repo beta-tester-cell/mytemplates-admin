@@ -92,27 +92,27 @@
 
                         <div class="d-flex flex-change">
                             <div class="form-mr-2">
-                                <div class="form-inputs">
+                                <div class="form-inputs grid-gap-1">
                                     <label>ID</label>
                                     <input type="text" name="id_mahasiswa" value="1" placeholder="ID Mahasiswa">
                                 </div>
-                                <div class="form-inputs">
+                                <div class="form-inputs grid-gap-1">
                                     <label>NIK</label>
                                     <input type="text" name="nik" value="31710000427839" placeholder="NIK">
                                 </div>
-                                <div class="form-inputs">
+                                <div class="form-inputs grid-gap-1">
                                     <label>Nama Lengkap</label>
                                     <input type="text" name="nama_lengkap" value="Khaerul Istafa" placeholder="Nama Lengkap">
                                 </div>
-                                <div class="form-inputs">
+                                <div class="form-inputs grid-gap-1">
                                     <label>Tanggal Lahir</label>
                                     <input type="date" value="06/07/2021" name="tanggal_lahir">
                                 </div>
-                                <div class="form-inputs">
+                                <div class="form-inputs grid-gap-1">
                                     <label>Tempat Lahir</label>
                                     <input type="text" name="tempat_lahir" value="Jakarta" placeholder="Tempat Lahir">
                                 </div>
-                                <div class="form-inputs">
+                                <div class="form-inputs grid-gap-1">
                                     <label>Jenis Kelamin</label>
                                     <div class="form-group">
                                         <label class="radio-button"> Laki-laki
@@ -127,7 +127,7 @@
 
                                     </div>
                                 </div>
-                                <div class="form-inputs">
+                                <div class="form-inputs grid-gap-1">
                                     <label>Agama</label>
                                     <select name="agama" id="agama">
                                         <option value="0">-- Pilih Agama --</option>
@@ -144,26 +144,27 @@
 
                                     </select>
                                 </div>
-                                <div class="form-inputs">
+                                <div class="form-inputs grid-gap-1">
                                     <label for="email">Email</label>
                                     <input type="email" name="email" value="demo@gmail.com" placeholder="Email">
                                 </div>
-                                <div class="form-inputs">
+                                <div class="form-inputs  grid-gap-1">
                                     <label for="email">No.Handphone</label>
                                     <input type="text" name="no_hp" value="082486346728" placeholder="No. Handphone">
                                 </div>
-                                <div class="form-inputs">
+                                <div class="form-inputs  grid-gap-1">
                                     <label for="email">Email Orang tua</label>
                                     <input type="email" name="email_ortu" value="admin@admin.com" vlauplaceholder="Email Orang Tua">
                                 </div>
-                                <div class="form-inputs">
-                                    <label for="email">No.Handphone Orang tua</label>
+                                <div class="form-inputs  grid-gap-1">
+                                    <label for="email">No.HP Orang tua</label>
                                     <input type="text" name="no_hp_ortu" value="089798678436" placeholder="No. Handphone Orang Tua">
                                 </div>
                             </div>
                             <div class="form-img">
-                                <img src="theme/img/default-user.jpg" alt="">
-                                <input type="file" name="img_mahasiswa">
+                                <img src="theme/img/default-user.jpg" alt="" id="photo">
+                                <input type="file" name="img_mahasiswa" id="file">
+                                <label for="file" id="uploadBtn"><i class="fa fa-camera"></i></label>
                             </div>
                         </div>
 

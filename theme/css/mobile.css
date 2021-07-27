@@ -300,8 +300,10 @@
     flex-direction: column;
   }
 
-  .form-img img {
-    width: 150px;
+  .form-img {
+    height: auto;
+    left: 0;
+    transform: translate(0%, 0%);
   }
 
   .view-docs {
@@ -737,8 +739,10 @@
     flex-direction: column;
   }
 
-  .form-img img {
-    width: 150px;
+  .form-img {
+    height: auto;
+    left: 0;
+    transform: translate(0%, 0%);
   }
 
   .view-docs {
@@ -1028,8 +1032,9 @@
     margin-top: 0;
   }
 
-  .form-img img {
-    width: 150px;
+  .form-img {
+    left: 0;
+    transform: translate(0%, 0%);
   }
 
   .dd {
@@ -1108,5 +1113,9 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 1.5rem;
+  }
+
+  .form-img {
+    left: 28%;
   }
 }

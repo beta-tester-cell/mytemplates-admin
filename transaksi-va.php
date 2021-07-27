@@ -38,7 +38,7 @@
                                 <th class="dt-right">Billing Amount</th>
                                 <th class="dt-center">Due Date</th>
                                 <th class="dt-center">Description</th>
-                                <th class="dt-center">Download Invoice</th>
+                                <th class="text-center">Download Invoice</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -49,7 +49,7 @@
                                 <td class="dt-right">Rp. 1.200.000,-</td>
                                 <td class="dt-center">2021-07-30</td>
                                 <td class="dt-center">Tagihan Mei-Juni</td>
-                                <td class="dt-center"><a href="#"><i class="far fa-download"></i></a></td>
+                                <td class="text-center"><a href="#"><i class="fa fa-download"></i></a></td>
                             </tr>
 
                         </tbody>

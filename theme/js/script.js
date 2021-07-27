@@ -88,6 +88,49 @@ if(document.querySelector('input[list]')){
 }
 
 
+if(document.querySelector('.form-img')){
+    const imgDiv = document.querySelector('.form-img');
+    const img = document.querySelector('#photo');
+    const file = document.querySelector('#file');
+    const uploadBtn = document.querySelector('#uploadBtn');
+
+    // if user hover on img
+
+    imgDiv.addEventListener('mouseenter', function(){
+        uploadBtn.style.display = "block"
+    });
+
+    // if user hover out on img
+    imgDiv.addEventListener('mouseleave', function(){
+        uploadBtn.style.display = "none"
+    });
+
+    // image showing when user change the photo
+
+    file.addEventListener('change', function(){
+
+        // this refers to file
+        const choosedFile = this.files[0];
+
+        if(choosedFile){
+
+            const reader  =  new FileReader(); //filereader is a predefined function of JS
+
+            reader.addEventListener('load', function(){
+
+                img.setAttribute('src', reader.result);
+
+            });
+
+            reader.readAsDataURL(choosedFile);
+
+        }
+
+    });
+
+}
+
+
 $(document).ready(function() {    
 
 

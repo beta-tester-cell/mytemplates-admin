@@ -169,7 +169,7 @@
                     <h6 style="font-size: 20px; text-align:center; line-height: inherit;"> Melakukan Verifikasi Berarti Anda Mengirimkan Data Absensi Kepada Bagian Pendidikan</h6>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary">Yes</button>
+                    <a href="kegiatan-perkuliahan-old.php" class="btn btn-secondary text-center" style="height: 42px;">Yes</a>
                     <button type="button" class="btn btn-danger" data-dismiss="modal">Tinjau Ulang</button>
                 </div>
             </form>

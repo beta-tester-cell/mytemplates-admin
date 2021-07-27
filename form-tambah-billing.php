@@ -37,7 +37,7 @@
                                     <input type="radio" id="multiple" value="">
                                     <span class="checkmark"></span>
                                 </label>
-                            <?php endif;?>
+                            <?php endif; ?>
                         </div>
                     </div>
                 </div>
@@ -152,17 +152,17 @@
                                 </div>
 
                                 <?php if (empty($_GET['action'])) : ?>
-                                   <div class="form-inputs">
+                                    <div class="form-inputs">
                                         <label><b><span class="text-danger">*</span> Billing Type </b></label>
                                         <input class="width-100" id="blling_type" type="text" disabled value="Fix Payment" placeholder="Billing Type">
                                     </div>
-                                <?php endif;?>
+                                <?php endif; ?>
 
                                 <?php if (!empty($_GET['action'])) : ?>
                                     <button type="submit" class="btn btn-link btn-primary" style="float:right;">Update Billing</button>
-                                <?php else:?>
-                                  <a href='list-billing-log.php' class="btn btn-link btn-primary" style="float:right;">Submit</a> 
-                                <?php endif;?>
+                                <?php else : ?>
+                                    <a href='list-billing-log.php' class="btn btn-link btn-primary" style="float:right;">Submit</a>
+                                <?php endif; ?>
                             </div>
 
                         </div>
@@ -222,9 +222,9 @@
 
                                 <?php if (!empty($_GET['action'])) : ?>
                                     <button type="submit" class="btn btn-link btn-primary" style="float:right;">Update Billing</button>
-                                <?php else:?>
-                                   <a href='list-billing-log.php' class="btn btn-link btn-primary" style="float:right;">Submit</a> 
-                                <?php endif;?>
+                                <?php else : ?>
+                                    <a href='list-billing-log.php' class="btn btn-link btn-primary" style="float:right;">Submit</a>
+                                <?php endif; ?>
                             </div>
 
                         </div>
@@ -240,48 +240,55 @@
                                 <table id="datatable">
                                     <thead class="bg-color-primary">
                                         <tr>
-                                            <th class="align-left">MHS_ID</th>
-                                            <th class="align-left">Billing_ID</th>
-                                            <th class="align-left">VA Number</th>
-                                            <th class="align-left">Customer Name</th>
-                                            <th class="align-left">Customer Email</th>
-                                            <th class="align-left">Customer Phone</th>
-                                            <th class="align-center">Ammount</th>
-                                            <th class="align-center">Discount</th>
-                                            <th class="align-center">Disc_Desc</th>
-                                            <th class="align-center">Penalty</th>
-                                            <th class="align-center">Trx_Ammount</th>
-                                            <th class="align-left">Description</th>
+                                            <th>MHS_ID</th>
+                                            <th>Billing_ID</th>
+                                            <th>VA Number</th>
+                                            <th>Customer Name</th>
+                                            <th>Customer Email</th>
+                                            <th>Customer Phone</th>
+                                            <th>Ammount</th>
+                                            <th>Discount</th>
+                                            <th>Disc_Desc</th>
+                                            <th>Penalty</th>
+                                            <th>Trx_Ammount</th>
+                                            <th>Description</th>
+                                            <th style="display: none;"></th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="align-left"><input type="checkbox" name="mhs_check[]"> 18099989</td>
-                                            <td class="align-left">INV21070001</td>
-                                            <td class="align-left">9882034129345650</td>
-                                            <td class="align-left">Rohmana</td>
-                                            <td class="align-left">rohmana@gmail.com</td>
-                                            <td class="align-left">08199888999</td>
-                                            <td class="align-center"><input type="text" name="ammount" id="ammount" value="7.000.000"></td>
-                                            <td class="align-center"><input type="text" name="discont" id="discont" value="350.000"></td>
-                                            <td class="align-center"><input type="text" name="discont_desc" id="discont_desc" value="Cash 4 Bulan"></td>
-                                            <td class="align-center"><input type="text" name="penalty" id="penalty" value="0"></td>
-                                            <td class="align-center"><input type="text" name="trx_ammount" id="trx_ammount" readonly value="6.350.000"></td>
-                                            <td class="align-left">Pembayaran Angsuran</td>                       
+                                            <td><input type="checkbox" name="mhs_check[]"> 18099989</td>
+                                            <td>INV21070001</td>
+                                            <td>9882034129345650</td>
+                                            <td>Rohmana</td>
+                                            <td>rohmana@gmail.com</td>
+                                            <td>08199888999</td>
+                                            <td>
+                                                <input type="text" name="ammount" id="ammount" value="7.000.000">
+                                            </td>
+                                            <td>
+                                                <input type="text" name="discont" id="discont" value="350.000">
+                                            </td>
+                                            <td>
+                                                <input type="text" name="discont_desc" id="discont_desc" value="Cash 4 Bulan">
+                                            </td>
+                                            <td><input type="text" name="penalty" id="penalty" value="0"></td>
+                                            <td><input type="text" name="trx_ammount" id="trx_ammount" readonly value="6.350.000"></td>
+                                            <td>Pembayaran Angsuran</td>
                                         </tr>
                                         <tr>
-                                            <td class="align-left"><input type="checkbox" name="mhs_check[]"> 18092222</td>
-                                            <td class="align-left">INV21060321</td>
-                                            <td class="align-left">9882034129342222</td>
-                                            <td class="align-left">Rohimin</td>
-                                            <td class="align-left">-rohimin@gmail.com</td>
-                                            <td class="align-left">081799988878</td>
-                                            <td class="align-center"><input type="text" name="ammount" id="ammount" value="1.200.000"></td>
-                                            <td class="align-center"><input type="text" name="discont" id="discont" value="0"></td>
-                                            <td class="align-center"><input type="text" name="discont_desc" id="discont_desc" value="-"></td>
-                                            <td class="align-center"><input type="text" name="penalty" id="penalty" value="0"></td>
-                                            <td class="align-center"><input type="text" name="trx_ammount" id="trx_ammount" readonly value="1.200.000"></td>
-                                            <td class="align-left">Pembayaran Angsuran</td>                       
+                                            <td><input type="checkbox" name="mhs_check[]"> 18092222</td>
+                                            <td>INV21060321</td>
+                                            <td>9882034129342222</td>
+                                            <td>Rohimin</td>
+                                            <td>-rohimin@gmail.com</td>
+                                            <td>081799988878</td>
+                                            <td><input type="text" name="ammount" id="ammount" value="1.200.000"></td>
+                                            <td><input type="text" name="discont" id="discont" value="0"></td>
+                                            <td><input type="text" name="discont_desc" id="discont_desc" value="-"></td>
+                                            <td><input type="text" name="penalty" id="penalty" value="0"></td>
+                                            <td><input type="text" name="trx_ammount" id="trx_ammount" readonly value="1.200.000"></td>
+                                            <td>Pembayaran Angsuran</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -290,8 +297,8 @@
 
                     </form>
                 </div>
-              
-            </div> 
+
+            </div>
         </div>
     </div>
 </div>
@@ -299,38 +306,34 @@
 <?php include('footer-datatable.php') ?>
 
 <script type="text/javascript">
-    $(document).ready(function(){
-        $('#single').prop('checked',true);
+    $(document).ready(function() {
+        $('#single').prop('checked', true);
         $("#form-created-mutliped").hide();
     });
 
-    $(document).on('click','#single',function(){
-        $('#multiple').prop('checked',false);
+    $(document).on('click', '#single', function() {
+        $('#multiple').prop('checked', false);
         $("#form-created-single").show();
         $("#form-created-mutliped").hide();
     });
 
-    $(document).on('click','#multiple',function(){
-        $('#single').prop('checked',false);
+    $(document).on('click', '#multiple', function() {
+        $('#single').prop('checked', false);
         $("#form-created-mutliped").show();
         $("#form-created-single").hide();
     });
 
-     $(document).on('click', '#btn_check', function() {
+    $(document).on('click', '#btn_check', function() {
         all_checked();
     });
 
-    function all_checked()
-    {
+    function all_checked() {
         var checkbox = document.getElementsByName("mhs_check[]");
         var count_checkbox = checkbox.length;
         var i = 0;
-        for (i = 0 ; i < count_checkbox ; i++)
-        {
-            checkbox[i].checked=true;
+        for (i = 0; i < count_checkbox; i++) {
+            checkbox[i].checked = true;
 
         }
     }
-
 </script>
-

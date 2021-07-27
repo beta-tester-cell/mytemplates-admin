@@ -620,6 +620,12 @@
                                             </a>
                                         </li>
                                         <li class="side-menu-item">
+                                            <a href="jadwal-krs.php" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fa fa-university"></i></span>
+                                                <span> Input Jadwal Pengisian KRS</span>
+                                            </a>
+                                        </li>
+                                        <li class="side-menu-item">
                                             <a href="monitoring-perkuliahaan.php">
                                                 <span class="menu-icon-child"><i class="fa fa-university"></i></span>
                                                 <span>Monitoring Perkuliahan</span>
@@ -631,12 +637,7 @@
                                                 <span>Input Jadwal Ujian</span>
                                             </a>
                                         </li>
-                                        <li class="side-menu-item">
-                                            <a href="jadwal-krs.php" class="d-flex">
-                                                <span class="menu-icon-child"><i class="fa fa-university"></i></span>
-                                                <span> Input Jadwal Pengisian KRS</span>
-                                            </a>
-                                        </li>
+
                                         <li class="side-menu-item">
                                             <a href="verifikasi-soal-ujian.php">
                                                 <span class="menu-icon-child"><i class="fa fa-university"></i></span>
@@ -815,7 +816,7 @@
                                 </li>
                                 <hr>
                                 <li class="menu-section" style="margin: 0;">
-                                    <h4 style="font-size: 10px;">Pengantar Database Administrasi</h4>
+                                    <h4 style="font-size: 10px;">Basis Data</h4>
                                 </li>
                                 <li class="side-menu-item">
                                     <a href="rkk.php">
@@ -854,7 +855,7 @@
                                     </a>
                                 </li>
                                 <li class="side-menu-item">
-                                    <a href="pengelolaan-nilai.php">
+                                    <a href="#">
                                         <span class="menu-icon-child"><i class="fa fa-user"></i></span>
                                         <span>Kelola Nilai Mahasiswa</span>
                                     </a>

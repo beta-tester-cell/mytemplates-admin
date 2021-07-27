@@ -87,7 +87,7 @@
 
                         <div class="d-flex flex-center py-1">
                             <a href="kegiatan-perkuliahan-old.php" class="align-center btn-status btn-secondary btn-submit mx-1 width-100">Mulai</a>
-                            <a href="detail-lkm-dosen.php" class="align-center btn-status btn-medium btn-submit mx-1 width-100">Verifikasi Kehadiran Mhs</a>
+                            <a href="#" class="align-center btn-status btn-medium btn-submit mx-1 width-100">Verifikasi Kehadiran Mhs</a>
                         </div>
                     </div>
 

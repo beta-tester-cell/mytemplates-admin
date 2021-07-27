@@ -72,10 +72,10 @@
                                 <th>Ruang</th>
                                 <th>Tanggal</th>
                                 <th>Durasi</th>
-                                <th>Soal</th>
+                                <th>Download Soal</th>
                                 <th>Jawaban</th>
                                 <th>Status</th>
-                                <th>&nbsp;</th>
+                                <th>Upload Jawaban</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -104,10 +104,10 @@
                                 <td>LMS-Online</td>
                                 <td>21 Juni 2021</td>
                                 <td>10.00 - 12.00</td>
-                                <td><a href="#"><i class="fa fa-download"></i></a></td>
+                                <td class="text-center"><a href="#"><i class="fa fa-download"></i></a></td>
                                 <td>-</td>
                                 <td>Berlangsung</td>
-                                <td><a href="#"><i class="fa fa-upload"></i></a></td>
+                                <td class="text-center"><a href="#"><i class="fa fa-upload"></i></a></td>
                             </tr>
 
                         </tbody>

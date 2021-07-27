@@ -199,12 +199,38 @@
   margin-right: 2rem;
 }
 
-.form-img img {
-  width: 250px;
+.form-img {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, 0%);
 }
 
-.form-img input[type="file"] {
-  width: 250px;
+.form-img img {
+  height: 100%;
+  width: 100%;
+}
+
+#file {
+  display: none;
+}
+
+#uploadBtn {
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  background-color: rgb(97 197 208 / 50%);
+  font-size: 22px;
+  color: #1e4269;
+  line-height: 42px;
+  cursor: pointer;
+  display: none;
 }
 
 .doc-grid-custom {
