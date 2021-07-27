@@ -102,6 +102,12 @@
                                     <label><b><span class="text-danger">*</span> Phone Number</b></label>
                                     <input class="width-100" id="phnoe_number" type="text" value="081318784466" placeholder="phnoe_number">
                                 </div>
+
+                                <div class="form-inputs">
+                                    <label><b><span class="text-danger">*</span> Description</b></label>
+                                    <input class="width-100" id="desd" type="text" value="Tagihan Maret - Juli" placeholder="Description">
+                                </div>
+
                             </div>
 
                             <div class="col-form-kanan">
@@ -144,6 +150,13 @@
                                     <label><b><span class="text-danger">*</span> Expired Date</b></label>
                                     <input class="width-100" id="expired_date" type="datetime-local" value="<?= date('Y-m-d') ?>" placeholder="Expired Date">
                                 </div>
+
+                                <?php if (empty($_GET['action'])) : ?>
+                                   <div class="form-inputs">
+                                        <label><b><span class="text-danger">*</span> Billing Type </b></label>
+                                        <input class="width-100" id="blling_type" type="text" disabled value="Fix Payment" placeholder="Billing Type">
+                                    </div>
+                                <?php endif;?>
 
                                 <?php if (!empty($_GET['action'])) : ?>
                                     <button type="submit" class="btn btn-link btn-primary" style="float:right;">Update Billing</button>
@@ -217,6 +230,12 @@
                         </div>
 
                         <div class="py-1">
+                            <div class="form-group">
+                                <label class="checkbox">
+                                    <input type="checkbox" id="btn_check"><b> Check All </b><br>
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
                             <div class="table-responsive">
                                 <table id="datatable">
                                     <thead class="bg-color-primary">
@@ -296,6 +315,22 @@
         $("#form-created-mutliped").show();
         $("#form-created-single").hide();
     });
+
+     $(document).on('click', '#btn_check', function() {
+        all_checked();
+    });
+
+    function all_checked()
+    {
+        var checkbox = document.getElementsByName("mhs_check[]");
+        var count_checkbox = checkbox.length;
+        var i = 0;
+        for (i = 0 ; i < count_checkbox ; i++)
+        {
+            checkbox[i].checked=true;
+
+        }
+    }
 
 </script>
 
