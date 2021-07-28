@@ -91,11 +91,11 @@
                                     <tr>
                                         <td>[0290091] Fadilah Nurfitrah</td>
                                         <td class="align-center">MI</td>
-                                        <td class="align-center">28</td>
-                                        <td class="align-center">100</td>
-                                        <td class="align-center">100</td>
-                                        <td class="align-center">70</td>
-                                        <td class="align-center">67</td>
+                                        <td class="align-center"><input type="text" style="width: 60px;" value="28" name="nilai_h[]"></td>
+                                        <td class="align-center"><input type="text" style="width: 60px;" value="100" name="nilai_t[]"></td>
+                                        <td class="align-center"><input type="text" style="width: 60px;" value="100" name="nilai_f[]"></td>
+                                        <td class="align-center"><input type="text" style="width: 60px;" value="70" name="nilai_uts[]"></td>
+                                        <td class="align-center"><input type="text" style="width: 60px;" value="67" name="nilai_uas[]"></td>
                                         <td class="align-center">0</td>
                                         <td class="align-center">72.8</td>
                                         <td class="align-center">B</td>
@@ -103,11 +103,11 @@
                                     <tr>
                                         <td>[0290001] Irfan Zadin</td>
                                         <td class="align-center">MI</td>
-                                        <td class="align-center">28</td>
-                                        <td class="align-center">100</td>
-                                        <td class="align-center">100</td>
-                                        <td class="align-center">70</td>
-                                        <td class="align-center">67</td>
+                                        <td class="align-center"><input type="text" style="width: 60px;" value="28" name="nilai_h[]"></td>
+                                        <td class="align-center"><input type="text" style="width: 60px;" value="100" name="nilai_t[]"></td>
+                                        <td class="align-center"><input type="text" style="width: 60px;" value="100" name="nilai_f[]"></td>
+                                        <td class="align-center"><input type="text" style="width: 60px;" value="70" name="nilai_uts[]"></td>
+                                        <td class="align-center"><input type="text" style="width: 60px;" value="67" name="nilai_uas[]"></td>
                                         <td class="align-center">0</td>
                                         <td class="align-center">72.8</td>
                                         <td class="align-center">B</td>
@@ -115,11 +115,11 @@
                                     <tr>
                                         <td>[0330000] Khaerul Istafa</td>
                                         <td class="align-center">MI</td>
-                                        <td class="align-center">28</td>
-                                        <td class="align-center">100</td>
-                                        <td class="align-center">100</td>
-                                        <td class="align-center">70</td>
-                                        <td class="align-center">67</td>
+                                        <td class="align-center"><input type="text" style="width: 60px;" value="28" name="nilai_h[]"></td>
+                                        <td class="align-center"><input type="text" style="width: 60px;" value="100" name="nilai_t[]"></td>
+                                        <td class="align-center"><input type="text" style="width: 60px;" value="100" name="nilai_f[]"></td>
+                                        <td class="align-center"><input type="text" style="width: 60px;" value="70" name="nilai_uts[]"></td>
+                                        <td class="align-center"><input type="text" style="width: 60px;" value="67" name="nilai_uas[]"></td>
                                         <td class="align-center">0</td>
                                         <td class="align-center">72.8</td>
                                         <td class="align-center">B</td>
@@ -127,11 +127,11 @@
                                     <tr>
                                         <td>[0290004] Rosihan Arbisaid</td>
                                         <td class="align-center">MI</td>
-                                        <td class="align-center">28</td>
-                                        <td class="align-center">100</td>
-                                        <td class="align-center">100</td>
-                                        <td class="align-center">70</td>
-                                        <td class="align-center">67</td>
+                                        <td class="align-center"><input type="text" style="width: 60px;" value="28" name="nilai_h[]"></td>
+                                        <td class="align-center"><input type="text" style="width: 60px;" value="100" name="nilai_t[]"></td>
+                                        <td class="align-center"><input type="text" style="width: 60px;" value="100" name="nilai_f[]"></td>
+                                        <td class="align-center"><input type="text" style="width: 60px;" value="70" name="nilai_uts[]"></td>
+                                        <td class="align-center"><input type="text" style="width: 60px;" value="67" name="nilai_uas[]"></td>
                                         <td class="align-center">0</td>
                                         <td class="align-center">72.8</td>
                                         <td class="align-center">B</td>
@@ -139,11 +139,11 @@
                                     <tr>
                                         <td>[0290007] Muhammad Rizal</td>
                                         <td class="align-center">MI</td>
-                                        <td class="align-center">28</td>
-                                        <td class="align-center">100</td>
-                                        <td class="align-center">100</td>
-                                        <td class="align-center">70</td>
-                                        <td class="align-center">67</td>
+                                        <td class="align-center"><input type="text" style="width: 60px;" value="28" name="nilai_h[]"></td>
+                                        <td class="align-center"><input type="text" style="width: 60px;" value="100" name="nilai_t[]"></td>
+                                        <td class="align-center"><input type="text" style="width: 60px;" value="100" name="nilai_f[]"></td>
+                                        <td class="align-center"><input type="text" style="width: 60px;" value="70" name="nilai_uts[]"></td>
+                                        <td class="align-center"><input type="text" style="width: 60px;" value="67" name="nilai_uas[]"></td>
                                         <td class="align-center">0</td>
                                         <td class="align-center">72.8</td>
                                         <td class="align-center">B</td>
@@ -151,11 +151,11 @@
                                     <tr>
                                         <td>[0290009] Elawati</td>
                                         <td class="align-center">MI</td>
-                                        <td class="align-center">28</td>
-                                        <td class="align-center">100</td>
-                                        <td class="align-center">100</td>
-                                        <td class="align-center">70</td>
-                                        <td class="align-center">90</td>
+                                        <td class="align-center"><input type="text" style="width: 60px;" value="28" name="nilai_h[]"></td>
+                                        <td class="align-center"><input type="text" style="width: 60px;" value="100" name="nilai_t[]"></td>
+                                        <td class="align-center"><input type="text" style="width: 60px;" value="100" name="nilai_f[]"></td>
+                                        <td class="align-center"><input type="text" style="width: 60px;" value="70" name="nilai_uts[]"></td>
+                                        <td class="align-center"><input type="text" style="width: 60px;" value="90" name="nilai_uas[]"></td>
                                         <td class="align-center">0</td>
                                         <td class="align-center">77</td>
                                         <td class="align-center">B+</td>
@@ -164,8 +164,8 @@
                             </table>
                         </div>
                         <div class="form grid-2 grid-gap-1 py-1">
-                            <span class="text-danger"><b>Batas entri NIlai  2021-08-30</b></span>
-                            <button class="btn btn-sm btn-primary" id="button-simpan-nilai">Simpan</button>
+                            <span class="text-danger"><b>Batas entri nilai,  2021-08-30</b></span>
+                            <button class="btn btn-sm btn-primary" id="button-simpan-nilai" disabled>Simpan</button>
                         </div>
 
                     </div>
