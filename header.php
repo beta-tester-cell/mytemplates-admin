@@ -478,6 +478,12 @@
                                                 <span>Billing Data</span>
                                             </a>
                                         </li>
+                                         <li class="side-menu-item">
+                                            <a href="list-history-paymentVA.php">
+                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+                                                <span>Payment History</span>
+                                            </a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li class="side-menu-item">
@@ -855,9 +861,9 @@
                                     </a>
                                 </li>
                                 <li class="side-menu-item">
-                                    <a href="#">
+                                    <a href="form-nilai-komponen.php">
                                         <span class="menu-icon-child"><i class="fa fa-user"></i></span>
-                                        <span>Kelola Nilai Mahasiswa</span>
+                                        <span>Input Nilai Komponen</span>
                                     </a>
                                 </li>
                             </ul>
