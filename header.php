@@ -333,6 +333,12 @@
                                                 <span>Realisasi Kewajiban Cabang</span>
                                             </a>
                                         </li>
+                                        <li class="side-menu-item">
+                                            <a href="list-create-invoice.php" class="d-flex">
+                                                <span class="menu-icon-child"><i class="fa fa-donate"></i></span>
+                                                <span>Create Invoice</span>
+                                            </a>
+                                        </li>
 
                                     </ul>
                                 </li>

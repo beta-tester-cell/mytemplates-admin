@@ -547,3 +547,7 @@
 .detail-list {
   margin-bottom: 3em;
 }
+
+.hide-border-bottom{
+  border-bottom: 2px solid white;
+}
