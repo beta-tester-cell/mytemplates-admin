@@ -104,7 +104,7 @@ if (isset($_GET['id'])) {
                         <table id="datatable" class="table-list">
                             <thead>
                                 <tr>
-                                    <th colspan="2" class="dt-left">Kampus</th>
+                                    <th>Kampus</th>
                                     <th class="dt-left">Jurusan</th>
                                     <th>Kelas</th>
                                     <th class="dt-left">Matakuliah</th>
@@ -114,8 +114,7 @@ if (isset($_GET['id'])) {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td class="dt-center"><input type="checkbox" name="pilih-ploating" value="1"></td>
-                                    <td>Kramat Raya</td>
+                                    <td><input type="checkbox" name="pilih-ploating" value="1"> Kramat Raya</td>
                                     <td>[23312] Manajemen Informatika</td>
                                     <td class="dt-center">00012</td>
                                     <td>Basis Data</td>
@@ -123,8 +122,7 @@ if (isset($_GET['id'])) {
                                     <td class="dt-center">1</td>
                                 </tr>
                                 <tr>
-                                    <td class="dt-center"><input type="checkbox" name="pilih-ploating" value="1"></td>
-                                    <td>Kramat Raya</td>
+                                    <td><input type="checkbox" name="pilih-ploating" value="1"> Kramat Raya</td>
                                     <td>[23312] Manajemen Informatika</td>
                                     <td class="dt-center">02023</td>
                                     <td>SQL & PHP</td>
@@ -132,8 +130,7 @@ if (isset($_GET['id'])) {
                                     <td class="dt-center">3</td>
                                 </tr>
                                 <tr>
-                                    <td class="dt-center"><input type="checkbox" name="pilih-ploating" value="1"></td>
-                                    <td>Kramat Raya</td>
+                                    <td><input type="checkbox" name="pilih-ploating" value="1"> Kramat Raya</td>
                                     <td>[23312] Manajemen Informatika</td>
                                     <td class="dt-center">10012</td>
                                     <td>Basis Data</td>
@@ -141,8 +138,7 @@ if (isset($_GET['id'])) {
                                     <td class="dt-center">1</td>
                                 </tr>
                                 <tr>
-                                    <td class="dt-center"><input type="checkbox" name="pilih-ploating" value="1"></td>
-                                    <td>Kramat Raya</td>
+                                    <td><input type="checkbox" name="pilih-ploating" value="1"> Kramat Raya</td>
                                     <td>[23312] Bisnis Administrasi</td>
                                     <td class="dt-center">00012</td>
                                     <td>Aplikasi Komputer</td>

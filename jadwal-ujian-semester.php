@@ -62,7 +62,7 @@
                 </div>
                 <div class="table-responsive">
                     <table id="datatable" class="table-list">
-                        <thead>
+                        <theads>
                             <tr>
                                 <th>No</th>
                                 <th>Mata Kuliah</th>
@@ -77,40 +77,40 @@
                                 <th>Status</th>
                                 <th>Upload Jawaban</th>
                             </tr>
-                        </thead>
-                        <tbody>
+                            </thead>
+                            <tbody>
 
-                            <tr>
-                                <td>1</td>
-                                <td>Pendidikan Agama</td>
-                                <td>4</td>
-                                <td>1</td>
-                                <td>IK_Reguler 01</td>
-                                <td>R.30</td>
-                                <td>20 Juni 2021</td>
-                                <td>08.00 - 09.45</td>
-                                <td>-</td>
-                                <td>-</td>
-                                <td>Selesai</td>
-                                <td>-</td>
-                            </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Pendidikan Agama</td>
+                                    <td>4</td>
+                                    <td>1</td>
+                                    <td>IK_Reguler 01</td>
+                                    <td>R.30</td>
+                                    <td>20 Juni 2021</td>
+                                    <td>08.00 - 09.45</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>Selesai</td>
+                                    <td>-</td>
+                                </tr>
 
-                            <tr>
-                                <td>2</td>
-                                <td>Basis Data</td>
-                                <td>4</td>
-                                <td>1</td>
-                                <td>IK_Reguler 02</td>
-                                <td>LMS-Online</td>
-                                <td>21 Juni 2021</td>
-                                <td>10.00 - 12.00</td>
-                                <td class="text-center"><a href="#"><i class="fa fa-download"></i></a></td>
-                                <td>-</td>
-                                <td>Berlangsung</td>
-                                <td class="text-center"><a href="#"><i class="fa fa-upload"></i></a></td>
-                            </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Basis Data</td>
+                                    <td>4</td>
+                                    <td>1</td>
+                                    <td>IK_Reguler 02</td>
+                                    <td>LMS-Online</td>
+                                    <td>21 Juni 2021</td>
+                                    <td>10.00 - 12.00</td>
+                                    <td class="text-center"><a href="#"><i class="fa fa-download"></i></a></td>
+                                    <td>-</td>
+                                    <td>Berlangsung</td>
+                                    <td class="text-center"><a href="#"><i class="fa fa-upload"></i></a></td>
+                                </tr>
 
-                        </tbody>
+                            </tbody>
                     </table>
                 </div>
             </div>

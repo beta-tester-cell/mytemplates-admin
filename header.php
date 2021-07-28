@@ -419,7 +419,7 @@
                                         <li class="side-menu-item">
                                             <a href="#" class="d-flex">
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
-                                                <span>Registrasi Mahasiswa Tingkat 1,2,3 dan $</span>
+                                                <span>Registrasi Mahasiswa Tingkat 1,2,3 dan 4</span>
                                             </a>
                                         </li>
                                         <li class="side-menu-item">
@@ -478,7 +478,7 @@
                                                 <span>Billing Data</span>
                                             </a>
                                         </li>
-                                         <li class="side-menu-item">
+                                        <li class="side-menu-item">
                                             <a href="list-history-paymentVA.php">
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
                                                 <span>Payment History</span>

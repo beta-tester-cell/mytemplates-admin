@@ -202,7 +202,7 @@
                                 <td>Selasa</td>
                                 <td>08.00 - 11.45</td>
                                 <td>Verified</td>
-                                <td> <a href="#"><i class="fas fa-edit"></i></a> </td>
+                                <td> <a href="#" class="text-secondary"><i class="fas fa-edit"></i></a> </td>
                             </tr>
 
                             <tr>
@@ -218,8 +218,8 @@
                                 <td>10.00 - 11.45</td>
                                 <td>Submitted</td>
                                 <td>
-                                    <a href="#"><i class="fas fa-edit"></i></a>
-                                    <a href="javascript:;"><i class="fas fa-eraser"></i></a>
+                                    <a href="#" class="text-secondary"><i class="fas fa-edit"></i></a>
+                                    <a href="javascript:;" class="text-danger"><i class="fas fa-eraser"></i></a>
                                 </td>
                             </tr>
 
@@ -235,7 +235,7 @@
                                 <td>Rabu</td>
                                 <td>08.00 - 11.45</td>
                                 <td>Verified</td>
-                                <td> <a href="#"><i class="fas fa-edit"></i></a> </td>
+                                <td> <a href="#" class="text-secondary"><i class="fas fa-edit"></i></a> </td>
                             </tr>
 
                         </tbody>

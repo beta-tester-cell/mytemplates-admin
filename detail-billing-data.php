@@ -25,7 +25,7 @@
                 </div>
 
                 <div class="py-1 grid-detail-list grid-gap-1">
-                    <div class="form-img">
+                    <div style="width: 150px;height:auto;">
                         <img src="theme/img/default-user.jpg" alt="Foto Mahasiswa">
                     </div>
                     <div class="detail-list">

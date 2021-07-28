@@ -91,7 +91,7 @@
                                     <?php for ($i = 1; $i <= 5; $i++) {
                                         echo ' <tr>
                                                 <td>' . $i . '</td>
-                                                <td>2001002</td>
+                                                <td>200100' . $i . '</td>
                                                 <td>Business English</td>
                                                 <td>All</td>
                                                 <td>Politeknik LP3I Jakarta</td>
@@ -266,7 +266,7 @@
                                     </tr>
                                     <tr>
                                         <td>4</td>
-                                        <td>[2001004] Personality Development</td>
+                                        <td>[2001007] Personality Development</td>
                                         <td>4</td>
                                         <td>1</td>
                                         <td>Manajemen Informartika</td>
@@ -291,7 +291,7 @@
                                     </tr>
                                     <tr>
                                         <td>5</td>
-                                        <td>[2001004] Pendidikan Agama</td>
+                                        <td>[2001003] Pendidikan Agama</td>
                                         <td>4</td>
                                         <td>1</td>
                                         <td>Manajemen Informartika</td>
@@ -403,7 +403,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>20EK001</td>
+                                        <td>20EK003</td>
                                         <td>Dasar-dasar Akuntansi</td>
                                         <td>Rakhmat,S.E</td>
                                         <td>2019</td>

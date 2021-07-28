@@ -77,7 +77,7 @@
                             </tr>
                             <tr>
                                 <td class="text-center">1</td>
-                                <td>[0290091] General English</td>
+                                <td>[0290092] General English</td>
                                 <td class="text-center">4</td>
                                 <td class="text-center">10</td>
                                 <td class="text-center">10</td>
@@ -93,7 +93,7 @@
                             </tr>
                             <tr>
                                 <td class="text-center">1</td>
-                                <td>[0290091] Typing Tutor</td>
+                                <td>[0290093] Typing Tutor</td>
                                 <td class="text-center">4</td>
                                 <td class="text-center">10</td>
                                 <td class="text-center">10</td>
@@ -107,7 +107,7 @@
                             </tr>
                             <tr>
                                 <td class="text-center">1</td>
-                                <td>[0290091] Akuntansi Komputer 1</td>
+                                <td>[0290094] Akuntansi Komputer 1</td>
                                 <td class="text-center">4</td>
                                 <td class="text-center">10</td>
                                 <td class="text-center">10</td>
@@ -123,7 +123,7 @@
                             </tr>
                             <tr>
                                 <td class="text-center">1</td>
-                                <td>[0290091] Personality Development</td>
+                                <td>[0290095] Personality Development</td>
                                 <td class="text-center">4</td>
                                 <td class="text-center">10</td>
                                 <td class="text-center">10</td>
@@ -139,7 +139,7 @@
                             </tr>
                             <tr>
                                 <td class="text-center">1</td>
-                                <td>[0290091] Pendidikan Agama</td>
+                                <td>[0290096] Pendidikan Agama</td>
                                 <td class="text-center">2</td>
                                 <td class="text-center">10</td>
                                 <td class="text-center">10</td>

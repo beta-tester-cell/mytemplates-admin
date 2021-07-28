@@ -61,7 +61,7 @@
                 <div class="grid-1">
                     <div class="table-responsive">
                         <table id="scroll-horizontal-datatable" class="table-list">
-                            <thead>
+                            <thead style="white-space: nowrap;">
                                 <tr>
                                     <th>No</th>
                                     <th>Matakuliah</th>
