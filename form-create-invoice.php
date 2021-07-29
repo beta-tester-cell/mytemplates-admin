@@ -34,7 +34,7 @@
                                     <label><b> Invoice </b></label>
                                     <input class="width-100" id="Invoice" disabled type="text" value="INV" placeholder="Invoice">
                                 </div>
-                                
+
                                 <div class="form-inputs">
                                     <label><b><span class="text-danger">*</span> No. Invoice </b></label>
                                     <input class="width-100" id="no_invoice" disabled type="text" value="0002/____/VII/2021" required placeholder="no_invoice">
@@ -42,7 +42,7 @@
 
                                 <div class="form-inputs">
                                     <label><b><span class="text-danger">*</span> Cabang </b></label>
-                                    <select  name="list_cabang" class="width-100" id="list_cabang" required>
+                                    <select name="list_cabang" class="width-100" id="list_cabang" required>
                                         <option value="0">-- Pilih Cabang --</option>
                                         <option value="1" selected> Kramat Raya</option>
                                         <option value="2">Semarang</option>
@@ -61,7 +61,7 @@
                                     </select>
                                 </div>
 
-                                 <div class="form-inputs">
+                                <div class="form-inputs">
                                     <label><b><span class="text-danger">*</span> Keterangan</b></label>
                                     <textarea name="keterangan" class="width-100" id="keterangan" required>Pembayaran Fee Organisasi
                                     </textarea>
@@ -71,12 +71,12 @@
                                     <label><b><span class="text-danger">*</span> Potongan PPh 23/26 10%</b></label>
                                     <div class="form-group">
                                         <label class="radio-button" style="margin-left:15px;"> Yes
-                                            <input type="radio" id="yes" value="">
+                                            <input type="radio" id="yes" value="" name="potongan">
                                             <span class="checkmark"></span>
                                         </label>
 
                                         <label class="radio-button" style="margin-left:15px;"> No
-                                            <input type="radio" id="no" value="">
+                                            <input type="radio" id="no" value="" name="potongan">
                                             <span class="checkmark"></span>
                                         </label>
                                     </div>
@@ -100,7 +100,7 @@
 
                                 <div class="form-inputs">
                                     <label><b><span class="text-danger">*</span> Jatuh Tempo</b></label>
-                                   <input class="width-100" id="jatuh_tempo" type="date" value="<?= date('Y-m-d') ?>" placeholder="Jatuh Tempo" required>
+                                    <input class="width-100" id="jatuh_tempo" type="date" value="<?= date('Y-m-d') ?>" placeholder="Jatuh Tempo" required>
                                 </div>
 
                                 <div class="form-inputs">
@@ -113,27 +113,27 @@
                                     <label><b><span class="text-danger">*</span> Harga Satuan </b></label>
                                     <div class="input-group">
                                         <div class="input-group-text" style="text-align: center;"><b>Rp</b></div>
-                                        <div class="input-group-area"><input class="width-100" id="harga_satuan" type="text" value="12.000.000" placeholder="harga_satuan" required></div>                   
+                                        <div class="input-group-area"><input class="width-100" id="harga_satuan" type="text" value="12.000.000" placeholder="harga_satuan" required></div>
                                     </div>
-                                   
+
                                 </div>
 
-                                 <div class="form-inputs">
+                                <div class="form-inputs">
                                     <label><b><span class="text-danger">*</span> Refund Tingkat </b></label>
                                     <div class="input-group">
                                         <div class="input-group-text" style="text-align: center;"><b>Rp</b></div>
-                                        <div class="input-group-area"><input class="width-100" id="refund_tingkat" type="text" value="4.000.000" placeholder="refund_tingkat" required></div>                   
+                                        <div class="input-group-area"><input class="width-100" id="refund_tingkat" type="text" value="4.000.000" placeholder="refund_tingkat" required></div>
                                     </div>
-                                   
+
                                 </div>
 
                                 <div class="form-inputs">
                                     <label><b><span class="text-danger">*</span> Total Nominal </b></label>
-                                     <div class="input-group">
+                                    <div class="input-group">
                                         <div class="input-group-text" style="text-align: center;"><b>Rp</b></div>
-                                        <div class="input-group-area"> <input class="width-100" id="total_nominal" type="text" value="8.000.000" placeholder="total_nominal" required></div>                   
+                                        <div class="input-group-area"> <input class="width-100" id="total_nominal" type="text" value="8.000.000" placeholder="total_nominal" required></div>
                                     </div>
-                                    
+
                                 </div>
 
                                 <button type="submit" class="btn btn-link btn-primary" style="float:right;">Submit</button>
