@@ -1041,23 +1041,11 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="#">
+                                            <a href="potensi-realisasi-revenue.php">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
-                                                <span>Potensi Revenue</span>
-
-                                            </a>
-
-                                        </li>
-
-                                        <li class="side-menu-item">
-
-                                            <a href="#">
-
-                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
-
-                                                <span>Realisasi Revenue</span>
+                                                <span>Potensi/Realisasi Revenue</span>
 
                                             </a>
 
