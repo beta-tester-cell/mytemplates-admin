@@ -147,22 +147,22 @@
                     <div class="py-1 grid-detail-list grid-gap-1">
                         <div></div>
 
-                        <div class="form grid-3 flex-center align-start">
+                            <div class="form grid-3 flex-center align-start">
 
-                            <div class="biaya-label">
+                                <div class="outstanding-textbox">
 
-                               <label style="background-color: #FBBC04; padding: 10px;"><b> Total Biaya : </b> Rp. 14.000.000,-</label>
+                                     <label style="background-color: #FBBC04; padding: 10px;"><b> Total Biaya : </b> Rp. 14.000.000,-</label><br>
 
-                            </div>
+                                </div>
+                                
+                                <div class="pembayaran-textbox">
 
-                            <div class="Realisasi-label">
+                                    <label style="background-color: #70AD47; padding: 10px;"><b> Total Realisasi : </b> Rp.10.600.000 ,-</label><br>
 
-                               <label style="background-color: #70AD47; padding: 10px;"><b> Total Realisasi : </b> Rp.10.600.000 ,-</label>
+                                </div>
 
                             </div>
                          
-                        </div>
-
                     </div>
 
 
