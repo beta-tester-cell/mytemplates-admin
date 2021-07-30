@@ -49,7 +49,7 @@
                                 <td class="dt-right">Rp. 1.200.000,-</td>
                                 <td class="dt-center">2021-07-30</td>
                                 <td class="dt-center">Tagihan Mei-Juni</td>
-                                <td class="text-center"><a href="#"><i class="fa fa-download"></i></a></td>
+                                <td class="text-center"><a href="cetak-invoice-mhs.php" target="_blank"><i class="fa fa-download"></i></a></td>
                             </tr>
 
                         </tbody>
