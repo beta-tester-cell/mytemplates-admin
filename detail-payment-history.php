@@ -35,9 +35,9 @@
                     <h6>Detail Payment History</h6>
 
                     <div class="d-flex grid-gap-1">
-                        
+
                         <a href="report-potensi-revenue.php" class="btn btn-link btn-danger px-20">Back</a>
-                        
+
                         <div class="select-export" style="margin-top: 8px;">
 
                             <button class="btn btn-secondary btn-submit dropdown-button" style="width: 105px;"><i class="fas fa-file-export"></i> Export</button>
@@ -70,99 +70,73 @@
 
                     <div class="detail-list">
 
-                        <div class="grid-4 grid-gap-2">
+                        <div class="grid-3 grid-gap-2">
 
-                            <div class="list-1" style="margin-right: 20px;">
+                            <div class="list-1">
 
-                                <div class="detail-list">
+                                <label><b>Nama Mahasiswa</b></label><br>
 
-                                    <label><b>Nama Mahasiswa</b></label><br>
-
-                                    <span>[180099298] Rohmana</span>
-
-                                </div>
+                                <span>[180099298] Rohmana</span>
 
 
-
-                                <label><b>VA Number</b></label><br>
-
-                                <span>9882304200700011</span>
-
-                            </div>
-
-                             <div class="list-1">
-
-                                <div class="detail-list">
-
-                                    <label><b>Prodi</b></label><br>
-
-                                    <span>[022] Manajemen Informatika</span>
-
-                                </div>
-
-
-
-                                <label><b>Tahun Angkatan</b></label><br>
-
-                                <span>2018</span>
 
                             </div>
 
                             <div class="list-1">
 
-                                <div class="detail-list">
+                                <label><b>Prodi</b></label><br>
 
-                                    <label><b>Kampus</b></label><br>
+                                <span>[022] Manajemen Informatika</span>
 
-                                    <span>Jakarta Pusat ( Kramat Raya)</span>
 
-                                </div>
 
+
+                            </div>
+
+                            <div class="list-1">
+
+                                <label><b>Kampus</b></label><br>
+
+                                <span>Jakarta Pusat ( Kramat Raya)</span>
+
+                            </div>
+
+                            <div class="list-1">
+
+                                <label><b>VA Number</b></label><br>
+
+                                <span>9882304200700011</span>
+                            </div>
+
+                            <div class="list-1">
+
+                                <label><b>Tahun Angkatan</b></label><br>
+
+                                <span>2018</span>
                             </div>
 
                         </div>
 
                     </div>
 
-                   <!--  <div class="select-export my-0">
-
-                        <button class="btn btn-secondary btn-submit dropdown-button" style="width: 105px;"><i class="fas fa-file-export"></i> Export</button>
-
-                        <div class="type-export">
-
-                            <a href="#" id="pdf"><i class="far fa-file-pdf"></i> PDF</a>
-
-                            <a href="#" id="excel"><i class="far fa-file-excel"></i> EXCEL</a>
-
-                            <a href="#" id="print"><i class="fas fa-print"></i> PRINT</a>
-
-                        </div>
-
-                    </div> -->
-
                 </div>
 
                 <div class="total-history">
 
-                    <div class="py-1 grid-detail-list grid-gap-1">
-                        <div></div>
+                    <div class="py-1 d-flex grid-gap-1 flex-center align-start">
 
-                            <div class="form grid-3 flex-center align-start">
+                        <div class="outstanding-textbox">
 
-                                <div class="outstanding-textbox">
+                            <label style="background-color: #FBBC04; padding: 10px;"><b> Total Biaya : </b> Rp. 14.000.000,-</label><br>
 
-                                     <label style="background-color: #FBBC04; padding: 10px;"><b> Total Biaya : </b> Rp. 14.000.000,-</label><br>
+                        </div>
 
-                                </div>
-                                
-                                <div class="pembayaran-textbox">
+                        <div class="pembayaran-textbox">
 
-                                    <label style="background-color: #70AD47; padding: 10px;"><b> Total Realisasi : </b> Rp.10.600.000 ,-</label><br>
+                            <label style="background-color: #70AD47; padding: 10px 8px;"><b> Total Realisasi : </b> Rp.10.600.000 ,-</label><br>
 
-                                </div>
+                        </div>
 
-                            </div>
-                         
                     </div>
 
 
@@ -254,7 +228,7 @@
 
                                 </tr>
 
-                                 <tr>
+                                <tr>
 
                                     <td class="align-center">4</td>
 
@@ -290,7 +264,7 @@
 
                                 </tr>
 
-                                 <tr>
+                                <tr>
 
                                     <td class="align-center">6</td>
 

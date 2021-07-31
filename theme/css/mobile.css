@@ -467,6 +467,11 @@
     gap: 1.5rem;
   }
 
+  .grid-detail-list {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
   /* css footer start */
   footer {
     padding-left: 0;
@@ -901,6 +906,11 @@
     gap: 1.5rem;
   }
 
+  .grid-detail-list {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
   /* css footer start */
   footer {
     padding-left: 0;
@@ -976,6 +986,11 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 1.5rem;
+  }
+
+  .grid-detail-list {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -1081,6 +1096,14 @@
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
+
+  .outstanding-textbox label {
+    font-size: 11px;
+  }
+
+  .pembayaran-textbox label {
+    font-size: 11px;
+  }
 }
 
 @media (min-width: 1025px) and (max-width: 1264px) {
@@ -1117,5 +1140,9 @@
 
   .form-img {
     left: 28%;
+  }
+  .grid-detail-list {
+    display: grid;
+    grid-template-columns: 28% 69%;
   }
 }

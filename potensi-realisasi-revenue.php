@@ -55,7 +55,7 @@
 
                     <div class="form-inputs">
 
-                        <div class="form grid-2 grid-gap-1 py-1">
+                        <div class="d-flex flex-change grid-gap-1 py-1">
 
                             <div class="input-group">
 
@@ -67,13 +67,13 @@
 
                             </div>
 
-                            <select name="report" id="report">
+                            <select name="report" id="report" style="height: 40px;">
 
-                            	<option value="0">-- Pilih Tipe Report --</option>
+                                <option value="0">-- Pilih Tipe Report --</option>
 
-                            	<option value="Report Acrual Basis" selected >Report Acrual Basis</option>
+                                <option value="Report Acrual Basis" selected>Report Acrual Basis</option>
 
-                            	<option value="Report Cash Basis">Report Cash Basis</option>
+                                <option value="Report Cash Basis">Report Cash Basis</option>
 
                             </select>
 
@@ -101,168 +101,168 @@
 
                                     <th class="align-center" colspan="2">September (2020)</th>
 
-                                    <th class="align-center" colspan="2">Oktober   (2020)</th>
-                                   
-                                    <th class="align-center" colspan="2">November  (2020)</th>
-                                    
-                                    <th class="align-center" colspan="2">Desember  (2020)</th>
-                                    
-                                    <th class="align-center" colspan="2">Januari   (2021)</th>
-                                    
-                                    <th class="align-center" colspan="2">Februari  (2021)</th>
-                                    
+                                    <th class="align-center" colspan="2">Oktober (2020)</th>
+
+                                    <th class="align-center" colspan="2">November (2020)</th>
+
+                                    <th class="align-center" colspan="2">Desember (2020)</th>
+
+                                    <th class="align-center" colspan="2">Januari (2021)</th>
+
+                                    <th class="align-center" colspan="2">Februari (2021)</th>
+
                                     <th class="align-center" colspan="2">Total Revenue</th>
-                                  
+
                                     <th class="align-center" rowspan="2">Rasio</th>
 
                                 </tr>
 
                                 <tr class="thead-color">
 
-	                                <th>Potensi</th>
-	                                
-	                                <th>Realisasi</th>
-	                                
-	                                <th>Potensi</th>
-	                                
-	                                <th>Realisasi</th>
+                                    <th>Potensi</th>
 
-	                                <th>Potensi</th>
-	                                
-	                                <th>Realisasi</th>
+                                    <th>Realisasi</th>
 
-	                                <th>Potensi</th>
-	                                
-	                                <th>Realisasi</th>
+                                    <th>Potensi</th>
 
-	                                <th>Potensi</th>
-	                                
-	                                <th>Realisasi</th>
+                                    <th>Realisasi</th>
 
-	                                <th>Potensi</th>
-	                                
-	                                <th>Realisasi</th>
+                                    <th>Potensi</th>
 
-	                                <th>Potensi</th>
-	                                
-	                                <th>Realisasi</th>
-                                	
+                                    <th>Realisasi</th>
+
+                                    <th>Potensi</th>
+
+                                    <th>Realisasi</th>
+
+                                    <th>Potensi</th>
+
+                                    <th>Realisasi</th>
+
+                                    <th>Potensi</th>
+
+                                    <th>Realisasi</th>
+
+                                    <th>Potensi</th>
+
+                                    <th>Realisasi</th>
+
                                 </tr>
 
                             </thead>
 
                             <tbody>
 
-                            	<tr>
-                            		<td class="align-center">1</td>
+                                <tr>
+                                    <td class="align-center">1</td>
 
-                            		<td class="align-left"><a href="report-potensi-revenue.php">MI</a></td>
+                                    <td class="align-left"><a href="report-potensi-revenue.php">MI</a></td>
 
-                            		<td class="align-left">200.000.000</td>
+                                    <td class="align-left">200.000.000</td>
 
-                            		<td class="align-left">150.000.000</td>
+                                    <td class="align-left">150.000.000</td>
 
-                            		<td class="align-left">200.000.000</td>
+                                    <td class="align-left">200.000.000</td>
 
-                            		<td class="align-left">100.000.000</td>
+                                    <td class="align-left">100.000.000</td>
 
-                            		<td class="align-left">120.000.000</td>
+                                    <td class="align-left">120.000.000</td>
 
-                            		<td class="align-left">120.000.000</td>
+                                    <td class="align-left">120.000.000</td>
 
-                            		<td class="align-left">50.000.000</td>
+                                    <td class="align-left">50.000.000</td>
 
-                            		<td class="align-left">50.000.000</td>
+                                    <td class="align-left">50.000.000</td>
 
-                            		<td class="align-left">200.000.000</td>
+                                    <td class="align-left">200.000.000</td>
 
-                            		<td class="align-left">150.000.000</td>
+                                    <td class="align-left">150.000.000</td>
 
-                            		<td class="align-left">200.000.000</td>
+                                    <td class="align-left">200.000.000</td>
 
-                            		<td class="align-left">100.000.000</td>
+                                    <td class="align-left">100.000.000</td>
 
-                            		<td class="align-left">970.000.000</td>
+                                    <td class="align-left">970.000.000</td>
 
-                            		<td class="align-left">670.000.000</td>
+                                    <td class="align-left">670.000.000</td>
 
-                            		<td class="align-center">69%</td>
+                                    <td class="align-center">69%</td>
 
-                            	</tr>
+                                </tr>
 
-                            	<tr>
-                            		<td class="align-center">2</td>
+                                <tr>
+                                    <td class="align-center">2</td>
 
-                            		<td class="align-left"><a href="report-potensi-revenue.php">AB</a></td>
+                                    <td class="align-left"><a href="report-potensi-revenue.php">AB</a></td>
 
-                            		<td class="align-left">150.000.000</td>
+                                    <td class="align-left">150.000.000</td>
 
-                            		<td class="align-left">100.000.000</td>
+                                    <td class="align-left">100.000.000</td>
 
-                            		<td class="align-left">200.000.000</td>
+                                    <td class="align-left">200.000.000</td>
 
-                            		<td class="align-left">200.000.000</td>
+                                    <td class="align-left">200.000.000</td>
 
-                            		<td class="align-left">120.000.000</td>
+                                    <td class="align-left">120.000.000</td>
 
-                            		<td class="align-left">120.000.000</td>
+                                    <td class="align-left">120.000.000</td>
 
-                            		<td class="align-left">60.000.000</td>
+                                    <td class="align-left">60.000.000</td>
 
-                            		<td class="align-left">60.000.000</td>
+                                    <td class="align-left">60.000.000</td>
 
-                            		<td class="align-left">150.000.000</td>
+                                    <td class="align-left">150.000.000</td>
 
-                            		<td class="align-left">100.000.000</td>
+                                    <td class="align-left">100.000.000</td>
 
-                            		<td class="align-left">200.000.000</td>
+                                    <td class="align-left">200.000.000</td>
 
-                            		<td class="align-left">200.000.000</td>
+                                    <td class="align-left">200.000.000</td>
 
-                            		<td class="align-left">880.000.000</td>
+                                    <td class="align-left">880.000.000</td>
 
-                            		<td class="align-left">780.000.000</td>
+                                    <td class="align-left">780.000.000</td>
 
-                            		<td class="align-center">88%</td>
-                            		
-                            	</tr>
+                                    <td class="align-center">88%</td>
 
-                            	<tr>
-                            		<td class="align-center">3</td>
+                                </tr>
 
-                            		<td class="align-left"><a href="report-potensi-revenue.php">KA</a></td>
+                                <tr>
+                                    <td class="align-center">3</td>
 
-                            		<td class="align-left">200.000.000</td>
+                                    <td class="align-left"><a href="report-potensi-revenue.php">KA</a></td>
 
-                            		<td class="align-left">200.000.000</td>
+                                    <td class="align-left">200.000.000</td>
 
-                            		<td class="align-left">200.000.000</td>
+                                    <td class="align-left">200.000.000</td>
 
-                            		<td class="align-left">200.000.000</td>
+                                    <td class="align-left">200.000.000</td>
 
-                            		<td class="align-left">200.000.000</td>
+                                    <td class="align-left">200.000.000</td>
 
-                            		<td class="align-left">200.000.000</td>
+                                    <td class="align-left">200.000.000</td>
 
-                            		<td class="align-left">200.000.000</td>
+                                    <td class="align-left">200.000.000</td>
 
-                            		<td class="align-left">200.000.000</td>
+                                    <td class="align-left">200.000.000</td>
 
-                            		<td class="align-left">200.000.000</td>
+                                    <td class="align-left">200.000.000</td>
 
-                            		<td class="align-left">200.000.000</td>
+                                    <td class="align-left">200.000.000</td>
 
-                            		<td class="align-left">200.000.000</td>
+                                    <td class="align-left">200.000.000</td>
 
-                            		<td class="align-left">200.000.000</td>
+                                    <td class="align-left">200.000.000</td>
 
-                            		<td class="align-left">1.200.000.000</td>
+                                    <td class="align-left">200.000.000</td>
 
-                            		<td class="align-left">1.200.000.000</td>
+                                    <td class="align-left">1.200.000.000</td>
 
-                            		<td class="align-center">10%</td>
-                            		
-                            	</tr>
+                                    <td class="align-left">1.200.000.000</td>
+
+                                    <td class="align-center">10%</td>
+
+                                </tr>
 
                             </tbody>
 

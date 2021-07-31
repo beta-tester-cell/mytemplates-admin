@@ -541,13 +541,13 @@
 
 .grid-detail-list {
   display: grid;
-  grid-template-columns: 15% 60% 10%;
+  grid-template-columns: 27% 72%;
 }
 
 .detail-list {
   margin-bottom: 3em;
 }
 
-.hide-border-bottom{
+.hide-border-bottom {
   border-bottom: 2px solid white;
 }
