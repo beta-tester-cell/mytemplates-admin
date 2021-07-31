@@ -117,7 +117,7 @@ $content = "
                                                     <br>
                                                     <font style='font-size:60px;'><b>INVOICE</b></font>
                                                 </td>
-                                                <td width='250px'></td>
+                                                <td width='200px'></td>
                                                 <td style='vertical-align:center; color:white;'>
                                                  <table>
                                                     <tr>
