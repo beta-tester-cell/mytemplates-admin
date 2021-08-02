@@ -265,6 +265,27 @@
                                 </tr>
 
                             </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th></th>
+                                    <th><b>Total</b></th>
+                                    <th class="align-left">550.000.000</th>
+                                    <th class="align-left">450.000.000</th>
+                                    <th class="align-left">600.000.000</th>
+                                    <th class="align-left">500.000.000</th>
+                                    <th class="align-left">440.000.000</th>
+                                    <th class="align-left">440.000.000</th>
+                                    <th class="align-left">310.000.000</th>
+                                    <th class="align-left">310.000.000</th>
+                                    <th class="align-left">550.000.000</th>
+                                    <th class="align-left">450.000.000</th>
+                                    <th class="align-left">600.000.000</th>
+                                    <th class="align-left">500.000.000</th>
+                                    <th class="align-left">3.050.000.000</th>
+                                    <th class="align-left">2.650.000.000</th>
+                                    <th></th>
+                                </tr>
+                            </tfoot>
 
                         </table>
 
