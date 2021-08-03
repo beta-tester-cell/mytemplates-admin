@@ -829,6 +829,18 @@
 
                                         <li class="side-menu-item">
 
+                                            <a href="monitor-tagihan-mhs.php">
+
+                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+
+                                                <span>Monitoring Tagihan Mahasiswa</span>
+
+                                            </a>
+
+                                        </li>
+
+                                        <li class="side-menu-item">
+
                                             <a href="#" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
