@@ -829,7 +829,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="monitor-tagihan-mhs.php">
+                                            <a href="monitor-tagihan-mhs.php" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
@@ -845,35 +845,63 @@
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
+                                                <span>Registrasi Mahasiswa</span>
+
+                                            </a>
+
+                                        </li>
+
+                                        <li class="side-menu-item">
+
+                                            <a href="#" class="d-flex">
+
+                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+
+                                                <span>Pembayaran Honor Dosen</span>
+
+                                            </a>
+
+                                        </li>
+
+                                    </ul>
+
+                                </li>
+
+                                <li class="side-menu-item">
+                                    <a href="#" class="menu-collaps">
+
+                                        <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+
+                                        <span>Tagihan Cabang</span>
+
+                                    </a>
+
+                                    <ul class="submenu-menu-item">
+
+                                        <li class="side-menu-item">
+
+                                            <a href="#" class="d-flex">
+
+                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+
                                                 <span>Pembayaran Kewajiban Cabang</span>
 
                                             </a>
 
                                         </li>
+                                    </ul>
+                                </li>
 
-                                        <li class="side-menu-item">
+                                <li class="side-menu-item">
+                                    <a href="#" class="menu-collaps">
 
-                                            <a href="#" class="d-flex">
+                                        <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
-                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+                                        <span>Tools</span>
 
-                                                <span>Registrasi Mahasiswa Tingkat 1,2,3 dan 4</span>
+                                    </a>
 
-                                            </a>
-
-                                        </li>
-
-                                        <li class="side-menu-item">
-
-                                            <a href="#">
-
-                                                <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
-
-                                                <span>Pindah Mahasiswa Aktif</span>
-
-                                            </a>
-
-                                        </li>
+                                    <ul class="submenu-menu-item">
 
                                         <li class="side-menu-item">
 
@@ -881,7 +909,7 @@
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
-                                                <span>Pindah Kampus</span>
+                                                <span>Pindah Prodi</span>
 
                                             </a>
 
@@ -893,11 +921,25 @@
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
-                                                <span>Mahasiswa Pindah Kampus</span>
+                                                <span>Terima/Pindah Kampus</span>
 
                                             </a>
 
                                         </li>
+                                    </ul>
+                                </li>
+
+                                <li class="side-menu-item">
+
+                                    <a href="#" class="menu-collaps">
+
+                                        <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
+
+                                        <span>Sidang</span>
+
+                                    </a>
+
+                                    <ul class="submenu-menu-item">
 
                                         <li class="side-menu-item">
 
@@ -917,11 +959,12 @@
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
-                                                <span>Transaksi Pembayaran Sidang,Wisuda,Ijazah, SKPI</span>
+                                                <span>Transaksi Pembayaran</span>
 
                                             </a>
 
                                         </li>
+
 
                                         <li class="side-menu-item">
 
@@ -929,11 +972,14 @@
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
-                                                <span>Pernyataan Pelunasan Biaya Sidang,Wisuda,Ijazah, SKPI</span>
+                                                <span>Validasi Pelunasan</span>
 
                                             </a>
 
                                         </li>
+
+
+
 
                                         <li class="side-menu-item">
 
@@ -941,16 +987,15 @@
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
-                                                <span>Posting Peserta Sidang Wisuda</span>
+                                                <span>Posting Peserta Sidang</span>
 
                                             </a>
 
                                         </li>
+
 
                                     </ul>
-
                                 </li>
-
                                 <li class="side-menu-item">
 
                                     <a href="#" class="menu-collaps">

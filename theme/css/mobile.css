@@ -472,6 +472,16 @@
     grid-template-columns: 1fr;
   }
 
+  .form-inline {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .form-inline .list-form-collection {
+    width: 100%;
+  }
+
   /* css footer start */
   footer {
     padding-left: 0;
@@ -911,6 +921,16 @@
     grid-template-columns: 1fr;
   }
 
+  .form-inline {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .form-inline .list-form-collection {
+    width: 100%;
+  }
+
   /* css footer start */
   footer {
     padding-left: 0;
@@ -991,6 +1011,16 @@
   .grid-detail-list {
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  .form-inline {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .form-inline .list-form-collection {
+    width: 100%;
   }
 }
 
@@ -1103,6 +1133,12 @@
 
   .pembayaran-textbox label {
     font-size: 11px;
+  }
+
+  .form-inline {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
   }
 }
 

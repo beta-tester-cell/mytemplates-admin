@@ -551,3 +551,14 @@
 .hide-border-bottom {
   border-bottom: 2px solid white;
 }
+
+.filter-jadual input,
+.filter-jadual select {
+  margin-right: 10px;
+}
+
+.form-inline {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 15%;
+  align-items: center;
+}
