@@ -108,7 +108,7 @@
                                     <th class="align-left">Nama PA</th>
                                     <th class="align-left">Tahun Akademik</th>
                                     <th class="align-left">Jumlah Mhs</th>
-                                    <th></th>
+                                    <th>Action</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -204,12 +204,12 @@
                                     </div>
 
                                     <div class="table-responsive py-2">
-                                        <table id="datatable3" class="table-list">
+                                        <table id="tableModal" class="table-list">
                                             <thead>
                                                 <tr>
-                                                    <th class="align-left">ID Mhs</th>
-                                                    <th class="align-left">NIM</th>
-                                                    <th class="align-left">Nama Mahasiswa</th>
+                                                    <th>ID Mhs</th>
+                                                    <th>NIM</th>
+                                                    <th>Nama Mahasiswa</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
