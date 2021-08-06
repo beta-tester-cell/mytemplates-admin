@@ -31,6 +31,8 @@
     <link rel="stylesheet" href="theme/css/content.css">
 
     <link rel="stylesheet" href="theme/css/mobile.css">
+    
+    <script src="theme/js/tes.js" defer></script>
 
 </head>
 
@@ -172,7 +174,7 @@
 
                     <ul class="menu-nav">
 
-                        <li class="side-menu-item menu-active">
+                        <li class="side-menu-item">
 
                             <a href="index.php">
 
@@ -192,7 +194,7 @@
 
                         </li>
 
-                        <li class="side-menu-item">
+                        <li class="side-menu-item coll-level-1">
 
                             <a href="#" class="menu-collaps">
 
@@ -206,7 +208,7 @@
 
                                 <li class="side-menu-item ">
 
-                                    <a href="#">
+                                    <a href="javascript:void(0)">
 
                                         <span class="menu-icon-child"><i class="fa fa-tachometer-alt"></i></span>
 
@@ -216,7 +218,7 @@
 
                                 </li>
 
-                                <li class="side-menu-item">
+                                <li class="side-menu-item coll-level-2">
 
                                     <a href="#" class="menu-collaps">
 
@@ -294,7 +296,7 @@
 
                                 </li>
 
-                                <li class="side-menu-item">
+                                <li class="side-menu-item coll-level-2">
 
                                     <a href="#" class="menu-collaps">
 
@@ -346,7 +348,7 @@
 
                                 </li>
 
-                                <li class="side-menu-item">
+                                <li class="side-menu-item coll-level-2">
 
                                     <a href="#" class="menu-collaps">
 
@@ -388,7 +390,7 @@
 
                                 </li>
 
-                                <li class="side-menu-item">
+                                <li class="side-menu-item coll-level-2">
 
                                     <a href="#" class="menu-collaps">
 
@@ -426,7 +428,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="#" class="d-flex">
+                                            <a href="javascript:void(0)" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-school"></i></span>
 
@@ -440,7 +442,7 @@
 
                                 </li>
 
-                                <li class="side-menu-item">
+                                <li class="side-menu-item coll-level-2">
 
                                     <a href="#" class="menu-collaps">
 
@@ -480,7 +482,7 @@
 
                                 </li>
 
-                                <li class="side-menu-item">
+                                <li class="side-menu-item coll-level-2">
 
                                     <a href="#" class="menu-collaps">
 
@@ -536,7 +538,7 @@
 
                         </li>
 
-                        <li class="side-menu-item">
+                        <li class="side-menu-item coll-level-1">
 
                             <a href="#" class="menu-collaps">
 
@@ -550,7 +552,7 @@
 
                                 <li class="side-menu-item">
 
-                                    <a href="#">
+                                    <a href="javascript:void(0)">
 
                                         <span class="menu-icon-child"><i class="fa fa-tachometer-alt"></i></span>
 
@@ -560,7 +562,7 @@
 
                                 </li>
 
-                                <li class="side-menu-item">
+                                <li class="side-menu-item coll-level-2">
 
                                     <a href="#" class="menu-collaps">
 
@@ -620,7 +622,7 @@
 
 
 
-                                <li class="side-menu-item">
+                                <li class="side-menu-item coll-level-2">
 
                                     <a href="#" class="menu-collaps">
 
@@ -681,7 +683,7 @@
 
 
 
-                                <li class="side-menu-item">
+                                <li class="side-menu-item coll-level-2">
 
                                     <a href="#" class="menu-collaps">
 
@@ -727,7 +729,7 @@
 
                         </li>
 
-                        <li class="side-menu-item">
+                        <li class="side-menu-item coll-level-1">
 
                             <a href="#" class="menu-collaps">
 
@@ -741,7 +743,7 @@
 
                                 <li class="side-menu-item ">
 
-                                    <a href="#">
+                                    <a href="javascript:void(0)">
 
                                         <span class="menu-icon-child"><i class="fa fa-tachometer-alt"></i></span>
 
@@ -751,7 +753,7 @@
 
                                 </li>
 
-                                <li class="side-menu-item">
+                                <li class="side-menu-item coll-level-2">
 
                                     <a href="#" class="menu-collaps">
 
@@ -765,7 +767,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="#" class="d-flex">
+                                            <a href="javascript:void(0)" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
@@ -779,7 +781,7 @@
 
                                 </li>
 
-                                <li class="side-menu-item">
+                                <li class="side-menu-item coll-level-2">
 
                                     <a href="#" class="menu-collaps">
 
@@ -841,7 +843,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="#" class="d-flex">
+                                            <a href="javascript:void(0)" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
@@ -853,7 +855,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="#" class="d-flex">
+                                            <a href="javascript:void(0)" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
@@ -867,7 +869,7 @@
 
                                 </li>
 
-                                <li class="side-menu-item">
+                                <li class="side-menu-item coll-level-2">
                                     <a href="#" class="menu-collaps">
 
                                         <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
@@ -880,7 +882,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="#" class="d-flex">
+                                            <a href="javascript:void(0)" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
@@ -892,7 +894,7 @@
                                     </ul>
                                 </li>
 
-                                <li class="side-menu-item">
+                                <li class="side-menu-item coll-level-2">
                                     <a href="#" class="menu-collaps">
 
                                         <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
@@ -905,7 +907,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="#">
+                                            <a href="javascript:void(0)">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
@@ -917,7 +919,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="#" class="d-flex">
+                                            <a href="javascript:void(0)" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
@@ -929,7 +931,7 @@
                                     </ul>
                                 </li>
 
-                                <li class="side-menu-item">
+                                <li class="side-menu-item coll-level-2">
 
                                     <a href="#" class="menu-collaps">
 
@@ -943,7 +945,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="#" class="d-flex">
+                                            <a href="javascript:void(0)" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
@@ -955,7 +957,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="#" class="d-flex">
+                                            <a href="javascript:void(0)" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
@@ -968,7 +970,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="#" class="d-flex">
+                                            <a href="javascript:void(0)" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
@@ -983,7 +985,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="#" class="d-flex">
+                                            <a href="javascript:void(0)" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
@@ -996,7 +998,7 @@
 
                                     </ul>
                                 </li>
-                                <li class="side-menu-item">
+                                <li class="side-menu-item coll-level-2">
 
                                     <a href="#" class="menu-collaps">
 
@@ -1036,7 +1038,7 @@
 
                                 </li>
 
-                                <li class="side-menu-item">
+                                <li class="side-menu-item coll-level-2">
 
                                     <a href="#" class="menu-collaps">
 
@@ -1050,7 +1052,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="#">
+                                            <a href="javascript:void(0)">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
@@ -1062,7 +1064,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="#" class="d-flex">
+                                            <a href="javascript:void(0)" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
@@ -1074,7 +1076,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="#" class="d-flex">
+                                            <a href="javascript:void(0)" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
@@ -1086,7 +1088,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="#" class="d-flex">
+                                            <a href="javascript:void(0)" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
@@ -1110,7 +1112,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="#" class="d-flex">
+                                            <a href="javascript:void(0)" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
@@ -1122,7 +1124,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="#" class="d-flex">
+                                            <a href="javascript:void(0)" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
@@ -1134,7 +1136,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="#" class="d-flex">
+                                            <a href="javascript:void(0)" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
@@ -1146,7 +1148,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="#" class="d-flex">
+                                            <a href="javascript:void(0)" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
@@ -1158,7 +1160,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="#" class="d-flex">
+                                            <a href="javascript:void(0)" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
@@ -1170,7 +1172,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="#" class="d-flex">
+                                            <a href="javascript:void(0)" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
@@ -1190,7 +1192,7 @@
 
                         </li>
 
-                        <li class="side-menu-item">
+                        <li class="side-menu-item coll-level-1">
 
                             <a href="#" class="menu-collaps">
 
@@ -1214,7 +1216,7 @@
 
                                 </li>
 
-                                <li class="side-menu-item">
+                                <li class="side-menu-item coll-level-2">
 
                                     <a href="#" class="menu-collaps">
 
@@ -1278,7 +1280,7 @@
 
                                 </li>
 
-                                <li class="side-menu-item">
+                                <li class="side-menu-item coll-level-2">
 
                                     <a href="#" class="menu-collaps">
 
@@ -1368,7 +1370,7 @@
 
                                 </li>
 
-                                <li class="side-menu-item">
+                                <li class="side-menu-item coll-level-2">
 
                                     <a href="#" class="menu-collaps">
 
@@ -1396,7 +1398,7 @@
 
                                 </li>
 
-                                <li class="side-menu-item">
+                                <li class="side-menu-item coll-level-2">
 
                                     <a href="#" class="menu-collaps">
 
@@ -1448,7 +1450,7 @@
 
                                 </li>
 
-                                <li class="side-menu-item">
+                                <li class="side-menu-item coll-level-2">
 
                                     <a href="#" class="menu-collaps">
 
@@ -1476,7 +1478,7 @@
 
                                 </li>
 
-                                <li class="side-menu-item">
+                                <li class="side-menu-item coll-level-2">
 
                                     <a href="#" class="menu-collaps">
 
@@ -1556,7 +1558,7 @@
 
                         </li>
 
-                        <li class="side-menu-item">
+                        <li class="side-menu-item coll-level-1">
 
                             <a href="#" class="menu-collaps">
 
@@ -1570,7 +1572,7 @@
 
                                 <li class="side-menu-item">
 
-                                    <a href="#">
+                                    <a href="javascript:void(0)">
 
                                         <span class="menu-icon-child"><i class="fa fa-tachometer-alt"></i></span>
 
@@ -1594,7 +1596,7 @@
 
                                 <li class="side-menu-item">
 
-                                    <a href="#">
+                                    <a href="javascript:void(0)">
 
                                         <span class="menu-icon-child"><i class="fa fa-user"></i></span>
 
@@ -1618,7 +1620,7 @@
 
                                 <li class="side-menu-item">
 
-                                    <a href="#">
+                                    <a href="javascript:void(0)">
 
                                         <span class="menu-icon-child"><i class="fa fa-user"></i></span>
 
@@ -1630,7 +1632,7 @@
 
                                 <li class="side-menu-item">
 
-                                    <a href="#">
+                                    <a href="javascript:void(0)">
 
                                         <span class="menu-icon-child"><i class="fa fa-user"></i></span>
 
@@ -1642,7 +1644,7 @@
 
                                 <li class="side-menu-item">
 
-                                    <a href="#">
+                                    <a href="javascript:void(0)">
 
                                         <span class="menu-icon-child"><i class="fa fa-user"></i></span>
 
@@ -1652,7 +1654,7 @@
 
                                 </li>
 
-                                <li class="side-menu-item">
+                                <li class="side-menu-item coll-level-2">
 
                                     <a href="#" class="menu-collaps">
 
@@ -1788,7 +1790,7 @@
 
                         </li>
 
-                        <li class="side-menu-item">
+                        <li class="side-menu-item coll-level-1">
 
                             <a href="#" class="menu-collaps">
 
@@ -1802,7 +1804,7 @@
 
                                 <li class="side-menu-item">
 
-                                    <a href="#">
+                                    <a href="javascript:void(0)">
 
                                         <span class="menu-icon-child"><i class="fa fa-tachometer-alt"></i></span>
 
@@ -1824,7 +1826,7 @@
 
                                 </li>
 
-                                <li class="side-menu-item">
+                                <li class="side-menu-item coll-level-2">
 
                                     <a href="#" class="menu-collaps">
 
@@ -1912,7 +1914,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="#">
+                                            <a href="javascript:void(0)">
 
                                                 <span class="menu-icon-child"><i class="fa fa-users"></i></span>
 
@@ -1940,7 +1942,7 @@
 
                                 <li class="side-menu-item">
 
-                                    <a href="#">
+                                    <a href="javascript:void(0)">
 
                                         <span class="menu-icon-child"><i class="fa fa-users"></i></span>
 
@@ -1952,7 +1954,7 @@
 
                                 <li class="side-menu-item">
 
-                                    <a href="#">
+                                    <a href="javascript:void(0)">
 
                                         <span class="menu-icon-child"><i class="fa fa-users"></i></span>
 
@@ -1964,7 +1966,7 @@
 
                                 <li class="side-menu-item">
 
-                                    <a href="#">
+                                    <a href="javascript:void(0)">
 
                                         <span class="menu-icon-child"><i class="fa fa-users"></i></span>
 
@@ -1976,7 +1978,7 @@
 
                                 <li class="side-menu-item">
 
-                                    <a href="#">
+                                    <a href="javascript:void(0)">
 
                                         <span class="menu-icon-child"><i class="fa fa-users"></i></span>
 
@@ -1988,7 +1990,7 @@
 
                                 <li class="side-menu-item">
 
-                                    <a href="#">
+                                    <a href="javascript:void(0)">
 
                                         <span class="menu-icon-child"><i class="fa fa-users"></i></span>
 
@@ -2020,7 +2022,7 @@
 
                         </li>
 
-                        <li class="side-menu-item">
+                        <li class="side-menu-item coll-level-1">
 
                             <a href="#" class="menu-collaps">
 
@@ -2060,7 +2062,7 @@
 
                         </li>
 
-                        <li class="side-menu-item">
+                        <li class="side-menu-item coll-level-1">
 
                             <a href="#" class="menu-collaps">
 
@@ -2124,7 +2126,7 @@
 
                         </li>
 
-                        <li class="side-menu-item">
+                        <li class="side-menu-item coll-level-1">
 
                             <a href="#" class="menu-collaps">
 
@@ -2134,7 +2136,7 @@
 
                             </a>
 
-                            <ul class="submenu-menu-item">
+                            <ul class="submenu-menu-item coll-level-2">
 
                                 <li class="side-menu-item">
 
@@ -2150,7 +2152,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="#">
+                                            <a href="javascript:void(0)">
 
                                                 <span class="menu-icon-child"><i class="fa fa-folder-minus"></i></span>
 
@@ -2166,7 +2168,7 @@
 
                                 <li class="side-menu-item">
 
-                                    <a href="#">
+                                    <a href="javascript:void(0)">
 
                                         <span>menu level 2</span>
 
@@ -2178,7 +2180,7 @@
 
                         </li>
 
-                        <li class="side-menu-item">
+                        <li class="side-menu-item coll-level-1">
 
                             <a href="#" class="menu-collaps">
 
