@@ -1,3 +1,20 @@
+.breadcrumb-wrapper-alternate {
+  width: calc(100% - 350px);
+  margin: 0;
+  background: transparent;
+  padding: 0;
+  position: absolute;
+  top: 63px;
+}
+
+.breadcrumb-wrapper-alternate .breadcrumb {
+  padding: 0;
+}
+
+.breadcrumb-wrapper-alternate .breadcrumb a {
+  color: #e85a67;
+}
+
 .width-100 {
   width: 100%;
 }

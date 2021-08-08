@@ -93,6 +93,30 @@
     display: block;
   }
 
+  .wrapper.collapse .aside {
+    width: 0;
+  }
+
+  .wrapper.collapse .content,
+  .wrapper.collapse .page-header,
+  .wrapper.collapse .breadcrumb-wrapper {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .wrapper.open .aside {
+    width: 285px;
+  }
+
+  .logo {
+    display: none;
+    transition: 0.3s;
+    transition-property: display;
+  }
+  .wrapper.open .aside .logo {
+    display: flex;
+  }
+
   .aside-menu-header {
     width: 0;
   }
@@ -579,10 +603,29 @@
     width: 0;
   }
 
+  .wrapper.collapse .aside {
+    width: 0;
+  }
+
+  .wrapper.collapse .content,
+  .wrapper.collapse .page-header,
+  .wrapper.collapse .breadcrumb-wrapper {
+    margin-left: 0;
+    width: 100%;
+  }
+
   .wrapper.open .aside {
     width: 285px;
   }
 
+  .logo {
+    display: none;
+    transition: 0.3s;
+    transition-property: display;
+  }
+  .wrapper.open .aside .logo {
+    display: flex;
+  }
   /* css aside mobile end */
 
   /* css breadcrumb start */

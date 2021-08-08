@@ -21,7 +21,7 @@
 
         <div class="py-1">
             <div class="card">
-                <div class="form grid-custom-onecard grid-gap-1 py-1">
+                <div class="form grid-custom-onecard grid-gap-2 py-1">
                     <div class="filtering-list">
                         <div class="card-header d-flex flex-space-between">
                             <h6>Filter Data Nilai</h6>

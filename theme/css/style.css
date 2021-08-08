@@ -10,6 +10,14 @@
 }
 
 @font-face {
+  font-family: "galanoregular";
+  src: url("../fonts/galano_grotesque-webfont.woff2") format("woff2"),
+    url("../fonts/galano_grotesque-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "galanogrotesque-bold";
 
   src: url("../fonts/galano_grotesque_bold-webfont.woff2") format("woff2"),
@@ -39,7 +47,7 @@
 
   --max-width: 100%;
 
-  --primary-font: "helveticaregular";
+  --primary-font: "galanoregular";
 
   --secondary-font: "galanogrotesque-bold";
 }
@@ -59,7 +67,7 @@ body {
 
   line-height: 1.5;
 
-  font-size: 15px;
+  font-size: 13px;
 
   background-color: var(--medium-color);
 
@@ -85,7 +93,7 @@ a:hover {
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 40px;
 
   line-height: 3.5rem;
 
@@ -95,7 +103,7 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 35px;
 
   line-height: 2.5rem;
 
@@ -105,7 +113,7 @@ h2 {
 }
 
 h3 {
-  font-size: 36px;
+  font-size: 30px;
 
   line-height: 2rem;
 
@@ -115,7 +123,7 @@ h3 {
 }
 
 h4 {
-  font-size: 32px;
+  font-size: 27px;
 
   line-height: 2.4rem;
 
@@ -125,7 +133,7 @@ h4 {
 }
 
 h5 {
-  font-size: 29px;
+  font-size: 24px;
 
   line-height: 2rem;
 
@@ -135,7 +143,7 @@ h5 {
 }
 
 h6 {
-  font-size: 26px;
+  font-size: 21px;
 
   margin-bottom: 1rem;
 
@@ -635,28 +643,6 @@ img {
   transition: 0.3s;
 
   transition-property: width;
-
-  overflow-y: auto;
-}
-
-/* width */
-.aside-menu-header::-webkit-scrollbar {
-  width: 8px;
-}
-
-/* Track */
-.aside-menu-header::-webkit-scrollbar-track {
-  background: #00649d;
-}
-
-/* Handle */
-.aside-menu-header::-webkit-scrollbar-thumb {
-  background: var(--primary-color);
-}
-
-/* Handle on hover */
-.aside-menu-header::-webkit-scrollbar-thumb:hover {
-  background: #d9d9d9;
 }
 
 .logo {
@@ -745,8 +731,29 @@ img {
 }
 
 .scroll-menu {
-  position: relative;
-  overflow: hidden;
+  height: 730px;
+
+  overflow: auto;
+}
+
+/* width */
+.scroll-menu::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.scroll-menu::-webkit-scrollbar-track {
+  background: #00649d;
+}
+
+/* Handle */
+.scroll-menu::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+}
+
+/* Handle on hover */
+.scroll-menu::-webkit-scrollbar-thumb:hover {
+  background: #d9d9d9;
 }
 
 .side-menu .menu-nav {
@@ -828,7 +835,7 @@ img {
 }
 
 .side-menu .menu-nav .menu-section h4 {
-  font-size: 1rem;
+  font-size: 16px;
 
   text-transform: uppercase;
 

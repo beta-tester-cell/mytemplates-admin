@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="theme/css/content.css">
 
     <link rel="stylesheet" href="theme/css/mobile.css">
-    
+
     <script src="theme/js/tes.js" defer></script>
 
 </head>
@@ -170,7 +170,7 @@
 
             <div class="aside-menu-wrapper">
 
-                <div class="side-menu scroll-menu my-1">
+                <div class="side-menu scroll-menu">
 
                     <ul class="menu-nav">
 
