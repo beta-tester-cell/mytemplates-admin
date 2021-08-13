@@ -579,3 +579,22 @@
   grid-template-columns: 20% 20% 20% 20% 15%;
   align-items: center;
 }
+
+.modal-width-custom {
+  max-width: 760px;
+}
+
+.form-invoice-inline {
+  display: grid;
+  grid-template-columns: 22% 20% 20% 31%;
+  align-items: center;
+}
+
+.flex-button {
+  display: flex;
+  height: 47px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  justify-items: flex-end;
+  width: 100%;
+}

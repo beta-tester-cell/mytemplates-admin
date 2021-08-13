@@ -28,6 +28,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "galano-alt";
+  src: url("../fonts/galano_grotesque_alt-webfont.woff2") format("woff2"),
+    url("../fonts/galano_grotesque_alt-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --primary-color: #004269;
 
@@ -47,7 +55,7 @@
 
   --max-width: 100%;
 
-  --primary-font: "galanoregular";
+  --primary-font: "galano-alt";
 
   --secondary-font: "galanogrotesque-bold";
 }

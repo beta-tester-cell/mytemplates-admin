@@ -506,6 +506,14 @@
     width: 100%;
   }
 
+  .flex-reverse {
+    flex-direction: column-reverse;
+  }
+  .form-invoice-inline {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
   /* css footer start */
   footer {
     padding-left: 0;
@@ -971,6 +979,24 @@
   }
 
   .form-inline .list-form-collection {
+    width: 100%;
+  }
+
+  .flex-reverse {
+    flex-direction: column-reverse;
+  }
+  .form-invoice-inline {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+
+  .flex-button {
+    display: flex;
+    height: 47px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    justify-items: flex-start;
     width: 100%;
   }
 
