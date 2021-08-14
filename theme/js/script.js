@@ -1016,6 +1016,103 @@ if(document.getElementById("ChartDoughnut")){
     } );
 }
 // type chart doughtnuts end
+
+
+
+// type chart line negative start
+if(document.getElementById("ChartLineNegative")){
+    $(document).ready(function() {
+        var ChartLine = document.getElementById("ChartLineNegative");
+    
+        Chart.defaults.global.defaultFontFamily = "helveticaregular";
+        Chart.defaults.global.defaultFontSize = 18;
+    
+        // Start Collection Data
+    
+    
+        var dataFirst = {
+            type:'line',
+            label: "Graphics", // Penamanaan Data Tersebut
+            data: [3250, 2900, 2150, 2250, 1700, -800], // Data yang berasal dari database
+            lineTension: 0,
+            fill: true,
+            borderColor: 'rgba(0, 66, 105, 1)',
+            backgroundColor:'rgba(0, 66, 105, 0.2)',
+            yAxisID: 'left-axis'
+        };
+    
+        
+        var dataSecond = {
+            type:'line',
+            label: "Presentation", // Penamanaan Data Tersebut
+            data: [-2850, -2750, -2400, -2300, -1800, 900], // Data yang berasal dari database
+            lineTension: 0,
+            fill: true, 
+            borderColor: 'rgba(75, 192, 192, 1)',
+            backgroundColor: 'rgba(75, 192, 192, 0.2)'
+        };
+    
+    
+        var MergeData = {
+            labels: ["10", "20", "30", "40", "50", "60"], // Label horizontal
+            datasets: [dataFirst,dataSecond]
+        };
+    
+        // End Collection Data
+    
+        // Start Option Line Chart
+    
+        var chartOptions = {
+            legend: {
+                display: true,
+                position: 'top',
+                labels: {
+                    boxWidth: 50,
+                    fontColor: 'black',
+                    fontSize: 12
+                }
+            },
+            title: {display: true},
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                xAxes: [{
+                    display: true, 
+                    scaleFontSize: 12 , 
+                    ticks: {
+                    fontSize: 14 // Mengubah Font X axis (Vertical)
+                }, 
+                stacked:true
+            }],
+            yAxes: [{
+             ticks: {
+                   fontSize: 14, // Mengubah Font Y axis (Vertical)
+                   fontColor : 'rgba(0, 66, 105,1)'
+               },
+               type:'linear',
+               id:'left-axis',
+               display: true,
+               position: 'left',
+               scaleLabel: {display: true, labelString: 'Range',fontColor : 'rgba(0, 66, 105,1)' }
+           }]
+       }
+    };
+        // End Option Line Chart
+    
+        // Action Line Chart
+        var ChartLine = new Chart(ChartLine, {
+            type: 'line',
+            data: MergeData,
+            options: chartOptions
+        });
+    
+    } );
+
+}
+
+// type chart line end
+
+
 if(document.getElementById('mytextarea')){
     tinymce.init({
         selector: '#mytextarea'

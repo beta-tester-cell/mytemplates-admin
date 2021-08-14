@@ -734,10 +734,6 @@ img {
   color: var(--primary-color);
 }
 
-.side-menu {
-  background-color: #31659d;
-}
-
 .scroll-menu {
   height: 730px;
 

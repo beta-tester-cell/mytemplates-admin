@@ -18,6 +18,14 @@
             </div>
             <div class="card">
                 <div class="card-header">
+                    <h6>Chart Line Negative</h6>
+                </div>
+                <div class="chart-container">
+                    <canvas id="ChartLineNegative"></canvas>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
                     <h6>Chart Bar</h6>
                 </div>
                 <div class="chart-container">
