@@ -907,7 +907,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="javascript:void(0)">
+                                            <a href="pindah-prodi.php">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
@@ -919,7 +919,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="javascript:void(0)" class="d-flex">
+                                            <a href="pindah-kampus.php" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
