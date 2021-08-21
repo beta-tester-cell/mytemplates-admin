@@ -876,15 +876,15 @@ img {
   transition: max-height 0.2s;
 }
 
-.submenu-menu-item .side-menu-item{
+.submenu-menu-item .side-menu-item {
   padding-left: 1rem;
 }
 
-.submenu-menu-item .side-menu-item .submenu-menu-item .side-menu-item{
+.submenu-menu-item .side-menu-item .submenu-menu-item .side-menu-item {
   padding-left: 1rem;
 }
 
-.submenu-menu-item .side-menu-item .submenu-menu-item .side-menu-item:hover{
+.submenu-menu-item .side-menu-item .submenu-menu-item .side-menu-item:hover {
   padding-left: 1rem !important;
   background-color: var(--secondary-color);
 }
@@ -1092,7 +1092,7 @@ img {
 
 .btn-link {
   font-size: 1rem;
-  /* padding: 0.25rem 0.5rem; */
+  padding: 0.45rem 0.5rem;
   border-radius: 5px;
   width: auto;
 }

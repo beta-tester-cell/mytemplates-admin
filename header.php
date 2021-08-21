@@ -945,7 +945,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="javascript:void(0)" class="d-flex">
+                                            <a href="daftar-sidang-wisuda.php" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
@@ -957,7 +957,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="javascript:void(0)" class="d-flex">
+                                            <a href="transaksi-pembayara.php" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 

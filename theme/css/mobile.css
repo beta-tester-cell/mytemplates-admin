@@ -323,7 +323,9 @@
   .flex-change {
     flex-direction: column;
   }
-
+  .flex-change-reverse {
+    flex-direction: column-reverse;
+  }
   .form-img {
     height: auto;
     left: 0;
@@ -805,6 +807,10 @@
     flex-direction: column;
   }
 
+  .flex-change-reverse {
+    flex-direction: column-reverse;
+  }
+
   .form-img {
     height: auto;
     left: 0;
@@ -1011,6 +1017,9 @@
 @media (min-width: 769px) and (max-width: 950px) {
   .flex-change {
     flex-direction: column;
+  }
+  .flex-change-reverse {
+    flex-direction: column-reverse;
   }
   .chart-width-custom {
     width: 100%;

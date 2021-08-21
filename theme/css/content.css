@@ -214,6 +214,21 @@
 
 .form-mr-2 {
   margin-right: 2rem;
+  flex: 0 0 800px;
+}
+
+@media (min-width: 950px) and (max-width: 1040px) {
+  .form-mr-2 {
+    margin-right: 2rem;
+    flex: 0 0 400px;
+  }
+}
+
+@media (min-width: 1040px) and (max-width: 1359px) {
+  .form-mr-2 {
+    margin-right: 2rem;
+    flex: 0 0 550px;
+  }
 }
 
 .form-img {
