@@ -174,15 +174,30 @@
 
                     <ul class="menu-nav">
 
-                        <li class="side-menu-item">
+                        <li class="side-menu-item  coll-level-1">
 
-                            <a href="index.php">
+                            <a href="#" class="menu-collaps">
 
                                 <span class="menu-icon"><i class="fa fa-tachometer-alt"></i></span>
 
                                 <span class="menu-title">Dashboard</span>
 
                             </a>
+
+                            <ul class="submenu-menu-item">
+
+                                <li class="side-menu-item ">
+
+                                    <a href="index.php">
+
+                                        <span class="menu-icon-child"><i class="fa fa-tachometer-alt"></i></span>
+
+                                        <span class="menu-title">Dashboard C - Level</span>
+
+                                    </a>
+
+                                </li>
+                            </ul>
 
                         </li>
 

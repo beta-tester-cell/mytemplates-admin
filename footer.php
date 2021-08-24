@@ -27,6 +27,8 @@
 
 <script src="theme/js/script.js" defer></script>
 
+<script src="theme/js/dashboard.js" defer></script>
+
 
 
 

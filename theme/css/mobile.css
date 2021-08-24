@@ -332,6 +332,10 @@
     transform: translate(0%, 0%);
   }
 
+  .flex-chart > .card {
+    width: 100%;
+  }
+
   .view-docs {
     justify-content: start;
   }
@@ -810,6 +814,9 @@
   .flex-change-reverse {
     flex-direction: column-reverse;
   }
+  .flex-chart > .card {
+    width: 100%;
+  }
 
   .form-img {
     height: auto;
@@ -1020,6 +1027,9 @@
   }
   .flex-change-reverse {
     flex-direction: column-reverse;
+  }
+  .flex-chart > .card {
+    width: 100%;
   }
   .chart-width-custom {
     width: 100%;
