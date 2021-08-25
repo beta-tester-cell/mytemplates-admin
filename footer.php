@@ -29,6 +29,8 @@
 
 <script src="theme/js/dashboard.js" defer></script>
 
+<script src="theme/js/akademikcabang.js" defer></script>
+
 
 
 

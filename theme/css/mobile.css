@@ -332,7 +332,8 @@
     transform: translate(0%, 0%);
   }
 
-  .flex-chart > .card {
+  .flex-chart > .card,
+  .flex-chart > .child {
     width: 100%;
   }
 
@@ -814,7 +815,8 @@
   .flex-change-reverse {
     flex-direction: column-reverse;
   }
-  .flex-chart > .card {
+  .flex-chart > .card,
+  .flex-chart > .child {
     width: 100%;
   }
 
@@ -1028,7 +1030,8 @@
   .flex-change-reverse {
     flex-direction: column-reverse;
   }
-  .flex-chart > .card {
+  .flex-chart > .card,
+  .flex-chart > .child {
     width: 100%;
   }
   .chart-width-custom {

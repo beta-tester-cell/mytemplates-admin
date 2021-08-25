@@ -194,7 +194,6 @@ if(document.getElementById("ChartProfitLost")){
     // Start Collection Data
     
     var dataSatu = {
-        indexAxis: 'y',
         label: 'Profit/Lost', // Penamanaan Data Tersebut
         data: [1700,-4300,200], // Data yang berasal dari database
         fill: true,
@@ -204,7 +203,6 @@ if(document.getElementById("ChartProfitLost")){
     };
     
     var dataDua = {
-        indexAxis: 'y',
         label: 'Expenses', // Penamanaan Data Tersebut
         data: [9300,17000,11000], // Data yang berasal dari database
         fill: true, 
@@ -213,7 +211,6 @@ if(document.getElementById("ChartProfitLost")){
     };
 
     var dataTiga = {
-        indexAxis: 'y',
         label: 'Income', // Penamanaan Data Tersebut
         data: [11000,12700,13000], // Data yang berasal dari database
         fill: true, 
@@ -229,7 +226,6 @@ if(document.getElementById("ChartProfitLost")){
     // End Collection Data
     
     var Options = {
-        indexAxis:'y',
         legend: {
             display: true,
             position: 'bottom',
@@ -246,7 +242,7 @@ if(document.getElementById("ChartProfitLost")){
     };
     
     var barchart = new Chart(profitLost, {
-        type: 'bar',
+        type: 'horizontalBar',
         data: MergeData,
         options: Options
     });
@@ -345,6 +341,7 @@ if(document.getElementById("ChartLineStudent")){
                 }
             },
             responsive: true,
+            maintainAspectRatio: false,
            
     }
     

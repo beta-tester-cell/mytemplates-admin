@@ -414,6 +414,10 @@ img {
   align-items: center;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .flex-column {
   -webkit-box-orient: vertical;
 

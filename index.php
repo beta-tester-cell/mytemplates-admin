@@ -217,7 +217,7 @@
                         <h6>NUMBER OF <span class="text-danger"> EMPLOYESS 2021 </span></h6>
                     </div>
                     <div class="chart-box-newStudent">
-                        <div class="chart-custom">
+                        <div class="chart-meet">
                             <div class="employee">
                                 <div class="chart-container">
                                     <canvas id="ChartEmployee"></canvas>
@@ -225,16 +225,16 @@
 
                             </div>
                         </div>
-                        <div class="info-custom">
-                            <div class="grid-2 grid-gap-1 mb-1">
+                        <div class="info-meet">
+                            <div class="d-flex flex-change justify-end grid-gap-1 mb-1">
                                 <div class="free-text">Permanent</div>
                                 <div class="box-primary">750</div>
                             </div>
-                            <div class="grid-2 grid-gap-1 mb-1">
+                            <div class="d-flex flex-change justify-end grid-gap-1 mb-1">
                                 <div class="free-text">Contract</div>
                                 <div class="box-secondary">450</div>
                             </div>
-                            <div class="grid-2 grid-gap-1 mb-1">
+                            <div class="d-flex flex-change justify-end grid-gap-1 mb-1">
                                 <div class="free-text">Total</div>
                                 <div class="box-danger">1200</div>
                             </div>

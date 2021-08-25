@@ -1221,7 +1221,7 @@
 
                                 <li class="side-menu-item">
 
-                                    <a href="dashboard-page.php">
+                                    <a href="index-akademik-cabang.php">
 
                                         <span class="menu-icon-child"><i class="fa fa-tachometer-alt"></i></span>
 
