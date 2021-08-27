@@ -781,3 +781,15 @@
     gap: 1rem;
   }
 }
+
+.noted-danger {
+  padding: 30px;
+  background: #ef7070;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.noted-danger > ul {
+  list-style-type: disc;
+}

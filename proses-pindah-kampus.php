@@ -103,11 +103,14 @@
                         <textarea name="keterangan" id="keterangan" rows="5">Potongan Beasiswa 5 jt selama 3 tahun</textarea>
                     </div>
 
-                    <div class="d-flex flex-center grid-gap-1">
-                        <button type="submit" class="btn btn-secondary btn-submit ">Save Data</button>
-                        <button type="button" class="btn btn-danger btn-submit">Cancel</button>
-                    </div>
+
                 </div>
+            </div>
+        </div>
+        <div class="py-1">
+            <div class="d-flex flex-center grid-gap-1">
+                <button type="submit" class="btn btn-secondary btn-submit ">Save Data</button>
+                <button type="button" class="btn btn-danger btn-submit">Cancel</button>
             </div>
         </div>
     </div>

@@ -858,7 +858,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="javascript:void(0)" class="d-flex">
+                                            <a href="registrasi-mahasiswa.php" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 

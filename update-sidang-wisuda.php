@@ -179,11 +179,14 @@
 
                         <span class="text-danger"><b>Biaya akumulasi akan membagi komponen biaya sesuai dengan ketentuan yang berlaku</b></span>
 
-                        <div class="d-flex flex-center grid-gap-1 my-1">
-                            <button type="submit" class="btn btn-secondary btn-submit ">Save Data</button>
-                            <button type="button" class="btn btn-danger btn-submit">Cancel</button>
-                        </div>
+
                     </div>
+                </div>
+            </div>
+            <div class="py-1">
+                <div class="d-flex flex-center grid-gap-1 my-1">
+                    <button type="submit" class="btn btn-secondary btn-submit ">Save Data</button>
+                    <button type="button" class="btn btn-danger btn-submit">Cancel</button>
                 </div>
             </div>
         </div>
