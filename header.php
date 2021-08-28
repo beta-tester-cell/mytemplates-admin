@@ -985,7 +985,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="javascript:void(0)" class="d-flex">
+                                            <a href="validasi-pelunasan.php" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
@@ -1000,7 +1000,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="javascript:void(0)" class="d-flex">
+                                            <a href="posting-peserta.php" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
@@ -1127,7 +1127,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="javascript:void(0)" class="d-flex">
+                                            <a href="cetak-kartu-rencana-bayar.php" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
@@ -1139,7 +1139,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="javascript:void(0)" class="d-flex">
+                                            <a href="registresi-mahasiswa.php" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 

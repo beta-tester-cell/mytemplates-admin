@@ -407,7 +407,7 @@ img {
 .flex-end {
   align-items: flex-end;
 
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .align-center {

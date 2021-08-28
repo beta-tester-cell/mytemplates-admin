@@ -20,6 +20,11 @@
     <div class="container">
         <div class="py-1">
             <div class="card">
+                <h6>Form Pindah Prodi</h6>
+            </div>
+        </div>
+        <div class="py-1">
+            <div class="card">
                 <div class="card-header">
                     <h6>Data Profil Aplikan</h6>
                 </div>
