@@ -34,7 +34,6 @@
                             <a href="#" id="print"><i class="fas fa-print"></i> PRINT</a>
 
                         </div>
-
                     </div>
                 </div>
 

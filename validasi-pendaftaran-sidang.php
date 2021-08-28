@@ -9,7 +9,6 @@
 </div>
 <div class="content">
     <div class="container">
-
         <div class="py-1 grid-custom-view grid-gap-2">
             <div class="card">
                 <div class="card-header d-flex flex-space-between">
@@ -194,7 +193,7 @@
                                 <textarea class="width-100" id="validasi" style="resize:none;height:100px;" type="text" placeholder="validasi">Kepatuhan</textarea>
                             </div>
 
-                             <div class="my-1">
+                            <div class="my-1">
                                 <label><b>Inisial</b></label>
                                 <input class="width-100" id="inisial" value="5" type="text" placeholder="inisial">
                             </div>
@@ -208,7 +207,7 @@
 
                             <div class="d-flex py-1 ">
                                 <button type="submit" style="width: 150px;" class="btn btn-secondary btn-submit mx-1">Simpan</button>
-                               <button type="button"  style="width: 150px;" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                <button type="button" style="width: 150px;" class="btn btn-danger" data-dismiss="modal">Close</button>
                             </div>
 
                         </div>

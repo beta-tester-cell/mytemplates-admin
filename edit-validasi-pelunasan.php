@@ -34,7 +34,6 @@
                     <div class="detail-list">
 
                         <div class="d-flex">
-
                             <div class="list-1">
 
                                 <div class="form-inputs">
