@@ -1151,7 +1151,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="javascript:void(0)" class="d-flex">
+                                            <a href="surat-tagihan-bayar.php" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
@@ -1175,7 +1175,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="javascript:void(0)" class="d-flex">
+                                            <a href="surat-tagihan-email.php" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
@@ -1187,7 +1187,7 @@
 
                                         <li class="side-menu-item">
 
-                                            <a href="javascript:void(0)" class="d-flex">
+                                            <a href="kwitansi-pembayaran-mahasiswa.php" class="d-flex">
 
                                                 <span class="menu-icon-child"><i class="fas fa-money-check-alt"></i></span>
 
