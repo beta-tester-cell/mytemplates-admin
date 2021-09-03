@@ -793,3 +793,95 @@
 .noted-danger > ul {
   list-style-type: disc;
 }
+
+.flex-data > .data-wrapper {
+  width: 16.67%;
+}
+
+.data-wrapper {
+  border-right: 1px solid #d9d9d9;
+  margin-right: 10px;
+}
+
+.data-wrapper:last-of-type {
+  border: none;
+}
+
+.data-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.data-subtitle > h1 {
+  margin-bottom: 0;
+}
+
+.data-desc {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.tabpane {
+  overflow: hidden;
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.tabpane button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 15px;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+.tabpane button:hover {
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.tabpane button.active {
+  border-bottom: 3px solid var(--secondary-color);
+}
+
+.tabsContent {
+  display: none;
+  /* padding: 6px 12px; */
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+
+/* Style the close button */
+@-webkit-keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.flex-second-three > .card-1 {
+  width: 60%;
+}
+
+.flex-second-three > .card-2 {
+  width: 40%;
+}
+
+.flex-three-column > .card {
+  width: 33%;
+}
+
+.table-presenter td {
+  white-space: nowrap;
+}

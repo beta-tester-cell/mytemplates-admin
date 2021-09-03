@@ -197,6 +197,19 @@
                                     </a>
 
                                 </li>
+
+
+                                <li class="side-menu-item ">
+
+                                    <a href="index-marketing.php">
+
+                                        <span class="menu-icon-child"><i class="fa fa-tachometer-alt"></i></span>
+
+                                        <span class="menu-title">Dashboard Marketing</span>
+
+                                    </a>
+
+                                </li>
                             </ul>
 
                         </li>

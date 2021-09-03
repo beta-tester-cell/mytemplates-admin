@@ -31,6 +31,8 @@
 
 <script src="theme/js/akademikcabang.js" defer></script>
 
+<script src="theme/js/marketing.js"></script>
+
 
 
 
