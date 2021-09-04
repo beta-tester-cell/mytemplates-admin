@@ -1368,3 +1368,10 @@
     grid-template-columns: 28% 69%;
   }
 }
+
+@media (min-width: 1025px) and (max-width: 1359px) {
+  .flex-date {
+    display: flex;
+    flex-direction: column;
+  }
+}
