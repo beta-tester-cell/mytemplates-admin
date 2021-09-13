@@ -1019,7 +1019,7 @@ img {
 
 /* css card end */
 
-/* css btn start */
+/* css ` start */
 
 .btn {
   border: none;
@@ -1443,8 +1443,6 @@ input[type="file"] {
   height: auto;
 
   margin: 0 auto;
-
-  padding: 30px;
 }
 
 .nav {
