@@ -40,10 +40,10 @@
 .bg-login {
   margin: 0;
   padding: 0;
-  background: url("../img/WALL-LANDINGPAGE1-01.jpg");
+  background: url("../img/Back_Login03.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 100% 77%;
   background-attachment: fixed;
   font-family: var(--primary-font);
 }
