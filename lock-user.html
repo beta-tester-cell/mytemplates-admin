@@ -8,38 +8,50 @@
 	<title></title>
 
     <script src="https://kit.fontawesome.com/b4bb8e09b6.js" crossorigin="anonymous"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- css -->
     <link rel="stylesheet" href="theme/css/style.css">
     <link rel="stylesheet" href="theme/css/content.css">
     <link rel="stylesheet" href="theme/css/mobile.css">
-	
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body class="bg-login">
-	<form class="login">	
-		<h2 class="text-center">User Lock</h2>
-        <div class="d-flex flex-custom-column">
-            <div class="image-profile">
-                <img src="theme/img/default-user.jpg" alt="">
-            </div> 
-            <div>
-                <div class="box-lock">
-                    <h6>Admin</h6>
-                </div>	
-        
-                <div class="box-lock">
-                    <input type="password" placeholder="Password" name="password">
-                </div>
+    <div class="bg-blur">
+        <div class="text-center py-2" data-aos="fade-down">
+            <h1>
+                Corporate
+            Technology</h1>
+        </div>
+
+        <form class="login">	
+            <h2 class="text-center">User Lock</h2>
+            <div class="d-flex flex-custom-column">
+                <div class="image-profile">
+                    <img src="theme/img/default-user.jpg" alt="">
+                </div> 
+                <div>
+                    <div class="box-lock">
+                        <h6>Admin</h6>
+                    </div>	
             
-                <button class="btn-login" type="submit"> Login </button>
+                    <div class="box-lock">
+                        <input type="password" placeholder="Password" name="password">
+                    </div>
+                
+                    <button class="btn-login" type="submit"> Login </button>
+                </div>
             </div>
-        </div>
-		
-
-        <div class="another-account">
-            <a href="#">Bukan Admin</a>
-        </div>
-	</form>
+            
+    
+            <div class="another-account">
+                <a href="#">Bukan Admin</a>
+            </div>
+        </form>
+    </div>
 </body>
-
+<script>
+    AOS.init({
+        duration: 1500
+    });
+  </script>
 </html>

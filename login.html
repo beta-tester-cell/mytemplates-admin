@@ -8,32 +8,48 @@
 	<title>Login Page</title>
 
     <script src="https://kit.fontawesome.com/b4bb8e09b6.js" crossorigin="anonymous"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- css -->
     <link rel="stylesheet" href="theme/css/style.css">
     <link rel="stylesheet" href="theme/css/content.css">
     <link rel="stylesheet" href="theme/css/mobile.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	
 </head>
 <body class="bg-login">
-	<form class="login">		
-		<h2>Login</h2>
-		<div class="box-login">
-			<i class="fa fa-user"></i>
-			<input type="text" placeholder="Username" name="username">
-		</div>	
-
-		<div class="box-login">
-			<i class="fa fa-lock"></i>
-			<input type="password" placeholder="Password" name="password">
-		</div>
+    <div class="bg-blur">
         
-        <div class="d-flex flex-end" style="padding-bottom: 1rem;">
-            <a href="#"> Forgot Password ?</a>
+        <div class="text-center py-2" data-aos="fade-down">
+            <h1>
+                Corporate
+            Technology</h1>
         </div>
+        <form class="login">		
+            <h2>Login</h2>
+            <div class="box-login">
+                <i class="fa fa-user"></i>
+                <input type="text" placeholder="Username" name="username">
+            </div>	
+    
+            <div class="box-login">
+                <i class="fa fa-lock"></i>
+                <input type="password" placeholder="Password" name="password">
+            </div>
+            
+            <div class="d-flex flex-end" style="padding-bottom: 1rem;">
+                <a href="#"> Forgot Password ?</a>
+            </div>
+    
+            <button class="btn-login" type="submit"> Login </button>
+        </form>
 
-		<button class="btn-login" type="submit"> Login </button>
-	</form>
+    </div>
 </body>
-
+<script>
+    AOS.init(
+        {
+            duration: 1500,
+        }
+    );
+  </script>
 </html>

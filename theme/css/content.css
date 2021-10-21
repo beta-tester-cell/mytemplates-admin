@@ -48,6 +48,24 @@
   font-family: var(--primary-font);
 }
 
+.bg-blur {
+  background-color: rgba(0, 0, 0, 0.4);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  backdrop-filter: blur(2px);
+}
+
+.bg-blur h1 {
+  font-size: 4rem;
+  line-height: inherit;
+  color: var(--primary-color);
+  text-shadow: 4px 4px 9px white;
+  text-transform: uppercase;
+}
+
 .login {
   position: absolute;
   top: 50%;
@@ -57,6 +75,7 @@
   padding: 20px;
   width: 400px;
   box-shadow: 0 0 10px 5px var(--medium-color);
+  border-radius: 5px;
 }
 
 .avatar {
@@ -82,6 +101,7 @@
   color: #fff;
   padding-top: 10px;
   letter-spacing: 1px;
+  text-align: center;
 }
 
 .box-login,
@@ -126,6 +146,7 @@
   font-size: 18px;
   color: #fff;
   cursor: pointer;
+  border-radius: 5px;
 }
 .btn-login:hover {
   background: rgba(0, 157, 165, 0.2);
