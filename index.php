@@ -8,8 +8,10 @@
 
 <div class="content">
     <div class="container">
-        <div class="py-1">
+        <div>
+            <!-- flex chart row 1 start -->
             <div class="flex-chart d-flex grid-gap-1 flex-change mb-1">
+                <!-- chart student start -->
                 <div class="card">
                     <div class="card-header">
                         <h6>NEW STUDENT <span class="text-danger">PROGRESS(Q1)</span></h6>
@@ -39,7 +41,9 @@
                         </div>
                     </div>
                 </div>
+                <!-- chart student end -->
 
+                <!-- chart profit&lost start -->
                 <div class="card">
                     <div class="card-header">
                         <h6>PROFIT & LOST <span class="text-danger"> QUARTER 1</span></h6>
@@ -83,7 +87,10 @@
                     </div>
                 </div>
             </div>
+            <!-- flex chart row 1 end -->
+            <!-- flex chart row 2 start -->
             <div class="flex-chart d-flex grid-gap-1 flex-change mb-1">
+                <!-- chart study start -->
                 <div class="card">
                     <div class="card-header">
                         <h6>STUDY <span class="text-danger"> PAYMENT (Q1) </span></h6>
@@ -125,6 +132,8 @@
                     </div>
 
                 </div>
+                <!-- chart study end -->
+                <!-- chart study start -->
                 <div class="card">
                     <div class="card-header">
                         <h6>STUDENT JOB <span class="text-danger"> PLACEMENT 2021 </span></h6>
@@ -162,8 +171,12 @@
 
                     </div>
                 </div>
+                <!-- chart study end -->
             </div>
+            <!-- flex chart row 2 end -->
+            <!-- flex chart row 3 start -->
             <div class="flex-chart d-flex grid-gap-1 flex-change mb-1">
+                <!-- Table student start  -->
                 <div class="card">
                     <div class="card-header">
                         <h6>NUMBER OF <span class="text-danger"> STUDENT (Q1) </span></h6>
@@ -212,6 +225,8 @@
                         </table>
                     </div>
                 </div>
+                <!-- table student end -->
+                <!-- chart employee start -->
                 <div class="card">
                     <div class="card-header">
                         <h6>NUMBER OF <span class="text-danger"> EMPLOYESS 2021 </span></h6>
@@ -243,7 +258,9 @@
                     </div>
 
                 </div>
+                <!-- chart employee end -->
             </div>
+            <!-- flex chart row3 end -->
         </div>
     </div>
 </div>

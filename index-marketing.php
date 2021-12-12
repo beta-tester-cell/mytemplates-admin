@@ -6,7 +6,8 @@
 </div>
 <div class="content">
     <div class="container">
-        <div class="py-1">
+        <div>
+            <!-- Card Info total start -->
             <div class="card">
                 <div class="flex-data d-flex">
                     <div class="data-wrapper">
@@ -75,7 +76,9 @@
                     </div>
                 </div>
             </div>
+            <!-- Card Info total end -->
         </div>
+        <!-- Tab Menu start -->
         <div class="py-1">
             <div class="tabpane">
                 <button class="tablinks" onclick="openChart(event, 'Registrasi')" id="defaultOpen">Aplikasi Registrasi</button>
@@ -83,6 +86,8 @@
                 <button class="tablinks">Aplikan berdasrkan Asal Sekolah</button>
             </div>
         </div>
+        <!-- Tab Menu End -->
+        <!-- Chart Section start -->
         <div class="py-1">
             <div class="tabsContent" id="Registrasi">
                 <div class="d-flex flex-second-three flex-change grid-gap-1 mb-1">
@@ -222,6 +227,7 @@
                 </div>
             </div>
         </div>
+        <!-- Chart Section end -->
     </div>
 </div>
 <?php include('footer.php') ?>

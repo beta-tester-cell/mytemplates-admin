@@ -2,7 +2,7 @@ if(document.getElementById("ChartBarAngka")){
     $(document).ready(function() {
         var chartbar = document.getElementById("ChartBarAngka");
     
-        Chart.defaults.global.defaultFontFamily = "galano-alt";
+        Chart.defaults.global.defaultFontFamily = "Verdana,sans serif";
         Chart.defaults.global.defaultFontSize = 16;
     
     // Start Collection Data
@@ -81,7 +81,7 @@ if(document.getElementById("ChartDoughnutAplikan")){
     $(document).ready(function() {
         var donut = document.getElementById("ChartDoughnutAplikan");
     
-        Chart.defaults.global.defaultFontFamily = "galano-alt";
+        Chart.defaults.global.defaultFontFamily = "Verdana,sans serif";
         Chart.defaults.global.defaultFontSize = 16;
     
     // Start Collection Data
@@ -117,7 +117,7 @@ if(document.getElementById("ChartDoughnutDaftar")){
     $(document).ready(function() {
         var daftar = document.getElementById("ChartDoughnutDaftar");
     
-        Chart.defaults.global.defaultFontFamily = "galano-alt";
+        Chart.defaults.global.defaultFontFamily = "Verdana,sans serif";
         Chart.defaults.global.defaultFontSize = 16;
     
     // Start Collection Data
@@ -153,7 +153,7 @@ if(document.getElementById("ChartDoughnutRegistrasi")){
     $(document).ready(function() {
         var regis = document.getElementById("ChartDoughnutRegistrasi");
     
-        Chart.defaults.global.defaultFontFamily = "galano-alt";
+        Chart.defaults.global.defaultFontFamily = "Verdana,sans serif";
         Chart.defaults.global.defaultFontSize = 16;
     
     // Start Collection Data
@@ -188,7 +188,7 @@ if(document.getElementById("ChartProfitLost")){
     $(document).ready(function() {
         var profitLost= document.getElementById("ChartProfitLost");
     
-        Chart.defaults.global.defaultFontFamily = "galano-alt";
+        Chart.defaults.global.defaultFontFamily = "Verdana,sans serif";
         Chart.defaults.global.defaultFontSize = 16;
     
     // Start Collection Data
@@ -254,7 +254,7 @@ if(document.getElementById("ChartStudy")){
     $(document).ready(function() {
         var chartstudy = document.getElementById("ChartStudy");
     
-        Chart.defaults.global.defaultFontFamily = "galano-alt";
+        Chart.defaults.global.defaultFontFamily = "Verdana,sans serif";
         Chart.defaults.global.defaultFontSize = 16;
     
     // Start Collection Data
@@ -299,7 +299,7 @@ if(document.getElementById("ChartLineStudent")){
     $(document).ready(function() {
         var ChartLine = document.getElementById("ChartLineStudent");
     
-        Chart.defaults.global.defaultFontFamily = "galano-alt";
+        Chart.defaults.global.defaultFontFamily = "Verdana,sans serif";
         Chart.defaults.global.defaultFontSize = 13;
     
         // Start Collection Data
@@ -360,7 +360,7 @@ if(document.getElementById("ChartDoughnutStudent")){
     $(document).ready(function() {
         var student = document.getElementById("ChartDoughnutStudent");
     
-        Chart.defaults.global.defaultFontFamily = "galano-alt";
+        Chart.defaults.global.defaultFontFamily = "Verdana,sans serif";
         Chart.defaults.global.defaultFontSize = 16;
     
     // Start Collection Data
@@ -396,7 +396,7 @@ if(document.getElementById("ChartEmployee")){
     $(document).ready(function() {
         var employee = document.getElementById("ChartEmployee");
     
-        Chart.defaults.global.defaultFontFamily = "galano-alt";
+        Chart.defaults.global.defaultFontFamily = "Verdana,sans serif";
         Chart.defaults.global.defaultFontSize = 16;
     
     // Start Collection Data

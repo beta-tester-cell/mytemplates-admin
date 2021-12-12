@@ -2,7 +2,7 @@ if(document.getElementById("ChartKehadiran")){
     $(document).ready(function() {
         var chartbar = document.getElementById("ChartKehadiran");
     
-        Chart.defaults.global.defaultFontFamily = "galano-alt";
+        Chart.defaults.global.defaultFontFamily = "Verdana,sans serif";
         Chart.defaults.global.defaultFontSize = 14;
     
     // Start Collection Data
@@ -66,7 +66,7 @@ if(document.getElementById("ChartSakit")){
     $(document).ready(function() {
         var sakit = document.getElementById("ChartSakit");
     
-        Chart.defaults.global.defaultFontFamily = "galano-alt";
+        Chart.defaults.global.defaultFontFamily = "Verdana,sans serif";
         Chart.defaults.global.defaultFontSize = 14;
     
     var MergeData = {
@@ -97,7 +97,7 @@ if(document.getElementById("ChartIjin")){
     $(document).ready(function() {
         var ijin = document.getElementById("ChartIjin");
     
-        Chart.defaults.global.defaultFontFamily = "galano-alt";
+        Chart.defaults.global.defaultFontFamily = "Verdana,sans serif";
         Chart.defaults.global.defaultFontSize = 14;
     
     // Start Collection Data
@@ -129,7 +129,7 @@ if(document.getElementById("ChartAbsen")){
 
     $(document).ready(function() {
         var absen = document.getElementById("ChartAbsen");
-        Chart.defaults.global.defaultFontFamily = "galano-alt";
+        Chart.defaults.global.defaultFontFamily = "Verdana,sans serif";
         Chart.defaults.global.defaultFontSize = 14;
     
     // Start Collection Data
@@ -161,7 +161,7 @@ if(document.getElementById("ChartLearning")){
     $(document).ready(function() {
         var learn = document.getElementById("ChartLearning");
     
-        Chart.defaults.global.defaultFontFamily = "galano-alt";
+        Chart.defaults.global.defaultFontFamily = "Verdana,sans serif";
         Chart.defaults.global.defaultFontSize = 13;
     
         var dataFormatif = {
@@ -219,7 +219,7 @@ if(document.getElementById("Chartlearning")){
     $(document).ready(function() {
         var learning = document.getElementById("Chartlearning");
     
-        Chart.defaults.global.defaultFontFamily = "galano-alt";
+        Chart.defaults.global.defaultFontFamily = "Verdana,sans serif";
         Chart.defaults.global.defaultFontSize = 14;
 
     var MergeData = {
@@ -251,7 +251,7 @@ if(document.getElementById("ChartMeet")){
     $(document).ready(function() {
         var meet = document.getElementById("ChartMeet");
     
-        Chart.defaults.global.defaultFontFamily = "galano-alt";
+        Chart.defaults.global.defaultFontFamily = "Verdana,sans serif";
         Chart.defaults.global.defaultFontSize = 16;
     
 
@@ -290,7 +290,7 @@ if(document.getElementById("ChartIPK")){
     $(document).ready(function() {
         var ipk= document.getElementById("ChartIPK");
     
-        Chart.defaults.global.defaultFontFamily = "galano-alt";
+        Chart.defaults.global.defaultFontFamily = "Verdana,sans serif";
         Chart.defaults.global.defaultFontSize = 16;
     
     // Start Collection Data

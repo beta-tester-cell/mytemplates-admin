@@ -55,9 +55,9 @@
 
   --max-width: 100%;
 
-  --primary-font: "galano-alt";
+  --primary-font: "Lato", sans-serif;
 
-  --secondary-font: "galanogrotesque-bold";
+  --secondary-font: "Verdana", sans-serif;
 }
 
 *,
@@ -237,9 +237,9 @@ img {
 
   margin: auto;
 
-  padding-left: 2rem;
+  padding-left: 1rem;
 
-  padding-right: 2rem;
+  padding-right: 1rem;
 }
 
 .height-100 {
@@ -693,9 +693,10 @@ img {
   gap: 1rem;
 }
 
-/* .logo img {
-  width: 80%;
-} */
+.logo img {
+  position: relative;
+  top: 2px;
+}
 
 .logo-toggle {
   outline: none;
@@ -977,13 +978,15 @@ img {
 }
 
 .card-header {
-  padding: 0 1rem;
-
   border-bottom: 1px solid var(--medium-color);
 
   margin-bottom: 1rem;
 
   background: none;
+}
+
+.card-header h6 {
+  font-size: 20px;
 }
 
 .card-border {
@@ -1185,9 +1188,9 @@ img {
   margin-bottom: 1rem;
 }
 
-.form-inputs label {
+/* .form-inputs label {
   font-size: 1rem;
-}
+} */
 
 .form-text {
   color: #888888;
@@ -1734,7 +1737,7 @@ table.dataTable.no-footer {
 /* css export start */
 .select-export {
   position: relative;
-  bottom: 8px;
+  /* bottom: 8px; */
   display: inline-block;
 }
 
@@ -1874,6 +1877,10 @@ table.dataTable.no-footer {
   gap: 0.5rem;
   justify-content: start;
   align-items: start;
+}
+
+.modal-title {
+  font-size: 20px;
 }
 
 /* Add Animation */

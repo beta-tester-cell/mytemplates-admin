@@ -319,7 +319,7 @@ if(document.getElementById("getRealisasiPembayaran")){
         var RealisasiPembayaran = document.getElementById("getRealisasiPembayaran");
     
     
-        Chart.defaults.global.defaultFontFamily = "helveticaregular";
+        Chart.defaults.global.defaultFontFamily = "Verdana,sans serif";
         Chart.defaults.global.defaultFontSize = 18;
     
         // Start Collection Data
@@ -423,7 +423,7 @@ if(document.getElementById("getTagihanPembayaran")){
     
         var TagihanPembayaran = document.getElementById("getTagihanPembayaran");
     
-        Chart.defaults.global.defaultFontFamily = "helveticaregular";
+        Chart.defaults.global.defaultFontFamily = "Verdana,sans serif";
         Chart.defaults.global.defaultFontSize = 18;
     
         // Start Collection Data
@@ -530,7 +530,7 @@ if(document.getElementById("getTagihanPembiayaan")){
 
         var TagihanPembiayaan = document.getElementById("getTagihanPembiayaan");
 
-        Chart.defaults.global.defaultFontFamily = "helveticaregular";
+        Chart.defaults.global.defaultFontFamily = "Verdana,sans serif";
         Chart.defaults.global.defaultFontSize = 18;
 
     // Start Collection Data
@@ -607,7 +607,7 @@ if(document.getElementById("getRealisasiPembiayaan")){
 
         var RealisasiPembiayaan = document.getElementById("getRealisasiPembiayaan");
 
-        Chart.defaults.global.defaultFontFamily = "helveticaregular";
+        Chart.defaults.global.defaultFontFamily = "Verdana,sans serif";
         Chart.defaults.global.defaultFontSize = 18;
 
     // Start Collection Data
@@ -682,7 +682,7 @@ if(document.getElementById("getEWSKRS")){
     
     var EWSKRS = document.getElementById("getEWSKRS");
     
-        Chart.defaults.global.defaultFontFamily = "helveticaregular";
+        Chart.defaults.global.defaultFontFamily = "Verdana,sans serif";
         Chart.defaults.global.defaultFontSize = 18;
     
         var dataFirst = {
@@ -758,7 +758,7 @@ if(document.getElementById("ChartLine")){
     $(document).ready(function() {
         var ChartLine = document.getElementById("ChartLine");
     
-        Chart.defaults.global.defaultFontFamily = "helveticaregular";
+        Chart.defaults.global.defaultFontFamily = "Verdana,sans serif";
         Chart.defaults.global.defaultFontSize = 18;
     
         // Start Collection Data
@@ -865,7 +865,7 @@ if(document.getElementById("ChartBar")){
     $(document).ready(function() {
         var chartbar = document.getElementById("ChartBar");
     
-        Chart.defaults.global.defaultFontFamily = "helveticaregular";
+        Chart.defaults.global.defaultFontFamily = "Verdana,sans serif";
         Chart.defaults.global.defaultFontSize = 18;
     
     // Start Collection Data
@@ -942,7 +942,7 @@ if(document.getElementById("ChartPie")){
     $(document).ready(function() {
         var chartpie = document.getElementById("ChartPie");
     
-        Chart.defaults.global.defaultFontFamily = "helveticaregular";
+        Chart.defaults.global.defaultFontFamily = "Verdana,sans serif";
         Chart.defaults.global.defaultFontSize = 18;
     
     // Start Collection Data
@@ -983,7 +983,7 @@ if(document.getElementById("ChartDoughnut")){
     $(document).ready(function() {
         var donut = document.getElementById("ChartDoughnut");
     
-        Chart.defaults.global.defaultFontFamily = "helveticaregular";
+        Chart.defaults.global.defaultFontFamily = "Verdana,sans serif";
         Chart.defaults.global.defaultFontSize = 18;
     
     // Start Collection Data
@@ -1024,7 +1024,7 @@ if(document.getElementById("ChartLineNegative")){
     $(document).ready(function() {
         var ChartLine = document.getElementById("ChartLineNegative");
     
-        Chart.defaults.global.defaultFontFamily = "helveticaregular";
+        Chart.defaults.global.defaultFontFamily = "Verdana,sans serif";
         Chart.defaults.global.defaultFontSize = 18;
     
         // Start Collection Data

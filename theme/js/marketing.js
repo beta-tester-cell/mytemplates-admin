@@ -25,7 +25,7 @@ if(document.getElementById("ChartRegistrasi")){
     $(document).ready(function() {
         var ChartRegistrasi = document.getElementById("ChartRegistrasi");
     
-        Chart.defaults.global.defaultFontFamily = "galano-alt";
+        Chart.defaults.global.defaultFontFamily = "Verdana,sans serif";
         Chart.defaults.global.defaultFontSize = 16;
     
     // Start Collection Data
@@ -104,7 +104,7 @@ if(document.getElementById("ChartRegistran")){
     $(document).ready(function() {
         var ChartRegistran= document.getElementById("ChartRegistran");
     
-        Chart.defaults.global.defaultFontFamily = "galano-alt";
+        Chart.defaults.global.defaultFontFamily = "Verdana,sans serif";
         Chart.defaults.global.defaultFontSize = 16;
     
     // Start Collection Data
@@ -153,7 +153,7 @@ if(document.getElementById("ChartJumlah")){
     $(document).ready(function() {
         var ChartJumlah= document.getElementById("ChartJumlah");
     
-        Chart.defaults.global.defaultFontFamily = "galano-alt";
+        Chart.defaults.global.defaultFontFamily = "Verdana,sans serif";
         Chart.defaults.global.defaultFontSize = 16;
     
     // Start Collection Data
@@ -203,7 +203,7 @@ if(document.getElementById("Chartmedia")){
     $(document).ready(function() {
         var Chartmedia = document.getElementById("Chartmedia");
     
-        Chart.defaults.global.defaultFontFamily = "galano-alt";
+        Chart.defaults.global.defaultFontFamily = "Verdana,sans serif";
         Chart.defaults.global.defaultFontSize = 13;
     
     // Start Collection Data
