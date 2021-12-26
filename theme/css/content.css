@@ -352,15 +352,11 @@
 
 /* css input group end */
 
-.align-right {
-  text-align: right;
-}
-
-.align-left {
+.text-left {
   text-align: left;
 }
 
-.align-center {
+.text-center {
   text-align: center;
 }
 

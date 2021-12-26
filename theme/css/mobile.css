@@ -326,6 +326,13 @@
   .flex-change-reverse {
     flex-direction: column-reverse;
   }
+
+  .flex-reverse-end {
+    align-items: flex-start;
+
+    justify-content: flex-start;
+  }
+
   .form-img {
     height: auto;
     left: 0;
@@ -853,6 +860,12 @@
   .flex-chart > .card,
   .flex-chart > .child {
     width: 100%;
+  }
+
+  .flex-reverse-end {
+    align-items: flex-start;
+
+    justify-content: flex-start;
   }
 
   .form-img {

@@ -26,11 +26,11 @@
 
     <!-- css -->
 
-    <link rel="stylesheet" href="theme/css/style.css">
+    <link rel="stylesheet" type="text/css" href="theme/css/style.css">
 
-    <link rel="stylesheet" href="theme/css/content.css">
+    <link rel="stylesheet" type="text/css" href="theme/css/content.css">
 
-    <link rel="stylesheet" href="theme/css/mobile.css">
+    <link rel="stylesheet" type="text/css" href="theme/css/mobile.css">
 
     <script src="theme/js/tes.js" defer></script>
 
@@ -744,6 +744,29 @@
                                                 <span class="menu-icon-child"><i class="fa fa-donate"></i></span>
 
                                                 <span>Realisasi Pembayaran</span>
+
+                                            </a>
+
+                                        </li>
+
+                                        <li class="side-menu-item">
+
+                                            <a href="profit.php">
+
+                                                <span class="menu-icon-child"><i class="fa fa-donate"></i></span>
+
+                                                <span>Profit</span>
+
+                                            </a>
+
+                                        </li>
+                                        <li class="side-menu-item">
+
+                                            <a href="neraca.php">
+
+                                                <span class="menu-icon-child"><i class="fa fa-donate"></i></span>
+
+                                                <span>Neraca</span>
 
                                             </a>
 

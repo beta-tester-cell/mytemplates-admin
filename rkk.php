@@ -9,7 +9,7 @@
 </div>
 <div class="content">
     <div class="container">
-        <div class="py-1">
+        <div>
             <div class="card">
                 <div class="d-flex flex-start grid-2">
                     <h6 class="rkk-page-tittle"><i class="fas fa-campground px-1"></i> Kelas : MI-00-XX</h6>
@@ -19,7 +19,7 @@
         </div>
         <div class="py-1 grid-2 grid-gap-1">
             <div class="card">
-                <div class="card-header text-center">
+                <div class="card-header">
                     <h6>Form Rencana Kegiatan Kuliah</h6>
                 </div>
                 <form action="">
@@ -85,7 +85,7 @@
                 </form>
             </div>
             <div class="card">
-                <div class="card-header text-center">
+                <div class="card-header">
                     <h6>List Rencana Kegiatan Kuliah</h6>
                 </div>
                 <div class="rkk-list-panel">
