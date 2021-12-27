@@ -43,7 +43,7 @@
                         <button class="btn btn-secondary btn-header">View</button>
                     </div>
                     <div class="d-flex grid-gap-1 flex-reverse-end width-100">
-                        <a href="#" class="btn btn-link btn-primary dropdown-button"><i class="fa fa-print"></i> Print</a>
+                        <a href="cetak-neraca.php" target="_blank" class="btn btn-link btn-primary dropdown-button"><i class="fa fa-print"></i> Print</a>
                         <div class="select-export" style="bottom: 0;">
                             <div type="button" class="btn btn-link btn-secondary dropdown-button"><i class="fas fa-file-export"></i> Export</div>
                             <div class="type-export">
@@ -65,7 +65,7 @@
                     <table class="table-list" id="datatable">
                         <thead>
                             <tr>
-                                <th>Account Name</th>
+                                <th></th>
                                 <th>Catatan</th>
                                 <th>Desember 2021</th>
                                 <th>November 2021</th>
