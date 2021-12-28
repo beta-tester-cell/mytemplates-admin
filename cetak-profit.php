@@ -85,22 +85,22 @@ color:#bf111f;
                 <td style='vertical-align:top;padding-top:2px;'>
                     <table>
                         <tr>
-                            <td  style='vertical-align:top;padding-top:10px;text-align:center;width:700px;'>
+                            <td  style='vertical-align:top;padding-top:10px;width:700px;'>
                                 <p class='title'><b>POLITEKNIK LP3I JAKARTA</b></p> 
                             </td>
                         </tr>     
                         <tr>
-                            <td  style='vertical-align:top;padding-top:2px;text-align:center;width:700px;'>
+                            <td  style='vertical-align:top;padding-top:2px;width:700px;'>
                                 <p class='title2'><b>KAMPUS JAKARTA PUSAT (KRAMAT RAYA)</b></p> 
                             </td>
                         </tr>
                         <tr>                                             
-                        <td  style='vertical-align:top;padding-top:2px;text-align:center;width:700px;'>
+                        <td  style='vertical-align:top;padding-top:2px;width:700px;'>
                             <p class='font1'>Gedung Sentra Kramat</p>
                         </td>
                     </tr> 
                     <tr>                                             
-                        <td  style='vertical-align:top;padding-top:2px;text-align:center;width:700px;'>
+                        <td  style='vertical-align:top;padding-top:2px;width:700px;'>
                             <p class='font1'>Jl. Kramat Raya No 7/9, Jakarta Pusat </p>
                         </td>
                     </tr> 
@@ -425,22 +425,22 @@ color:#bf111f;
                 <td style='vertical-align:top;padding-top:2px;'>
                     <table>
                         <tr>
-                            <td  style='vertical-align:top;padding-top:10px;text-align:center;width:700px;'>
+                            <td  style='vertical-align:top;padding-top:10px;width:700px;'>
                                 <p class='title'><b>POLITEKNIK LP3I JAKARTA</b></p> 
                             </td>
                         </tr>     
                         <tr>
-                            <td  style='vertical-align:top;padding-top:2px;text-align:center;width:700px;'>
+                            <td  style='vertical-align:top;padding-top:2px;width:700px;'>
                                 <p class='title2'><b>KAMPUS JAKARTA PUSAT (KRAMAT RAYA)</b></p> 
                             </td>
                         </tr>
                         <tr>                                             
-                        <td  style='vertical-align:top;padding-top:2px;text-align:center;width:700px;'>
+                        <td  style='vertical-align:top;padding-top:2px;width:700px;'>
                             <p class='font1'>Gedung Sentra Kramat</p>
                         </td>
                     </tr> 
                     <tr>                                             
-                        <td  style='vertical-align:top;padding-top:2px;text-align:center;width:700px;'>
+                        <td  style='vertical-align:top;padding-top:2px;width:700px;'>
                             <p class='font1'>Jl. Kramat Raya No 7/9, Jakarta Pusat </p>
                         </td>
                     </tr> 
