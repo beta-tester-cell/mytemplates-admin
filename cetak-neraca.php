@@ -8,6 +8,11 @@ body {
    margin:30px;
 }
 
+td{
+    padding-left: 8px;
+    padding-right:8px;
+}
+
 .title {
   font-size: 28px;
   font-weight:700;

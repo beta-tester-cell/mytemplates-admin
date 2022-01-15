@@ -7,6 +7,11 @@ body {
     font-size:12px;
 }
 
+td{
+    padding-left:8px;
+    padding-right:8px;
+}
+
 h2,h3{
     font-family: Calibri;
 }

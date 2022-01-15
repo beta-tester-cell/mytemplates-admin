@@ -10,7 +10,7 @@
 
 <div class="content">
     <div class="container">
-        <div class="py-1">
+        <div class="pb-1">
             <div class="card">
                 <div class="d-flex pb-1 line-bottom-2 flex-change grid-gap-1">
                     <div class="form grid-3 grid-gap-1 width-100">
